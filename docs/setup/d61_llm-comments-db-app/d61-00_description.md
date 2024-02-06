@@ -14,11 +14,11 @@ requiring a response, not needed a response or offensive.
  - **Project Repos App**: c61_llm-comments-db-app
  - **Google Project App**: [aiapps-dev01-robin](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)
  - **Links:** 
-   - [OpenAI API_KEY](https://platform.openai.com/api-keys),
-   -[Google Dev API_KEY](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)
-   -[SingleStore DB Service](https://www.singlestore.com/cloud-trial/),
-   -[Bard Conversation](https://g.co/bard/share/7713d9089754),
-   -[App Build Log](setup/d61_llm-comments-db-app/d61-01_build-log.md)  
+ - [OpenAI API_KEY](https://platform.openai.com/api-keys)   
+ - [Google Dev API_KEY](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)   
+ - [SingleStore DB Service](https://www.singlestore.com/cloud-trial/),
+ - [Bard Conversation](https://g.co/bard/share/7713d9089754),
+ - [App Build Log](setup/d61_llm-comments-db-app/d61-01_build-log.md)  
  - **Modules**:  
 
 ### B. Setup Project and Database 
