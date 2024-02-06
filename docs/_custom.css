@@ -1,0 +1,31 @@
+.content {
+    padding-top: 0px;
+    }
+.sidebar { 
+    padding-top: 0px;
+    margin: 0px 0px 0px 10px;
+    } 
+.sidebar .sidebar-nav { 
+    font-size: 18px; 
+    line-height: 15px; 
+    }
+.markdown-section h1 { 
+    margin: 0px 0px 5px -80px;
+    font-size: 20px;      
+    }
+.markdown-section h2 { 
+    margin: 0px 0px 0px -60px;
+    font-size: 18px;      
+    }
+.markdown-section h3 { 
+    margin: 0px 0px 0px -40px;
+    font-size: 15px;      
+    }   
+.markdown-section h4 { 
+    margin: 0px 0px 0px -20px;
+    font-size: 15px;      
+    }  
+.markdown-section br { 
+     line-height: 4px; 
+     border: 1px black solid; 
+    }    

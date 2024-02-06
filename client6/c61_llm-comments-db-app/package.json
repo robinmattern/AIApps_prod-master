@@ -1,0 +1,16 @@
+{
+  "name": "aiapps_dev01-robin_client6_app1",
+  "version": "0.1.1",
+  "description": "First Node.js AI Client0 Apps",
+  "main": "00_main.mjs",
+  "scripts": {
+    "start": "node 00_main.mjs",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": { },
+
+  "type": "module"
+}

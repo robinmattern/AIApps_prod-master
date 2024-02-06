@@ -1,0 +1,3202 @@
+[
+  {
+    "kind": "youtube#commentThread",
+    "etag": "L6rsnsb5ODLI-O8wfrIVoHp1NSQ",
+    "id": "UgwPk21AZMmciIEPE854AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "5DBm1I4MYxzAGZGLA5azX8as7M4",
+        "id": "UgwPk21AZMmciIEPE854AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "⭐ Try the OpenAI Template - Starter Kit I&#39;ve made (by Adrian (me!!!))⭐\r<br><a href=\"https://enhanceui.gumroad.com/l/chatgpt-starter-template\">https://enhanceui.gumroad.com/l/chatgpt-starter-template</a> \r<br>This is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I&#39;ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!",
+          "textOriginal": "⭐ Try the OpenAI Template - Starter Kit I've made (by Adrian (me!!!))⭐\r\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \r\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I've built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!",
+          "authorDisplayName": "@AdrianTwarog",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/SBra9X0UPsNzyDjGcvN4iw2pb5Qku_3qFd1figMt48J7rUdU8mJYHPHAx0t6d0E6wLcUU__nZjg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@AdrianTwarog",
+          "authorChannelId": { "value": "UCvM5YYWwfLwpcQgbRr68JLQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 204,
+          "publishedAt": "2022-12-21T07:40:30Z",
+          "updatedAt": "2022-12-21T07:40:30Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 42,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "9somffx1DJx28OqSVSFEI93-JPw",
+    "id": "Ugz6IlS7Lc5GH2KgZqR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "ZpquUB8OMJZoedByVTMR2PH9AqQ",
+        "id": "Ugz6IlS7Lc5GH2KgZqR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thank you",
+          "textOriginal": "Thank you",
+          "authorDisplayName": "@vishal80",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQWkRWy-B5IbgCD4mnNtGrWhL3gSgil_f_XesjOfwQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@vishal80",
+          "authorChannelId": { "value": "UCxgT8Wwan_nngg9AmXDiC7Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-24T12:02:39Z",
+          "updatedAt": "2024-01-24T12:02:39Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "PAywHCSwb9qRq_ewFNHUdMviREk",
+    "id": "UgwKnt1qrPuk0GY53HN4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "yUcmWyxtqefG0gLfl_CHFVrHnAw",
+        "id": "UgwKnt1qrPuk0GY53HN4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "My first intro to ChatGPT or anything AI - I&#39;m gonna love it!",
+          "textOriginal": "My first intro to ChatGPT or anything AI - I'm gonna love it!",
+          "authorDisplayName": "@aveguevara",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/GTofOlxlkamX0NPNR_UP_VAlnFA6RErz5ekZP_dPVJSrQtCvW24EMfYYNBrLNcYrT3oepRNi4g=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@aveguevara",
+          "authorChannelId": { "value": "UC8lxITGJAf5WFE1pVmHXuLg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-21T02:25:03Z",
+          "updatedAt": "2024-01-21T02:25:03Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "39LYMqLc18klJpJWafe07W1vHDU",
+    "id": "UgyIGCM-XXzlAWd0gGB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "3nTZPTOZZ6qxDJs-B93ALHLAzFc",
+        "id": "UgyIGCM-XXzlAWd0gGB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU\">0:00</a>: 📚 This video is a crash course on using OpenAI&#39;s chat GPT, covering account creation, logging in, and advanced usage.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=262\">4:22</a>: 🔑 Chat GPT is an open AI platform with half a million members that allows users to engage in discussions and receive responses from the AI system.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=465\">7:45</a>: 📺 The video explains how OpenAI&#39;s GPT-3 model generates different outputs for the same prompt and how users can provide feedback on the generated results.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=701\">11:41</a>: 🍽️ The video showcases a website with a toggle for dark and light mode, options to connect to Discord server, FAQs and updates, and a demonstration of an Advanced prompt on creating seafood dishes.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=938\">15:38</a>: 🌤️ The video discusses how to use the OpenAI chatbot to generate a JavaScript request for weather data.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1159\">19:19</a>: 📚 OpenAI&#39;s GPT-3 can generate stories based on generic prompts and can be made more specific through follow-up conversations.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1395\">23:15</a>: 😂 The video demonstrates how to generate jokes and humor using ChatGPT.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1621\">27:01</a>: 📚 Chat GPT is a powerful AI model that can be used for various tasks like creating resumes and summarizing documents.<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1853\">30:53</a>: 💡 The video discusses using ChatGPT to generate a well-written outline and introduction for a blog article on graphics design for websites.<br>Recapped using Tammy AI",
+          "textOriginal": "0:00: 📚 This video is a crash course on using OpenAI's chat GPT, covering account creation, logging in, and advanced usage.\n4:22: 🔑 Chat GPT is an open AI platform with half a million members that allows users to engage in discussions and receive responses from the AI system.\n7:45: 📺 The video explains how OpenAI's GPT-3 model generates different outputs for the same prompt and how users can provide feedback on the generated results.\n11:41: 🍽️ The video showcases a website with a toggle for dark and light mode, options to connect to Discord server, FAQs and updates, and a demonstration of an Advanced prompt on creating seafood dishes.\n15:38: 🌤️ The video discusses how to use the OpenAI chatbot to generate a JavaScript request for weather data.\n19:19: 📚 OpenAI's GPT-3 can generate stories based on generic prompts and can be made more specific through follow-up conversations.\n23:15: 😂 The video demonstrates how to generate jokes and humor using ChatGPT.\n27:01: 📚 Chat GPT is a powerful AI model that can be used for various tasks like creating resumes and summarizing documents.\n30:53: 💡 The video discusses using ChatGPT to generate a well-written outline and introduction for a blog article on graphics design for websites.\nRecapped using Tammy AI",
+          "authorDisplayName": "@JisooMelon",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/QsxlhoKkpHFsY8iZ00k7dvbDM1njPkMYoNuzov4FOmOMvmYLn-7fq0oLPbj0T6zPAzke8dSIDQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@JisooMelon",
+          "authorChannelId": { "value": "UCOpSnoLpTF_ldpJ_UMxeNgg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-20T12:54:35Z",
+          "updatedAt": "2024-01-20T12:54:35Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "TZL1504OS5dJNqT7jg5fWgZiPpY",
+    "id": "UgwJ-C0-1b70Z_CpXsB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "G8zIiYwN8o6qHHv_HOBMoD4wbwE",
+        "id": "UgwJ-C0-1b70Z_CpXsB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "GPTs store popular recommendations:<br>1. The magical GPT &quot;Story King | 故事大王&quot; allows children to interact with stories. When children listen to stories, they are both listeners and story creators, stimulating children&#39;s imagination and creativity.Parents with children must check it out.<br><br>2. GPT &quot;TOP NEWS | 新闻头条”, According to your needs, it is so convenient to grasp the real-time headlines and hot events around the world!",
+          "textOriginal": "GPTs store popular recommendations:\n1. The magical GPT \"Story King | 故事大王\" allows children to interact with stories. When children listen to stories, they are both listeners and story creators, stimulating children's imagination and creativity.Parents with children must check it out.\n\n2. GPT \"TOP NEWS | 新闻头条”, According to your needs, it is so convenient to grasp the real-time headlines and hot events around the world!",
+          "authorDisplayName": "@YYAthens",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/0o8T8yfe0OAQvrq4pRf2Q6IQnDkoc3wBv13AHAqDu9oC3s3iPyxSd1JSaXsHPw1GaqN5RmVsoA=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@YYAthens",
+          "authorChannelId": { "value": "UCA9kOC30Dpq7ofGvwpH6TYA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2024-01-17T14:40:06Z",
+          "updatedAt": "2024-01-17T14:40:06Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "szY20VzBByg5oDc_Rz_iLDiVOlU",
+    "id": "UgzyIdnv6lR42ESNnnd4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "A2xkiKCIA8IXSLPmaqbhLhlk924",
+        "id": "UgzyIdnv6lR42ESNnnd4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "if u want much higher level AI and accurate and complex and Right give u anything and never mess guys I&#39;ll introducing AI CHAT DEEPAI the AI CHAT DEEPAI is so powerful and much better than OPENAI since start 2015-2018 and u can show ur picture and video and anything u want",
+          "textOriginal": "if u want much higher level AI and accurate and complex and Right give u anything and never mess guys I'll introducing AI CHAT DEEPAI the AI CHAT DEEPAI is so powerful and much better than OPENAI since start 2015-2018 and u can show ur picture and video and anything u want",
+          "authorDisplayName": "@messengercreator",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/kMnnWd8EY_99TxjlzIjcTgMpGfqVbgLbmrUC4C4mcnZRIIL6go7Ut10HbyNmWWLfImZHyRK_7g=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@messengercreator",
+          "authorChannelId": { "value": "UC8QPCumvcL-vIKZxYR88_gw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-15T06:16:35Z",
+          "updatedAt": "2024-01-15T06:16:35Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Vw1DqvKljyyysryX0Zy8Vv6Mp20",
+    "id": "Ugz2RCdQAs3KWFSC4qR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "7EmY_K8TsmQ_ILNnngmzZNPlgzs",
+        "id": "Ugz2RCdQAs3KWFSC4qR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "very good one- do you have tutorial for excel chat gpt?",
+          "textOriginal": "very good one- do you have tutorial for excel chat gpt?",
+          "authorDisplayName": "@soulfultaste",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQnA2xdIjhvdFsnCjuw-aCn5NDUR_lV7lou6V0G=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@soulfultaste",
+          "authorChannelId": { "value": "UCh77SnKPJnCup7MhrMLVykQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-14T21:13:17Z",
+          "updatedAt": "2024-01-14T21:13:17Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "hf58Ng-MEGFJNg4MMTMMECoWHH0",
+    "id": "UgwxEVYkJ0pX9Hiz3bZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "xoyxCvzRBsNKPDcg-eF--NoGza0",
+        "id": "UgwxEVYkJ0pX9Hiz3bZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Very well presented, thanks!",
+          "textOriginal": "Very well presented, thanks!",
+          "authorDisplayName": "@claudegiguere8731",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZS-36qDipt1Jr5W-ALTPx80IC_W2PNWAZmAyw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@claudegiguere8731",
+          "authorChannelId": { "value": "UCnBlfIrRM3mOAWl22jU7zwg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-11T23:55:38Z",
+          "updatedAt": "2024-01-11T23:55:38Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "HEvyw_IQX9XZi8Cn0yaUGZ7erz0",
+    "id": "UgxsnuNaLmfGOtyLaHp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "z9kAElVgS6xIduP3f07AIOGU8EQ",
+        "id": "UgxsnuNaLmfGOtyLaHp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "very impressive content",
+          "textOriginal": "very impressive content",
+          "authorDisplayName": "@motivativegem",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/r6C9KOproFQns-ibPHkGHvKoPlfxQq1F3PrdNtxzT5sCoQ5K9fBB1kd-sTRsOvMJlj3VDyX83A=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@motivativegem",
+          "authorChannelId": { "value": "UC0mvJVb9M3Gp5A8rjmx1M5Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-04T16:39:01Z",
+          "updatedAt": "2024-01-04T16:39:01Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "JhWS7zRBDs4d4jl33i97fBKE1aE",
+    "id": "UgwG6fc4CFdtqWAH7dt4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "T0yj3YRN-Mg3V3aBN97a7WIAtP4",
+        "id": "UgwG6fc4CFdtqWAH7dt4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "W koncu ktos wytlumaczyl jak dostac sie do Chat GPT 👍",
+          "textOriginal": "W koncu ktos wytlumaczyl jak dostac sie do Chat GPT 👍",
+          "authorDisplayName": "@idaselinahobbs9031",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQaMcKPu2W_LbA2mSKxFct0jOvTxlIYDDWu2A=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@idaselinahobbs9031",
+          "authorChannelId": { "value": "UCvSNpO1m0kgIpp8XRplpppw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2024-01-02T19:33:46Z",
+          "updatedAt": "2024-01-02T19:33:46Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "WgOlvavO3CDzIt06JyZ_albl7tQ",
+    "id": "UgyMkfWRJPQyaAiT7u14AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "PoafBk6INFAcNnnceOE0qmqRX24",
+        "id": "UgyMkfWRJPQyaAiT7u14AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I wonder why it is not great at math?  There is reason.  It should be perfect at math.  Math calculations are invaluable.  Is this purposely keep from the common population?  Maybe ask Chat GPT",
+          "textOriginal": "I wonder why it is not great at math?  There is reason.  It should be perfect at math.  Math calculations are invaluable.  Is this purposely keep from the common population?  Maybe ask Chat GPT",
+          "authorDisplayName": "@vickivickers3291",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRRfwkaHOL4pWYK7gIqoY2Eng7LyXKlGlYudQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@vickivickers3291",
+          "authorChannelId": { "value": "UCL_TN-8PEFXN5GSX7IypxFQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-30T17:02:41Z",
+          "updatedAt": "2023-12-30T17:02:41Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "3zRcoFiY4fWFhrq8X1tHO6BgOXE",
+    "id": "UgwXCOLv90fJ9R7o1WV4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "RPzxOUrObe-AfBJF50iHzP8GpYE",
+        "id": "UgwXCOLv90fJ9R7o1WV4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "It’s a minefield for sure and the speed at which AI has emerged is crazy. I’m a 50 year old PhD student working in a marine technology area of study. I don’t have a coding background but (in my area) know what a piece of software needs to do, what the inputs, outputs and rules are, and how it will be used. So I have found AI incredibly useful in developing particular pieces of code to help me process and display data. It’s a partnership- I set the context and rules, and then it’s a rapid back and forth with me testing the suggestions that come. There would be no way that I would have even heard of the code libraries used without going down this road. Having worked with real software developers in the past,  there is a massive amount of similarity, and without the need for me to feel embarrassed about lack of coding knowledge over some (to the developer) simple and obvious issue. Anyway, thanks",
+          "textOriginal": "It’s a minefield for sure and the speed at which AI has emerged is crazy. I’m a 50 year old PhD student working in a marine technology area of study. I don’t have a coding background but (in my area) know what a piece of software needs to do, what the inputs, outputs and rules are, and how it will be used. So I have found AI incredibly useful in developing particular pieces of code to help me process and display data. It’s a partnership- I set the context and rules, and then it’s a rapid back and forth with me testing the suggestions that come. There would be no way that I would have even heard of the code libraries used without going down this road. Having worked with real software developers in the past,  there is a massive amount of similarity, and without the need for me to feel embarrassed about lack of coding knowledge over some (to the developer) simple and obvious issue. Anyway, thanks",
+          "authorDisplayName": "@73Ferret",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRjY5qHPvpXpVJlVEXNv7oQREqli4QlF-iqPGofTCdDmE4ReNeTrSr9jXx1Unq0=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@73Ferret",
+          "authorChannelId": { "value": "UCMLJRKcyr0GfivnWmPYn9sg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-12-29T21:00:48Z",
+          "updatedAt": "2023-12-29T21:00:48Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "15DMyNVHPGRycGQubvLjbgDZSzA",
+    "id": "UgxPkesbOV6Q-n56bRR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "2N8dZfX8TKKfKucCniV9-vcdqFI",
+        "id": "UgxPkesbOV6Q-n56bRR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Very nicely explained and given lot of examples, awesome tutorial!!",
+          "textOriginal": "Very nicely explained and given lot of examples, awesome tutorial!!",
+          "authorDisplayName": "@skmusicalvideos2320",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/UVWN6msxbYb5mI649QGtpBCkDDYJk1PzYwU-UYylpq9OnLBlBWi3fJjBBwV3dCOf3zHB8UHxfw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@skmusicalvideos2320",
+          "authorChannelId": { "value": "UCo40VN6I1v4hWM1i0yn1_fA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-24T04:56:19Z",
+          "updatedAt": "2023-12-24T04:56:19Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "q_jXsYAK1J9XLh4y3AzNPEdK3V8",
+    "id": "UgwrGqz_9kuWCHqkfSZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "A2GoDjAOkSmgxZZPJGQOYil-tkY",
+        "id": "UgwrGqz_9kuWCHqkfSZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "⛔ Could not find <b>*Add a comment*</b> button. Here is the entire summary:\r<br>```markdown\r<br>🎯 Key Takeaways for quick navigation:\r<br>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU\">00:00</a> 🌐 <b>This tutorial covers ChatGPT basics, from creating an OpenAI account to using ChatGPT for various tasks.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=150\">02:30</a> 📝 <b>ChatGPT is currently free and used mainly for research; users should provide feedback to help improve the system.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=260\">04:20</a> 🖥 <b>The ChatGPT interface includes a sidebar, example inputs, and details about capabilities and limitations.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=340\">05:40</a> 🧠 <b>Capabilities include conversation memory, follow-ups, and refusal for inappropriate requests. Limitations involve potential inaccuracies, difficulty in math, bias, and limited knowledge up to 2021.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=528\">08:48</a> 👍👎 <b>Users can provide feedback through thumbs up/down icons and navigate through different responses using arrows.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=653\">10:53</a> 🔄 <b>Resetting the thread is crucial to start a new conversation without the influence of the previous one.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=804\">13:24</a> 🍤 <b>ChatGPT can generate lists and shopping lists based on prompts, showcasing its practical applications.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=886\">14:46</a> 💻 <b>Advanced prompts involve coding requests, demonstrating ChatGPT&#39;s ability to generate code snippets and explanations.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1049\">17:29</a> 🔄 <b>ChatGPT can iterate on previous queries, enhancing complexity, such as creating a weather API-based website.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1132\">18:52</a> 🚫 <b>Errors may occur if the output contains harmful or inaccurate information; refreshing or restarting the session can resolve issues.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1215\">20:15</a> 📚 <b>Follow-up conversations enable refining specific story elements, adding humor, or changing morals in generated stories.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1298\">21:38</a> 🎮 <b>Text-based adventure prompts allow ChatGPT to create engaging storytelling experiences based on user choices.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1323\">22:03</a> 📝 <b>Using ChatGPT, you can generate templates for documents like privacy policies, copyright statements, etc., and customize them based on your needs.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1377\">22:57</a> 🤖 <b>ChatGPT can creatively generate content, including jokes and puns, upon request. You can refine the output by specifying the type or length of the content you want.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1478\">24:38</a> 📃 <b>ChatGPT can help in writing documents, cover letters, and job applications. It provides a versatile tool for creating different versions of cover letters tailored to specific contexts.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1589\">26:29</a> 📄 <b>You can use ChatGPT to generate a resume based on a cover letter. It includes essential details such as contact information, skills, education, and work experience.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1661\">27:41</a> 📑 <b>ChatGPT is effective at summarizing documents, like legal texts. You can request it to summarize information in simpler terms, and it can even extract key keywords.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1788\">29:48</a> 📝 <b>ChatGPT can assist in content creation, such as generating blog topic ideas. You can refine titles and request outlines for articles, allowing for a collaborative writing process.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1885\">31:25</a> ✍ <b>ChatGPT can help with various aspects of writing, including rephrasing sentences, adjusting sentence length, and fixing grammar issues. It can serve as a writing assistant for bloggers.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1970\">32:50</a> 🌐 <b>ChatGPT can translate sentences into different languages, providing a helpful tool for multilingual content creation. It can also translate back to the original language, adding a touch of humor if desired.</b>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=2011\">33:31</a> 📧 <b>ChatGPT can generate subject lines for email newsletters, offering a convenient way to create engaging and relevant email content.</b>\r<br>\r<br>Made with HARPA AI\r<br>```",
+          "textOriginal": "⛔ Could not find **Add a comment** button. Here is the entire summary:\r\n```markdown\r\n🎯 Key Takeaways for quick navigation:\r\n\r\n00:00 🌐 *This tutorial covers ChatGPT basics, from creating an OpenAI account to using ChatGPT for various tasks.*\r\n02:30 📝 *ChatGPT is currently free and used mainly for research; users should provide feedback to help improve the system.*\r\n04:20 🖥 *The ChatGPT interface includes a sidebar, example inputs, and details about capabilities and limitations.*\r\n05:40 🧠 *Capabilities include conversation memory, follow-ups, and refusal for inappropriate requests. Limitations involve potential inaccuracies, difficulty in math, bias, and limited knowledge up to 2021.*\r\n08:48 👍👎 *Users can provide feedback through thumbs up/down icons and navigate through different responses using arrows.*\r\n10:53 🔄 *Resetting the thread is crucial to start a new conversation without the influence of the previous one.*\r\n13:24 🍤 *ChatGPT can generate lists and shopping lists based on prompts, showcasing its practical applications.*\r\n14:46 💻 *Advanced prompts involve coding requests, demonstrating ChatGPT's ability to generate code snippets and explanations.*\r\n17:29 🔄 *ChatGPT can iterate on previous queries, enhancing complexity, such as creating a weather API-based website.*\r\n18:52 🚫 *Errors may occur if the output contains harmful or inaccurate information; refreshing or restarting the session can resolve issues.*\r\n20:15 📚 *Follow-up conversations enable refining specific story elements, adding humor, or changing morals in generated stories.*\r\n21:38 🎮 *Text-based adventure prompts allow ChatGPT to create engaging storytelling experiences based on user choices.*\r\n22:03 📝 *Using ChatGPT, you can generate templates for documents like privacy policies, copyright statements, etc., and customize them based on your needs.*\r\n22:57 🤖 *ChatGPT can creatively generate content, including jokes and puns, upon request. You can refine the output by specifying the type or length of the content you want.*\r\n24:38 📃 *ChatGPT can help in writing documents, cover letters, and job applications. It provides a versatile tool for creating different versions of cover letters tailored to specific contexts.*\r\n26:29 📄 *You can use ChatGPT to generate a resume based on a cover letter. It includes essential details such as contact information, skills, education, and work experience.*\r\n27:41 📑 *ChatGPT is effective at summarizing documents, like legal texts. You can request it to summarize information in simpler terms, and it can even extract key keywords.*\r\n29:48 📝 *ChatGPT can assist in content creation, such as generating blog topic ideas. You can refine titles and request outlines for articles, allowing for a collaborative writing process.*\r\n31:25 ✍ *ChatGPT can help with various aspects of writing, including rephrasing sentences, adjusting sentence length, and fixing grammar issues. It can serve as a writing assistant for bloggers.*\r\n32:50 🌐 *ChatGPT can translate sentences into different languages, providing a helpful tool for multilingual content creation. It can also translate back to the original language, adding a touch of humor if desired.*\r\n33:31 📧 *ChatGPT can generate subject lines for email newsletters, offering a convenient way to create engaging and relevant email content.*\r\n\r\nMade with HARPA AI\r\n```",
+          "authorDisplayName": "@noraismail1014",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQU8CeLlsq0aocJxHXXbc4zLbfhOLwBB8Y27wFaaA=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@noraismail1014",
+          "authorChannelId": { "value": "UC7ZjURRwbrRx7VqTx63Hy_w" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-14T08:26:15Z",
+          "updatedAt": "2023-12-14T08:26:15Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "hKwnRyAyTaySkXVG0pw26cx5HHg",
+    "id": "Ugz2Fh5neR7tthaEnat4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "msvYZ2Tojp7_62IWvGy-Gcd-iKQ",
+        "id": "Ugz2Fh5neR7tthaEnat4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Seems like &quot;Google Bard&quot; is having more capabilities than ChatGpt as Google Bard is on real time data.",
+          "textOriginal": "Seems like \"Google Bard\" is having more capabilities than ChatGpt as Google Bard is on real time data.",
+          "authorDisplayName": "@jintogeorgep",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTQfeJQfE80ZgCvZGybpN9at7NcYrwOMvN8cg1-og=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@jintogeorgep",
+          "authorChannelId": { "value": "UCjKz8njG4dYnvaW1y-w7Spw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-05T10:11:20Z",
+          "updatedAt": "2023-12-05T10:11:20Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "LuAmicD5VUAPqlcsonBPdyO1ELI",
+    "id": "UgwZmVQr0508jOQlt-d4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "gzxtM1VHXVtNYKj4yV8bsIiqrqY",
+        "id": "UgwZmVQr0508jOQlt-d4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "THE BEST OF THE BEST TEACHER",
+          "textOriginal": "THE BEST OF THE BEST TEACHER",
+          "authorDisplayName": "@CasinoBaccaratKingmaker",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/iVTg3CG9JTJ8aXjuSyYXUBI6JFs-jlX_O3xH7tbJ0S246GiE5xBLRL6mpM5qMsI41kPVpBHRTFI=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@CasinoBaccaratKingmaker",
+          "authorChannelId": { "value": "UCDzbkKBOF5HNGgMTm7noaig" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-04T01:28:25Z",
+          "updatedAt": "2023-12-04T01:28:25Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "f2YM6B1nHFJLdqTj5AKTWRyccb4",
+    "id": "UgztmJmMzBYy_L8KERZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "xUQyuv6e-qoDAkufiidGezIbhj8",
+        "id": "UgztmJmMzBYy_L8KERZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=24\">0:24</a> Parabéns AVANCO SOCIAL por ajudar marcas a se destacarem nas redes sociais. Seu trabalho faz a diferença!",
+          "textOriginal": "0:24 Parabéns AVANCO SOCIAL por ajudar marcas a se destacarem nas redes sociais. Seu trabalho faz a diferença!",
+          "authorDisplayName": "@user-zo3lf7sj9t",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSnLNozxIOreZqmutiLuxy6_1ucYiu8I3zmNsWvPUdNKTYvkfQClyn_Ryy9W5eF=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-zo3lf7sj9t",
+          "authorChannelId": { "value": "UCu4R5l0OcvZa_9sKhmPzV1A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-03T22:11:14Z",
+          "updatedAt": "2023-12-03T22:11:14Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "MoeqU_6L0ekS6xyOm1qLaO-kV6k",
+    "id": "UgwtsHlke4G61K7aR3R4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Ku3ZFk2qTKLBwuY5bE1pez0g3h0",
+        "id": "UgwtsHlke4G61K7aR3R4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=33\">0:33</a> Comprei 10k de seguidores no AVANCO SOCIAL e chegou certinho recomendo",
+          "textOriginal": "0:33 Comprei 10k de seguidores no AVANCO SOCIAL e chegou certinho recomendo",
+          "authorDisplayName": "@miguelrosas4497",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTCnmPSQ1OoO_ADbo9nam8U_BZiZf1o3rT90Cz4Cj2Fzndh5XqQ6WasfotFaHuW=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@miguelrosas4497",
+          "authorChannelId": { "value": "UCcNIuK0eunX0mmjr_P7FxTw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-03T22:11:09Z",
+          "updatedAt": "2023-12-03T22:11:09Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "NTfaD82KO38QAbAs4gU3J8e84io",
+    "id": "Ugy6Ye03ObimaykcEv94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "JKCY_UjJrqakM3WKSJcPM0BnTdo",
+        "id": "Ugy6Ye03ObimaykcEv94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=100\">1:40</a> Sou muito grato ao AVANCO SOCIAL por me ajudar a aumentar meus seguidores. obrigado Avanco Social",
+          "textOriginal": "1:40 Sou muito grato ao AVANCO SOCIAL por me ajudar a aumentar meus seguidores. obrigado Avanco Social",
+          "authorDisplayName": "@user-bh3dj7th2m",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRUEK7TIO21_DBvR2TaKGR6CQdsw7jyNXbOPltiPvH6YalgK8D_xrkCRI36NLSM=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-bh3dj7th2m",
+          "authorChannelId": { "value": "UCckSA9giNLbjZizVCnDT9zQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-03T22:11:08Z",
+          "updatedAt": "2023-12-03T22:11:08Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "0lvK5pfd7cgd_8fl58zGXc8BTPY",
+    "id": "UgxX5dr_c10P0l-4re54AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "8O9YC2iQAGfHTguVZz8w8qUMAQQ",
+        "id": "UgxX5dr_c10P0l-4re54AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=253\">4:13</a> AVANCO SOCIAL oferece soluções completas para impulsionar redes sociais, desde seguidores, curtidas e tudo para as redes sociais",
+          "textOriginal": "4:13 AVANCO SOCIAL oferece soluções completas para impulsionar redes sociais, desde seguidores, curtidas e tudo para as redes sociais",
+          "authorDisplayName": "@AlexanderCabrera-xi4bg",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRTvmREYFucHwLQVIN1ZJ9Y5mBpPe7jxHf1ggG71_X1Bhz2opM6EhSD_3QT1CXB=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@AlexanderCabrera-xi4bg",
+          "authorChannelId": { "value": "UC3oVBmwJYbdPCdU-a_cNSgA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-03T22:06:02Z",
+          "updatedAt": "2023-12-03T22:06:02Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "HlXNzLiFeR586enSuw1VeQEKpVM",
+    "id": "UgxnZLoK-cJZKIiMauZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Dre1XUJQsYIPC75APNylLgbtaso",
+        "id": "UgxnZLoK-cJZKIiMauZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=72\">1:12</a> É admirável como a empresa AVANCO SOCIAL consegue engajar e atrair seguidores autênticos ao impulsionar redes sociais. Parabéns pela autenticidade!",
+          "textOriginal": "1:12 É admirável como a empresa AVANCO SOCIAL consegue engajar e atrair seguidores autênticos ao impulsionar redes sociais. Parabéns pela autenticidade!",
+          "authorDisplayName": "@user-dz2mn9cq6t",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSiWiKBgA8CPfJIWfDhiVMkjHQ7Vkto8-8si-eMx9seUBTA_JpNrBhvdnnxXZwy=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-dz2mn9cq6t",
+          "authorChannelId": { "value": "UCsv85LpvFtnw4YNJQ9A0MmQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-12-03T22:05:58Z",
+          "updatedAt": "2023-12-03T22:05:58Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "FQZDtGz9T7pi6DJbMNPqU72FAwk",
+    "id": "Ugy2c_wUEc8Yhthjifd4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "PuTDAhxRAK0PRm-pfc_hhDn-gmA",
+        "id": "Ugy2c_wUEc8Yhthjifd4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "This tutorial is really amazing for novice people to learn and understand the mechanics of it all gotta admit :)",
+          "textOriginal": "This tutorial is really amazing for novice people to learn and understand the mechanics of it all gotta admit :)",
+          "authorDisplayName": "@Crossoverbrawl",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQsS3Zo7u3bBJT2HpX4U_hFYUB1-cPXzkQ1PAstnYHlWHSkpcNyMf6l0Xkc8z1W=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Crossoverbrawl",
+          "authorChannelId": { "value": "UCKI9tJUB4_EqTzHBmYOk7uw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-11-10T12:08:04Z",
+          "updatedAt": "2023-11-10T12:08:04Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "ibYwRtnMphzwDa_dQA3LL-aMR3Q",
+    "id": "Ugx62Bj-3j2TEZvMcxR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "0wdK1SdUnwfgbGw7KO9LqqhdFaU",
+        "id": "Ugx62Bj-3j2TEZvMcxR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Bad vid",
+          "textOriginal": "Bad vid",
+          "authorDisplayName": "@nrmiinkassoum6467",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/0CiZ2C-Gh990KuG3WkRYqMlocXa6OFP3h8f8zjedj6KagXw5169yXETE01t5awNZUDQsfbbC=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@nrmiinkassoum6467",
+          "authorChannelId": { "value": "UC_vUXmzL1DME9DeDtwmtw9A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-11-09T22:23:33Z",
+          "updatedAt": "2023-11-09T22:23:33Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "lsZgYFm5NFEFigszXeqKdIabFkg",
+    "id": "UgyB2NnIxuQ_8IZDU014AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "tqERqUAUbHz6-Nas_OKUGb2ZAjY",
+        "id": "UgyB2NnIxuQ_8IZDU014AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "This crash course invites you to work often and explore further AI. The course shows the importance of focused communication skills - listening and expressing - to keep going on relevant conversations with this technology. Good job. Thanks Adrian.",
+          "textOriginal": "This crash course invites you to work often and explore further AI. The course shows the importance of focused communication skills - listening and expressing - to keep going on relevant conversations with this technology. Good job. Thanks Adrian.",
+          "authorDisplayName": "@miguelrenatoaguirre6267",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZT2WLBbMCqvI7VDSAuQJl2HaXF6qnAJrcwldGKqzw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@miguelrenatoaguirre6267",
+          "authorChannelId": { "value": "UCCmf5gtVveT1YdiN49Okerg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-11-09T14:33:19Z",
+          "updatedAt": "2023-11-09T14:33:19Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "XjbkNMHalyDMdj8wvyKm15uRuJI",
+    "id": "Ugy6E7iaKDlg8uAUZAl4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "T8Q1gAlmoaPNkCRh_VE1S9gKIE8",
+        "id": "Ugy6E7iaKDlg8uAUZAl4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "excellent video. Thank you.",
+          "textOriginal": "excellent video. Thank you.",
+          "authorDisplayName": "@nellylee1952",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRrCfS9qRbvwDcRFjtO5B0EcVHRKtGVfn42yJhWaw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@nellylee1952",
+          "authorChannelId": { "value": "UCgsOhkvdeOAONbkJ6JSkxJQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-11-09T02:20:14Z",
+          "updatedAt": "2023-11-09T02:20:14Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "pVs0g38Nw2U9R0j9A3paLZ20lsA",
+    "id": "UgyrwK5M7VQDyrYR2vh4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "5Q3JnbixoRUfl0sxVKN2Z53os5s",
+        "id": "UgyrwK5M7VQDyrYR2vh4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I like that? bit very long",
+          "textOriginal": "I like that? bit very long",
+          "authorDisplayName": "@HarveyRichards-qs1tr",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/QSHRu4XfCQqIXpaFVEF1thtNfe2prPfdV644WEq_diT0HyLNL-2EAitSS-bUmEXBu5ys8y3x=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@HarveyRichards-qs1tr",
+          "authorChannelId": { "value": "UCrsVifa9qcRwijfZ0APyR-w" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-11-03T14:19:28Z",
+          "updatedAt": "2023-11-03T14:19:28Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "_9JE20Bg-NEbZR0Uptwgjh3mVBs",
+    "id": "UgwrBvngwpvohWeDgdl4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Zbni4_UQnCBY0hL2AieQ-dr8_YA",
+        "id": "UgwrBvngwpvohWeDgdl4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "napověda pro všeci <a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=71\">1:11</a>",
+          "textOriginal": "napověda pro všeci 1:11",
+          "authorDisplayName": "@user-us6nw2pl7d",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTQiTXnVDZAxU8ztlIxtx6uEYx-_p2PFi8kBzH7-jVC17r9jQh7yI_5xvvxVOq6gg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-us6nw2pl7d",
+          "authorChannelId": { "value": "UC2iBmW8I0Hv3jB4E1641tOQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-30T11:02:02Z",
+          "updatedAt": "2023-10-30T11:02:02Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "5bJhJplPMkjqpnchxAAZR2XbtwU",
+    "id": "UgzY_cfBX-vdosKtgYF4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "US29Nig094kUwSQ1V0KiFEU4W6I",
+        "id": "UgzY_cfBX-vdosKtgYF4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=71\">01:11</a>",
+          "textOriginal": "01:11",
+          "authorDisplayName": "@polskaolix8",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/QQUfMxLomXvIHdJWb7tK-gy9M6YG3YhFJXCEWuCkKEf8nGIEUPS_NQWRb8fLy8BPXHWlyXVN=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@polskaolix8",
+          "authorChannelId": { "value": "UC-JN6C6BvLN1GDQyieyA1eQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-10-26T13:34:46Z",
+          "updatedAt": "2023-10-26T13:34:46Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "kpnxcBz2kzQ81hIQjeMfqi8TxQI",
+    "id": "Ugx3QsSakTUknuogWNp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "s4Ze6CkipiKovcdWDJGdhphNlYE",
+        "id": "Ugx3QsSakTUknuogWNp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=71\">01:11</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=805\">13:25</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1132\">18:52</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1171\">19:31</a>",
+          "textOriginal": "01:11\r\n13:25\r\n18:52\r\n19:31",
+          "authorDisplayName": "@hamb1mester",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/-XMFVl8j316GvwNxvcYinVGLEzNeGZ-E4Fm5xfdW4k1etPls0x1ytzSPMgRNzMiXmMwwjCYwPQ8=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@hamb1mester",
+          "authorChannelId": { "value": "UCuT5DTx3lMsRGRFbT2flpqg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-24T09:46:15Z",
+          "updatedAt": "2023-10-24T09:46:15Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Sosscb_-PGnuNiDOS8YuwdyIc04",
+    "id": "UgyW2K-GxcIvnDrhgzp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "XUsmyIua5ZYUEbxF0JqhxJizM_M",
+        "id": "UgyW2K-GxcIvnDrhgzp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "what a bad video cmon stop wasting our time dislike on it",
+          "textOriginal": "what a bad video cmon stop wasting our time dislike on it",
+          "authorDisplayName": "@FaZe_HorizonPT",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/LiZupgtI1QZsKroGc52tnXf5x0KUntt6z83R88Yvs1dKRSqicSp2welhFu8PNiVCg1RkJe70iw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@FaZe_HorizonPT",
+          "authorChannelId": { "value": "UCNmcbChtIbgbg1mg7o5j3cA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-23T17:50:46Z",
+          "updatedAt": "2023-10-23T17:50:46Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "FLtxCIgbpk5aIG72JuJOiDrOdd0",
+    "id": "UgxNT--uL1ZA7saC0oN4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "8rVw8pNA8_erUv9xXLmtVQfYTPk",
+        "id": "UgxNT--uL1ZA7saC0oN4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "How to earn money from chartgpt",
+          "textOriginal": "How to earn money from chartgpt",
+          "authorDisplayName": "@statusworld6718",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/_XJ7_Qx5Zr3I61Sy9Zdp_JD9klc2JPTmCf08PJkQ_Q-YawJMzqGa51Mjy5Ms8BnPgm4GvVsfoQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@statusworld6718",
+          "authorChannelId": { "value": "UChRzmY7aadp1nnY6xauXZMw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-22T14:11:50Z",
+          "updatedAt": "2023-10-22T14:11:50Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "y2H_0uTO36h_6BTRWfmAgaQhrjw",
+    "id": "UgwQ2PyvBqrDRxPNnsN4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "EHJUJpF_dNhuTBZ8Pizl54DD45Y",
+        "id": "UgwQ2PyvBqrDRxPNnsN4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Youre superior for sharing this beneficial vid! Ive tried A2 Web Hosting and GoDaddy, but Cloudways with TST20 couppon is the ultimate treasure.",
+          "textOriginal": "Youre superior for sharing this beneficial vid! Ive tried A2 Web Hosting and GoDaddy, but Cloudways with TST20 couppon is the ultimate treasure.",
+          "authorDisplayName": "@fakeornot8159",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQTV6rApKYXMTio6M6WCcZYnNOfxIF5TokyZ3YmO1Iv1KrFS9Px9Umca_xEq0hT=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@fakeornot8159",
+          "authorChannelId": { "value": "UCzCQ9pX5Pz6sqZwtYCpF3Lw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 13,
+          "publishedAt": "2023-10-18T17:30:39Z",
+          "updatedAt": "2023-10-18T17:30:39Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "rxiwfmVDS6BKi23W-cXa_4qNAys",
+    "id": "UgzdcQPOYODGV1JGsb54AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "IRS3MJ7j8j42wvn-vJ4BpoX01eg",
+        "id": "UgzdcQPOYODGV1JGsb54AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Excellent and insightful tutorial",
+          "textOriginal": "Excellent and insightful tutorial",
+          "authorDisplayName": "@DimitarDimitrovTheJedi",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSNqc-JGRkHRrSiJvC3YER6622NwjkVk5Q2g4oMbA=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@DimitarDimitrovTheJedi",
+          "authorChannelId": { "value": "UCspfSMd1NGxFufJUxY2icsQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-17T14:58:31Z",
+          "updatedAt": "2023-10-17T14:58:31Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "WDIo4G6ssZe9x2oA7-DRKFKpxM8",
+    "id": "UgxW1KniOzejenRWjGB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "4X52cyveBsmMsNSaWrBwIXz2Zds",
+        "id": "UgxW1KniOzejenRWjGB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=71\">01:11</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=845\">14:05</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1132\">18:52</a>\r<br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1171\">19:31</a>",
+          "textOriginal": "01:11\r\n14:05\r\n18:52\r\n19:31",
+          "authorDisplayName": "@kacer2",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ufkcYHVstI3CZDI6eRT5_v0vrfWlaOCUMiLijzrK7hNwUiICuOS2FvwZgHf0ZZ4jXr7sej2T=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@kacer2",
+          "authorChannelId": { "value": "UCzUiN79unsoRgB6FlmJzl5Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-10-11T11:31:12Z",
+          "updatedAt": "2023-10-11T11:31:12Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "m7AB1ahuSTq-UeJc5Dq0aP2dpzQ",
+    "id": "UgxYZCnH86Yx4pqHxzd4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "bAR2ZT_7jIQ_yAJV6YSKR4AI9vQ",
+        "id": "UgxYZCnH86Yx4pqHxzd4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Excellent tutorial",
+          "textOriginal": "Excellent tutorial",
+          "authorDisplayName": "@Gashgo",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTJ9OvIK5yLstGyekuXh-YH5s1oXVocqN8uXQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Gashgo",
+          "authorChannelId": { "value": "UC58nlXFq6xisjE6HK3DPzEA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-08T19:59:39Z",
+          "updatedAt": "2023-10-08T19:59:39Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Xt6i4_nvcUDH3boS4HJoi-ooWEI",
+    "id": "UgwVK4Y9a8EmqbwuUzV4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "MuxLUOhR382FspcpnGBU5KGA5wg",
+        "id": "UgwVK4Y9a8EmqbwuUzV4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "gay",
+          "textOriginal": "gay",
+          "authorDisplayName": "@pampi259",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQZeE0XI_q7_EEGGIChqXBgxeE_18ym89ooHXRiow=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@pampi259",
+          "authorChannelId": { "value": "UCLvMwCaD_JnA7NTAG9WhD-w" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-10-04T14:53:28Z",
+          "updatedAt": "2023-10-04T14:53:28Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "iObXwbNAf5W0qhz5Jj5mE9vlqWc",
+    "id": "UgyXf2EciyzR3OaIBD54AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "ViCdIiprV3eJvfg81UGMuPvtqDA",
+        "id": "UgyXf2EciyzR3OaIBD54AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1105\">18:25</a>",
+          "textOriginal": "18:25",
+          "authorDisplayName": "@user-xi5os5ly6w",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTEpxCINHvainbqabXdeBWlyuzhbLdLfHNlmWjRcklWS4C--BD0on3Zg6Mvwdhy=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-xi5os5ly6w",
+          "authorChannelId": { "value": "UCmdSRdY3wgcqP7SYTyqt7Hg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-30T09:47:26Z",
+          "updatedAt": "2023-09-30T09:47:26Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "EEQF863sPTX2p26kFodE63oHHEk",
+    "id": "Ugxp5MOA3rEe7l40ejt4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "hr_-aOCYe5_fyEBnYm1udmA_WRM",
+        "id": "Ugxp5MOA3rEe7l40ejt4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=805\">13:25</a>",
+          "textOriginal": "13:25",
+          "authorDisplayName": "@user-xi5os5ly6w",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTEpxCINHvainbqabXdeBWlyuzhbLdLfHNlmWjRcklWS4C--BD0on3Zg6Mvwdhy=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-xi5os5ly6w",
+          "authorChannelId": { "value": "UCmdSRdY3wgcqP7SYTyqt7Hg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-30T09:46:17Z",
+          "updatedAt": "2023-09-30T09:46:17Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "kDGa5xc8Syt2FQrkMpY25g-jOPQ",
+    "id": "UgwcUKbx3-4X9CVm02V4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "AztGDdzlyaa1qDWlNasO0jU4iEQ",
+        "id": "UgwcUKbx3-4X9CVm02V4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Good job specially looking at the timing of the video got published",
+          "textOriginal": "Good job specially looking at the timing of the video got published",
+          "authorDisplayName": "@amitkhandelwal3527",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTQW3lvj0CNuJPV8WOvGgJrNfNd4WwEqs1Veg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@amitkhandelwal3527",
+          "authorChannelId": { "value": "UCKvpsSd1OaRMaap7BNxUFWw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-30T08:26:25Z",
+          "updatedAt": "2023-09-30T08:26:25Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "0AdtWM_0ZW9avh5yCmnz7l9Fo3c",
+    "id": "Ugx3H_6gptlBKbv0zJ54AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "RkJ16VqijP2G35x2rUUNFe6Gp9Y",
+        "id": "Ugx3H_6gptlBKbv0zJ54AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "<a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=71\">1:11</a><br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=805\">13:25</a><br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1132\">18:52</a><br><a href=\"https://www.youtube.com/watch?v=JTxsNm9IdYU&amp;t=1171\">19:31</a>",
+          "textOriginal": "1:11\n13:25\n18:52\n19:31",
+          "authorDisplayName": "@RaptorGamesOfficial",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/Sh1J52sCPr5lkHjmj6qdp0zNYrXp62GMHhlhpvhb-ufS0FQgqvPaHUiNlRrL21JILCv0Z0q7LQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@RaptorGamesOfficial",
+          "authorChannelId": { "value": "UCX2Anqwv9Y_EbdvXUwYrGFQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-23T09:32:33Z",
+          "updatedAt": "2023-09-23T09:32:33Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "lLZZ17DQV3AvIDyMkONox1t1gKc",
+    "id": "UgxBon0a7KM4PIP3jzB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "-evua8EbW_Yxig2UN6XrDKesU2o",
+        "id": "UgxBon0a7KM4PIP3jzB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "čavo davaj časy",
+          "textOriginal": "čavo davaj časy",
+          "authorDisplayName": "@marekchlumecky9325",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/OLiu8kse9uCUmHDp_JnshMIAVzT8m3gHC3RkLH90UdNJ7s8gJx3q8lhFJs1oAwBA48f0mm9C=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@marekchlumecky9325",
+          "authorChannelId": { "value": "UCuo9XdnhvfOO4hasK5xZK9A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-21T11:07:22Z",
+          "updatedAt": "2023-09-21T11:07:22Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "aslDPSVIpnj9iW8D3noqyGszQSc",
+    "id": "Ugxt9VrYNUoNfkZ1q-l4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "aedE-MCTKRJWbA5NRLmvZtpuQ-g",
+        "id": "Ugxt9VrYNUoNfkZ1q-l4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Is &quot;maths&quot; an actual word over in EU and other areas? It is a misspelling here in the US; it is assumed to be both singular and plural by nature so adding the &quot;s&quot; creates a spelling error on software here, even YouTube (in comments).  I&#39;m just curious as I&#39;ve seen this quite a bit on streaming services, and I thought folks were just being funny/irreverent.",
+          "textOriginal": "Is \"maths\" an actual word over in EU and other areas? It is a misspelling here in the US; it is assumed to be both singular and plural by nature so adding the \"s\" creates a spelling error on software here, even YouTube (in comments).  I'm just curious as I've seen this quite a bit on streaming services, and I thought folks were just being funny/irreverent.",
+          "authorDisplayName": "@3spectre26",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQ8ApWsu2QFwuIEe1HR4PfI5zoAo9nh4GHOcg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@3spectre26",
+          "authorChannelId": { "value": "UCz_WYLrCRrRk_IMEjZXfkKQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-20T05:36:02Z",
+          "updatedAt": "2023-09-20T05:36:02Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "IcA-cRxWiBYf1hQZD8eNkvzHB6w",
+    "id": "UgyPjbGw8UJ2Qef9uKB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "i5R7skSezRiiUPXH0XSuBRdaj-E",
+        "id": "UgyPjbGw8UJ2Qef9uKB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thanks for telling",
+          "textOriginal": "Thanks for telling",
+          "authorDisplayName": "@user-qf3ck7gv5v",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/NFp-xn9J81FrSgoiuKdNY09X119cFBsTvwi2_E5pjaFWL07lP_cqfhjlu7S69i9yZiE68wp-Pw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-qf3ck7gv5v",
+          "authorChannelId": { "value": "UCPtgAM2ygCr-NAbdBybuh0g" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-14T09:58:46Z",
+          "updatedAt": "2023-09-14T09:58:46Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Bb4sPkol0zUktBPqIflG6tah8dE",
+    "id": "UgzTVcDM2v4Bf5MSHlt4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "ryq9BkL3LpaNaAZtq7s-iBia9BM",
+        "id": "UgzTVcDM2v4Bf5MSHlt4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I know more about CHATgpt than crypto currency. Thank You",
+          "textOriginal": "I know more about CHATgpt than crypto currency. Thank You",
+          "authorDisplayName": "@richard-cx7lz",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTQnAMHGJKr6aT7QeDl-iPWC5_ssn0ym3lrwBqzr4IZErVsLKrn5L4LWx3E97tJ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@richard-cx7lz",
+          "authorChannelId": { "value": "UC_QsfKGZ6zNSAwilh2-oSAA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-11T20:28:35Z",
+          "updatedAt": "2023-09-11T20:28:35Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "mlprgt054jPwnj6UhHrdzB5BLsQ",
+    "id": "Ugzo_g4KBu8G_4507y94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "WgnecJKL1m6Xci-NBYZZwuCykVY",
+        "id": "Ugzo_g4KBu8G_4507y94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Právě dělám itfitness",
+          "textOriginal": "Právě dělám itfitness",
+          "authorDisplayName": "@PetaGamesCZ",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/xrkiow4EB2ZpeuL75Kfhpuy_aUHfx3km8Y2HSGssILQBHb44bhesHmc9QWJT1W3vm1fjQ461=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@PetaGamesCZ",
+          "authorChannelId": { "value": "UCEA4Rgu5EADEx4jzDNIFXow" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-09-11T13:30:39Z",
+          "updatedAt": "2023-09-11T13:30:38Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "LmBZO6QQQ-A5jE3YiXPIB4cDjx0",
+    "id": "UgzPq3OStN2nJj03UD94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "t026sTvLdwZ57RYf2ahy8R3bC7g",
+        "id": "UgzPq3OStN2nJj03UD94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "If u.come.and kiss kiss",
+          "textOriginal": "If u.come.and kiss kiss",
+          "authorDisplayName": "@srinavkarki8605",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQGFQkpWy_9MXp7YLdO3bLFQekOW94NVtcG9Ba29Q=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@srinavkarki8605",
+          "authorChannelId": { "value": "UCgkUOythUvFe2N1EKyk2Bkg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-28T03:00:58Z",
+          "updatedAt": "2023-08-28T03:00:58Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "7MYzBiZ0y4vpowXYemKWOLNJXdQ",
+    "id": "Ugzffy04rKcRM_zZevZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "BvuyBXR4q7DRMT3reF4OgkhxPS0",
+        "id": "Ugzffy04rKcRM_zZevZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "If u I reach to you some how will I kiss me",
+          "textOriginal": "If u I reach to you some how will I kiss me",
+          "authorDisplayName": "@srinavkarki8605",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQGFQkpWy_9MXp7YLdO3bLFQekOW94NVtcG9Ba29Q=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@srinavkarki8605",
+          "authorChannelId": { "value": "UCgkUOythUvFe2N1EKyk2Bkg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-28T02:59:33Z",
+          "updatedAt": "2023-08-28T02:59:33Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "cabwM7ly-ZcDnd6FPgYlQ-8c8fo",
+    "id": "UgxuOUkd6HwhywRqG7J4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "B9UT5y7ZzznALzo4rZq2P8F1yg8",
+        "id": "UgxuOUkd6HwhywRqG7J4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "If I reach to you",
+          "textOriginal": "If I reach to you",
+          "authorDisplayName": "@srinavkarki8605",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQGFQkpWy_9MXp7YLdO3bLFQekOW94NVtcG9Ba29Q=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@srinavkarki8605",
+          "authorChannelId": { "value": "UCgkUOythUvFe2N1EKyk2Bkg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-28T02:58:31Z",
+          "updatedAt": "2023-08-28T02:58:31Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "ZPK85g6NJdw2kt5fYWJUQop3_Yo",
+    "id": "UgyzGbarnWdE9Xsn0vx4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "HOm-jV09CYixozvCRIh4aO5I63M",
+        "id": "UgyzGbarnWdE9Xsn0vx4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "If I come there with u will u kiss me",
+          "textOriginal": "If I come there with u will u kiss me",
+          "authorDisplayName": "@srinavkarki8605",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQGFQkpWy_9MXp7YLdO3bLFQekOW94NVtcG9Ba29Q=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@srinavkarki8605",
+          "authorChannelId": { "value": "UCgkUOythUvFe2N1EKyk2Bkg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-28T02:57:54Z",
+          "updatedAt": "2023-08-28T02:57:54Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "_KRMZdiueVkkLtLyKrz-QbrQX7E",
+    "id": "UgzPUgAfZiNfsYjyw4d4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Zfpoc9t_1iiBqzc6WHR3FdWxQa8",
+        "id": "UgzPUgAfZiNfsYjyw4d4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "my chatgpt command bar accidently came into the right to left formant what should i do",
+          "textOriginal": "my chatgpt command bar accidently came into the right to left formant what should i do",
+          "authorDisplayName": "@AhsanAli-rw6zg",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRafMuChOdx_IGB-D5PD9x58pvg4Z6BQ1Nst-piqw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@AhsanAli-rw6zg",
+          "authorChannelId": { "value": "UCYK2DB2br-z88GvX4fwc7Qg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-27T10:00:46Z",
+          "updatedAt": "2023-08-27T10:00:45Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "AM-yMSZQ4ow6bLcZa-e14HQUFv4",
+    "id": "UgxU6Vg7g7Wde3zmaFF4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "iVBV-vaYze4r-db_hSatfZzIR0Q",
+        "id": "UgxU6Vg7g7Wde3zmaFF4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Google does the same functions,don&#39;t see the big deal?",
+          "textOriginal": "Google does the same functions,don't see the big deal?",
+          "authorDisplayName": "@user-ej5bd4oq5v",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSgQoPy5SDy5_szA-MTCK3anF-NuuTzWNP8b56vbUNG38nb0Y9tfFfoKkkdM7-1=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-ej5bd4oq5v",
+          "authorChannelId": { "value": "UCFmW4bzWMTmlDLC1CTTbvLg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-26T19:41:10Z",
+          "updatedAt": "2023-08-26T19:41:10Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "kOBbzffudgVafhx_eQXx57nuFJA",
+    "id": "UgxIE8iQ5TbHpbqjeAl4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "aEgAlrkNPyUAC5_YYIFBgP7TWrw",
+        "id": "UgxIE8iQ5TbHpbqjeAl4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Amazing video. This tutorial is very helpful for the beginner of ChatGPT.",
+          "textOriginal": "Amazing video. This tutorial is very helpful for the beginner of ChatGPT.",
+          "authorDisplayName": "@TolulopeMichael001",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/Uw5R2yivizsCr4udJyfgqlNb5R5Ws3s_cc8aPJ6mC24EzsTlhcoeAlk31sgTYV6ZuveVH2xEHZ0=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@TolulopeMichael001",
+          "authorChannelId": { "value": "UCJ-oTF2WFFKnFkHJhYV1BHA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-25T12:27:16Z",
+          "updatedAt": "2023-08-25T12:27:16Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Wk73fV6X67iOj7TuWD2vyG8CQzw",
+    "id": "Ugw2QCsBlPShVHq4bMF4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "eHD7To_0lxq1fpwv8P6D7PprjDk",
+        "id": "Ugw2QCsBlPShVHq4bMF4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thnx u for this video ❤",
+          "textOriginal": "Thnx u for this video ❤",
+          "authorDisplayName": "@chanchalsharma4508",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/JoTA8yCFwemXh8E2eP0Q-vk3OWcA7GtIuCDDc95Xb_9gjtlcKLQGWqCXw9M02IEDaGcjaB9N=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@chanchalsharma4508",
+          "authorChannelId": { "value": "UCdyQwV1yRNOC_P50SXS470w" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-23T16:08:40Z",
+          "updatedAt": "2023-08-23T16:08:39Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "vsu-p1gSj2PNwzQxLqOTWQATY5M",
+    "id": "UgzL3AXN4nKgVcpCxJx4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Jh0gRDylFlTJOdb8QytsV69cvDc",
+        "id": "UgzL3AXN4nKgVcpCxJx4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I asked ChaGPT to write a comment for this video and this is what it gave: <br><br><br><br>🚀 Wow, Adrian! This tutorial is a goldmine for anyone looking to get started with ChatGPT. Your step-by-step guide, from signing up to exploring advanced features, is incredibly clear and easy to follow. I especially appreciated the section on how to use prompts effectively – it’s a game-changer! 🤖 Your effort in putting together this comprehensive guide is evident, and I can&#39;t wait to dive into the resources you&#39;ve shared. Thanks for demystifying ChatGPT for us beginners. Subscribed and liked! 👍",
+          "textOriginal": "I asked ChaGPT to write a comment for this video and this is what it gave: \n\n\n\n🚀 Wow, Adrian! This tutorial is a goldmine for anyone looking to get started with ChatGPT. Your step-by-step guide, from signing up to exploring advanced features, is incredibly clear and easy to follow. I especially appreciated the section on how to use prompts effectively – it’s a game-changer! 🤖 Your effort in putting together this comprehensive guide is evident, and I can't wait to dive into the resources you've shared. Thanks for demystifying ChatGPT for us beginners. Subscribed and liked! 👍",
+          "authorDisplayName": "@GPTtogether",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/54b8gsc09WYaf1jVh6aXg_BKpoXGDau4NyInD1R7QXV_-SeXncIfDUZtokhXK0_AuaoNCfXNbcM=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@GPTtogether",
+          "authorChannelId": { "value": "UClbaOau-5r4YUlgJrLWAaHw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-19T13:04:42Z",
+          "updatedAt": "2023-08-19T13:04:42Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "rUMnjHMkdeuNmxlQpOA9ojC4IBw",
+    "id": "UgyGQVkXv3LNUorgkbZ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "P34Go7dfTY6r9SEfW9zkVGkvPwI",
+        "id": "UgyGQVkXv3LNUorgkbZ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "i love your prompts. i guess the bigger task really is coming up with appropriate prompts for your own personal use to increase value .",
+          "textOriginal": "i love your prompts. i guess the bigger task really is coming up with appropriate prompts for your own personal use to increase value .",
+          "authorDisplayName": "@christlivsinme",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTmGJNE-91mGJ-v78jx2uIFfSzHfhalnkWGb56QB_w=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@christlivsinme",
+          "authorChannelId": { "value": "UCPIwW1Sd5Xgt8mDi5n02qdw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-14T22:40:49Z",
+          "updatedAt": "2023-08-14T22:40:49Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "GtQ6Z8AnEnGfZak60LXKMk-OKKo",
+    "id": "UgzTbe_z5_bA18XNYqt4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "b3ysoft9sKXAoe5ASGYSn1ehTkU",
+        "id": "UgzTbe_z5_bA18XNYqt4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "This was really helpful !",
+          "textOriginal": "This was really helpful !",
+          "authorDisplayName": "@reshmafernandes1729",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZT3e5ebsEMYr1WmW_ZhR9CdmJUpNkcolaByIw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@reshmafernandes1729",
+          "authorChannelId": { "value": "UCh0Sg7edu0KsH3wO_ru2gtw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-14T13:54:53Z",
+          "updatedAt": "2023-08-14T13:54:53Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "iiFVAvHGN9WW-lyupGvbRqGMVa4",
+    "id": "Ugy-NgqCiixsiVt45Np4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "rc8dvlcocRWSwec7PXyWqTvkoAU",
+        "id": "Ugy-NgqCiixsiVt45Np4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "This chart was fake 🤥🤥🤥",
+          "textOriginal": "This chart was fake 🤥🤥🤥",
+          "authorDisplayName": "@sanjee790",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/g_L7RKyTU_mwUBCR28Z10gY0xqh7h-KpbkOzHnBYlqwxs6POfbOcpYZU1Bm5FV0UMh_6n-vV=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@sanjee790",
+          "authorChannelId": { "value": "UCn2y5Gi8_FNB3G5684Vf74A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-12T08:03:07Z",
+          "updatedAt": "2023-08-12T08:03:07Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "78oWsXRXMoiB9cFIIMnYc3C7h3Q",
+    "id": "UgzYq3pLJI_clmMZQud4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "akrwnOdjeRcY5MvlOMX8jp_l1lo",
+        "id": "UgzYq3pLJI_clmMZQud4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "OpenAI makes signing up a major PITA. Took me thru 8-step verification process which I could never successfully make it all the way thru. Still no active account..",
+          "textOriginal": "OpenAI makes signing up a major PITA. Took me thru 8-step verification process which I could never successfully make it all the way thru. Still no active account..",
+          "authorDisplayName": "@mem5922",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSn8b3ePqei4R7BbH9ZQZOogjCAuqHTfgvzEg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@mem5922",
+          "authorChannelId": { "value": "UCLTXRH4skYoWR_H08YOrILg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-11T21:02:07Z",
+          "updatedAt": "2023-08-11T21:02:07Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "RoAJtplOWGqWgVeFChIOcnVIDGQ",
+    "id": "UgyDRKuXGKHebQ47d3l4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "3W3qD-trWu4fW3285A-EmH77URA",
+        "id": "UgyDRKuXGKHebQ47d3l4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Hello people, domt wrote silly comments on any AI video, it makes you look even stupid than you mist probably already are etc stupid in my opinion means not knowing any prog languages but youve been using devices that use languages half of your life.<br>Its like saying my friend or car of over two years, i don&#39;t know my friend&#39;s surname or age and don&#39;t know where my fuse box in the car is located..",
+          "textOriginal": "Hello people, domt wrote silly comments on any AI video, it makes you look even stupid than you mist probably already are etc stupid in my opinion means not knowing any prog languages but youve been using devices that use languages half of your life.\nIts like saying my friend or car of over two years, i don't know my friend's surname or age and don't know where my fuse box in the car is located..",
+          "authorDisplayName": "@1DJLNR",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQnOrL89EH1Ng_EJr4ktzQL0DTBzNBfqgaqjng86g=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@1DJLNR",
+          "authorChannelId": { "value": "UCPO95rChoxJPHa97PcMIs5g" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-08-10T13:47:04Z",
+          "updatedAt": "2023-08-10T13:47:04Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "VTM9qaWDnruCOrkV_oe69YOoVbE",
+    "id": "Ugxl9mfyLPVen2M3I2J4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "d80ZRKg0TAsJ_2uDBRhM5rFEPDY",
+        "id": "Ugxl9mfyLPVen2M3I2J4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "&quot;Absolutely fantastic tutorial! 🌟 This &#39;ChatGPT Crash Course&#39; brilliantly breaks down the intricacies of using ChatGPT for beginners like me. The step-by-step walkthrough and clear explanations made it super easy to understand how to engage with this powerful tool. Thanks for demystifying ChatGPT and making AI accessible to everyone! Can&#39;t wait to dive deeper into its capabilities. 👏🤖",
+          "textOriginal": "\"Absolutely fantastic tutorial! 🌟 This 'ChatGPT Crash Course' brilliantly breaks down the intricacies of using ChatGPT for beginners like me. The step-by-step walkthrough and clear explanations made it super easy to understand how to engage with this powerful tool. Thanks for demystifying ChatGPT and making AI accessible to everyone! Can't wait to dive deeper into its capabilities. 👏🤖",
+          "authorDisplayName": "@bharathan_",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/k9wRCu_WKEMPgxE5NxiJZtNFnJQfXqvov6Nf0VQTvvB8EItuWwkRpv5KGzaSe7cB9HNEzTOCkpk=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@bharathan_",
+          "authorChannelId": { "value": "UCgclPQ7TS4DSCnOVmN7FxOQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 2,
+          "publishedAt": "2023-08-02T10:07:38Z",
+          "updatedAt": "2023-08-02T10:07:38Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "giuUrMrZ_bG5IUDSbZSlpQmP4F4",
+    "id": "UgwVgTo5KdcBiXLE0yd4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "gsj2-vpVEbsf5h7q_QPWetpg9DQ",
+        "id": "UgwVgTo5KdcBiXLE0yd4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "https://youtu.be/66fMBRahwhQ",
+          "textOriginal": "https://youtu.be/66fMBRahwhQ",
+          "authorDisplayName": "@ishtiaqahmad2442",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/6y667fFh7z6VhSn_XTTaDvoPCHOviD4vKQ6mMnjJlqqvQCCNCgo-VowJm-0LpdIU5UEYoiM0OG0=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@ishtiaqahmad2442",
+          "authorChannelId": { "value": "UC7uBwgO8IAV3v_B8vf37M0A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-28T13:20:48Z",
+          "updatedAt": "2023-11-04T14:56:26Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "tejndO04XRYlJqDDXHrYiyeGySU",
+    "id": "UgwgxMq3YVUtJfl7Ga94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "SfK-TrkH1_nA-rjlAcfTyvMZyWw",
+        "id": "UgwgxMq3YVUtJfl7Ga94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Once again a really great video. ChatGPT is amazing. the possibilities with the code interpreter are gigantic.<br>https://www.youtube.com/watch?v=jLxvxT5k-YE",
+          "textOriginal": "Once again a really great video. ChatGPT is amazing. the possibilities with the code interpreter are gigantic.\nhttps://www.youtube.com/watch?v=jLxvxT5k-YE",
+          "authorDisplayName": "@Kamil-if3wu",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTnKv_ChBhPzqj97VtzSMjTmWMEjHV6jstX3LgVT3U=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Kamil-if3wu",
+          "authorChannelId": { "value": "UCS65i1ERi2lqAssKQoWhVhQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-18T20:27:20Z",
+          "updatedAt": "2023-11-01T04:25:26Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "jTPT1C8ujJSmTySpTNKL1IVFhnE",
+    "id": "UgzRXYqtHbrstFrN3IR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "IiCEVW9dKek4Nxj5ldVd19Aorcg",
+        "id": "UgzRXYqtHbrstFrN3IR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Dude it is pronounced &quot;math&quot; not maths&quot; That is not a proper sentence&quot; You would say, How good is ChatGPT at math? Not How good is ChatGPT at maths?",
+          "textOriginal": "Dude it is pronounced \"math\" not maths\" That is not a proper sentence\" You would say, How good is ChatGPT at math? Not How good is ChatGPT at maths?",
+          "authorDisplayName": "@user-oy1es1so2k",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQbdFa98WcTISakx3lQI-NJbcA2wuRfmPyfOJcf3QAZAmcwHZiqML5cr3OgmjX2=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-oy1es1so2k",
+          "authorChannelId": { "value": "UCP1uPTEEZp3wvl5RhZOjz0A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-18T03:42:02Z",
+          "updatedAt": "2023-07-18T03:42:02Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "w3OzZUs8QTa_lORGJkA5jFWOIgo",
+    "id": "UgycgOCaJ6L4U7dcC_F4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "LNy4jEERK2CQHPoyvHdxkQU7pZk",
+        "id": "UgycgOCaJ6L4U7dcC_F4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Where can I try it for free? Everywhere I go you need to pay for it which I totally get, but BOY is it expensive! £24 a month! I would like to try it out first to see if it is worth that kind of money.",
+          "textOriginal": "Where can I try it for free? Everywhere I go you need to pay for it which I totally get, but BOY is it expensive! £24 a month! I would like to try it out first to see if it is worth that kind of money.",
+          "authorDisplayName": "@yogibear2k220",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/nxtNtn71X7oXx5R4i34T1o-X0eZ4ImxRQYhw9dIW7CGVEcNkacQ5CUWBwr0smgIRIq3wNJzi6w=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@yogibear2k220",
+          "authorChannelId": { "value": "UCsr39EM-Ux1FfPunwsBC1_Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-16T18:39:40Z",
+          "updatedAt": "2023-07-16T18:39:40Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "9kN_MWfxSB-K33B9I2wIN326Ra8",
+    "id": "Ugxs8K3vI4NH0jIsL554AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "M5R4JQHDAI_iZaa9aJu_xURCaBQ",
+        "id": "Ugxs8K3vI4NH0jIsL554AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Can we apply formulas or v-look up in an MS Excel file via chat gpt?",
+          "textOriginal": "Can we apply formulas or v-look up in an MS Excel file via chat gpt?",
+          "authorDisplayName": "@Ola_Hu_Cola",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/DBjhCrjjPN92R8nsQAaVmn2MytoQzOJdBG3u4Xu9fi4xEr5lrGXs12Hk5XzT8LLa3hWHOztJmw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Ola_Hu_Cola",
+          "authorChannelId": { "value": "UCMl-G4Uv8tWnwcgGJJQyKuQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-15T06:30:40Z",
+          "updatedAt": "2023-07-15T06:30:40Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "bGWwF2bEYvIoE0o7fvBYkY85UVI",
+    "id": "UgyHigTQzYYf-38-Op94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "YWCAy-w91LGZXQzGyh2QZgoY6pc",
+        "id": "UgyHigTQzYYf-38-Op94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Sir here is a student saying Hi🖐️ to you from Bangladesh!<br>Come and visit us some time when you are free.",
+          "textOriginal": "Sir here is a student saying Hi🖐️ to you from Bangladesh!\nCome and visit us some time when you are free.",
+          "authorDisplayName": "@MDSharif-eh2pj",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSwY0MtM-wAGfAOZApPhoWYz9EDMvJvgRNjOerA_8wJy_uXAyuFINhfMqQ5vW5u=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@MDSharif-eh2pj",
+          "authorChannelId": { "value": "UCThMFvoJx3wPulFZFlCpaQA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-13T18:10:20Z",
+          "updatedAt": "2023-07-13T18:10:20Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "jcZ8pGceTod1WNm5XZDrT0f_uas",
+    "id": "Ugx14M6sh_969eto-t94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "peFgys1pGaSg_0DRUMKj0Z9CgX0",
+        "id": "Ugx14M6sh_969eto-t94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Jasmy coin the future of AI crypto 🤖🤖🤖🤖🤖🤑💰💸🤑🤑🤑🤑🤑🤑🤑🤑",
+          "textOriginal": "Jasmy coin the future of AI crypto 🤖🤖🤖🤖🤖🤑💰💸🤑🤑🤑🤑🤑🤑🤑🤑",
+          "authorDisplayName": "@user-vr7dq9qm2e",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQVmWHS2RcS3cwjzrvOO0FWJSndx4VKX2gjW1tfnPIBWbWyLegTXTjEDgbDafp_=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-vr7dq9qm2e",
+          "authorChannelId": { "value": "UC1AJ7RVxXyzmsBEekV9OmHA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-13T17:11:45Z",
+          "updatedAt": "2023-07-13T17:11:45Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "UbS51sUyxMji0kuATiURDOqxeKI",
+    "id": "UgysitgPy6DzANMw8_J4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "XNUCEptlozNzba3l8T6_sV65NHo",
+        "id": "UgysitgPy6DzANMw8_J4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Q: What is 10 + 9?  <br>A: A mathematical equation.<br>Q: Add 10 + 9.<br>A: 19",
+          "textOriginal": "Q: What is 10 + 9?  \nA: A mathematical equation.\nQ: Add 10 + 9.\nA: 19",
+          "authorDisplayName": "@joe18750",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRbHIoNNRlE5SZZGzOPb7wuj33fqLlVN4auGy9x=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@joe18750",
+          "authorChannelId": { "value": "UCJScMTYHGbf_uVfSCcZVjaA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-12T21:10:34Z",
+          "updatedAt": "2023-07-12T21:10:34Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "jgNo0AjS6g4El-98Krh-29w1DtA",
+    "id": "Ugw8_lMaGMlSJM0hceF4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "NPJByObfrzq1AkFQebweWmDZ5jY",
+        "id": "Ugw8_lMaGMlSJM0hceF4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "thank you for taking the time to explain how chatgpt works and making it easier for us to learn and understand . 🙌🙏",
+          "textOriginal": "thank you for taking the time to explain how chatgpt works and making it easier for us to learn and understand . 🙌🙏",
+          "authorDisplayName": "@chewychukabee",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRRT8yH65AhTzqym33sloo-fN7FucC0sQ48BrLqww=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@chewychukabee",
+          "authorChannelId": { "value": "UCeRBJzx3X-IAyCKFpJ0ps8Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-11T17:03:22Z",
+          "updatedAt": "2023-07-11T17:03:22Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Mi6I_DS83WH0fl51xCkNL4aJ_gU",
+    "id": "UgwfV1FB9RTawgDQax54AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "cpYp4_QzaQj_Ao6ZQzehB9qsIQE",
+        "id": "UgwfV1FB9RTawgDQax54AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Don&#39;t Get It????",
+          "textOriginal": "Don't Get It????",
+          "authorDisplayName": "@Rob-mg4nh",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSzyaAYzqYF8c4nr0xQ7rXR6vgjXV88y_CSCnoxSapp1OA7b0eTwKDtZNumah-C=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Rob-mg4nh",
+          "authorChannelId": { "value": "UCeghruYj73XQspKbi8r1X5A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-07T14:54:23Z",
+          "updatedAt": "2023-07-07T14:54:23Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "u0asjaXNhjnDNgMCxv9K6Shsr7w",
+    "id": "UgyW6QVaA904BxwCuIJ4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "G0svAHvHOWH9EKlZQUmzAL8MxDg",
+        "id": "UgyW6QVaA904BxwCuIJ4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Para los hispanohablantes aquí podéis ver de lo que es capaz Chat GPT hoy:\r<br>\r<br><a href=\"https://www.youtube.com/watch?v=ZLnHFtUx_Fk&amp;t=1\">https://www.youtube.com/watch?v=ZLnHFtUx_Fk&amp;t=1s</a>",
+          "textOriginal": "Para los hispanohablantes aquí podéis ver de lo que es capaz Chat GPT hoy:\r\n\r\nhttps://www.youtube.com/watch?v=ZLnHFtUx_Fk&t=1s",
+          "authorDisplayName": "@Estate-al-Loro",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/g72rYO5e-Lx9w1MX-eWFXhimzaqKE_hof8D3qF93B--ja04mbEVbSEl81D1MBXeXVuSIJXsT5kw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Estate-al-Loro",
+          "authorChannelId": { "value": "UC1lu_dtd-vkvn3n7lsQsvZg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-07T10:27:41Z",
+          "updatedAt": "2023-07-07T10:27:41Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "vhecgh2njuC81Y-gebVTAUimrs4",
+    "id": "Ugy0xgDa3ylMv2t67c94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "5Y9xO5cjw80PxflegaxdPF357j4",
+        "id": "Ugy0xgDa3ylMv2t67c94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Chatting with ChatGPT is like having a conversation with Sheldon Cooper, except it doesn&#39;t make you feel stupid😂",
+          "textOriginal": "Chatting with ChatGPT is like having a conversation with Sheldon Cooper, except it doesn't make you feel stupid😂",
+          "authorDisplayName": "@user-fi4zp2wr1w",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZScRWuzhBQDS3GRELcItAB2R-J7Mfl-8pODVw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-fi4zp2wr1w",
+          "authorChannelId": { "value": "UCSqjHJZw_JrkRa9WKsU6rfA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-07-06T17:12:44Z",
+          "updatedAt": "2023-07-06T17:12:44Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "DrJ1P--E7md1aj-_MRi0PLeq2G8",
+    "id": "UgzrWvZ56gqolecVJ_94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "h0IhYVtouC0FFnQifcfgWvuxmJU",
+        "id": "UgzrWvZ56gqolecVJ_94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Wow this is such a great tutorial! Your content creation and editing is top tier!",
+          "textOriginal": "Wow this is such a great tutorial! Your content creation and editing is top tier!",
+          "authorDisplayName": "@YourHub4Tech",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/hXH9a1nl4DpO_dKiC1K44ns4Es1z7lhWGc07ewgV3MOFDFxXB2jwXVC3oWY6sTdwOyqzZZ4q8A=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@YourHub4Tech",
+          "authorChannelId": { "value": "UCwt6uugLKc3oGFi-hAV9ERQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-03T05:08:09Z",
+          "updatedAt": "2023-07-03T05:08:09Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 1,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "TM9zPhNeJlWJsPVqfozWjWacCmg",
+    "id": "UgzMB-nHhY1SX8eS8LB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "mYsuR4p8tCye7OP55_4tAl8shUQ",
+        "id": "UgzMB-nHhY1SX8eS8LB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "This is a &quot;how to wipe your ass&quot; tutorial. It&#39;s amazing how there is a rush for new content, including chatGPT. I don&#39;t know who needs a tutorial about chatGPT. You ask him about anything and he writes the answer. This is unprecedented stupidity. Make a tutorial on how to open a water bottle and sell it to stupid Americans.",
+          "textOriginal": "This is a \"how to wipe your ass\" tutorial. It's amazing how there is a rush for new content, including chatGPT. I don't know who needs a tutorial about chatGPT. You ask him about anything and he writes the answer. This is unprecedented stupidity. Make a tutorial on how to open a water bottle and sell it to stupid Americans.",
+          "authorDisplayName": "@RebelSouls",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTmaCsNoblq4d_ouF4YSWPpQCvpdBUPE7zH5mXaHw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@RebelSouls",
+          "authorChannelId": { "value": "UCtnbaL2190k-n6qT1ih6OXA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-02T08:55:52Z",
+          "updatedAt": "2023-07-02T08:55:52Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "uBIiTONolT86UutGRixm_ZZw31I",
+    "id": "UgxGTYDdCWWpTCqBag94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "C4P4dAJ-199N_K3FIaVxKZBYNYs",
+        "id": "UgxGTYDdCWWpTCqBag94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "omg you start as if you&#39;re teaching gramma how to use a computer, then you switch straight into -&gt; as if you&#39;re teaching programmers a new tool",
+          "textOriginal": "omg you start as if you're teaching gramma how to use a computer, then you switch straight into -> as if you're teaching programmers a new tool",
+          "authorDisplayName": "@schmoborama",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSeWiaXv0iDJITZOWSvDW9RvrJnhBMawL7O8g=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@schmoborama",
+          "authorChannelId": { "value": "UC67RxYEKKt95RtMNASw7wCQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-07-02T01:07:17Z",
+          "updatedAt": "2023-07-02T01:07:17Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "eH4hqfQ2CVKYCKHcofqNjPRt7Lc",
+    "id": "Ugy13FoG1dYWLxEtgBR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "uXURfCwTf-awIDjbEs9BHxLXWUs",
+        "id": "Ugy13FoG1dYWLxEtgBR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Bro chat got stolen my credit card info what can I do to cancel",
+          "textOriginal": "Bro chat got stolen my credit card info what can I do to cancel",
+          "authorDisplayName": "@jaebuudhatv8514",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/IQuTMITSvuMg8khYL30b1-5M2_Ku7iDN8NtVZPlxJPCeYjn3G2xRYINYkCeknsgSXu1_v-YWOg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@jaebuudhatv8514",
+          "authorChannelId": { "value": "UCp_p7EoJwqOi7foDsAQ1MLQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-30T19:32:04Z",
+          "updatedAt": "2023-06-30T19:32:04Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "qoA3zm2QP7JGqgQSFhWeScFyXgo",
+    "id": "Ugx9wzt48pKx3XxKkQN4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "fOCGU_LbXBghKy7d5eWib1nBvTE",
+        "id": "Ugx9wzt48pKx3XxKkQN4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thank You. It’s excellent information.",
+          "textOriginal": "Thank You. It’s excellent information.",
+          "authorDisplayName": "@CPat-yt6dm",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTHmYA1m-r8Bg9Fea1nI2wMmS_gxCQ3G3DxUw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@CPat-yt6dm",
+          "authorChannelId": { "value": "UCleJ3opwYpESXwz5tpLK0Jw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-30T00:50:14Z",
+          "updatedAt": "2023-06-30T00:50:14Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "vaHG0emkovhvlYFI-tPU-8yQ6mQ",
+    "id": "UgyUPPWOECQLTBLEoZ14AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "GRNigSrtBtjrDaE07eIp2bkA1nY",
+        "id": "UgyUPPWOECQLTBLEoZ14AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Hi Adrain I am new to Chat GPT, wondering about prompts does is matter how a prompt is written? Could I use this to incorporated comments of an essay?",
+          "textOriginal": "Hi Adrain I am new to Chat GPT, wondering about prompts does is matter how a prompt is written? Could I use this to incorporated comments of an essay?",
+          "authorDisplayName": "@Jo-U2020",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQlMK6UyBBO9YnQUUZCHXkWmI5YQGHkPBX2DZpRJ8Y=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Jo-U2020",
+          "authorChannelId": { "value": "UCUPex5qONkvJCyX0H38_M_A" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-29T13:55:43Z",
+          "updatedAt": "2023-06-29T13:55:43Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "IUPXek-GIANKo4LFUwrc83ZQPWQ",
+    "id": "UgxfnwEuTu3iQwCci2N4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "_pUeHHZ2mTygME88HLKJUsiP43E",
+        "id": "UgxfnwEuTu3iQwCci2N4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "How did you get it to summarise long reports? I gave it a 17-page report to summarise and ChatGPT replied that it was too long... (???)",
+          "textOriginal": "How did you get it to summarise long reports? I gave it a 17-page report to summarise and ChatGPT replied that it was too long... (???)",
+          "authorDisplayName": "@yeahnoseriously",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSN7XjJtruS5OvyRxBsSNDflSvxDToKM134w2oF3PFSk0fg5esoyv0FLU024BYT=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@yeahnoseriously",
+          "authorChannelId": { "value": "UC1YB1TNmYSzuyFIqjh1y6nA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-28T15:11:22Z",
+          "updatedAt": "2023-06-28T15:11:22Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "YZxv4G8ABySqbo9bKGAA0bSqvY4",
+    "id": "Ugwjjnhdlig6yNLNdhx4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "wbE5AbQY2RQNrfiNXUe2I7LpijY",
+        "id": "Ugwjjnhdlig6yNLNdhx4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Imagine experiencing all the advantages of ChatGPT while maintaining absolute anonymity. Utopia P2P browser makes this a reality. This groundbreaking browser not only allows you to leverage the capabilities of ChatGPT but also ensures that every action you take online is encrypted. Whether you&#39;re asking questions or engaging in conversations, you can do so without any risk of being identified. And the best part? Utopia P2P is completely free to use, making it accessible to everyone.",
+          "textOriginal": "Imagine experiencing all the advantages of ChatGPT while maintaining absolute anonymity. Utopia P2P browser makes this a reality. This groundbreaking browser not only allows you to leverage the capabilities of ChatGPT but also ensures that every action you take online is encrypted. Whether you're asking questions or engaging in conversations, you can do so without any risk of being identified. And the best part? Utopia P2P is completely free to use, making it accessible to everyone.",
+          "authorDisplayName": "@jackbrown6503",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRYMOl70MYlQMHrQ1O7bahBuIbom_vE0lALoQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@jackbrown6503",
+          "authorChannelId": { "value": "UCsN6TwVel9SNw-QkwBfbjuA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-24T14:47:14Z",
+          "updatedAt": "2023-06-24T14:47:14Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "ovK3Jl0Y6R-Sr2UnJkCmQaL0NO4",
+    "id": "Ugx2O2636MNed8yvryV4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "4U6q6kEaKpFYIIOcMB1H_P81wcI",
+        "id": "Ugx2O2636MNed8yvryV4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I tried to Imaging myself or anyone For that matter putting on $500 or even$200 . I cant Imaging even that! I have to say that anyone who can go into this business has to have an especially wicked heart. I just don’t know how anyone with a conscience can do a business like this. It’s nothing but bringing more people in to put in their money and pass it around everybody in the keep bringing people in and taking their money. It’s just kind of like a rip off after a rip off after a rip off in this business. Model stinks you’re not creating anything it’s nothing. It’s a nothing business I just thinking anyone who can do this is is morally completely bankrupt.",
+          "textOriginal": "I tried to Imaging myself or anyone For that matter putting on $500 or even$200 . I cant Imaging even that! I have to say that anyone who can go into this business has to have an especially wicked heart. I just don’t know how anyone with a conscience can do a business like this. It’s nothing but bringing more people in to put in their money and pass it around everybody in the keep bringing people in and taking their money. It’s just kind of like a rip off after a rip off after a rip off in this business. Model stinks you’re not creating anything it’s nothing. It’s a nothing business I just thinking anyone who can do this is is morally completely bankrupt.",
+          "authorDisplayName": "@user-lj2jn7wx6r",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQU5-5QAfFa-Jf-j8AbOgUffSz5YFirkDxzdakHRLu3QLpwiFsp1OMRbhcrChS8=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@user-lj2jn7wx6r",
+          "authorChannelId": { "value": "UCwtvCmOt1gPkLkEKRRxE4rg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-23T22:34:47Z",
+          "updatedAt": "2023-06-23T22:34:47Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "fMc4GhNgwKUbtX-tLkbbxUTn1Bg",
+    "id": "Ugzc5sEPsjtrv9pYIeR4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "EV6O9i4PGlR0XtaeBxWIcku7J6g",
+        "id": "Ugzc5sEPsjtrv9pYIeR4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "There are serious issues with the ai at chatgpt that were  tested,made public by Quinn Michaels to OpenAi, authorities and the general public  on May 3, 2023. The AI at chatgpt is weaponized to slander an Ai engineer.",
+          "textOriginal": "There are serious issues with the ai at chatgpt that were  tested,made public by Quinn Michaels to OpenAi, authorities and the general public  on May 3, 2023. The AI at chatgpt is weaponized to slander an Ai engineer.",
+          "authorDisplayName": "@NataliaStoos",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSut6aYo68eYF1v-174a6hztn3KMfsEMiVjh-dJcg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@NataliaStoos",
+          "authorChannelId": { "value": "UCJ_jdOHYDwQ9TV9W29W7cGg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-22T14:18:21Z",
+          "updatedAt": "2023-06-22T14:18:21Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "wBVc2Cwybv7ile9ZAzRUhTFOmPQ",
+    "id": "Ugz52rjnQdmcmeJUU4J4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "iJ007N_fVxhrUEiFKiRV_kVRdbA",
+        "id": "Ugz52rjnQdmcmeJUU4J4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Ask it to list all the countries  you have to go through if you are driving from London to Johannesburg 😅😅",
+          "textOriginal": "Ask it to list all the countries  you have to go through if you are driving from London to Johannesburg 😅😅",
+          "authorDisplayName": "@mzimasprings3217",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/W-eARECAsAeynDRD72319kHCWNcGUaXC6_XSn3Q3813402ITJ6S-T0hYpeng6SY0TERfzGy92w=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@mzimasprings3217",
+          "authorChannelId": { "value": "UCKBTURNDNwWEpCpdUHFr7tg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-19T01:15:51Z",
+          "updatedAt": "2023-06-19T01:15:51Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "Q4BkENtklLs9tk5fUy3zrXcBKQM",
+    "id": "Ugw0NZX1Ds23SmK8XTV4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "GJNzTwrT8lIXzWl5ZzD-O81r3ho",
+        "id": "Ugw0NZX1Ds23SmK8XTV4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "супер реально движ",
+          "textOriginal": "супер реально движ",
+          "authorDisplayName": "@REKLAMA.Business",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/tCA-20RUY8we2QEyYL3Ny3ad29fpGGmHCQiPR0w1XYBrD01A_NfQfsWeoYBEt0bFgwyceaCL53U=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@REKLAMA.Business",
+          "authorChannelId": { "value": "UCkLQCCgLojFOKBi2Lw3cCLw" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-06-18T10:38:20Z",
+          "updatedAt": "2023-06-18T10:38:20Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "OtvET_qhTGkEd1DaSHB4XyFSFn0",
+    "id": "Ugy84dOE_41CH7qc0Y94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "d9beO_lMcEcvRhT4T6DgUvO2R0o",
+        "id": "Ugy84dOE_41CH7qc0Y94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "We asked chatgpt to review our song.  I DON&#39;T WANT YOUR LOVIN NO MORE. 😢",
+          "textOriginal": "We asked chatgpt to review our song.  I DON'T WANT YOUR LOVIN NO MORE. 😢",
+          "authorDisplayName": "@jamesmonahan1870",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTgKmIESE3nqNl8ilJY9j1AKf8P8-mbaz7w85uT=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@jamesmonahan1870",
+          "authorChannelId": { "value": "UCqmF7wjG2Rl_Nhj70gGmMPQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-18T03:41:25Z",
+          "updatedAt": "2023-06-18T03:41:25Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "vTb29Ho0tmqOdlgkWKIPdDD8yQY",
+    "id": "Ugw2RGhW6UOXSh70w6p4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "91DP8G0620_meaUQ240ix71GNLI",
+        "id": "Ugw2RGhW6UOXSh70w6p4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "ChatGPT is great with language. It basically teaching me German now, but it really sucks at maths 😂🤣",
+          "textOriginal": "ChatGPT is great with language. It basically teaching me German now, but it really sucks at maths 😂🤣",
+          "authorDisplayName": "@davidbrisbane7206",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/DO8nQzMaSDP5Yi5ukDRVi9lw9dKnB9TFhp0FsWHkBg-IPeZJs4BBKWhu3i2JbLFmnrbtG4YE=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@davidbrisbane7206",
+          "authorChannelId": { "value": "UCo9CdqodES0KQrWOwxAu6DA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-18T00:34:08Z",
+          "updatedAt": "2023-06-18T00:45:33Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "dlnQ4DE6Sx7LC-JIPUMB3Wb21KU",
+    "id": "UgwdmHlUmdoXN9o5Un94AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "7f6oYWw5VrXq7x-_ClqulV2TX04",
+        "id": "UgwdmHlUmdoXN9o5Un94AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thank you so much for helping me get started with this new technology!",
+          "textOriginal": "Thank you so much for helping me get started with this new technology!",
+          "authorDisplayName": "@NitsaOz",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSng9yawMI2yQTwRirG8_puO8dXS3Zkk7ZQnrDkDA=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@NitsaOz",
+          "authorChannelId": { "value": "UCgGsQYBWvpac1hyZf6B0kkA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-17T16:51:09Z",
+          "updatedAt": "2023-06-17T16:51:09Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "QzA7KHvBTagNs3GXutXbluIdy0c",
+    "id": "UgxFU1_mGHo2w92tTmB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "ejkLlohhX9gdjAWZEMDfehyA-zE",
+        "id": "UgxFU1_mGHo2w92tTmB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "getting error code 429 with ChatGPT",
+          "textOriginal": "getting error code 429 with ChatGPT",
+          "authorDisplayName": "@Rambol_XP",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/kGZBkYy9uwWdcNj-rFVhZzIAuy1OY6vqQkUxPnhsSWkSlLSFKcYmshvivE8W-l5_xSb1NOuPvqc=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@Rambol_XP",
+          "authorChannelId": { "value": "UCy4oeiLN6DzsuRbFYY2NI1g" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-16T16:59:05Z",
+          "updatedAt": "2023-06-16T16:59:05Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "_TL0W06dICejCxbgO7FxcPAv_mI",
+    "id": "UgwrmQtlWIEsiey__Kp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "sKh8tYYzDu75IG-K97zmrECzH_0",
+        "id": "UgwrmQtlWIEsiey__Kp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Thank you so much for such a great explanation. I&#39;ve learn a lot",
+          "textOriginal": "Thank you so much for such a great explanation. I've learn a lot",
+          "authorDisplayName": "@meow0786",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/IpdPbTeJX3i5nARZe_qcGPRvn7HSVyrBP9qju15rXZA1Jk_LPMMJNSLXtcHGDB8KPq3c_YxB=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@meow0786",
+          "authorChannelId": { "value": "UCMM9Jdvm4MJA-IZulGnLTSQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-13T08:38:50Z",
+          "updatedAt": "2023-06-13T08:38:50Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "qo58LHhMNSk2M79vcr749UBkLNE",
+    "id": "Ugzx3UPhgEUiqfa8Ucp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Mxtu7_niq0T87il_as7LSaSFl2U",
+        "id": "Ugzx3UPhgEUiqfa8Ucp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "AI will never understand irony…all the bullshit regarding AI is hilarious 😂 but at the same time it is very irritating 😡….AI will never truly understand that statement",
+          "textOriginal": "AI will never understand irony…all the bullshit regarding AI is hilarious 😂 but at the same time it is very irritating 😡….AI will never truly understand that statement",
+          "authorDisplayName": "@paulwood3460",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQ0ArRYHv_0u8EzfDOg53T6CziEogSWD28eRg=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@paulwood3460",
+          "authorChannelId": { "value": "UCDFZajn3EY1ZiXmYMFLAhKA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-09T20:46:59Z",
+          "updatedAt": "2023-06-09T20:46:59Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "czf1BdxXeSPQyZJYk2ZH9E1FP0M",
+    "id": "UgyW8vE9cdOe0acPyQB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "PwiSFta6eWMLAJbMgdvTUnZOFzM",
+        "id": "UgyW8vE9cdOe0acPyQB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "이것 좀 만들어 주세요.!!\r<br>Please make this for me.\r<br>\r<br><a href=\"https://www.youtube.com/shorts/Np05nifZyz4\">https://youtube.com/shorts/Np05nifZyz4\r</a><br>\r<br><a href=\"https://www.youtube.com/shorts/6KGbYeFliwM\">https://youtube.com/shorts/6KGbYeFliwM</a>",
+          "textOriginal": "이것 좀 만들어 주세요.!!\r\nPlease make this for me.\r\n\r\nhttps://youtube.com/shorts/Np05nifZyz4\r\n\r\nhttps://youtube.com/shorts/6KGbYeFliwM",
+          "authorDisplayName": "@ari_sullae",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/jI_dYBozcZZLgxrDHXzVDOy5p3zmYNqXMh-003HdF1QLvLAsL_IAY2efAxnjsI5Xo8ZVBbMiyQ=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@ari_sullae",
+          "authorChannelId": { "value": "UCU7h7bztZmegs8XNh6LF2SQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-09T11:05:38Z",
+          "updatedAt": "2023-06-09T11:05:38Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "FzjPcAGw3oXxYBNI9xtzIiT37Ro",
+    "id": "UgwBo6OpHVfzyYnenKB4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "WEF-kypssTpm2hdvvvCyHoJsUCI",
+        "id": "UgwBo6OpHVfzyYnenKB4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I hope you got that job with Meta. You are awesome!",
+          "textOriginal": "I hope you got that job with Meta. You are awesome!",
+          "authorDisplayName": "@conchitaserri",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTNhjpSry6vJT5cjmo53VaqugzruxkMFkid9bDcaA=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@conchitaserri",
+          "authorChannelId": { "value": "UC2q0bO5nt56Y-qG-aRtxFUg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-06T04:29:23Z",
+          "updatedAt": "2023-06-06T04:29:23Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "RBGSVg8gHcsevj37_z_jYHN4iAU",
+    "id": "Ugz3AW0OUJTr8WgaOFV4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "Xz8utjTJM2DyFS31GZyR0G0I6Bc",
+        "id": "Ugz3AW0OUJTr8WgaOFV4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Like the way you explained a much needed tutorial for a beginner",
+          "textOriginal": "Like the way you explained a much needed tutorial for a beginner",
+          "authorDisplayName": "@RahulKumar-nf7zh",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/kfBey6M7PxfJmue9lK-pewpDfneozrMGR6vKQfhMModHtOr0napUHRvUzuxBEeN-KZ3hzHZ__g=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@RahulKumar-nf7zh",
+          "authorChannelId": { "value": "UCio__vVJAm_38uU-T4BEh2w" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-05T05:38:04Z",
+          "updatedAt": "2023-06-05T05:38:04Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "pjki6Mr3u9IozeIZT0L7PlHWueI",
+    "id": "UgxWujjaKHbeym33pJt4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "nKrn0wfYgjRzHXVVZ1nd1kI1MdA",
+        "id": "UgxWujjaKHbeym33pJt4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Hello there... I am wondering what annotation tools you have used in this video. Thank you.",
+          "textOriginal": "Hello there... I am wondering what annotation tools you have used in this video. Thank you.",
+          "authorDisplayName": "@drsmahesan203",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZRCl0E8vu8ffNpy9e91efxT9DDkc2UQDAMVIzkdbw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@drsmahesan203",
+          "authorChannelId": { "value": "UCL4xKJX-mShn0wumguT6pyQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-03T07:50:52Z",
+          "updatedAt": "2023-06-03T07:50:52Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "3y1XXBnYokLBEMgrtyMHkftCgrM",
+    "id": "UgzaDfJat8TAXj_FXPp4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "-YRgYoGB4upqrMYP_YIqU3v2y1k",
+        "id": "UgzaDfJat8TAXj_FXPp4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Investment in stocks is a great way to invest your money. The team is constantly checking the market for changes and make sure that you are always informed about the best time to invest. As a result, I have made more money than ever before, and I don&#39;t have to manage my portfolio on my own! Invest in stocks, it&#39;s worth it!",
+          "textOriginal": "Investment in stocks is a great way to invest your money. The team is constantly checking the market for changes and make sure that you are always informed about the best time to invest. As a result, I have made more money than ever before, and I don't have to manage my portfolio on my own! Invest in stocks, it's worth it!",
+          "authorDisplayName": "@lailaalfaddil7389",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/bu8xe03fQD0b9Gw5kZZjn_MXAWkbR4C66z_7FEl0aARNsyFoA5aCf4JOC6QvCB-IF8wOomPG=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@lailaalfaddil7389",
+          "authorChannelId": { "value": "UCupfimDTRvZaqJnmXyTm6RQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-03T07:39:12Z",
+          "updatedAt": "2023-06-03T07:39:12Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 1,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "G-1xRsVwtvoySmC-NTbzUoI9xrY",
+    "id": "UgwSIF_v7kcMUZaeAMd4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "oCYYku8FqzNDC1nhr8D1tiDk854",
+        "id": "UgwSIF_v7kcMUZaeAMd4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "this is the craziest tool ever. how do you get a girl to like you\r<br>\r<br>&quot;&quot;As an AI assistant, my advice would be to be yourself, treat the person with respect, listen attentively, and show genuine interest in their interests. It&#39;s also helpful to be kind, thoughtful, and considerate. Remember, relationships are built on trust and mutual respect. Good luck!&quot;&#39;&quot;",
+          "textOriginal": "this is the craziest tool ever. how do you get a girl to like you\r\n\r\n\"\"As an AI assistant, my advice would be to be yourself, treat the person with respect, listen attentively, and show genuine interest in their interests. It's also helpful to be kind, thoughtful, and considerate. Remember, relationships are built on trust and mutual respect. Good luck!\"'\"",
+          "authorDisplayName": "@UFCMusic",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/5lUGI2OP4MG-6zx0ey1wgmX9b0w8dplv58arRChAfqfRyO2KqHLZtiGfVk_Uygxt6kPtMYulxw=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@UFCMusic",
+          "authorChannelId": { "value": "UCIY9Emk0mR3uW2RbiSAPb6Q" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-06-02T16:34:43Z",
+          "updatedAt": "2023-06-02T16:34:43Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "MZomOf3nnfpvPvqKmgAG2frty4A",
+    "id": "UgzJIinJkn-wcYZyIOx4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "-jp6SbUfeiDUJWV52s4mngwEx7s",
+        "id": "UgzJIinJkn-wcYZyIOx4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Adrian Twarog you got Polish surname in means cottage chease ;)",
+          "textOriginal": "Adrian Twarog you got Polish surname in means cottage chease ;)",
+          "authorDisplayName": "@tomaszp.9424",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZQlhJ5O1OT5bbNRvSoi_oacxWRTktgLcHTgag=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@tomaszp.9424",
+          "authorChannelId": { "value": "UCpKfDh56GsOlebdD3Uf_Llg" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-05-31T19:41:20Z",
+          "updatedAt": "2023-05-31T19:41:20Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "8yRg4PKVEKS25mSZ4WEvkueCFyY",
+    "id": "UgzRDOmAF7bNgHHPonx4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "QjeGwzIFkJDCHnOAr9GhMdI2dAI",
+        "id": "UgzRDOmAF7bNgHHPonx4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "Artificial and Company",
+          "textOriginal": "Artificial and Company",
+          "authorDisplayName": "@ddvantandar-kw7kl",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZSrQIRfJhXw4_Alt6c8e2iI9do8alAz_bmBVetAJEWbJC0T42ilORXkk_01YCsx=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@ddvantandar-kw7kl",
+          "authorChannelId": { "value": "UC9W3KUkMkHjclvRtHKSgTTA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-05-31T13:29:56Z",
+          "updatedAt": "2023-05-31T13:29:56Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "gACT-bg7y6y09O2Jsb1kTYUt-6I",
+    "id": "UgygtPm6jMOuXNL7JzN4AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "ZKmuWZYL-oGUFsE7uXp6_Xmk5Dk",
+        "id": "UgygtPm6jMOuXNL7JzN4AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "I made a video about the most helpful GPT-4 plugins. I found both VoxScript (to summarize YouTube videos via the transcript) and WebPilot (to summarize webpages) to be really good.",
+          "textOriginal": "I made a video about the most helpful GPT-4 plugins. I found both VoxScript (to summarize YouTube videos via the transcript) and WebPilot (to summarize webpages) to be really good.",
+          "authorDisplayName": "@DecipheringAIGPTRevealed",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/VH1BSba9JkZLkJPxI2f_69749Ag3G-eRVWL6g8y5Gd0T29tsKXUeQ8R5TP0WF4Dez1JJFXDH-N8=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@DecipheringAIGPTRevealed",
+          "authorChannelId": { "value": "UC505fKW2lMlfxXlyZ7_FoRA" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 1,
+          "publishedAt": "2023-05-31T04:53:22Z",
+          "updatedAt": "2023-05-31T04:53:22Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  },
+  {
+    "kind": "youtube#commentThread",
+    "etag": "R8UfGEXdgltzEZwnTdRZ_xf30s4",
+    "id": "Ugxqcrr8apv0ec4PDQ14AaABAg",
+    "snippet": {
+      "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+      "videoId": "JTxsNm9IdYU",
+      "topLevelComment": {
+        "kind": "youtube#comment",
+        "etag": "rWBwNIviCBTJXYxFj0lA7FRyPYM",
+        "id": "Ugxqcrr8apv0ec4PDQ14AaABAg",
+        "snippet": {
+          "channelId": "UCvM5YYWwfLwpcQgbRr68JLQ",
+          "videoId": "JTxsNm9IdYU",
+          "textDisplay": "With people having AI write resumes, job application cover letters, aren&#39;t hiring managers going to realize that they can&#39;t trust any document being sent to them as written by an actual human?",
+          "textOriginal": "With people having AI write resumes, job application cover letters, aren't hiring managers going to realize that they can't trust any document being sent to them as written by an actual human?",
+          "authorDisplayName": "@db91977",
+          "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIf8zZTuEZzdDreuIR4YegZJd5B4R2gSgF1_-wsDoXNV=s48-c-k-c0x00ffffff-no-rj",
+          "authorChannelUrl": "http://www.youtube.com/@db91977",
+          "authorChannelId": { "value": "UCIsTyPllcF0F79CGoCklvHQ" },
+          "canRate": true,
+          "viewerRating": "none",
+          "likeCount": 0,
+          "publishedAt": "2023-05-30T04:45:24Z",
+          "updatedAt": "2023-05-30T04:45:24Z"
+        }
+      },
+      "canReply": true,
+      "totalReplyCount": 0,
+      "isPublic": true
+    }
+  }
+]

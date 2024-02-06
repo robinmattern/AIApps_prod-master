@@ -1,0 +1,1048 @@
+{
+  lc_serializable: true,
+  lc_kwargs: {
+    first: {
+      lc_serializable: true,
+      lc_kwargs: {
+        mapper: {
+          lc_serializable: true,
+          lc_kwargs: {
+            steps: {
+              input: (x) => {
+                if ("question" in x) {
+                    return `${x.question}\nSQLQuery: `;
+                }
+                throw new Error("Input must include a question property.");
+              },
+              table_info: async (x) => db.getTableInfo(x.tableNamesToUse),
+            },
+          },
+          lc_runnable: true,
+          name: undefined,
+          lc_namespace: [
+            "langchain_core",
+            "runnables",
+          ],
+          steps: {
+            input: {
+              lc_serializable: false,
+              lc_kwargs: {
+                func: (x) => {
+                  if ("question" in x) {
+                      return `${x.question}\nSQLQuery: `;
+                  }
+                  throw new Error("Input must include a question property.");
+                },
+              },
+              lc_runnable: true,
+              name: undefined,
+              lc_namespace: [
+                "langchain_core",
+                "runnables",
+              ],
+              func: (x) => {
+                if ("question" in x) {
+                    return `${x.question}\nSQLQuery: `;
+                }
+                throw new Error("Input must include a question property.");
+              },
+            },
+            table_info: {
+              lc_serializable: false,
+              lc_kwargs: {
+                func: async (x) => db.getTableInfo(x.tableNamesToUse),
+              },
+              lc_runnable: true,
+              name: undefined,
+              lc_namespace: [
+                "langchain_core",
+                "runnables",
+              ],
+              func: async (x) => db.getTableInfo(x.tableNamesToUse),
+            },
+          },
+        },
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "runnables",
+      ],
+      mapper: {
+        lc_serializable: true,
+        lc_kwargs: {
+          steps: {
+            input: (x) => {
+              if ("question" in x) {
+                  return `${x.question}\nSQLQuery: `;
+              }
+              throw new Error("Input must include a question property.");
+            },
+            table_info: async (x) => db.getTableInfo(x.tableNamesToUse),
+          },
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "runnables",
+        ],
+        steps: {
+          input: {
+            lc_serializable: false,
+            lc_kwargs: {
+              func: (x) => {
+                if ("question" in x) {
+                    return `${x.question}\nSQLQuery: `;
+                }
+                throw new Error("Input must include a question property.");
+              },
+            },
+            lc_runnable: true,
+            name: undefined,
+            lc_namespace: [
+              "langchain_core",
+              "runnables",
+            ],
+            func: (x) => {
+              if ("question" in x) {
+                  return `${x.question}\nSQLQuery: `;
+              }
+              throw new Error("Input must include a question property.");
+            },
+          },
+          table_info: {
+            lc_serializable: false,
+            lc_kwargs: {
+              func: async (x) => db.getTableInfo(x.tableNamesToUse),
+            },
+            lc_runnable: true,
+            name: undefined,
+            lc_namespace: [
+              "langchain_core",
+              "runnables",
+            ],
+            func: async (x) => db.getTableInfo(x.tableNamesToUse),
+          },
+        },
+      },
+    },
+    middle: [
+      {
+        lc_serializable: false,
+        lc_kwargs: {
+          func: (x) => {
+            const newInputs = { ...x };
+            delete newInputs.question;
+            delete newInputs.tableNamesToUse;
+            return newInputs;
+          },
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "runnables",
+        ],
+        func: (x) => {
+          const newInputs = { ...x };
+          delete newInputs.question;
+          delete newInputs.tableNamesToUse;
+          return newInputs;
+        },
+      },
+      {
+        lc_serializable: true,
+        lc_kwargs: {
+          template: "You are a SQLite expert. Given an input question, first create a syntactically correct SQLite query to run, then look at the results of the query and return the answer to the input question.\nUnless the user specifies in the question a specific number of examples to obtain, query for at most {top_k} results using the LIMIT clause as per SQLite. You can order the results to return the most informative data in the database.\nNever query for all columns from a table. You must query only the columns that are needed to answer the question. Wrap each column name in double quotes (\") to denote them as delimited identifiers.\nPay attention to use only the column names you can see in the tables below. Be careful to not query for columns that do not exist. Also, pay attention to which column is in which table.\n\nUse the following format:\n\nQuestion: \"Question here\"\nSQLQuery: \"SQL Query to run\"\nSQLResult: \"Result of the SQLQuery\"\nAnswer: \"Final answer here\"\n\nOnly use the following tables:\n{table_info}\n\nQuestion: {input}",
+          inputVariables: [
+            "dialect",
+            "table_info",
+            "input",
+            "top_k",
+          ],
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "prompts",
+          "prompt",
+        ],
+        inputVariables: [
+          "table_info",
+          "input",
+        ],
+        outputParser: undefined,
+        partialVariables: {
+          dialect: "sqlite",
+          top_k: "5",
+        },
+        template: "You are a SQLite expert. Given an input question, first create a syntactically correct SQLite query to run, then look at the results of the query and return the answer to the input question.\nUnless the user specifies in the question a specific number of examples to obtain, query for at most {top_k} results using the LIMIT clause as per SQLite. You can order the results to return the most informative data in the database.\nNever query for all columns from a table. You must query only the columns that are needed to answer the question. Wrap each column name in double quotes (\") to denote them as delimited identifiers.\nPay attention to use only the column names you can see in the tables below. Be careful to not query for columns that do not exist. Also, pay attention to which column is in which table.\n\nUse the following format:\n\nQuestion: \"Question here\"\nSQLQuery: \"SQL Query to run\"\nSQLResult: \"Result of the SQLQuery\"\nAnswer: \"Final answer here\"\n\nOnly use the following tables:\n{table_info}\n\nQuestion: {input}",
+        templateFormat: "f-string",
+        validateTemplate: true,
+      },
+      {
+        lc_serializable: true,
+        lc_kwargs: {
+          bound: {
+            lc_serializable: true,
+            lc_kwargs: {
+              callbacks: undefined,
+              temperature: 0,
+            },
+            lc_runnable: true,
+            name: undefined,
+            verbose: false,
+            callbacks: undefined,
+            tags: [
+            ],
+            metadata: {
+            },
+            caller: {
+              maxConcurrency: Infinity,
+              maxRetries: 6,
+              onFailedAttempt: (error) => {
+                if (error.message.startsWith("Cancel") ||
+                    error.message.startsWith("TimeoutError") ||
+                    error.name === "TimeoutError" ||
+                    error.message.startsWith("AbortError") ||
+                    error.name === "AbortError") {
+                    throw error;
+                }
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                if (error?.code === "ECONNABORTED") {
+                    throw error;
+                }
+                const status =
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                error?.response?.status ?? error?.status;
+                if (status && STATUS_NO_RETRY.includes(+status)) {
+                    throw error;
+                }
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                if (error?.error?.code === "insufficient_quota") {
+                    const err = new Error(error?.message);
+                    err.name = "InsufficientQuotaError";
+                    throw err;
+                }
+              },
+              queue: {
+                _events: {
+                },
+                _eventsCount: 0,
+                _intervalCount: 0,
+                _intervalEnd: 0,
+                _pendingCount: 0,
+                _resolveEmpty: () => { },
+                _resolveIdle: () => { },
+                _carryoverConcurrencyCount: false,
+                _isIntervalIgnored: true,
+                _intervalCap: Infinity,
+                _interval: 0,
+                _queue: {
+                  _queue: [
+                  ],
+                },
+                _queueClass: class PriorityQueue {
+                  constructor() {
+                      this._queue = [];
+                  }
+                  enqueue(run, options) {
+                      options = Object.assign({ priority: 0 }, options);
+                      const element = {
+                          priority: options.priority,
+                          run
+                      };
+                      if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                          this._queue.push(element);
+                          return;
+                      }
+                      const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+                      this._queue.splice(index, 0, element);
+                  }
+                  dequeue() {
+                      const item = this._queue.shift();
+                      return item === null || item === void 0 ? void 0 : item.run;
+                  }
+                  filter(options) {
+                      return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+                  }
+                  get size() {
+                      return this._queue.length;
+                  }
+                },
+                _concurrency: Infinity,
+                _intervalId: undefined,
+                _timeout: undefined,
+                _throwOnTimeout: false,
+                _isPaused: false,
+              },
+            },
+            cache: undefined,
+            _encoding: undefined,
+            lc_namespace: [
+              "langchain",
+              "chat_models",
+              "openai",
+            ],
+            temperature: 0,
+            topP: 1,
+            frequencyPenalty: 0,
+            presencePenalty: 0,
+            n: 1,
+            logitBias: undefined,
+            modelName: "gpt-3.5-turbo",
+            modelKwargs: {
+            },
+            stop: undefined,
+            user: undefined,
+            timeout: undefined,
+            streaming: false,
+            maxTokens: undefined,
+            logprobs: undefined,
+            topLogprobs: undefined,
+            openAIApiKey: "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",
+            azureOpenAIApiVersion: undefined,
+            azureOpenAIApiKey: undefined,
+            azureOpenAIApiInstanceName: undefined,
+            azureOpenAIApiDeploymentName: undefined,
+            azureOpenAIBasePath: undefined,
+            organization: undefined,
+            client: undefined,
+            clientConfig: {
+              apiKey: "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",
+              organization: undefined,
+              baseURL: undefined,
+              dangerouslyAllowBrowser: true,
+              defaultHeaders: undefined,
+              defaultQuery: undefined,
+            },
+          },
+          kwargs: {
+            stop: [
+              "\nSQLResult:",
+            ],
+          },
+          config: {
+          },
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "runnables",
+        ],
+        bound: {
+          lc_serializable: true,
+          lc_kwargs: {
+            callbacks: undefined,
+            temperature: 0,
+          },
+          lc_runnable: true,
+          name: undefined,
+          verbose: false,
+          callbacks: undefined,
+          tags: [
+          ],
+          metadata: {
+          },
+          caller: {
+            maxConcurrency: Infinity,
+            maxRetries: 6,
+            onFailedAttempt: (error) => {
+              if (error.message.startsWith("Cancel") ||
+                  error.message.startsWith("TimeoutError") ||
+                  error.name === "TimeoutError" ||
+                  error.message.startsWith("AbortError") ||
+                  error.name === "AbortError") {
+                  throw error;
+              }
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              if (error?.code === "ECONNABORTED") {
+                  throw error;
+              }
+              const status =
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              error?.response?.status ?? error?.status;
+              if (status && STATUS_NO_RETRY.includes(+status)) {
+                  throw error;
+              }
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              if (error?.error?.code === "insufficient_quota") {
+                  const err = new Error(error?.message);
+                  err.name = "InsufficientQuotaError";
+                  throw err;
+              }
+            },
+            queue: {
+              _events: {
+              },
+              _eventsCount: 0,
+              _intervalCount: 0,
+              _intervalEnd: 0,
+              _pendingCount: 0,
+              _resolveEmpty: () => { },
+              _resolveIdle: () => { },
+              _carryoverConcurrencyCount: false,
+              _isIntervalIgnored: true,
+              _intervalCap: Infinity,
+              _interval: 0,
+              _queue: {
+                _queue: [
+                ],
+              },
+              _queueClass: class PriorityQueue {
+                constructor() {
+                    this._queue = [];
+                }
+                enqueue(run, options) {
+                    options = Object.assign({ priority: 0 }, options);
+                    const element = {
+                        priority: options.priority,
+                        run
+                    };
+                    if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                        this._queue.push(element);
+                        return;
+                    }
+                    const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+                    this._queue.splice(index, 0, element);
+                }
+                dequeue() {
+                    const item = this._queue.shift();
+                    return item === null || item === void 0 ? void 0 : item.run;
+                }
+                filter(options) {
+                    return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+                }
+                get size() {
+                    return this._queue.length;
+                }
+              },
+              _concurrency: Infinity,
+              _intervalId: undefined,
+              _timeout: undefined,
+              _throwOnTimeout: false,
+              _isPaused: false,
+            },
+          },
+          cache: undefined,
+          _encoding: undefined,
+          lc_namespace: [
+            "langchain",
+            "chat_models",
+            "openai",
+          ],
+          temperature: 0,
+          topP: 1,
+          frequencyPenalty: 0,
+          presencePenalty: 0,
+          n: 1,
+          logitBias: undefined,
+          modelName: "gpt-3.5-turbo",
+          modelKwargs: {
+          },
+          stop: undefined,
+          user: undefined,
+          timeout: undefined,
+          streaming: false,
+          maxTokens: undefined,
+          logprobs: undefined,
+          topLogprobs: undefined,
+          openAIApiKey: "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",
+          azureOpenAIApiVersion: undefined,
+          azureOpenAIApiKey: undefined,
+          azureOpenAIApiInstanceName: undefined,
+          azureOpenAIApiDeploymentName: undefined,
+          azureOpenAIBasePath: undefined,
+          organization: undefined,
+          client: undefined,
+          clientConfig: {
+            apiKey: "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",
+            organization: undefined,
+            baseURL: undefined,
+            dangerouslyAllowBrowser: true,
+            defaultHeaders: undefined,
+            defaultQuery: undefined,
+          },
+        },
+        config: {
+        },
+        kwargs: {
+          stop: [
+            "\nSQLResult:",
+          ],
+        },
+        configFactories: undefined,
+      },
+      {
+        lc_serializable: true,
+        lc_kwargs: {
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "output_parsers",
+          "string",
+        ],
+      },
+    ],
+    last: {
+      lc_serializable: false,
+      lc_kwargs: {
+        func: (text) => {
+          // Replace escaped quotes with actual quotes
+          let newText = text.replace(/\\"/g, '"').trim();
+          // Remove wrapping quotes if the entire string is wrapped in quotes
+          if (newText.startsWith('"') && newText.endsWith('"')) {
+              newText = newText.substring(1, newText.length - 1);
+          }
+          return newText;
+        },
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "runnables",
+      ],
+      func: (text) => {
+        // Replace escaped quotes with actual quotes
+        let newText = text.replace(/\\"/g, '"').trim();
+        // Remove wrapping quotes if the entire string is wrapped in quotes
+        if (newText.startsWith('"') && newText.endsWith('"')) {
+            newText = newText.substring(1, newText.length - 1);
+        }
+        return newText;
+      },
+    },
+    name: undefined,
+  },
+  lc_runnable: true,
+  name: undefined,
+  first: {
+    lc_serializable: true,
+    lc_kwargs: {
+      mapper: {
+        lc_serializable: true,
+        lc_kwargs: {
+          steps: {
+            input: (x) => {
+              if ("question" in x) {
+                  return `${x.question}\nSQLQuery: `;
+              }
+              throw new Error("Input must include a question property.");
+            },
+            table_info: async (x) => db.getTableInfo(x.tableNamesToUse),
+          },
+        },
+        lc_runnable: true,
+        name: undefined,
+        lc_namespace: [
+          "langchain_core",
+          "runnables",
+        ],
+        steps: {
+          input: {
+            lc_serializable: false,
+            lc_kwargs: {
+              func: (x) => {
+                if ("question" in x) {
+                    return `${x.question}\nSQLQuery: `;
+                }
+                throw new Error("Input must include a question property.");
+              },
+            },
+            lc_runnable: true,
+            name: undefined,
+            lc_namespace: [
+              "langchain_core",
+              "runnables",
+            ],
+            func: (x) => {
+              if ("question" in x) {
+                  return `${x.question}\nSQLQuery: `;
+              }
+              throw new Error("Input must include a question property.");
+            },
+          },
+          table_info: {
+            lc_serializable: false,
+            lc_kwargs: {
+              func: async (x) => db.getTableInfo(x.tableNamesToUse),
+            },
+            lc_runnable: true,
+            name: undefined,
+            lc_namespace: [
+              "langchain_core",
+              "runnables",
+            ],
+            func: async (x) => db.getTableInfo(x.tableNamesToUse),
+          },
+        },
+      },
+    },
+    lc_runnable: true,
+    name: undefined,
+    lc_namespace: [
+      "langchain_core",
+      "runnables",
+    ],
+    mapper: {
+      lc_serializable: true,
+      lc_kwargs: {
+        steps: {
+          input: (x) => {
+            if ("question" in x) {
+                return `${x.question}\nSQLQuery: `;
+            }
+            throw new Error("Input must include a question property.");
+          },
+          table_info: async (x) => db.getTableInfo(x.tableNamesToUse),
+        },
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "runnables",
+      ],
+      steps: {
+        input: {
+          lc_serializable: false,
+          lc_kwargs: {
+            func: (x) => {
+              if ("question" in x) {
+                  return `${x.question}\nSQLQuery: `;
+              }
+              throw new Error("Input must include a question property.");
+            },
+          },
+          lc_runnable: true,
+          name: undefined,
+          lc_namespace: [
+            "langchain_core",
+            "runnables",
+          ],
+          func: (x) => {
+            if ("question" in x) {
+                return `${x.question}\nSQLQuery: `;
+            }
+            throw new Error("Input must include a question property.");
+          },
+        },
+        table_info: {
+          lc_serializable: false,
+          lc_kwargs: {
+            func: async (x) => db.getTableInfo(x.tableNamesToUse),
+          },
+          lc_runnable: true,
+          name: undefined,
+          lc_namespace: [
+            "langchain_core",
+            "runnables",
+          ],
+          func: async (x) => db.getTableInfo(x.tableNamesToUse),
+        },
+      },
+    },
+  },
+  middle: [
+    {
+      lc_serializable: false,
+      lc_kwargs: {
+        func: (x) => {
+          const newInputs = { ...x };
+          delete newInputs.question;
+          delete newInputs.tableNamesToUse;
+          return newInputs;
+        },
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "runnables",
+      ],
+      func: (x) => {
+        const newInputs = { ...x };
+        delete newInputs.question;
+        delete newInputs.tableNamesToUse;
+        return newInputs;
+      },
+    },
+    {
+      lc_serializable: true,
+      lc_kwargs: {
+        template: "You are a SQLite expert. Given an input question, first create a syntactically correct SQLite query to run, then look at the results of the query and return the answer to the input question.\nUnless the user specifies in the question a specific number of examples to obtain, query for at most {top_k} results using the LIMIT clause as per SQLite. You can order the results to return the most informative data in the database.\nNever query for all columns from a table. You must query only the columns that are needed to answer the question. Wrap each column name in double quotes (\") to denote them as delimited identifiers.\nPay attention to use only the column names you can see in the tables below. Be careful to not query for columns that do not exist. Also, pay attention to which column is in which table.\n\nUse the following format:\n\nQuestion: \"Question here\"\nSQLQuery: \"SQL Query to run\"\nSQLResult: \"Result of the SQLQuery\"\nAnswer: \"Final answer here\"\n\nOnly use the following tables:\n{table_info}\n\nQuestion: {input}",
+        inputVariables: [
+          "dialect",
+          "table_info",
+          "input",
+          "top_k",
+        ],
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "prompts",
+        "prompt",
+      ],
+      inputVariables: [
+        "table_info",
+        "input",
+      ],
+      outputParser: undefined,
+      partialVariables: {
+        dialect: "sqlite",
+        top_k: "5",
+      },
+      template: "You are a SQLite expert. Given an input question, first create a syntactically correct SQLite query to run, then look at the results of the query and return the answer to the input question.\nUnless the user specifies in the question a specific number of examples to obtain, query for at most {top_k} results using the LIMIT clause as per SQLite. You can order the results to return the most informative data in the database.\nNever query for all columns from a table. You must query only the columns that are needed to answer the question. Wrap each column name in double quotes (\") to denote them as delimited identifiers.\nPay attention to use only the column names you can see in the tables below. Be careful to not query for columns that do not exist. Also, pay attention to which column is in which table.\n\nUse the following format:\n\nQuestion: \"Question here\"\nSQLQuery: \"SQL Query to run\"\nSQLResult: \"Result of the SQLQuery\"\nAnswer: \"Final answer here\"\n\nOnly use the following tables:\n{table_info}\n\nQuestion: {input}",
+      templateFormat: "f-string",
+      validateTemplate: true,
+    },
+    {
+      lc_serializable: true,
+      lc_kwargs: {
+        bound: {
+          lc_serializable: true,
+          lc_kwargs: {
+            callbacks: undefined,
+            temperature: 0,
+          },
+          lc_runnable: true,
+          name: undefined,
+          verbose: false,
+          callbacks: undefined,
+          tags: [
+          ],
+          metadata: {
+          },
+          caller: {
+            maxConcurrency: Infinity,
+            maxRetries: 6,
+            onFailedAttempt: (error) => {
+              if (error.message.startsWith("Cancel") ||
+                  error.message.startsWith("TimeoutError") ||
+                  error.name === "TimeoutError" ||
+                  error.message.startsWith("AbortError") ||
+                  error.name === "AbortError") {
+                  throw error;
+              }
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              if (error?.code === "ECONNABORTED") {
+                  throw error;
+              }
+              const status =
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              error?.response?.status ?? error?.status;
+              if (status && STATUS_NO_RETRY.includes(+status)) {
+                  throw error;
+              }
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              if (error?.error?.code === "insufficient_quota") {
+                  const err = new Error(error?.message);
+                  err.name = "InsufficientQuotaError";
+                  throw err;
+              }
+            },
+            queue: {
+              _events: {
+              },
+              _eventsCount: 0,
+              _intervalCount: 0,
+              _intervalEnd: 0,
+              _pendingCount: 0,
+              _resolveEmpty: () => { },
+              _resolveIdle: () => { },
+              _carryoverConcurrencyCount: false,
+              _isIntervalIgnored: true,
+              _intervalCap: Infinity,
+              _interval: 0,
+              _queue: {
+                _queue: [
+                ],
+              },
+              _queueClass: class PriorityQueue {
+                constructor() {
+                    this._queue = [];
+                }
+                enqueue(run, options) {
+                    options = Object.assign({ priority: 0 }, options);
+                    const element = {
+                        priority: options.priority,
+                        run
+                    };
+                    if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                        this._queue.push(element);
+                        return;
+                    }
+                    const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+                    this._queue.splice(index, 0, element);
+                }
+                dequeue() {
+                    const item = this._queue.shift();
+                    return item === null || item === void 0 ? void 0 : item.run;
+                }
+                filter(options) {
+                    return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+                }
+                get size() {
+                    return this._queue.length;
+                }
+              },
+              _concurrency: Infinity,
+              _intervalId: undefined,
+              _timeout: undefined,
+              _throwOnTimeout: false,
+              _isPaused: false,
+            },
+          },
+          cache: undefined,
+          _encoding: undefined,
+          lc_namespace: [
+            "langchain",
+            "chat_models",
+            "openai",
+          ],
+          temperature: 0,
+          topP: 1,
+          frequencyPenalty: 0,
+          presencePenalty: 0,
+          n: 1,
+          logitBias: undefined,
+          modelName: "gpt-3.5-turbo",
+          modelKwargs: {
+          },
+          stop: undefined,
+          user: undefined,
+          timeout: undefined,
+          streaming: false,
+          maxTokens: undefined,
+          logprobs: undefined,
+          topLogprobs: undefined,
+          openAIApiKey: "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",
+          azureOpenAIApiVersion: undefined,
+          azureOpenAIApiKey: undefined,
+          azureOpenAIApiInstanceName: undefined,
+          azureOpenAIApiDeploymentName: undefined,
+          azureOpenAIBasePath: undefined,
+          organization: undefined,
+          client: undefined,
+          clientConfig: {
+            apiKey: "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",
+            organization: undefined,
+            baseURL: undefined,
+            dangerouslyAllowBrowser: true,
+            defaultHeaders: undefined,
+            defaultQuery: undefined,
+          },
+        },
+        kwargs: {
+          stop: [
+            "\nSQLResult:",
+          ],
+        },
+        config: {
+        },
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "runnables",
+      ],
+      bound: {
+        lc_serializable: true,
+        lc_kwargs: {
+          callbacks: undefined,
+          temperature: 0,
+        },
+        lc_runnable: true,
+        name: undefined,
+        verbose: false,
+        callbacks: undefined,
+        tags: [
+        ],
+        metadata: {
+        },
+        caller: {
+          maxConcurrency: Infinity,
+          maxRetries: 6,
+          onFailedAttempt: (error) => {
+            if (error.message.startsWith("Cancel") ||
+                error.message.startsWith("TimeoutError") ||
+                error.name === "TimeoutError" ||
+                error.message.startsWith("AbortError") ||
+                error.name === "AbortError") {
+                throw error;
+            }
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            if (error?.code === "ECONNABORTED") {
+                throw error;
+            }
+            const status =
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            error?.response?.status ?? error?.status;
+            if (status && STATUS_NO_RETRY.includes(+status)) {
+                throw error;
+            }
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            if (error?.error?.code === "insufficient_quota") {
+                const err = new Error(error?.message);
+                err.name = "InsufficientQuotaError";
+                throw err;
+            }
+          },
+          queue: {
+            _events: {
+            },
+            _eventsCount: 0,
+            _intervalCount: 0,
+            _intervalEnd: 0,
+            _pendingCount: 0,
+            _resolveEmpty: () => { },
+            _resolveIdle: () => { },
+            _carryoverConcurrencyCount: false,
+            _isIntervalIgnored: true,
+            _intervalCap: Infinity,
+            _interval: 0,
+            _queue: {
+              _queue: [
+              ],
+            },
+            _queueClass: class PriorityQueue {
+              constructor() {
+                  this._queue = [];
+              }
+              enqueue(run, options) {
+                  options = Object.assign({ priority: 0 }, options);
+                  const element = {
+                      priority: options.priority,
+                      run
+                  };
+                  if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                      this._queue.push(element);
+                      return;
+                  }
+                  const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+                  this._queue.splice(index, 0, element);
+              }
+              dequeue() {
+                  const item = this._queue.shift();
+                  return item === null || item === void 0 ? void 0 : item.run;
+              }
+              filter(options) {
+                  return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+              }
+              get size() {
+                  return this._queue.length;
+              }
+            },
+            _concurrency: Infinity,
+            _intervalId: undefined,
+            _timeout: undefined,
+            _throwOnTimeout: false,
+            _isPaused: false,
+          },
+        },
+        cache: undefined,
+        _encoding: undefined,
+        lc_namespace: [
+          "langchain",
+          "chat_models",
+          "openai",
+        ],
+        temperature: 0,
+        topP: 1,
+        frequencyPenalty: 0,
+        presencePenalty: 0,
+        n: 1,
+        logitBias: undefined,
+        modelName: "gpt-3.5-turbo",
+        modelKwargs: {
+        },
+        stop: undefined,
+        user: undefined,
+        timeout: undefined,
+        streaming: false,
+        maxTokens: undefined,
+        logprobs: undefined,
+        topLogprobs: undefined,
+        openAIApiKey: "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",
+        azureOpenAIApiVersion: undefined,
+        azureOpenAIApiKey: undefined,
+        azureOpenAIApiInstanceName: undefined,
+        azureOpenAIApiDeploymentName: undefined,
+        azureOpenAIBasePath: undefined,
+        organization: undefined,
+        client: undefined,
+        clientConfig: {
+          apiKey: "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",
+          organization: undefined,
+          baseURL: undefined,
+          dangerouslyAllowBrowser: true,
+          defaultHeaders: undefined,
+          defaultQuery: undefined,
+        },
+      },
+      config: {
+      },
+      kwargs: {
+        stop: [
+          "\nSQLResult:",
+        ],
+      },
+      configFactories: undefined,
+    },
+    {
+      lc_serializable: true,
+      lc_kwargs: {
+      },
+      lc_runnable: true,
+      name: undefined,
+      lc_namespace: [
+        "langchain_core",
+        "output_parsers",
+        "string",
+      ],
+    },
+  ],
+  last: {
+    lc_serializable: false,
+    lc_kwargs: {
+      func: (text) => {
+        // Replace escaped quotes with actual quotes
+        let newText = text.replace(/\\"/g, '"').trim();
+        // Remove wrapping quotes if the entire string is wrapped in quotes
+        if (newText.startsWith('"') && newText.endsWith('"')) {
+            newText = newText.substring(1, newText.length - 1);
+        }
+        return newText;
+      },
+    },
+    lc_runnable: true,
+    name: undefined,
+    lc_namespace: [
+      "langchain_core",
+      "runnables",
+    ],
+    func: (text) => {
+      // Replace escaped quotes with actual quotes
+      let newText = text.replace(/\\"/g, '"').trim();
+      // Remove wrapping quotes if the entire string is wrapped in quotes
+      if (newText.startsWith('"') && newText.endsWith('"')) {
+          newText = newText.substring(1, newText.length - 1);
+      }
+      return newText;
+    },
+  },
+  lc_namespace: [
+    "langchain_core",
+    "runnables",
+  ],
+}

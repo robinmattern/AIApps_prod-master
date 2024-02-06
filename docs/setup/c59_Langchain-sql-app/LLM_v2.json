@@ -1,0 +1,134 @@
+{
+  lc_serializable: true,
+  lc_kwargs: {
+    callbacks: undefined,
+    temperature: 0,
+  },
+  lc_runnable: true,
+  name: undefined,
+  verbose: false,
+  callbacks: undefined,
+  tags: [
+  ],
+  metadata: {
+  },
+  caller: {
+    maxConcurrency: Infinity,
+    maxRetries: 6,
+    onFailedAttempt: (error) => {
+      if (error.message.startsWith("Cancel") ||
+          error.message.startsWith("TimeoutError") ||
+          error.name === "TimeoutError" ||
+          error.message.startsWith("AbortError") ||
+          error.name === "AbortError") {
+          throw error;
+      }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      if (error?.code === "ECONNABORTED") {
+          throw error;
+      }
+      const status =
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      error?.response?.status ?? error?.status;
+      if (status && STATUS_NO_RETRY.includes(+status)) {
+          throw error;
+      }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      if (error?.error?.code === "insufficient_quota") {
+          const err = new Error(error?.message);
+          err.name = "InsufficientQuotaError";
+          throw err;
+      }
+    },
+    queue: {
+      _events: {
+      },
+      _eventsCount: 0,
+      _intervalCount: 0,
+      _intervalEnd: 0,
+      _pendingCount: 0,
+      _resolveEmpty: () => { },
+      _resolveIdle: () => { },
+      _carryoverConcurrencyCount: false,
+      _isIntervalIgnored: true,
+      _intervalCap: Infinity,
+      _interval: 0,
+      _queue: {
+        _queue: [
+        ],
+      },
+      _queueClass: class PriorityQueue {
+        constructor() {
+            this._queue = [];
+        }
+        enqueue(run, options) {
+            options = Object.assign({ priority: 0 }, options);
+            const element = {
+                priority: options.priority,
+                run
+            };
+            if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                this._queue.push(element);
+                return;
+            }
+            const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+            this._queue.splice(index, 0, element);
+        }
+        dequeue() {
+            const item = this._queue.shift();
+            return item === null || item === void 0 ? void 0 : item.run;
+        }
+        filter(options) {
+            return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+        }
+        get size() {
+            return this._queue.length;
+        }
+      },
+      _concurrency: Infinity,
+      _intervalId: undefined,
+      _timeout: undefined,
+      _throwOnTimeout: false,
+      _isPaused: false,
+    },
+  },
+  cache: undefined,
+  _encoding: undefined,
+  lc_namespace: [
+    "langchain",
+    "chat_models",
+    "openai",
+  ],
+  temperature: 0,
+  topP: 1,
+  frequencyPenalty: 0,
+  presencePenalty: 0,
+  n: 1,
+  logitBias: undefined,
+  modelName: "gpt-3.5-turbo",
+  modelKwargs: {
+  },
+  stop: undefined,
+  user: undefined,
+  timeout: undefined,
+  streaming: false,
+  maxTokens: undefined,
+  logprobs: undefined,
+  topLogprobs: undefined,
+  openAIApiKey: "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",
+  azureOpenAIApiVersion: undefined,
+  azureOpenAIApiKey: undefined,
+  azureOpenAIApiInstanceName: undefined,
+  azureOpenAIApiDeploymentName: undefined,
+  azureOpenAIBasePath: undefined,
+  organization: undefined,
+  client: undefined,
+  clientConfig: {
+    apiKey: "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",
+    organization: undefined,
+    baseURL: undefined,
+    dangerouslyAllowBrowser: true,
+    defaultHeaders: undefined,
+    defaultQuery: undefined,
+  },
+}

@@ -1,0 +1,142 @@
+!pip install  langchain openai pymysql --upgrade -q
+
+     ???????????????????????????????????????? 802.4/802.4 kB 5.6 MB/s eta 0:00:00
+     ???????????????????????????????????????? 223.4/223.4 kB 9.1 MB/s eta 0:00:00
+     ???????????????????????????????????????? 44.8/44.8 kB 2.3 MB/s eta 0:00:00
+     ???????????????????????????????????????? 1.6/1.6 MB 16.0 MB/s eta 0:00:00
+     ???????????????????????????????????????? 228.7/228.7 kB 10.0 MB/s eta 0:00:00
+     ???????????????????????????????????????? 49.3/49.3 kB 2.7 MB/s eta 0:00:00
+     ???????????????????????????????????????? 75.9/75.9 kB 3.6 MB/s eta 0:00:00
+     ???????????????????????????????????????? 49.4/49.4 kB 3.3 MB/s eta 0:00:00
+     ???????????????????????????????????????? 76.9/76.9 kB 5.3 MB/s eta 0:00:00
+     ???????????????????????????????????????? 58.3/58.3 kB 4.9 MB/s eta 0:00:00
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+llmx 0.0.15a0 requires cohere, which is not installed.
+llmx 0.0.15a0 requires tiktoken, which is not installed.
+tensorflow-probability 0.22.0 requires typing-extensions<4.6.0, but you have typing-extensions 4.9.0 which is incompatible.
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow-probability 0.22.0 requires typing-extensions<4.6.0, but you have typing-extensions 4.7.0 which is incompatible.
+    typing-extensions < 4.6.0,  not 4.7.0
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+openai 1.9.0 requires typing-extensions<5,>=4.7, but you have typing-extensions 4.5.0 which is incompatible.
+     typing-extensions >= 4.7 and < 5
+                  between 4.7 and 5.0
+
+
+tensorflow-probability v0.22.0  requires typing-extensions less than v4.6.0
+openai v1.9.0                   requires typing-extensions between v4.7 and v5.0
+
+pip install -e .
+
+
+pip install langchain
+pip install langchain-community
+pip install langchain-core
+pip install langchain-experimental
+pip install "langserve[all]"
+
+  pip install "langserve[client]"
+  pip install "langserve[server]"
+
+pip install langchain-cli
+pip install langsmith
+
+
+pip install langchain
+-----------------------------------
+Requirement already satisfied: langchain in /usr/local/lib/python3.10/dist-packages (0.1.1)
+Requirement already satisfied: PyYAML>=5.3 in /usr/local/lib/python3.10/dist-packages (from langchain) (6.0.1)
+Requirement already satisfied: SQLAlchemy<3,>=1.4 in /usr/local/lib/python3.10/dist-packages (from langchain) (2.0.24)
+Requirement already satisfied: aiohttp<4.0.0,>=3.8.3 in /usr/local/lib/python3.10/dist-packages (from langchain) (3.9.1)
+Requirement already satisfied: async-timeout<5.0.0,>=4.0.0 in /usr/local/lib/python3.10/dist-packages (from langchain) (4.0.3)
+Requirement already satisfied: dataclasses-json<0.7,>=0.5.7 in /usr/local/lib/python3.10/dist-packages (from langchain) (0.6.3)
+Requirement already satisfied: jsonpatch<2.0,>=1.33 in /usr/local/lib/python3.10/dist-packages (from langchain) (1.33)
+Requirement already satisfied: langchain-community<0.1,>=0.0.13 in /usr/local/lib/python3.10/dist-packages (from langchain) (0.0.13)
+Requirement already satisfied: langchain-core<0.2,>=0.1.9 in /usr/local/lib/python3.10/dist-packages (from langchain) (0.1.13)
+Requirement already satisfied: langsmith<0.1.0,>=0.0.77 in /usr/local/lib/python3.10/dist-packages (from langchain) (0.0.83)
+Requirement already satisfied: numpy<2,>=1 in /usr/local/lib/python3.10/dist-packages (from langchain) (1.23.5)
+Requirement already satisfied: pydantic<3,>=1 in /usr/local/lib/python3.10/dist-packages (from langchain) (1.10.13)
+Requirement already satisfied: requests<3,>=2 in /usr/local/lib/python3.10/dist-packages (from langchain) (2.31.0)
+Requirement already satisfied: tenacity<9.0.0,>=8.1.0 in /usr/local/lib/python3.10/dist-packages (from langchain) (8.2.3)
+Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (23.2.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (6.0.4)
+Requirement already satisfied: yarl<2.0,>=1.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.9.4)
+Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.4.1)
+Requirement already satisfied: aiosignal>=1.1.2 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.3.1)
+Requirement already satisfied: marshmallow<4.0.0,>=3.18.0 in /usr/local/lib/python3.10/dist-packages (from dataclasses-json<0.7,>=0.5.7->langchain) (3.20.2)
+Requirement already satisfied: typing-inspect<1,>=0.4.0 in /usr/local/lib/python3.10/dist-packages (from dataclasses-json<0.7,>=0.5.7->langchain) (0.9.0)
+Requirement already satisfied: jsonpointer>=1.9 in /usr/local/lib/python3.10/dist-packages (from jsonpatch<2.0,>=1.33->langchain) (2.4)
+Requirement already satisfied: anyio<5,>=3 in /usr/local/lib/python3.10/dist-packages (from langchain-core<0.2,>=0.1.9->langchain) (3.7.1)
+Requirement already satisfied: packaging<24.0,>=23.2 in /usr/local/lib/python3.10/dist-packages (from langchain-core<0.2,>=0.1.9->langchain) (23.2)
+Requirement already satisfied: typing-extensions>=4.2.0 in /usr/local/lib/python3.10/dist-packages (from pydantic<3,>=1->langchain) (4.9.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2->langchain) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2->langchain) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2->langchain) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2->langchain) (2023.11.17)
+Requirement already satisfied: greenlet!=0.4.17 in /usr/local/lib/python3.10/dist-packages (from SQLAlchemy<3,>=1.4->langchain) (3.0.3)
+Requirement already satisfied: sniffio>=1.1 in /usr/local/lib/python3.10/dist-packages (from anyio<5,>=3->langchain-core<0.2,>=0.1.9->langchain) (1.3.0)
+Requirement already satisfied: exceptiongroup in /usr/local/lib/python3.10/dist-packages (from anyio<5,>=3->langchain-core<0.2,>=0.1.9->langchain) (1.2.0)
+Requirement already satisfied: mypy-extensions>=0.3.0 in /usr/local/lib/python3.10/dist-packages (from typing-inspect<1,>=0.4.0->dataclasses-json<0.7,>=0.5.7->langchain) (1.0.0)
+
+
+!pip install cohere tiktoken
+
+Collecting cohere
+  Downloading cohere-4.44-py3-none-any.whl (51 kB)
+     ???????????????????????????????????????? 51.9/51.9 kB 1.1 MB/s eta 0:00:00
+Collecting tiktoken
+  Downloading tiktoken-0.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+     ???????????????????????????????????????? 2.0/2.0 MB 11.6 MB/s eta 0:00:00
+Requirement already satisfied: aiohttp<4.0,>=3.0 in /usr/local/lib/python3.10/dist-packages (from cohere) (3.9.1)
+Collecting backoff<3.0,>=2.0 (from cohere)
+  Downloading backoff-2.2.1-py3-none-any.whl (15 kB)
+Collecting fastavro<2.0,>=1.8 (from cohere)
+  Downloading fastavro-1.9.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ???????????????????????????????????????? 3.1/3.1 MB 24.2 MB/s eta 0:00:00
+Collecting importlib_metadata<7.0,>=6.0 (from cohere)
+  Downloading importlib_metadata-6.11.0-py3-none-any.whl (23 kB)
+Requirement already satisfied: requests<3.0.0,>=2.25.0 in /usr/local/lib/python3.10/dist-packages (from cohere) (2.31.0)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.10/dist-packages (from cohere) (2.0.7)
+Requirement already satisfied: regex>=2022.1.18 in /usr/local/lib/python3.10/dist-packages (from tiktoken) (2023.6.3)
+Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (23.2.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (6.0.4)
+Requirement already satisfied: yarl<2.0,>=1.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (1.9.4)
+Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (1.4.1)
+Requirement already satisfied: aiosignal>=1.1.2 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (1.3.1)
+Requirement already satisfied: async-timeout<5.0,>=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0,>=3.0->cohere) (4.0.3)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.10/dist-packages (from importlib_metadata<7.0,>=6.0->cohere) (3.17.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests<3.0.0,>=2.25.0->cohere) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests<3.0.0,>=2.25.0->cohere) (3.6)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests<3.0.0,>=2.25.0->cohere) (2023.11.17)
+Installing collected packages: importlib_metadata, fastavro, backoff, tiktoken, cohere
+  Attempting uninstall: importlib_metadata
+    Found existing installation: importlib-metadata 7.0.1
+    Uninstalling importlib-metadata-7.0.1:
+      Successfully uninstalled importlib-metadata-7.0.1
+Successfully installed backoff-2.2.1 cohere-4.44 fastavro-1.9.3 importlib_metadata-6.11.0 tiktoken-0.5.2
+
+!pip install openai
+
+Requirement already satisfied: openai                       in /usr/local/lib/python3.10/dist-packages (1.9.0)
+Requirement already satisfied: anyio<5,>=3.5.0              in /usr/local/lib/python3.10/dist-packages (from openai) (3.7.1)
+Requirement already satisfied: distro<2,>=1.7.0             in /usr/lib/python3/dist-packages (from openai) (1.7.0)
+Requirement already satisfied: httpx<1,>=0.23.0             in /usr/local/lib/python3.10/dist-packages (from openai) (0.26.0)
+Requirement already satisfied: pydantic<3,>=1.9.0           in /usr/local/lib/python3.10/dist-packages (from openai) (1.10.13)
+Requirement already satisfied: sniffio                      in /usr/local/lib/python3.10/dist-packages (from openai) (1.3.0)
+Requirement already satisfied: tqdm>4                       in /usr/local/lib/python3.10/dist-packages (from openai) (4.66.1)
+Requirement already satisfied: typing-extensions<5,>=4.7    in /usr/local/lib/python3.10/dist-packages (from openai) (4.9.0)
+Requirement already satisfied: idna>=2.8                    in /usr/local/lib/python3.10/dist-packages (from anyio<5,>=3.5.0->openai) (3.6)
+Requirement already satisfied: exceptiongroup               in /usr/local/lib/python3.10/dist-packages (from anyio<5,>=3.5.0->openai) (1.2.0)
+Requirement already satisfied: certifi                      in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->openai) (2023.11.17)
+Requirement already satisfied: httpcore==1.*                in /usr/local/lib/python3.10/dist-packages (from httpx<1,>=0.23.0->openai) (1.0.2)
+Requirement already satisfied: h11<0.15,>=0.13              in /usr/local/lib/python3.10/dist-packages (from httpcore==1.*->httpx<1,>=0.23.0->openai) (0.14.0)
+
+pip install pymysql
+
+19c8c7b046df5571db0bcdf1506639f8d7aeb1e7
+

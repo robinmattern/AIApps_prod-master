@@ -1,0 +1,51 @@
+
+
+    y = f( x )
+
+ var f = function( aPrompt ) {
+         return runModel( pBaseModel, aPrompt )
+         }
+
+     aInputDataset =   "Be very funny when answering questions"
+     mInputDataset = [ "Be very funny when answering questions", "and be sarcastic" ]
+     pInputDataset = { template: [ "Be very funny when answering questions", "and be sarcastic" ] }
+
+ var f = function( aPrompt ) {
+     if (lc_serializable = true)
+         pInputArray = serialize( pInputDataSet )  // a tensor, array of matrices, matrix = array of vectors
+         }
+         console.log( pInputArray )
+         return runModels( pInputModel, pBaseModel, aPrompt )
+         }
+
+ var f2 = function( pInputModel, pBaseModel, aPrompt ) {
+
+      aResult1 = f2( pInputModel1, pBaseModel1, a1stPrompt ) {
+      aResult2 = f2( pInputModel2, pBaseModel2, aResult1   ) {
+      aResult3 = f2( pInputModel3, pBaseModel3, aResult2   ) {
+      aResult4 = f2( pInputModel4, pBaseModel4, aResult3   ) {
+
+      console.log( aResult4 )
+
+    const pChain1 = new LLMChain(
+           { "model"    : model1
+           , "prompt"   : promptTemplate
+           , "outputKey": "review"
+              });
+
+          doChain.call( pChain1( ))
+
+
+
+     async function executeSequentially( chains, input ) {               // .(40130.10.1 Bard Beg Added function)
+
+       let currentInput = input; var result, nChain=0                    // .(40130.10.2 RAM Initialize var result var here)
+      for (const chain of chains) { nChain++
+
+   //      const result = await chain.call( { input: currentInput } );   //#.(40130.10.2 Bard defined var result locally in loop block)
+             var result = await chain.call( { input: currentInput } );   // .(40130.10.2 RAM update global var result)
+
+           currentInput = { input: result.text.replace( /^[ \n]+/, "" ) }    // Use the output of one chain as input for the next
+           }
+    return result;  // Return the final result                           // .(40130.10.2 RAM Now has a value )
+           }                                                             // .(41030.10.1 Bard End)

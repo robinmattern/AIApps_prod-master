@@ -1,0 +1,35 @@
+{
+  "name": "4c2_langchain-js-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node 00_basics.js",
+    "script1": "node 01_first_chain.js",
+    "script2": "node 02_simplesequentialchain.js",
+    "script3": "node 03_sequentialchain.js",
+    "script4": "node 04_parsers.js",
+    "script5": "node 05_indexes.js",
+    "script6": "node 06_userstore.js",
+    "script7": "node 07_chat.js",
+    "script8": "node 08_agents.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "target": "ES2020",
+  "module": "nodenext",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding-Crashkurse/LangChain-JS-Full-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coding-Crashkurse/LangChain-JS-Full-Course/issues"
+  },
+  "homepage": "https://github.com/Coding-Crashkurse/LangChain-JS-Full-Course#readme",
+  "dependencies": {
+    "@langchain/openai": "^0.0.13"
+  }
+}

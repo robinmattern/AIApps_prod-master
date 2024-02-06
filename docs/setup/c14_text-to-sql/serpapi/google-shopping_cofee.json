@@ -1,0 +1,2601 @@
+{
+  "search_metadata": {
+    "id": "65ad4073f716ee1add221b61",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f8ca2bcd8960d24d/65ad4073f716ee1add221b61.json",
+    "created_at": "2024-01-21 16:04:03 UTC",
+    "processed_at": "2024-01-21 16:04:03 UTC",
+    "google_shopping_url": "https://www.google.com/search?tbm=shop&q=Coffee&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/f8ca2bcd8960d24d/65ad4073f716ee1add221b61.html",
+    "total_time_taken": 5.14
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Coffee",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "shopping_results_state": "Results for exact spelling",
+    "query_displayed": "Coffee",
+    "menu_items": [
+      {
+        "position": 1,
+        "title": "All",
+        "link": "https://www.google.com/url?url=/search%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCIsQKAA&usg=AOvVaw1swMPTncnvwAXjNoZnId-I"
+      },
+      {
+        "position": 2,
+        "title": "Images",
+        "link": "https://www.google.com/url?url=/search%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26tbm%3Disch%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCIwQKAE&usg=AOvVaw0kHSgm5MrnaNqCAoNhRu9N"
+      },
+      {
+        "position": 3,
+        "title": "Maps",
+        "link": "https://www.google.com/url?url=https://maps.google.com/maps%3Fq%3DCoffee%26gl%3Dus%26hl%3Den%26um%3D1%26ie%3DUTF-8&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCI0QKAI&usg=AOvVaw0w4ldyXmNtKU0JMD3eZjfk"
+      },
+      {
+        "position": 4,
+        "title": "Shopping"
+      },
+      {
+        "position": 5,
+        "title": "Videos",
+        "link": "https://www.google.com/url?url=/search%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26tbm%3Dvid%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCJIQKAA&usg=AOvVaw1k0qvBj_7937vGwZ3h6gZ4"
+      },
+      {
+        "position": 6,
+        "title": "News",
+        "link": "https://www.google.com/url?url=/search%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26tbm%3Dnws%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCJMQKAE&usg=AOvVaw3TbHNHRdAo_ydqAozTKl5M"
+      },
+      {
+        "position": 7,
+        "title": "Books",
+        "link": "https://www.google.com/url?url=/search%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26tbm%3Dbks%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCJQQKAI&usg=AOvVaw3KAfsXHNw7jDiQEfLWTR7f"
+      },
+      {
+        "position": 8,
+        "title": "Flights",
+        "link": "https://www.google.com/url?url=https://www.google.com/travel/flights%3Fq%3DCoffee%26sca_esv%3D600239789%26gl%3Dus%26hl%3Den%26tbm%3Dflm%26source%3Dlnms&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCJUQKAM&usg=AOvVaw1rPKGSOSu8AWqm8Yh9nF-e"
+      },
+      {
+        "position": 9,
+        "title": "Finance",
+        "link": "https://www.google.com/url?url=https://www.google.com/finance&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQiaAMCJYQKAQ&usg=AOvVaw03NAur2HZ_Im3EvaUP1eoF"
+      }
+    ],
+    "location_detected": "White Lake charter Township, MI"
+  },
+  "filters": [
+    {
+      "type": "Show only",
+      "options": [
+        {
+          "text": "Available nearby",
+          "tbs": "mr:1,local_avail:1,ss:55"
+        },
+        {
+          "text": "On sale",
+          "tbs": "mr:1,sales:1"
+        }
+      ]
+    },
+    {
+      "type": "Price",
+      "options": [
+        {
+          "text": "Up to $6",
+          "tbs": "mr:1,price:1,ppr_max:6"
+        },
+        {
+          "text": "$6 – $10",
+          "tbs": "mr:1,price:1,ppr_min:6,ppr_max:10"
+        },
+        {
+          "text": "$10 – $20",
+          "tbs": "mr:1,price:1,ppr_min:10,ppr_max:20"
+        },
+        {
+          "text": "$20 – $40",
+          "tbs": "mr:1,price:1,ppr_min:20,ppr_max:40"
+        },
+        {
+          "text": "Over $40",
+          "tbs": "mr:1,price:1,ppr_min:40"
+        }
+      ]
+    },
+    {
+      "type": "Color",
+      "options": [
+        {
+          "tbs": "mr:1,color:specific,color_val:black"
+        }
+      ]
+    },
+    {
+      "type": "Brand",
+      "options": [
+        {
+          "text": "NESCAFÉ",
+          "tbs": "mr:1,pdtr0:906016%7C1083000"
+        },
+        {
+          "text": "JML Coffee",
+          "tbs": "mr:1,pdtr0:906016%7C7472498"
+        },
+        {
+          "text": "Lavazza",
+          "tbs": "mr:1,pdtr0:906016%7C907116"
+        },
+        {
+          "text": "Seattle's Best Coffee",
+          "tbs": "mr:1,pdtr0:906016%7C906018"
+        },
+        {
+          "text": "Starbucks",
+          "tbs": "mr:1,pdtr0:906016%7C906023"
+        },
+        {
+          "text": "illy",
+          "tbs": "mr:1,pdtr0:906016%7C907117"
+        },
+        {
+          "text": "Folgers",
+          "tbs": "mr:1,pdtr0:906016%7C906022"
+        }
+      ]
+    },
+    {
+      "type": "Type",
+      "options": [
+        {
+          "text": "Ground",
+          "tbs": "mr:1,pdtr0:933742%7C933743"
+        },
+        {
+          "text": "Whole Bean",
+          "tbs": "mr:1,pdtr0:933742%7C933745"
+        },
+        {
+          "text": "Instant",
+          "tbs": "mr:1,pdtr0:933742%7C933744"
+        },
+        {
+          "text": "Ready-to-Drink",
+          "tbs": "mr:1,pdtr0:933742%7C933747"
+        }
+      ]
+    },
+    {
+      "type": "Flavor",
+      "options": [
+        {
+          "text": "Chocolate",
+          "tbs": "mr:1,pdtr0:1658504%7C1658508"
+        },
+        {
+          "text": "Caramel",
+          "tbs": "mr:1,pdtr0:1658504%7C1658509"
+        },
+        {
+          "text": "Vanilla",
+          "tbs": "mr:1,pdtr0:1658504%7C1658507"
+        }
+      ]
+    },
+    {
+      "type": "Container Type",
+      "options": [
+        {
+          "text": "Bag",
+          "tbs": "mr:1,pdtr0:1658497%7C1658500"
+        },
+        {
+          "text": "Box",
+          "tbs": "mr:1,pdtr0:1658497%7C1658511"
+        },
+        {
+          "text": "Jar",
+          "tbs": "mr:1,pdtr0:1658497%7C1658499"
+        },
+        {
+          "text": "Coffee in Canisters",
+          "tbs": "mr:1,pdtr0:1658497%7C1658498"
+        }
+      ]
+    },
+    {
+      "type": "Roast",
+      "options": [
+        {
+          "text": "Light Roast",
+          "tbs": "mr:1,pdtr0:973849%7C973850"
+        },
+        {
+          "text": "Medium Roast",
+          "tbs": "mr:1,pdtr0:973849%7C973851"
+        },
+        {
+          "text": "Medium-Dark Roast",
+          "tbs": "mr:1,pdtr0:973849%7C973852"
+        },
+        {
+          "text": "Dark Roast",
+          "tbs": "mr:1,pdtr0:973849%7C973853"
+        }
+      ]
+    },
+    {
+      "type": "Sugar Content",
+      "options": [
+        {
+          "text": "No Sugar Added",
+          "tbs": "mr:1,pdtr0:3286779%7C3286786"
+        },
+        {
+          "text": "Sugar Free",
+          "tbs": "mr:1,pdtr0:3286779%7C3286785"
+        }
+      ]
+    },
+    {
+      "type": "Size",
+      "options": [
+        {
+          "text": "< 7.06 oz",
+          "tbs": "mr:1,pdtr0:1658494%7C%240.20000000298023224"
+        },
+        {
+          "text": "7.06 – 8.8 oz",
+          "tbs": "mr:1,pdtr0:1658494%7C0.20000000298023224%240.24947580695152283"
+        },
+        {
+          "text": "8.8 – 11.99 oz",
+          "tbs": "mr:1,pdtr0:1658494%7C0.24947580695152283%240.3400000035762787"
+        },
+        {
+          "text": "11.99 – 16 oz",
+          "tbs": "mr:1,pdtr0:1658494%7C0.3400000035762787%240.45359236001968384"
+        },
+        {
+          "text": "16 oz – 1.5 lb",
+          "tbs": "mr:1,pdtr0:1658494%7C0.45359236001968384%240.6803885698318481"
+        },
+        {
+          "text": "1.5 – 2 lb",
+          "tbs": "mr:1,pdtr0:1658494%7C0.6803885698318481%240.9071847200393677"
+        },
+        {
+          "text": "> 2 lb",
+          "tbs": "mr:1,pdtr0:1658494%7C0.9071847200393677%24"
+        }
+      ]
+    },
+    {
+      "type": "Count",
+      "options": [
+        {
+          "text": "2 count",
+          "tbs": "mr:1,pdtr0:1658496%7C2.0%242.0"
+        },
+        {
+          "text": "3 count",
+          "tbs": "mr:1,pdtr0:1658496%7C3.0%243.0"
+        },
+        {
+          "text": "4 count",
+          "tbs": "mr:1,pdtr0:1658496%7C4.0%244.0"
+        },
+        {
+          "text": "12 count",
+          "tbs": "mr:1,pdtr0:1658496%7C12.0%2412.0"
+        },
+        {
+          "text": "24 count",
+          "tbs": "mr:1,pdtr0:1658496%7C24.0%2424.0"
+        },
+        {
+          "text": "30 count",
+          "tbs": "mr:1,pdtr0:1658496%7C30.0%2430.0"
+        },
+        {
+          "text": "42 count",
+          "tbs": "mr:1,pdtr0:1658496%7C42.0%2442.0"
+        },
+        {
+          "text": "50 count",
+          "tbs": "mr:1,pdtr0:1658496%7C50.0%2450.0"
+        },
+        {
+          "text": "94 count",
+          "tbs": "mr:1,pdtr0:1658496%7C94.0%2494.0"
+        }
+      ]
+    },
+    {
+      "type": "Shipping & returns",
+      "options": [
+        {
+          "text": "Free returns",
+          "tbs": "mr:1,free_return:1"
+        },
+        {
+          "text": "1-3 day delivery",
+          "tbs": "mr:1,shipspeed:3"
+        },
+        {
+          "text": "Free shipping",
+          "tbs": "mr:1,ship:1"
+        }
+      ]
+    },
+    {
+      "type": "Discover",
+      "options": [
+        {
+          "text": "Black-owned businesses",
+          "tbs": "mr:1,dei:1"
+        },
+        {
+          "text": "Women-owned businesses",
+          "tbs": "mr:1,dei:2"
+        },
+        {
+          "text": "Veteran-owned businesses",
+          "tbs": "mr:1,dei:3"
+        },
+        {
+          "text": "Latino-owned businesses",
+          "tbs": "mr:1,dei:4"
+        }
+      ]
+    },
+    {
+      "type": "Product rating",
+      "options": [
+        {
+          "text": "4 and up",
+          "tbs": "mr:1,avg_rating:400"
+        },
+        {
+          "text": "3 and up",
+          "tbs": "mr:1,avg_rating:300"
+        },
+        {
+          "text": "2 and up",
+          "tbs": "mr:1,avg_rating:200"
+        },
+        {
+          "text": "1 and up",
+          "tbs": "mr:1,avg_rating:100"
+        }
+      ]
+    },
+    {
+      "type": "Seller",
+      "options": [
+        {
+          "text": "Amazon.com - Seller",
+          "tbs": "mr:1,merchagg:g113872638%7Cm114193152%7Cm7388148"
+        },
+        {
+          "text": "Bones Coffee Company",
+          "tbs": "mr:1,merchagg:m113004272"
+        },
+        {
+          "text": "Don Pablo Coffee",
+          "tbs": "mr:1,merchagg:m134926347"
+        },
+        {
+          "text": "DoorDash - Meijer US",
+          "tbs": "mr:1,merchagg:g504847690%7Cm643285509%7Cm656924506"
+        },
+        {
+          "text": "eBay",
+          "tbs": "mr:1,merchagg:g6296794%7Cm6296724%7Cm223126933%7Cm5318172963%7Cm136037757%7Cm108054918"
+        },
+        {
+          "text": "Etsy",
+          "tbs": "mr:1,merchagg:g6830041%7Cm12768591"
+        },
+        {
+          "text": "Fleet Farm",
+          "tbs": "mr:1,merchagg:m6106742"
+        },
+        {
+          "text": "Grocery.com Store",
+          "tbs": "mr:1,merchagg:m10473868"
+        },
+        {
+          "text": "Groceryeshop",
+          "tbs": "mr:1,merchagg:m139575325"
+        },
+        {
+          "text": "Instacart",
+          "tbs": "mr:1,merchagg:g128518585%7Cm178347385%7Cm253292496%7Cm177912837%7Cm513211479"
+        },
+        {
+          "text": "Jubilee Grocery",
+          "tbs": "mr:1,merchagg:m177542139"
+        },
+        {
+          "text": "Meijer",
+          "tbs": "mr:1,merchagg:m116992680"
+        },
+        {
+          "text": "MercadoMagico",
+          "tbs": "mr:1,merchagg:m7905276"
+        },
+        {
+          "text": "MSM",
+          "tbs": "mr:1,merchagg:g105188473%7Cm645969713%7Cm526633404%7Cm682258352%7Cm648988091"
+        },
+        {
+          "text": "NavaFresh - United States",
+          "tbs": "mr:1,merchagg:g321491391%7Cm320374707"
+        },
+        {
+          "text": "Nespresso",
+          "tbs": "mr:1,merchagg:g176938421%7Cm178139992"
+        },
+        {
+          "text": "Office Depot",
+          "tbs": "mr:1,merchagg:g118563538%7Cm7933"
+        },
+        {
+          "text": "Quicklly",
+          "tbs": "mr:1,merchagg:m140415710"
+        },
+        {
+          "text": "Sam's Club",
+          "tbs": "mr:1,merchagg:m1247713"
+        },
+        {
+          "text": "Scheels",
+          "tbs": "mr:1,merchagg:g756305433%7Cm10842523"
+        },
+        {
+          "text": "Soxy",
+          "tbs": "mr:1,merchagg:m116738959"
+        },
+        {
+          "text": "Target",
+          "tbs": "mr:1,merchagg:g784994%7Cm10046"
+        },
+        {
+          "text": "Walgreens.com",
+          "tbs": "mr:1,merchagg:g8666297%7Cm10037"
+        },
+        {
+          "text": "Walmart",
+          "tbs": "mr:1,merchagg:g8299768%7Cm8175035%7Cm661872873%7Cm377885339"
+        },
+        {
+          "text": "Williams-Sonoma",
+          "tbs": "mr:1,merchagg:g5581943%7Cm4535634"
+        }
+      ]
+    }
+  ],
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "5 Bag Sample Pack | Whole Bean | Bones Coffee",
+      "link": "https://www.bonescoffee.com/products/5-bag-sample-pack?variant=30972360327220&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoq9rUzM7vA5pLEk21zc45pYCwJ7cEaj99WSgrgpt63JMbPVWHqdV6M&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/7733553032036677584?gl=us",
+      "product_id": "7733553032036677584",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=7733553032036677584",
+      "source": "Bones Coffee Company",
+      "price": "$33.00",
+      "extracted_price": 33,
+      "rating": 4.8,
+      "reviews": 11584,
+      "extensions": [
+        "Bag",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSLx_H7cTEdEXfdcRcWYqhqip_gxC6FLk3dIB12Z1RqcZEBmemKgtoOr0F_STmKM04Y3vjwGuoy5SjDqkcaH7klqZ7bsR4PBr0eU-6nDEs&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31",
+      "store_rating": 4.9,
+      "store_reviews": 3200
+    },
+    {
+      "position": 2,
+      "title": "Mushroom Coffee • 30 Servings • Reishi, Turkey Tail, Shitake, King Trumpet, Lions ...",
+      "link": "https://www.ryzesuperfoods.com/products/mushroom-coffee",
+      "product_link": "https://www.google.com/shopping/product/7361294905872830495?gl=us",
+      "product_id": "7361294905872830495",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=7361294905872830495",
+      "source": "RYZE Superfoods",
+      "price": "$27.00",
+      "extracted_price": 27,
+      "old_price": "$30.00",
+      "extracted_old_price": 30,
+      "rating": 4.8,
+      "reviews": 73418,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTaUKFBpdywLvvdDO4qy_yJqN-9cN-alqTojUyNDOkF-9DNj4_nwIjxgjnW3iwxy7Dj7gEU85j245Eg3U_zZncM9Xg07wvtofrxtI0VwVWjXaiDFHcgFHiykw&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Free delivery by Tue, Jan 30",
+      "store_rating": 5,
+      "store_reviews": 7000
+    },
+    {
+      "position": 3,
+      "title": "Blue Bottle Coffee Coffee, Whole Bean, Espresso - 12 oz",
+      "link": "https://www.amazon.com/Blue-Bottle-Espresso-Whole-Bean-Coffee/dp/B098W9Z347?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER",
+      "product_link": "https://www.google.com/shopping/product/296954592640885598?gl=us",
+      "product_id": "296954592640885598",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=296954592640885598",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/296954592640885598/offers?q=Coffee&gl=us&hl=en&prds=eto:16233304578995939777_0,pid:16726860225121318661,rsk:PC_15354725372214133620&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJIS",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A16233304578995939777_0%2Cpid%3A16726860225121318661%2Crsk%3APC_15354725372214133620&gl=us&hl=en&offers=1&product_id=296954592640885598&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJIS",
+      "source": "Amazon.com",
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "rating": 3.9,
+      "reviews": 55,
+      "extensions": [
+        "Dark Roast",
+        "Bag",
+        "Organic"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQZktsxUyVJo0UiEW0BCRQgjFVK49q6w1GEJpy25lbxYSXfDGAReZcp2aFqZTQRoo4TBY6AWDo8k1usjE1TCAd53GOuAE1oVBVvoerBxFi0E2bAISe3wmkGJw&usqp=CAE",
+      "delivery": "$5.99 delivery",
+      "store_rating": 4.6,
+      "store_reviews": 2200
+    },
+    {
+      "position": 4,
+      "title": "Kurukahveci Turkish Coffee - 17.6 oz",
+      "link": "https://tripletraders.com/products/kurukahveci-mehmet-efendi-turkish-coffee-17-6-oz?variant=28757179564097&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqfYI3ZYn16pRks-zwNctHQx4Gz361D1itRHi_0Kzya1zZ8F3cxp4I&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/8547071596433119641?gl=us",
+      "product_id": "8547071596433119641",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=8547071596433119641",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/8547071596433119641/offers?q=Coffee&gl=us&hl=en&prds=eto:14848151181418074406_0,pid:11261643814268448445,rsk:PC_2552204187492141736&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKsS",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A14848151181418074406_0%2Cpid%3A11261643814268448445%2Crsk%3APC_2552204187492141736&gl=us&hl=en&offers=1&product_id=8547071596433119641&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKsS",
+      "source": "Triple Traders",
+      "price": "$10.99",
+      "extracted_price": 10.99,
+      "rating": 4.7,
+      "reviews": 2222,
+      "extensions": [
+        "Ground",
+        "South America",
+        "$3.00 below typical",
+        "LOW PRICE"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQGmh0R6q45xLNwKVEgVreMj_eA8NsCFL907ESVnir9LziyziPqnECFD5Y_p834j3cuM2Eabb7gj5wGn9m7GwJ9FvS_altIRWV5nNniy0vxbdCKtW04qToV&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "Delivery by Fri, Jan 26",
+      "store_rating": 4.9,
+      "store_reviews": 31
+    },
+    {
+      "position": 5,
+      "title": "Ryze Mushroom Coffee (30 Servings)",
+      "link": "https://www.truegether.com/listing.html?id=USER.ae25b642-5846-4d2d-b655-6caddf53d1af",
+      "product_link": "https://www.google.com/shopping/product/12362505689845430002?gl=us",
+      "product_id": "12362505689845430002",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=12362505689845430002",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/12362505689845430002/offers?q=Coffee&gl=us&hl=en&prds=eto:16371872193991328312_0,pid:1665720441172158712,rsk:PC_632867562764966943&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLwS",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A16371872193991328312_0%2Cpid%3A1665720441172158712%2Crsk%3APC_632867562764966943&gl=us&hl=en&offers=1&product_id=12362505689845430002&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLwS",
+      "source": "MSM",
+      "price": "$61.00",
+      "extracted_price": 61,
+      "rating": 4.8,
+      "reviews": 102016,
+      "extensions": [
+        "Ground",
+        "Organic"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRuY4ku5T07wdFFPU7CBpPfb9mvCghtVUac05HiM1a31zfl2rnQ0En4Cn7olj2o0CnXCHlvV6ZX_tHNRa0yPncFkC5e9M2T2CJXObiqZIESsMLnqZy_cHaO&usqp=CAE",
+      "delivery": "$20.09 delivery"
+    },
+    {
+      "position": 6,
+      "title": "Dunkin' Coffee, Ground, Medium Roast, Original Blend - 30 oz",
+      "link": "https://www.walmart.com/ip/Dunkin-Original-Blend-Medium-Roast-Coffee-30-Ounce-Canister/118940370?wl13=2354&selectedSellerId=0",
+      "product_link": "https://www.google.com/shopping/product/4882285222431606362?gl=us",
+      "product_id": "4882285222431606362",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=4882285222431606362",
+      "number_of_comparisons": "25+",
+      "comparison_link": "https://www.google.com/shopping/product/4882285222431606362/offers?q=Coffee&gl=us&hl=en&prds=eto:1301226790413042975_0,local:1,pid:6997677376619847020,prmr:2,rsk:PC_8481527505144194408&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNUS",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A1301226790413042975_0%2Clocal%3A1%2Cpid%3A6997677376619847020%2Cprmr%3A2%2Crsk%3APC_8481527505144194408&gl=us&hl=en&offers=1&product_id=4882285222431606362&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNUS",
+      "source": "Walmart",
+      "price": "$17.97",
+      "extracted_price": 17.97,
+      "rating": 4.6,
+      "reviews": 15170,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground",
+        "CURBSIDE"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT0O8iBz3tGIkJfrJ94cIpZy3OZjbliWVi-E9bdj4Kc-Io1CPX3_X2bJzT_wcwHQmt5MDsUBK3elPP643Nhsc4U5Bu33VP6Zksgfaz4W2I&usqp=CAE",
+      "tag": "CURBSIDE",
+      "delivery": "12.1 mi · In stock · Free 90-day returns",
+      "store_rating": 4.5,
+      "store_reviews": 754
+    },
+    {
+      "position": 7,
+      "title": "Bones Coffee Starter Kit Ground | Bones Coffee",
+      "link": "https://www.bonescoffee.com/products/bones-coffee-starter-kit?variant=31683877732404&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqyovxy088rKbr8B8t0_CLbpMoHFX0IIlDGe4LwBuG6o9Yt8Dgi_z8&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/14727607774574936040?gl=us",
+      "product_id": "14727607774574936040",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14727607774574936040",
+      "source": "Bones Coffee Company",
+      "price": "$64.99",
+      "extracted_price": 64.99,
+      "rating": 4.8,
+      "reviews": 247,
+      "extensions": [
+        "Ground",
+        "Chocolate"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqXMivSjb2pW2O2Btm77pn4VZhFJiBPVg_eEHOqli-40Lh2ygpfcXXgqScZq4Hw5Py_I6hV4_42ZazQuwqMo5m_jHIkRkKduv0R2PstbGgW3ix2Swm3FTsbw&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31",
+      "store_rating": 4.9,
+      "store_reviews": 3200
+    },
+    {
+      "position": 8,
+      "title": "Bones Coffee Co. Coffee, Ground, Medium Roast, Highland Grog - 12 oz",
+      "link": "https://www.ebay.com/itm/364323267006?chn=ps&mkevt=1&mkcid=28&srsltid=AfmBOorsLHOrGMlvHedT3MU23u9IwHlhrgUazfaqg2o3N7kdKKNVlZGWZFw&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1166068528496584725?gl=us",
+      "product_id": "1166068528496584725",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1166068528496584725",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/1166068528496584725/offers?q=Coffee&gl=us&hl=en&prds=eto:13800040746021003541_0,pid:8516001287382571130,rsk:PC_10248161048956585288&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPsS",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A13800040746021003541_0%2Cpid%3A8516001287382571130%2Crsk%3APC_10248161048956585288&gl=us&hl=en&offers=1&product_id=1166068528496584725&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPsS",
+      "source": "eBay - nonan_38",
+      "price": "$23.74",
+      "extracted_price": 23.74,
+      "rating": 4.8,
+      "reviews": 2115,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdijcBcF4DH1sXQRAIF8MeGGD_MnTWZcMUp2qdmFVBl5wkljo0P3iinvR8sffoLsSMX_VwGCqEm_ydtn5UFVXREYDfLN4k4-D5I1-93Bjc-crg1II3RQo1uw&usqp=CAE",
+      "delivery": "Free delivery & Free 30-day returns"
+    },
+    {
+      "position": 9,
+      "title": "Bones Coffee Co. Coffee, Ground, Medium Roast, Holy Cannoli - 12 oz",
+      "link": "https://www.scheels.com/p/81003626212.html?utm_source=google&utm_medium=cpc&utm_campaign=unpaidlistings&pgid=psearch&srsltid=AfmBOoohNATBbSnRwT9WQUgRahUDHcFETiYEfDinL_pBYrvbKAVTl9OtvmY&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1569849460102280067?gl=us",
+      "product_id": "1569849460102280067",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1569849460102280067",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/1569849460102280067/offers?q=Coffee&gl=us&hl=en&prds=eto:15480036143074253099_0,pid:13852788716132377743,rsk:PC_9065906399736403781&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJIT",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A15480036143074253099_0%2Cpid%3A13852788716132377743%2Crsk%3APC_9065906399736403781&gl=us&hl=en&offers=1&product_id=1569849460102280067&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJIT",
+      "source": "Scheels",
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "rating": 4.8,
+      "reviews": 231,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQrREOfPhp2t1XekPzNxpQ7GRUqDpsCtVIuomZLJVqZnCAvV0GkwE8D3k1FIcfSwEbjhUj1oPeBFLfJM-Kc4ub8AY15515IpnBifmS3RCzU5B8X2y_yKzfM_w&usqp=CAE",
+      "delivery": "Delivery by Fri, Jan 26 · Free 365-day returns",
+      "store_rating": 4.8
+    },
+    {
+      "position": 10,
+      "title": "Energy Pouches DRYV Mint Coffee, Size: Round - Diameter 2.50, Height 0.82",
+      "link": "https://fullyloadeddip.com/products/mint-dryv-energy-pouch?variant=39912228782115&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoq7or39UfyoluLiliVITO757NN6jGpMgHufm2A02XAHZ9lEAe6X-nk&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/13764724637488431534?gl=us",
+      "product_id": "13764724637488431534",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=13764724637488431534",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/13764724637488431534/offers?q=Coffee&gl=us&hl=en&prds=eto:5713190737726066360_0,pid:1561812849623244040,rsk:PC_3414235885450287837&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPkT",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A5713190737726066360_0%2Cpid%3A1561812849623244040%2Crsk%3APC_3414235885450287837&gl=us&hl=en&offers=1&product_id=13764724637488431534&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPkT",
+      "source": "Fully Loaded Dip",
+      "price": "$4.89",
+      "extracted_price": 4.89,
+      "rating": 5,
+      "reviews": 2,
+      "extensions": [
+        "Sugar Free",
+        "Mint"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQzSsmyHIB0CuWgAJF24ZaSgvxwNwZMAaK8_lBascrRJckeHq3MSRSDZ-unsngCJyI12GbHr4EBV1A020ckagz5k2G86BZACMgfda0wJcNoJf_vHa-D_M9X9A&usqp=CAE",
+      "delivery": "Delivery by Mon, Jan 29"
+    },
+    {
+      "position": 11,
+      "title": "Yaucono Coffee - 10 oz",
+      "link": "https://antojoboricuapr.com/product/yaucono-ground-coffee-10-oz-can/?srsltid=AfmBOopU73P_B3WmBFT5IYlHBJa4bPtaO3dByI0LKknZlh3oi55_fJ0ZFaM",
+      "product_link": "https://www.google.com/shopping/product/3874835995373313066?gl=us",
+      "product_id": "3874835995373313066",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3874835995373313066",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/3874835995373313066/offers?q=Coffee&gl=us&hl=en&prds=eto:7828011788212717526_0,pid:2628016138189738422,rsk:PC_18290122851229414007&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIoU",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A7828011788212717526_0%2Cpid%3A2628016138189738422%2Crsk%3APC_18290122851229414007&gl=us&hl=en&offers=1&product_id=3874835995373313066&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIoU",
+      "source": "Antojo Boricua",
+      "price": "$7.97",
+      "extracted_price": 7.97,
+      "rating": 4.8,
+      "reviews": 70,
+      "extensions": [
+        "Medium Roast",
+        "Canister"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4lrenMgISTnvIPEtdRkIlrJRte4qBsRmNMI_jPSrhxMZbDcd64rDnB4OOKFXfC_UmywOCHyZ6ZcvqLEw1Wg7T3YexWaQE5SQj4V-a-pV2jHrqP7FBszaUcA&usqp=CAE",
+      "delivery": "Delivery by Tue, Jan 30"
+    },
+    {
+      "position": 12,
+      "title": "Yuban Coffee, Ground, Dark Roast, Bold - 25.3 oz",
+      "link": "https://www.cvs.com/shop/yuban-premium-dark-roast-ground-coffee-29-oz-prodid-495729?skuId=495729&cgaa=QWxsb3dHb29nbGVUb0FjY2Vzc0NWU1BhZ2Vz",
+      "product_link": "https://www.google.com/shopping/product/14695922139673161260?gl=us",
+      "product_id": "14695922139673161260",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14695922139673161260",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/14695922139673161260/offers?q=Coffee&gl=us&hl=en&prds=eto:17158526047962384239_0,pid:11276443490094942164,rsk:PC_219598591751793894&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKAU",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A17158526047962384239_0%2Cpid%3A11276443490094942164%2Crsk%3APC_219598591751793894&gl=us&hl=en&offers=1&product_id=14695922139673161260&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKAU",
+      "source": "CVS Pharmacy",
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "rating": 4.5,
+      "reviews": 345,
+      "extensions": [
+        "Dark Roast",
+        "Canister"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWadrm5Y2JQN7wbVzgSzAqpQx0U9YC68whEi2qtFCFLb3xRIsGy8HB6ei61e_stb7FNZRHp24erVGGrhQD8m2byRBRO7o3jDfWagSynjRNLTFNzsXYmG9S&usqp=CAE",
+      "delivery": "Delivery by Fri, Jan 26",
+      "store_rating": 4.7,
+      "store_reviews": 148
+    },
+    {
+      "position": 13,
+      "title": "Kaldi's Coffee Cafe Kaldi Ground Coffee - 12 oz",
+      "link": "https://www.target.com/p/kaldi-39-s-coffee-cafe-kaldi-medium-roast-whole-coffee-12oz/-/A-88967826?ref=tgt_adv_xsf&AFID=google&CPNG=Dry%2BGrocery&adgroup=231-10&region_id=483483&lnm=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1417941301026703767?gl=us",
+      "product_id": "1417941301026703767",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1417941301026703767",
+      "source": "Target",
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "extensions": [
+        "Bag",
+        "Ground"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTZ4cPvzSibqSLCs39AfEtiFhxhYBUZ2rJ1CfQ7dtz9ySPuK-ESmfKsIDnfPLGOHzPa8Bpj302fLhXaG5XdqUuOR6g13YKBXlJvee2hSnJZ-hU1KGtgIWGmnj9V&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 24 · Free 90-day returns",
+      "store_rating": 4.6,
+      "store_reviews": 457
+    },
+    {
+      "position": 14,
+      "title": "Williams Sonoma Premium Whole Bean Coffee, French Roast | Williams Sonoma",
+      "link": "https://www.williams-sonoma.com/products/williams-sonoma-french-roast-coffee-whole-bean/?sku=7365592",
+      "product_link": "https://www.google.com/shopping/product/18058567893919322323?gl=us",
+      "product_id": "18058567893919322323",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18058567893919322323",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/18058567893919322323/offers?q=Coffee&gl=us&hl=en&prds=eto:11111492680923406342_0,local:1,pid:8496190004458229605,prmr:2&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMsU",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A11111492680923406342_0%2Clocal%3A1%2Cpid%3A8496190004458229605%2Cprmr%3A2&gl=us&hl=en&offers=1&product_id=18058567893919322323&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMsU",
+      "source": "Williams-Sonoma",
+      "price": "$18.95",
+      "extracted_price": 18.95,
+      "extensions": [
+        "Dark Roast",
+        "Whole Bean",
+        "IN-STORE PICKUP"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRmUefP4NJWWqc11A4WRjG_NozUKJLVcw53RE3zxg_VKdmr7UnwBVEFW1ieawaguuXTl4ukuf-7ZoQ87hxsdaxdvO_H_SJmaAmGqnJ1ldAspJGHz_BW2HiMqg&usqp=CAE",
+      "tag": "IN-STORE PICKUP",
+      "delivery": "12.2 mi · In stock",
+      "store_rating": 4.5,
+      "store_reviews": 32
+    },
+    {
+      "position": 15,
+      "title": "Mt. Comfort Coffee El Salvador Medium Roast, 12 oz Bag - Locally Sourced from ...",
+      "link": "https://groceryeshop.us/index.php?route=product/product&product_id=258986&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/18335392102765950253?gl=us",
+      "product_id": "18335392102765950253",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18335392102765950253",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/18335392102765950253/offers?q=Coffee&gl=us&hl=en&prds=eto:216149293248141202_0,pid:13321949578796652109,rsk:PROD_VAR_1438203670308280669&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOAU",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A216149293248141202_0%2Cpid%3A13321949578796652109%2Crsk%3APROD_VAR_1438203670308280669&gl=us&hl=en&offers=1&product_id=18335392102765950253&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOAU",
+      "source": "Groceryeshop",
+      "price": "$16.99",
+      "extracted_price": 16.99,
+      "old_price": "$19.49",
+      "extracted_old_price": 19.49,
+      "rating": 4.9,
+      "reviews": 16,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Apply GET5OFF",
+        "SALE"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRLjFKhUM5qagySekQ3_rpiKQey6Wso7l9zgfUPOIzvgPswLd-F_PxIBZmlrywwlEPJz4eAz4ERd_AyH_CwyQSmq1gxnIl6wS5evRy4pJB8n_s04ij3Cy_R&usqp=CAE",
+      "tag": "SALE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 16,
+      "title": "Bones Coffee Company Bones Holiday Sample Pack Flavored Whole Coffee Beans ...",
+      "link": "https://www.amazon.com/Bones-Coffee-Company-Flavored-Beverages/dp/B0CKS2ZQNZ?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2PPDX61M61T1R",
+      "product_link": "https://www.google.com/shopping/product/13722185088872144729?gl=us",
+      "product_id": "13722185088872144729",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=13722185088872144729",
+      "source": "Amazon.com - Seller",
+      "price": "$34.99",
+      "extracted_price": 34.99,
+      "rating": 4.8,
+      "reviews": 1206,
+      "extensions": [
+        "Medium Roast",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTDCrq8OoeEuODfhjSyDxRizHmAvLM--6INyZhdCCuEjVoakkXuxCTJD8rfYsHO_4LMnIvWTycT1cfT9Thbri1rOYWZsVkxkWA3fyl7OGU0_9tGFeoMeeUc&usqp=CAE",
+      "delivery": "$7.76 delivery"
+    },
+    {
+      "position": 17,
+      "title": "Bones Coffee Company Fall Sample Pack Flavored Whole Coffee Beans Flavored Coffee ...",
+      "link": "https://www.bonescoffee.com/products/fall-favorites-sample-pack?variant=39361320976436&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooOEOg-vDQnaA2rKEWCwyTXnfmicxhsB1Ql0gcOvEghkzOLvs5ZPf0&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/14935778429660840576?gl=us",
+      "product_id": "14935778429660840576",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14935778429660840576",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/14935778429660840576/offers?q=Coffee&gl=us&hl=en&prds=eto:23939622066366935_0,pid:12426001230264417025,rsk:PC_1782621028184740704&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIUV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A23939622066366935_0%2Cpid%3A12426001230264417025%2Crsk%3APC_1782621028184740704&gl=us&hl=en&offers=1&product_id=14935778429660840576&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIUV",
+      "source": "Bones Coffee Company",
+      "price": "$32.99",
+      "extracted_price": 32.99,
+      "rating": 4.9,
+      "reviews": 115,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Vegan"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTPxkOKJJWDzNlD1SbSCECiLZ19udEbNPzCFb8cEYKq0rN0nVNh4a0pVyNa-27hK6np8EfJRchxHpS2QfJOzPvuZl9TFOhk&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31",
+      "store_rating": 4.9,
+      "store_reviews": 3200
+    },
+    {
+      "position": 18,
+      "title": "Stumptown Coffee, Whole Bean, Hair Bender Blend - 12 oz",
+      "link": "https://www.stumptowncoffee.com/products/hair-bender?variant=42460851896488&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorERp5ucwxP1Vs_6oTANEL95hx81iF8uYvQ1u7PB-_iJ46gzVDUbyk&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1625812388478592856?gl=us",
+      "product_id": "1625812388478592856",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1625812388478592856",
+      "number_of_comparisons": "20+",
+      "comparison_link": "https://www.google.com/shopping/product/1625812388478592856/offers?q=Coffee&gl=us&hl=en&prds=eto:6076932848613057031_0,pid:4554025703501600201,rsk:PC_7294495274158459719&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJgV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A6076932848613057031_0%2Cpid%3A4554025703501600201%2Crsk%3APC_7294495274158459719&gl=us&hl=en&offers=1&product_id=1625812388478592856&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJgV",
+      "source": "Stumptown Coffee Roasters",
+      "price": "$16.00",
+      "extracted_price": 16,
+      "rating": 4.1,
+      "reviews": 255,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Kosher"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT1t2imJXn7kM2L1sMKfkGY2UNzG7Jc5__q6cSqE8aFM_SmgzjeMkpeMKiGrYaFQ8AbB61xaeoEojYYRNmJrBurmj8R9RF3Zwq2PQL_qhl5z0RWY545Uxe3bg&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31"
+    },
+    {
+      "position": 19,
+      "title": "Bones Coffee Co. S'morey Time Cold Brew Lattee 4 Pack Coffee",
+      "link": "https://ibspot.com/products/bones-coffee-company-s-morey-time-cold-brew-latte-s-mores-graham-crackers-flavored-coffee-ready-to-drink-100-cold-brew-coffee-can-cold-brew-latte-s-mores-in-cans-11-fl-oz-can-4-pack?variant_id=3763411&srsltid=AfmBOoq71ZReLtJESVdZX0owQsro4hrYc7m8WbQBi3xlzFcxmAdX6MiHbqQ",
+      "product_link": "https://www.google.com/shopping/product/3381956491686238051?gl=us",
+      "product_id": "3381956491686238051",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3381956491686238051",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/3381956491686238051/offers?q=Coffee&gl=us&hl=en&prds=eto:7626644161913384426_0,pid:5380409446907969068,rsk:PC_4575484013006791993&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLEV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A7626644161913384426_0%2Cpid%3A5380409446907969068%2Crsk%3APC_4575484013006791993&gl=us&hl=en&offers=1&product_id=3381956491686238051&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLEV",
+      "source": "ibspot.com",
+      "price": "$44.88",
+      "extracted_price": 44.88,
+      "rating": 4.1,
+      "reviews": 11,
+      "extensions": [
+        "Instant",
+        "Vegan",
+        "Kosher",
+        "Apply WELCOME5",
+        "5% OFF"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQIzX4h84RWr7Doxho8_KpZZSdZHQQWP7YB6x_dYTs8bQCNo64HaBhn1FdpleHDc-px6K9abRzd21_xemohA83rGI0Za-r0frXUCjSsYEJHUYmqVXXSB6Qb&usqp=CAE",
+      "tag": "5% OFF",
+      "delivery": "Free delivery by Feb 1 & Free 30-day returns",
+      "store_rating": 3.6,
+      "store_reviews": 209
+    },
+    {
+      "position": 20,
+      "title": "Bones Coffee Medium Roast Ground Coffee | 12 oz Guatemala Single-Origin Flavored ...",
+      "link": "https://www.walmart.com/ip/Bones-Coffee-Medium-Roast-Ground-Coffee-12-oz-Guatemala-Single-Origin-Flavored-Coffee/400007471?wmlspartner=wlpa&selectedSellerId=101065893",
+      "product_link": "https://www.google.com/shopping/product/5282232040854510192?gl=us",
+      "product_id": "5282232040854510192",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=5282232040854510192",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/5282232040854510192/offers?q=Coffee&gl=us&hl=en&prds=eto:8333597922049624287_0,pid:5968054139869148814,rsk:PC_8779303737557337690&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMMV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A8333597922049624287_0%2Cpid%3A5968054139869148814%2Crsk%3APC_8779303737557337690&gl=us&hl=en&offers=1&product_id=5282232040854510192&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMMV",
+      "source": "Walmart - Bones Coffee Company",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "rating": 4.7,
+      "reviews": 168,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSnH5tZAyOjxEnsfWK0onNIswedE-Uly8gN-4Blfk3nl8epngdUHpv33KCr2rBGX-eA7nFevDhxpoDFIWB1o8aq75N-ULRSq5GQcyQHmf1SpZaTnLTQMOnbTg&usqp=CAE",
+      "delivery": "$6.99 delivery"
+    },
+    {
+      "position": 21,
+      "title": "Folgers Classic Medium Roast Ground Coffee - 9.6oz",
+      "link": "https://www.walgreens.com/store/c/folgers-classic-roast/ID=300434880-product?com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/16914877625280977865?gl=us",
+      "product_id": "16914877625280977865",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=16914877625280977865",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/16914877625280977865/offers?q=Coffee&gl=us&hl=en&prds=eto:1243668779667963340_0,local:1,pid:12518176021612781752,prmr:2,rsk:PC_3245476400833551948&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNwV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A1243668779667963340_0%2Clocal%3A1%2Cpid%3A12518176021612781752%2Cprmr%3A2%2Crsk%3APC_3245476400833551948&gl=us&hl=en&offers=1&product_id=16914877625280977865&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNwV",
+      "source": "Walgreens.com",
+      "price": "$3.99",
+      "extracted_price": 3.99,
+      "rating": 4.7,
+      "reviews": 14932,
+      "extensions": [
+        "Medium Roast",
+        "Canister",
+        "LOW PRICE"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpav5aKmwnRGpLJkgELAjwSlg_BUDfHKiBxGpVx-DX8lvUY_ZL_3mWb-t13m-bylahhJ1kAZTdSrzCcfevW0xcIqtZYs4XtzvPfkYuU9Gw7KfQoz_GnQk9XA&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "16.9 mi · In stock · Curbside · Free 30-day returns",
+      "store_rating": 4.4,
+      "store_reviews": 132
+    },
+    {
+      "position": 22,
+      "title": "Dunkin' Coffee, Medium Roast, Original Blend, K-Cup Pods - 44 pack, 0.37 oz pods",
+      "link": "https://www.staples.com/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "product_link": "https://www.google.com/shopping/product/1513439015840443605?gl=us",
+      "product_id": "1513439015840443605",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1513439015840443605",
+      "number_of_comparisons": "20+",
+      "comparison_link": "https://www.google.com/shopping/product/1513439015840443605/offers?q=Coffee&gl=us&hl=en&prds=eto:8509237716506204324_0,local:1,pid:66980660492721560,prmr:2,rsk:PC_8449748082333385386&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPUV",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A8509237716506204324_0%2Clocal%3A1%2Cpid%3A66980660492721560%2Cprmr%3A2%2Crsk%3APC_8449748082333385386&gl=us&hl=en&offers=1&product_id=1513439015840443605&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPUV",
+      "source": "Staples",
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "old_price": "$32.99",
+      "extracted_old_price": 32.99,
+      "rating": 4.7,
+      "reviews": 19780,
+      "extensions": [
+        "Pod",
+        "Medium Roast",
+        "Box",
+        "SALE"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdMGjaIB885_RKq530Vq76JC0cO_mXRbDUJnSaFKhGLpZvHgZpL2qPDpT_Oq_-banuhRoiwi7Gb50Mz5-lTDtMQL5Uj60P1U_ARe2AGX5T3y5oBRAzsG7tsw&usqp=CAE",
+      "tag": "SALE",
+      "delivery": "9.8 mi · Limited stock",
+      "store_rating": 4.5,
+      "store_reviews": 51
+    },
+    {
+      "position": 23,
+      "title": "Biggby Best Whole Bean Coffee, 40 oz Bag",
+      "link": "https://www.ebay.com/itm/235050298528?chn=ps&mkevt=1&mkcid=28&var=535002572441&srsltid=AfmBOooNunyIZ5ARN2EyXR3-UtkyD6RNounDjTwcuNTHuk0oAKimeDZE0-4&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/3952514199265403279?gl=us",
+      "product_id": "3952514199265403279",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3952514199265403279",
+      "number_of_comparisons": "4",
+      "comparison_link": "https://www.google.com/shopping/product/3952514199265403279/offers?q=Coffee&gl=us&hl=en&prds=eto:3746554658077828757_0,pid:6731630246193501113,rsk:PC_9038643377974245826&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIsW",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A3746554658077828757_0%2Cpid%3A6731630246193501113%2Crsk%3APC_9038643377974245826&gl=us&hl=en&offers=1&product_id=3952514199265403279&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIsW",
+      "source": "eBay - hightide.family.retailers2015",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "rating": 4.8,
+      "reviews": 53,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Kosher",
+        "$7.56 below typical",
+        "LOW PRICE"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRYlN7umLeztbi0HqUBuEiTs8vY5kcI0E5dkMgF1qtOpGBR9RZ_q4n1OuQTEquw3dl0XLDw-qJuTN0nQkj5hk0A_LVwiaH4mCaZ71unbzaJHLiCmrDV7z78zw&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "Free delivery by Jan 25 & Free 60-day returns"
+    },
+    {
+      "position": 24,
+      "title": "Bones Coffee Company Bananas Foster Flavored Coffee 12 oz Flavored Coffee Gifts ...",
+      "link": "https://jlongs.com/products/bananas-foster-coffee?variant=40475164147785",
+      "product_link": "https://www.google.com/shopping/product/18059721044761504416?gl=us",
+      "product_id": "18059721044761504416",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18059721044761504416",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/18059721044761504416/offers?q=Coffee&gl=us&hl=en&prds=eto:8688658432114590517_0,pid:14363833097395154556,rsk:PC_5955671339163537050&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJ0W",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A8688658432114590517_0%2Cpid%3A14363833097395154556%2Crsk%3APC_5955671339163537050&gl=us&hl=en&offers=1&product_id=18059721044761504416&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJ0W",
+      "source": "J Longs",
+      "price": "$15.99",
+      "extracted_price": 15.99,
+      "rating": 4.7,
+      "reviews": 1045,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS69MQi8geuBERp6RN4bzLd0xdcH5jQ07aaOaUw61UJtx8KcSzsC4KV3p9PHEofhmsE5FNFWTGdfm2mDQ26FYfG-qg6L15fGAZ3VZrH0DbktTAPOv7Nr5Xo&usqp=CAE",
+      "delivery": "Delivery by Fri, Jan 26"
+    },
+    {
+      "position": 25,
+      "title": "Equator Coffees & Teas Tigerwalk Espresso, Medium Roast, Roasted Ground Coffee ...",
+      "link": "https://jubileegrocery.com/product/equator-coffees-tigerwalk-espresso-ground-coffee-medium-roast-fresh-roasted/?srsltid=AfmBOoogdBhLHTlsiCXUn97hSp6sy5cXIcfyw1Xzs7KFvHFhV0uActtgo60&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1037465124228068448?gl=us",
+      "product_id": "1037465124228068448",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1037465124228068448",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/1037465124228068448/offers?q=Coffee&gl=us&hl=en&prds=eto:4245590064382026853_0,pid:18163897716281612666,rsk:PC_3364918258669929516&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLMW",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A4245590064382026853_0%2Cpid%3A18163897716281612666%2Crsk%3APC_3364918258669929516&gl=us&hl=en&offers=1&product_id=1037465124228068448&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLMW",
+      "source": "Jubilee Grocery",
+      "price": "$15.60",
+      "extracted_price": 15.6,
+      "rating": 4.5,
+      "reviews": 32,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground",
+        "$0.90 below typical",
+        "LOW PRICE"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDozwQi0SLxYhGV7zK7V39bMcBBFEwE0KJw9fcpHNXUvFAg9g0nLgUG_LnGfVN-IdjxdjF0TUJ3qcAHP1qY5tGdXIaGHSnt633_URyYNd7mpukm_4l7MMgww&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "Delivery by Fri, Jan 26"
+    },
+    {
+      "position": 26,
+      "title": "Kauai Coffee Coffee, Ground, Medium Roast - 10 oz",
+      "link": "https://www.instacart.com/landing?product_id=99141&retailer_id=238&utm_term=pbi-0&utm_campaign=kauai-coffee-coffee%2C-arabica%2C-100-premium%2C-medium-roast---10-oz_meijer&utm_source=instacart_google&utm_medium=shopping_free_listing&utm_content=productid-99141_retailerid=238&region_id=38234783203",
+      "product_link": "https://www.google.com/shopping/product/8081722968277702941?gl=us",
+      "product_id": "8081722968277702941",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=8081722968277702941",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/8081722968277702941/offers?q=Coffee&gl=us&hl=en&prds=eto:5873549840139218571_0,pid:16259978704374511613,rsk:PC_11378384743482461635&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMcW",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A5873549840139218571_0%2Cpid%3A16259978704374511613%2Crsk%3APC_11378384743482461635&gl=us&hl=en&offers=1&product_id=8081722968277702941&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMcW",
+      "source": "Instacart",
+      "price": "$11.29",
+      "extracted_price": 11.29,
+      "rating": 4.5,
+      "reviews": 477,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground",
+        "SAME-DAY DELIVERY"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTClmtPjteEHdbAebKLNFOMUOZmmVJRFWiOIyY8JL0W7rg9ewaAOn_inhGQ0P5ji7DTrCmSo_1bW6yVagXAwqKzrhMQ1nejXkMo767zJEBqbFS-FzuJV1qrGQ&usqp=CAE",
+      "tag": "SAME-DAY DELIVERY",
+      "delivery": "$11.0 same-day delivery"
+    },
+    {
+      "position": 27,
+      "title": "Cafe La Llave Coffee, 100% Pure, Espresso - 10 oz",
+      "link": "https://www.cvs.com/shop/cafe-la-llave-espresso-dark-roast-coffee-10-oz-prodid-217662?skuId=217662&cgaa=QWxsb3dHb29nbGVUb0FjY2Vzc0NWU1BhZ2Vz",
+      "product_link": "https://www.google.com/shopping/product/3306955120623819075?gl=us",
+      "product_id": "3306955120623819075",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3306955120623819075",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/3306955120623819075/offers?q=Coffee&gl=us&hl=en&prds=eto:13780417869596244230_0,pid:14031321044942468412,rsk:PC_6230970944114412005&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECN0W",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A13780417869596244230_0%2Cpid%3A14031321044942468412%2Crsk%3APC_6230970944114412005&gl=us&hl=en&offers=1&product_id=3306955120623819075&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECN0W",
+      "source": "CVS Pharmacy",
+      "price": "$3.49",
+      "extracted_price": 3.49,
+      "rating": 4.7,
+      "reviews": 416,
+      "extensions": [
+        "Dark Roast",
+        "Ground"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTbwVidfEHP2UIcBEbmuiIbZluk4-aYDrJ1Iiz_VpzjTfGzaZ-bWSuMC4Uqm2_6ftY1iAPq10ETbkBFCVx8Gsx_hGFlcec_3Btm_5Ee1DPOh4el-2p7YRrc&usqp=CAE",
+      "delivery": "Delivery by Fri, Jan 26",
+      "store_rating": 4.7,
+      "store_reviews": 148
+    },
+    {
+      "position": 28,
+      "title": "Don Pablo's Best Sellers Coffee Sampler Gift Box Whole Bean",
+      "link": "https://donpablocoffee.com/products/don-pablos-best-sellers-coffee-collection?variant=37718704849073&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooeDqYrb442OGScVeHjVYuRVtLfehfTooEV-lXtGKiksJzVa2lRJ7Y&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/242744918843875881?gl=us",
+      "product_id": "242744918843875881",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=242744918843875881",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/242744918843875881/offers?q=Coffee&gl=us&hl=en&prds=eto:14421072084921716837_0,pid:13421164944492307945,rsk:PC_6497015126736358360&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPAW",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A14421072084921716837_0%2Cpid%3A13421164944492307945%2Crsk%3APC_6497015126736358360&gl=us&hl=en&offers=1&product_id=242744918843875881&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPAW",
+      "source": "Don Pablo Coffee",
+      "price": "$35.99",
+      "extracted_price": 35.99,
+      "rating": 4.8,
+      "reviews": 7,
+      "extensions": [
+        "Dark Roast",
+        "Box",
+        "Organic"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR7U291OqpVrICUNbByvU_dSGpaDwLTvkD3HgQviKiRn6CGhOO2PeWJuy3pgWR20Z9s_jaii-KzxgoGQuU1nmn4tl5uiIx88AajvaY0veyR6c6lzQTOgRJv&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31 · Free 30-day returns"
+    },
+    {
+      "position": 29,
+      "title": "Costa Coffee Flat White Variety Pack, 12 Pack/11 oz",
+      "link": "https://www.meijer.com/shopping/product/coffee-flat-white-variety-pack-iced-coffee-cans--12-pack/4900054964.html",
+      "product_link": "https://www.google.com/shopping/product/14894839915837364527?gl=us",
+      "product_id": "14894839915837364527",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14894839915837364527",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/14894839915837364527/offers?q=Coffee&gl=us&hl=en&prds=eto:9958620590420862124_0,local:1,pid:14586736124030387245,prmr:2,rsk:PC_10048754441324166817&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIQX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A9958620590420862124_0%2Clocal%3A1%2Cpid%3A14586736124030387245%2Cprmr%3A2%2Crsk%3APC_10048754441324166817&gl=us&hl=en&offers=1&product_id=14894839915837364527&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIQX",
+      "source": "Meijer",
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "rating": 4.8,
+      "reviews": 10,
+      "extensions": [
+        "Chocolate",
+        "Variety Pack",
+        "$15.92 below typical",
+        "LOW PRICE"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSiCOzeU3M0owTT--T_zmWi1-R5TNs-yg22zr2IUzQx8nXqEV9KUEFHgMdJJeNjUEKuBGIxagox31xAYSbffxrh-5v_-QQViIzNQnOrEymq3Wno7EUnWMeI&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "13.8 mi · In stock"
+    },
+    {
+      "position": 30,
+      "title": "Stumptown Coffee Roasters Coffee, Ground, Hand Roasted, Hair Bender Blend - 12 oz",
+      "link": "https://www.doordash.com/product/84012160016_UPCA?utm_source=Google&utm_medium=PLA&utm_campaign=organic_product_listing&business_id=434736&dd_sic=urpc_6e1a1f46-9b35-4229-82ee-d2e46a72848c&frt=6&srsltid=AfmBOopSQGDUoQRP7wwEItmMs3mynzoOT-_AlFJSVF-IkKLvl_cGlt2PfmQ&region_id=1424070",
+      "product_link": "https://www.google.com/shopping/product/10660075809480771360?gl=us",
+      "product_id": "10660075809480771360",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=10660075809480771360",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/10660075809480771360/offers?q=Coffee&gl=us&hl=en&prds=eto:11802745763100580608_0,pid:7409612957591489670,rsk:PC_17300855143011745357&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJYX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A11802745763100580608_0%2Cpid%3A7409612957591489670%2Crsk%3APC_17300855143011745357&gl=us&hl=en&offers=1&product_id=10660075809480771360&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJYX",
+      "source": "DoorDash - Meijer US",
+      "price": "$18.40",
+      "extracted_price": 18.4,
+      "rating": 3.1,
+      "reviews": 8,
+      "extensions": [
+        "Light Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSuoVqhWRT2op7XUiuUVPaa_HkkyJBADIlflvOfLFMYbIrRQD49ftxIfCVJ8XxjNyNIg8NJQDnQfXzQar9jQpQXU2mk8IgipuLBS5CrKGiVF3_OfaXZ9oUE&usqp=CAE",
+      "delivery": "$5.99 delivery"
+    },
+    {
+      "position": 31,
+      "title": "Bru Original Coffee",
+      "link": "https://www.quicklly.com/grocery-store/bru-instant-coffee/127808?srsltid=AfmBOorZFD1FgfFfbPQhYTk6Bn3uuyyBxFchjf1fFAxRx2zuqopYvlYprbk",
+      "product_link": "https://www.google.com/shopping/product/3939349381691911713?gl=us",
+      "product_id": "3939349381691911713",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3939349381691911713",
+      "number_of_comparisons": "4",
+      "comparison_link": "https://www.google.com/shopping/product/3939349381691911713/offers?q=Coffee&gl=us&hl=en&prds=eto:15082292433627244750_0,pid:11909720412415153255,rsk:PC_3450637442595378083&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKwX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A15082292433627244750_0%2Cpid%3A11909720412415153255%2Crsk%3APC_3450637442595378083&gl=us&hl=en&offers=1&product_id=3939349381691911713&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKwX",
+      "source": "Quicklly",
+      "price": "$8.69",
+      "extracted_price": 8.69,
+      "rating": 4.5,
+      "reviews": 144,
+      "extensions": [
+        "Jar",
+        "Instant",
+        "Apply WELCOME24",
+        "10% OFF"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQnyTPefpyOo2gh0DP976_Ix8PXllEFYRq2G47JNFNBY_TyZ9jZKrhZ3-_1oDaCUtzYmOdziGTOlgf7U89WbUoZybZO7uBd87iU4mdqcpE&usqp=CAE",
+      "tag": "10% OFF",
+      "delivery": "Delivery by Mon, Feb 5"
+    },
+    {
+      "position": 32,
+      "title": "Williams Sonoma Premium Whole Bean Coffee, House Roast | Williams Sonoma",
+      "link": "https://www.williams-sonoma.com/products/williams-sonoma-house-medium-roast-coffee-whole-bean/?sku=3342707",
+      "product_link": "https://www.google.com/shopping/product/3985185050697315197?gl=us",
+      "product_id": "3985185050697315197",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3985185050697315197",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/3985185050697315197/offers?q=Coffee&gl=us&hl=en&prds=eto:6515527433553321224_0,local:1,pid:4622694080106098855,prmr:2&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMIX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A6515527433553321224_0%2Clocal%3A1%2Cpid%3A4622694080106098855%2Cprmr%3A2&gl=us&hl=en&offers=1&product_id=3985185050697315197&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMIX",
+      "source": "Williams-Sonoma",
+      "price": "$18.95",
+      "extracted_price": 18.95,
+      "extensions": [
+        "Medium Roast",
+        "Whole Bean",
+        "IN-STORE PICKUP"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS8tNKxL26RJkjUPCSOYlY49jlhU6TyTc-Iv7HorYbM-EU1T-HuGKtJQymY9Xge0nDj88LH4TasbhM4k2j_y_QFaR-wmmcv3hwfyvqTQWaUdxXbVVCxvC7N&usqp=CAE",
+      "tag": "IN-STORE PICKUP",
+      "delivery": "12.2 mi · In stock",
+      "store_rating": 4.5,
+      "store_reviews": 32
+    },
+    {
+      "position": 33,
+      "title": "Grounds & Hounds Coffee, Whole Bean, Medium Roast, Sit & Stay - 12 oz",
+      "link": "https://groundsandhoundscoffee.com/products/sit-stay-medium-dark-roast-blend?variant=12854151938136&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoo91gSMONONDmfPzU0uUB4TKGvl5P0zdW-ovAkoFv7pkNnzp2qxtFY&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/6114425822804101307?gl=us",
+      "product_id": "6114425822804101307",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=6114425822804101307",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/6114425822804101307/offers?q=Coffee&gl=us&hl=en&prds=eto:15423251599224805992_0,pid:16244087497192350770,rsk:PC_18229672698841989016&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNoX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A15423251599224805992_0%2Cpid%3A16244087497192350770%2Crsk%3APC_18229672698841989016&gl=us&hl=en&offers=1&product_id=6114425822804101307&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNoX",
+      "source": "Grounds & Hounds Coffee Co.",
+      "price": "$14.99",
+      "extracted_price": 14.99,
+      "rating": 4.9,
+      "reviews": 50,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTE3eT-8fChS3y11gakbmxykTFgWbzG7OoOHPyHMbEeAlWKeC-Sf8RYjZ7X_nBBa_IGnxQBWxSXEj2jF-ndmnEonhwU4Z3xHZUawe8e1kpLHlefAr3RY106&usqp=CAE",
+      "delivery": "Free delivery by Thu, Feb 1",
+      "store_rating": 4.8,
+      "store_reviews": 1900
+    },
+    {
+      "position": 34,
+      "title": "Cafe Lareno Coffee - 14 oz",
+      "link": "https://puertoricocoffeehub.com/products/lareno-ground-coffee?variant=40427627118797&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqSTnUbYF-sSmYuNUp3uibvBSa39nbYkTNGtoo4CdKV-JtqvZ-jVcM&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/13909593644274226577?gl=us",
+      "product_id": "13909593644274226577",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=13909593644274226577",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/13909593644274226577/offers?q=Coffee&gl=us&hl=en&prds=eto:7839943455840510209_0,pid:17948999569174252264,rsk:PC_17491530833430906833&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOwX",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A7839943455840510209_0%2Cpid%3A17948999569174252264%2Crsk%3APC_17491530833430906833&gl=us&hl=en&offers=1&product_id=13909593644274226577&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOwX",
+      "source": "Puerto Rico Coffee Hub",
+      "price": "$6.95",
+      "extracted_price": 6.95,
+      "rating": 4.9,
+      "reviews": 13,
+      "extensions": [
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRdC-ptSkMJDENSNxajamF-XIzoVHPT0RJ_8xZQCgzCvCm9LrV9qX2G7mEKDxyihFioyI5lgTTlEvLvo5hAGx251g6AB53HglVrE7Nc1oBbmi-P-otqvdBS&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31"
+    },
+    {
+      "position": 35,
+      "title": "Boyd's Coffee Red Wagon Ground Coffee - 12 oz bag",
+      "link": "https://www.bonanza.com/listings/Boyd-s-Ground-Coffee-Red-Wagon-Organic-Blended-from-100-Arabica-12oz/1574906397?goog_pla=1",
+      "product_link": "https://www.google.com/shopping/product/15708155091078614724?gl=us",
+      "product_id": "15708155091078614724",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=15708155091078614724",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/15708155091078614724/offers?q=Coffee&gl=us&hl=en&prds=eto:14781504209888697655_0,pid:2760344244514009312,rsk:PC_2063383052615344829&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECP4X",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A14781504209888697655_0%2Cpid%3A2760344244514009312%2Crsk%3APC_2063383052615344829&gl=us&hl=en&offers=1&product_id=15708155091078614724&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECP4X",
+      "source": "Bonanza - koffeeexpress",
+      "price": "$16.50",
+      "extracted_price": 16.5,
+      "rating": 4.8,
+      "reviews": 4,
+      "extensions": [
+        "Dark Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQn-En-XTp1yF7PRTR4QpsbUiZLOG156Qv6wE-olI1UFA8aUuUACujxmyyN7jRldTz7DB6-gAfjJ8BZwqOtFPM9DiGQQIGKcHdpO4-cxvSULxHdRFKGZcY-1Q&usqp=CAE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 36,
+      "title": "Peace Coffee Roast Ground Coffee - 20 oz",
+      "link": "https://www.amazon.com/Peace-Coffee-French-Origin-Organic/dp/B08C74QB14?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3KRDYIEOI59XJ",
+      "product_link": "https://www.google.com/shopping/product/552900304448722416?gl=us",
+      "product_id": "552900304448722416",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=552900304448722416",
+      "source": "Amazon.com - Seller",
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "rating": 4.9,
+      "reviews": 12,
+      "extensions": [
+        "Dark Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQZDAeHL0C6Eu2mBksNcXiT-s8tgo5eL0XMos8bjUEPFg-iWaFmHRUL1S-CX85eQ3zL4zApIS9x4mx_EfjNhHbmjCkB0fzkyM9c2yiyt0ZMaHXxYVISvYca0A&usqp=CAE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 37,
+      "title": "Door County Coffee Best Sellers, Flavored & Non-Flavored Coffee Variety,12-Pack",
+      "link": "https://doorcountycoffee.com/best-sellers-full-pot-bag-12-pack-gift/",
+      "product_link": "https://www.google.com/shopping/product/11293018304854018168?gl=us",
+      "product_id": "11293018304854018168",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=11293018304854018168",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/11293018304854018168/offers?q=Coffee&gl=us&hl=en&prds=eto:18071529522848998873_0,pid:5515065862909936840,rsk:PC_17470357530058814892&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKwY",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A18071529522848998873_0%2Cpid%3A5515065862909936840%2Crsk%3APC_17470357530058814892&gl=us&hl=en&offers=1&product_id=11293018304854018168&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKwY",
+      "source": "Door County Coffee",
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "rating": 4.9,
+      "reviews": 62,
+      "extensions": [
+        "Medium Roast",
+        "Box",
+        "Ground",
+        "Get 20% Off All Orders over $80. Apply WINTERWARMUP"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNTQ9glOk0PG5ABw_IqvfQgYAKKacdiR_xl5iqetLOcuIbKXcz-ODK_5uOFGKLU7SiEOElGE80GLmePS3e13HxepwgPR6Oy0J-nimRpyEKv9RCO4R5G0QP_A&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31",
+      "store_rating": 4.9,
+      "store_reviews": 688
+    },
+    {
+      "position": 38,
+      "title": "Bones Coffee Medium Roast Whole Bean Coffee | 12 oz Espresso Coffee",
+      "link": "https://www.walmart.com/ip/Bones-Coffee-Medium-Roast-Whole-Bean-Coffee-12-oz-Espresso-Coffee/304952196?wmlspartner=wlpa&selectedSellerId=101065893",
+      "product_link": "https://www.google.com/shopping/product/3735590953446336807?gl=us",
+      "product_id": "3735590953446336807",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3735590953446336807",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/3735590953446336807/offers?q=Coffee&gl=us&hl=en&prds=eto:17309022228015951418_0,pid:11890334629703544143,rsk:PC_15469924827380724187&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECL0Y",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A17309022228015951418_0%2Cpid%3A11890334629703544143%2Crsk%3APC_15469924827380724187&gl=us&hl=en&offers=1&product_id=3735590953446336807&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECL0Y",
+      "source": "Walmart - Bones Coffee Company",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "rating": 4.8,
+      "reviews": 424,
+      "extensions": [
+        "Medium Roast",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQJOy0j7M6lfF8i7K8QVM5gWlye7iEFOFoIi_kjqyxqXYbU4_PfggfgzeYD_Y26ecAdaAX-LDBFZ6vM5iSN0go2PYFr2XVlZzpbh47s6XPnQlj41JqAGbKxHA&usqp=CAE",
+      "delivery": "$6.99 delivery"
+    },
+    {
+      "position": 39,
+      "title": "Got Your Six Fresh Roasted 12 oz Bag of Gourmet Coffee",
+      "link": "https://www.etsy.com/listing/1337743464/got-your-six-fresh-roasted-12-oz-bag-of?gpla=1&gao=1&",
+      "product_link": "https://www.google.com/shopping/product/1?gl=us&prds=pid:3296860207145072466",
+      "product_id": "3296860207145072466",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3296860207145072466",
+      "source": "Etsy",
+      "price": "$17.00",
+      "extracted_price": 17,
+      "rating": 5,
+      "reviews": 5,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTi7wdGzGmiQJWkbTNpmugiOHkV3-RKcY8vXoYGl7Wp2Q2o4ZAHUhTocjl9aTGSF4n6Dy547ev-hKjIJlynaGEbJTAxqPq8W8oMgxH8Djc&usqp=CAE",
+      "delivery": "$6.22 delivery"
+    },
+    {
+      "position": 40,
+      "title": "Seattle's Best Coffee Coffee, Ground, Medium Roast, Breakfast Blend - 12 oz",
+      "link": "https://www.shopjadas.com/seattles-best-coffee-breakfast-blend-medium-roast-ground-coffee/",
+      "product_link": "https://www.google.com/shopping/product/18236200219424055401?gl=us",
+      "product_id": "18236200219424055401",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18236200219424055401",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/18236200219424055401/offers?q=Coffee&gl=us&hl=en&prds=eto:9422642979210179247_0,pid:1823648022812291165,rsk:PC_7814253261422482480&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOAY",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A9422642979210179247_0%2Cpid%3A1823648022812291165%2Crsk%3APC_7814253261422482480&gl=us&hl=en&offers=1&product_id=18236200219424055401&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOAY",
+      "source": "Shop Jadas",
+      "price": "$17.95",
+      "extracted_price": 17.95,
+      "rating": 4.7,
+      "reviews": 493,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS6c6ACjGMzl8OwU50FY07Dv0DU3vKxjILShCmGpbRTJKWX0uG9QA0LP0mE3OMPAuIy1kz6BGwQE2yxOb6VTJDsJ_tz3FtohdpuZzliiJWmRNjX7EuxWNQB5A&usqp=CAE",
+      "delivery": "Free delivery by Tue, Jan 30"
+    },
+    {
+      "position": 41,
+      "title": "Victor Allen's Coffee Morning Blend Ground Light Roast Coffee",
+      "link": "https://www.biglots.com/product/morning-blend-ground-coffee-12-oz-/p810414988",
+      "product_link": "https://www.google.com/shopping/product/16021115114661815665?gl=us",
+      "product_id": "16021115114661815665",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=16021115114661815665",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/16021115114661815665/offers?q=Coffee&gl=us&hl=en&prds=eto:6873051529418117534_0,local:1,pid:11625139709475213523,prmr:2,rsk:PC_9816109386492036323&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPUY",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A6873051529418117534_0%2Clocal%3A1%2Cpid%3A11625139709475213523%2Cprmr%3A2%2Crsk%3APC_9816109386492036323&gl=us&hl=en&offers=1&product_id=16021115114661815665&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPUY",
+      "source": "Big Lots",
+      "price": "$4.99",
+      "extracted_price": 4.99,
+      "rating": 4.6,
+      "reviews": 7,
+      "extensions": [
+        "Light Roast",
+        "Bag",
+        "Ground",
+        "Discount shown at checkout",
+        "CURBSIDE"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQvFj7TKGdzOuhEJHm-ZzXryrMMiw1jBfMGwjUnEfVGOAtyWYWow9r43TjuAssFq625l7YhzuptxCv6YBnM0oZcuaUUDNzwOU00yGA9xJJo7zwIeFT84RjzNQ&usqp=CAE",
+      "tag": "CURBSIDE",
+      "delivery": "27.6 mi · In stock"
+    },
+    {
+      "position": 42,
+      "title": "Nescafe Taster's Choice Coffee, Instant, Light-Medium, House Blend - 14 oz",
+      "link": "https://www.bjs.com/product/nescafe-tasters-choice-house-blend-instant-coffee-14-oz/3000000000001293774?fulfillment=shipping",
+      "product_link": "https://www.google.com/shopping/product/1837911597283745444?gl=us",
+      "product_id": "1837911597283745444",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1837911597283745444",
+      "number_of_comparisons": "20+",
+      "comparison_link": "https://www.google.com/shopping/product/1837911597283745444/offers?q=Coffee&gl=us&hl=en&prds=eto:6499438377558297229_0,pid:5886044464644535365,rsk:PC_8325681895813819018&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIsZ",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A6499438377558297229_0%2Cpid%3A5886044464644535365%2Crsk%3APC_8325681895813819018&gl=us&hl=en&offers=1&product_id=1837911597283745444&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIsZ",
+      "source": "BJ's Wholesale Club",
+      "price": "$16.99",
+      "extracted_price": 16.99,
+      "rating": 4.6,
+      "reviews": 10915,
+      "extensions": [
+        "Medium Roast",
+        "Jar",
+        "Instant"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTACZKEZPCsQVzZOIyB4FPZ6_QgJDB0xLc33IIkRm7ALqwLCyW7xEE-EIPC3HC2OaHNgIiteGM167sP2xRRrDf5CPgZnT7Y2SAF0PG29ExuhNzpi1dOmKFQXQ&usqp=CAE",
+      "delivery": "$7.82 delivery",
+      "store_rating": 4.2,
+      "store_reviews": 72
+    },
+    {
+      "position": 43,
+      "title": "Costa Coffee Medium Roast Whole Bean Coffee - 12 oz",
+      "link": "https://www.truegether.com/listing.html?id=USER.063b5c4e-0e08-46b5-8033-4b1d56764b24",
+      "product_link": "https://www.google.com/shopping/product/5540083400230040993?gl=us",
+      "product_id": "5540083400230040993",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=5540083400230040993",
+      "number_of_comparisons": "4",
+      "comparison_link": "https://www.google.com/shopping/product/5540083400230040993/offers?q=Coffee&gl=us&hl=en&prds=eto:8957571428781815692_0,pid:9749402762418662727,rsk:PC_6216105232269161594&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJwZ",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A8957571428781815692_0%2Cpid%3A9749402762418662727%2Crsk%3APC_6216105232269161594&gl=us&hl=en&offers=1&product_id=5540083400230040993&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJwZ",
+      "source": "Truegether - c-m-enterprises",
+      "price": "$11.72",
+      "extracted_price": 11.72,
+      "rating": 4.7,
+      "reviews": 2418,
+      "extensions": [
+        "Medium Roast",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSTBCeOaDmTpYAROTI4QUM5ruw32HaB5N0MdYP3yI7z-5jXBkqZpSUNDZUJgMsA4ndBHcSWDV6TPrv79J7XhCsp5aUuVeJfdhXAJ7ZUGSJ27BrCVennNOdmFA&usqp=CAE",
+      "delivery": "Delivery by Thu, Feb 15"
+    },
+    {
+      "position": 44,
+      "title": "Philz Coffee Lighter Blend Dancing Water Coffee (12 oz)",
+      "link": "https://www.target.com/p/philz-dancing-water-coffee-whole-bean-light-roast-coffee-12oz/-/A-85710213?ref=tgt_adv_xsf&AFID=google&CPNG=Dry%2BGrocery&adgroup=231-10&region_id=483483&lnm=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/2474874786401274130?gl=us",
+      "product_id": "2474874786401274130",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=2474874786401274130",
+      "source": "Target",
+      "price": "$14.49",
+      "extracted_price": 14.49,
+      "rating": 5,
+      "reviews": 4,
+      "extensions": [
+        "Light Roast",
+        "Whole Bean"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxQjMvQVh7kiKLfnc7XEPvR0DM4Zdl58podUn8WwxhvTweqs7ZcPHq8XhR4L53IcIGEjhQZkNqJf0h5v-ecsmzrnLvc_L_XGbI1XwKlm_pM2PDApl0baIG&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 24 · Free 90-day returns",
+      "store_rating": 4.6,
+      "store_reviews": 457
+    },
+    {
+      "position": 45,
+      "title": "Great Value French Vanilla Medium Ground Coffee, 12 oz",
+      "link": "https://www.ecrater.com/p/37425766/great-value-french-vanilla-medium?gps=1&srsltid=AfmBOooH8nGqo83dQdLuuSNPcpvGoYO9ppk_xUR4seVGF7Z9aPnntKyZDAQ&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/18127685370365861687?gl=us",
+      "product_id": "18127685370365861687",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18127685370365861687",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/18127685370365861687/offers?q=Coffee&gl=us&hl=en&prds=eto:1732668323579244552_0,pid:16915795700427888515,rsk:PC_7783307737668494758&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMUZ",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A1732668323579244552_0%2Cpid%3A16915795700427888515%2Crsk%3APC_7783307737668494758&gl=us&hl=en&offers=1&product_id=18127685370365861687&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMUZ",
+      "source": "eCrater - tarvos",
+      "price": "$11.89",
+      "extracted_price": 11.89,
+      "rating": 3.9,
+      "reviews": 86,
+      "extensions": [
+        "Pod",
+        "Medium Roast",
+        "Bag"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpcjrEmKstCZfHW_wFK12Ec7eskHFCNyCmLhFTTL7wX2J_KMtP8qJACgDqmfDHtmsf3CqCMmNaUqL4Kp24PcND_82r9fqt70dZwfauuNKkWp9trA97sPBA&usqp=CAE",
+      "delivery": "$8.85 delivery"
+    },
+    {
+      "position": 46,
+      "title": "Cafe Bustelo Ground Coffee - 10 oz",
+      "link": "https://www.officedepot.com/a/products/629966/Caf-Bustelo-Espresso-Coffee-Dark-Roast/?utm_source=google&utm_medium=sag&srsltid=AfmBOoprc_xoh-KOaG-Mlfv7INb6EovlkVeAxvLFTFv3SF2BBV00JcaJh-E&region_id=006869",
+      "product_link": "https://www.google.com/shopping/product/1780156926901513261?gl=us",
+      "product_id": "1780156926901513261",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1780156926901513261",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/1780156926901513261/offers?q=Coffee&gl=us&hl=en&prds=eto:4721963583733343395_0,pid:11308415115410134247,rsk:PC_387412019436245495&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNsZ",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A4721963583733343395_0%2Cpid%3A11308415115410134247%2Crsk%3APC_387412019436245495&gl=us&hl=en&offers=1&product_id=1780156926901513261&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNsZ",
+      "source": "Office Depot",
+      "price": "$7.29",
+      "extracted_price": 7.29,
+      "rating": 4.7,
+      "reviews": 5035,
+      "extensions": [
+        "Dark Roast",
+        "Ground",
+        "Kosher"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRTgeKwhhFVoA7HsKpCN_KYEyzxDiKmRUz1gdG35cjMiWDVFTt0LSaolztD9je8Sm6vbaeTkSSDr3_aIKJOLOqDZnx8_dj28emeuV5PoBex&usqp=CAE",
+      "delivery": "$9.95 delivery",
+      "store_rating": 4.5
+    },
+    {
+      "position": 47,
+      "title": "Great Value Coffee, Ground, Dark, Dark Roast - 24.2 oz",
+      "link": "https://www.ebay.com/itm/126226867075?chn=ps&mkevt=1&mkcid=28&srsltid=AfmBOop6HmO23YCYjE8L6nxRP4P9L_qwGiZHYEaUp7HIDKowncc6K9IDbyg&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/3684294415404069963?gl=us",
+      "product_id": "3684294415404069963",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3684294415404069963",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/3684294415404069963/offers?q=Coffee&gl=us&hl=en&prds=eto:9920537744586789281_0,pid:7699320078253851276,rsk:PC_11670530038160313600&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECO4Z",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A9920537744586789281_0%2Cpid%3A7699320078253851276%2Crsk%3APC_11670530038160313600&gl=us&hl=en&offers=1&product_id=3684294415404069963&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECO4Z",
+      "source": "eBay - faithee121",
+      "price": "$10.23",
+      "extracted_price": 10.23,
+      "rating": 4.5,
+      "reviews": 513,
+      "extensions": [
+        "Dark Roast",
+        "Box",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTS98T9cf3WgGtASNUkdudaMXpLJDAMXP1rStCzsOVIJ5Nehgk_YeUafWKkiO7q9QY1cJOplRCdB4_LUk1ABOeO1UD6ZDYLLNGhs6fsuRVhhzmIZlp0CUPsPA&usqp=CAE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 48,
+      "title": "Black Rifle Coffee Just Black, Medium Roast, Ground Coffee - 12.0 oz",
+      "link": "https://hickscoffeesupply.com/products/black-rifle-ground-coffee-12oz?variant=47213047873828&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqYqIXhE-rwJM23dJsdVFPrc2QSsWEjrAubcArTHh4TBI99xFwtKJ8&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/17723962805097801984?gl=us",
+      "product_id": "17723962805097801984",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=17723962805097801984",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/17723962805097801984/offers?q=Coffee&gl=us&hl=en&prds=eto:13963721284334345548_0,pid:9462155304088479543,rsk:PC_16940472918561361838&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIEa",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A13963721284334345548_0%2Cpid%3A9462155304088479543%2Crsk%3APC_16940472918561361838&gl=us&hl=en&offers=1&product_id=17723962805097801984&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECIEa",
+      "source": "Hicks Coffee Supply",
+      "price": "$15.98",
+      "extracted_price": 15.98,
+      "rating": 4.2,
+      "reviews": 105,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTd65c2CxBToujfeHySK7M8m-rw1Rr2-_2P_k3YXrhayjQvJWYi2mZCZeW916It014U7rvWUZKmhG3JBTsIgSUJ7Ku_uJA55zkyEdLFltrSPwiXA_J75aOH&usqp=CAE",
+      "delivery": "Delivery by Tue, Feb 6"
+    },
+    {
+      "position": 49,
+      "title": "Founders, Whole Bean Coffee - 11 Ounce - Medium Roast",
+      "link": "https://portrait.coffee/products/founders?variant=32971242569867&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqaddRwMUgRhJZjWOAO7p_NaJj-1A9wAFLKzeqPmCo2OECSGgeDgTw&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/14957550562358640580?gl=us",
+      "product_id": "14957550562358640580",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14957550562358640580",
+      "source": "Portrait Coffee",
+      "price": "$16.00",
+      "extracted_price": 16,
+      "rating": 4.9,
+      "reviews": 157,
+      "extensions": [
+        "Medium Roast",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTh8rNLP9wc-JDBAQZs7_EUftZ79v4ww-EIGidJ_YA46rtijlTGDBQUJs6K-Cx_ADRAAc8E6lKhT8Ez_sFWVlEyGeccwaPsq7g8VisuAMrT1yJNaoUkveAaULcp&usqp=CAE",
+      "delivery": "Delivery by Mon, Jan 29"
+    },
+    {
+      "position": 50,
+      "title": "Meijer French Dark Roast Ground Coffee (12 oz)",
+      "link": "https://www.meijer.com/shopping/product/meijer-french-dark-roast-ground-coffee--12-oz/71928355726.html",
+      "product_link": "https://www.google.com/shopping/product/12959122704759115920?gl=us",
+      "product_id": "12959122704759115920",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=12959122704759115920",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/12959122704759115920/offers?q=Coffee&gl=us&hl=en&prds=eto:4799672827134675966_0,local:1,pid:15994911206984341370,prmr:2,rsk:PC_3729732745448425896&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKYa",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A4799672827134675966_0%2Clocal%3A1%2Cpid%3A15994911206984341370%2Cprmr%3A2%2Crsk%3APC_3729732745448425896&gl=us&hl=en&offers=1&product_id=12959122704759115920&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKYa",
+      "source": "Meijer",
+      "price": "$4.39",
+      "extracted_price": 4.39,
+      "rating": 4.8,
+      "reviews": 16,
+      "extensions": [
+        "Dark Roast",
+        "Ground",
+        "$3.20 below typical",
+        "LOW PRICE"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR2xLzDNYDjpDXG45uyHXs80MlaYtVbWa40X_m80Z-TdYafFIzsk4YD4PywGN7ZHfYKVYnjjwO4ZPW2CdUyIenu3vKQYIaKMAng0xOLHFCeWLkX0loHbu17CA&usqp=CAE",
+      "tag": "LOW PRICE",
+      "delivery": "9.8 mi · In stock"
+    },
+    {
+      "position": 51,
+      "title": "Lion Coffee, Whole Bean, Medium-Light Roast, Gold Roast - 10 oz",
+      "link": "https://hawaiicoffeecompany.com/p/classic-roasts/lion-gold-roast-coffee?setCurrencyId=1&sku=20875&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/18321662608689886410?gl=us",
+      "product_id": "18321662608689886410",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=18321662608689886410",
+      "source": "Hawaii Coffee Company",
+      "price": "$11.95",
+      "extracted_price": 11.95,
+      "rating": 4.8,
+      "reviews": 317,
+      "extensions": [
+        "Light Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRm_bdhJnXibKVoxDC9ThrORbVA5QvZJPzQcGzxUsguQv4EyZe3IUE-6Z7wuA2pGKkOBZ8OLS01dgEb8Mt0eVjlOPtI4f6VP6npeOrcvd_118PuLd43rsuM&usqp=CAE",
+      "delivery": "Delivery by Sat, Jan 27"
+    },
+    {
+      "position": 52,
+      "title": "Narasus Pure Instant Coffee",
+      "link": "http://www.ishopindian.com/narasus-pure-instant-granulated-coffee-pr-25897",
+      "product_link": "https://www.google.com/shopping/product/3889716824799729541?gl=us",
+      "product_id": "3889716824799729541",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=3889716824799729541",
+      "number_of_comparisons": "10+",
+      "comparison_link": "https://www.google.com/shopping/product/3889716824799729541/offers?q=Coffee&gl=us&hl=en&prds=eto:9434238124438622706_0,pid:15271182456526834966,rsk:PC_8243971015867528080&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMga",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A9434238124438622706_0%2Cpid%3A15271182456526834966%2Crsk%3APC_8243971015867528080&gl=us&hl=en&offers=1&product_id=3889716824799729541&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMga",
+      "source": "iShopIndian.com",
+      "price": "$5.49",
+      "extracted_price": 5.49,
+      "rating": 4.1,
+      "reviews": 11,
+      "extensions": [
+        "Instant"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR8X6q5Uj_AlT_jwu2_Nr77j9JUZS06acqWRO1o4k3rbq3f4DuDU865prFLlZctWs6IbXq9hQMeTZa3TWt5N-AGerB4FQie-MHgIlhr28p_Kw5mapPH2waR&usqp=CAE",
+      "delivery": "Delivery by Sat, Jan 27"
+    },
+    {
+      "position": 53,
+      "title": "Dunkin Coffee Variety Pack",
+      "link": "https://mgmrun.com/shop/product/dunkin-coffee-variety-pack/64b8e68297984f27e458358b?option-id=5e3d6377b30bc50b7fe79183b697f2499ce5623e51f3664d79e40ae3e5388abf",
+      "product_link": "https://www.google.com/shopping/product/1?gl=us&prds=pid:16493730838925228740",
+      "product_id": "16493730838925228740",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=16493730838925228740",
+      "source": "MGM Wine & Spirits",
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "extensions": [
+        "Variety Pack"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRsc3pxkoxFz5V6E9QhvwB_xIQ9lHHTl68YYWPligfjR6K16jjdkWHmX0ynWSJNDv4lxPDDzc1tc8JuD2-JrCpQVxZ84iqa&usqp=CAE",
+      "delivery": "Delivery by Mon, Jan 29"
+    },
+    {
+      "position": 54,
+      "title": "H-E-B Cafe Ole Ground Taste of San Antonio Medium Roast Coffee - 12 oz",
+      "link": "https://texassnax.com/products/heb-ground-coffee?variant=42702505017601&currency=USD&srsltid=AfmBOopLE-Rc8NFrSW3CnFuWs1vmSoDUToXESkT8cauJxuemu34Rq6nigkE&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/15842962952614856789?gl=us",
+      "product_id": "15842962952614856789",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=15842962952614856789",
+      "number_of_comparisons": "4",
+      "comparison_link": "https://www.google.com/shopping/product/15842962952614856789/offers?q=Coffee&gl=us&hl=en&prds=eto:14796928868859256690_0,pid:9705956304472442230,rsk:PC_7771897764551074007&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOga",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A14796928868859256690_0%2Cpid%3A9705956304472442230%2Crsk%3APC_7771897764551074007&gl=us&hl=en&offers=1&product_id=15842962952614856789&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOga",
+      "source": "Texas Snax",
+      "price": "$13.95",
+      "extracted_price": 13.95,
+      "rating": 4.7,
+      "reviews": 90,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT24IsGMWN5N4jnfMz0rXom6UrLhQ6M_JxAlTUNLDto67VW2g30SPk4mR87w5E14quk170_Dc8R9uRlC7kxgIlYriC247zzuaDXbi_e5FY7FhnspnCKvugWiw&usqp=CAE",
+      "delivery": "Delivery by Thu, Feb 1"
+    },
+    {
+      "position": 55,
+      "title": "Lavazza Holiday Blend Medium Roast Ground Coffee - 10.5 oz",
+      "link": "https://www.lavazzausa.com/productcode/3987",
+      "product_link": "https://www.google.com/shopping/product/5844799190537475249?gl=us",
+      "product_id": "5844799190537475249",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=5844799190537475249",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/5844799190537475249/offers?q=Coffee&gl=us&hl=en&prds=eto:3542801573454663566_0,pid:14106897520783709703,rsk:PC_7529288623739214544&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPoa",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A3542801573454663566_0%2Cpid%3A14106897520783709703%2Crsk%3APC_7529288623739214544&gl=us&hl=en&offers=1&product_id=5844799190537475249&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECPoa",
+      "source": "Lavazzausa.com",
+      "price": "$14.25",
+      "extracted_price": 14.25,
+      "rating": 5,
+      "reviews": 2,
+      "extensions": [
+        "Medium Roast",
+        "Box",
+        "Ground"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSDlO0ASX2A9CiT26dv898I2O4DSzqPH9eYcxWSoecFp1zB5hn7-mJxkRe2P-Ahtgp-JMxDwB7uQF7OGApKNBAxcSksVG0M-mKwmGZjclU5RjogIAJeZfVWVg&usqp=CAE",
+      "delivery": "$9.50 delivery"
+    },
+    {
+      "position": 56,
+      "title": "Keurig Gran Aroma Coffee",
+      "link": "https://www.keurig.com/Beverages/Medium-Roast/Gran-Aroma-Coffee/p/gran-aroma-coffee-lavazza-k-cup#88_CT",
+      "product_link": "https://www.google.com/shopping/product/10869810247994040308?gl=us",
+      "product_id": "10869810247994040308",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=10869810247994040308",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/10869810247994040308/offers?q=Coffee&gl=us&hl=en&prds=eto:15796744298330867514_0,pid:13633109425519123328,rsk:PC_1109811942057205349&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJQb",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A15796744298330867514_0%2Cpid%3A13633109425519123328%2Crsk%3APC_1109811942057205349&gl=us&hl=en&offers=1&product_id=10869810247994040308&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECJQb",
+      "source": "Keurig.com",
+      "price": "$77.96",
+      "extracted_price": 77.96,
+      "rating": 3.8,
+      "reviews": 460,
+      "extensions": [
+        "Pod",
+        "Light Roast",
+        "Box",
+        "Apply NEWBREW30",
+        "30% OFF"
+      ],
+      "badge": "Top Quality Store",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcReuhYqn2PPsFTETvjNYpXT1-va7smyEAaIfCUbiRHNgReVmhX7IVFGiBamg0P66oIjmej9B4aRoXjceaomWxpK7EiuG4dFmT5BRuuPxrmDc_Zy8gcKmziXPw&usqp=CAE",
+      "tag": "30% OFF",
+      "delivery": "Free delivery by Thu, Jan 25"
+    },
+    {
+      "position": 57,
+      "title": "Coffee Bros, Whole Bean, Light Roast, 100% Arabica, 12oz Bag, Gourmet, Great Hol",
+      "link": "https://coffeebros.com/products/light-roast-coffee-blend?variant=41479462551727&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorw3oGrYDcwX3oKVMAPCqSs9j_h4cuMMNeSv-tlVgXdyfPL7jlzkfE&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/10715397375569648260?gl=us",
+      "product_id": "10715397375569648260",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=10715397375569648260",
+      "source": "Coffee Bros.",
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "rating": 4.9,
+      "reviews": 135,
+      "extensions": [
+        "Light Roast",
+        "Bag",
+        "Africa"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpfBOGdBStxkFIQ_-I2QGF0HtfFsbCpGJSqtq-gp1vjCYtsbiFwDKQ4qJ4-Rss_ilR1N3gRKHEtfMqZUA6Xuvc9cEMhucW0PH4za0UQ1upStfIWZRxpfAA&usqp=CAE",
+      "delivery": "Delivery by Thu, Feb 8"
+    },
+    {
+      "position": 58,
+      "title": "Black Rifle Coffee Company Instant 32 ct Coffee",
+      "link": "https://www.blackriflecoffee.com/products/black-rifle-instant-stick?variant=12223022235757&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopbTrV3Slu319Ots6egjItmLQBt1l7nqR1Wb6Tz6zdznTZxt92W0G8&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/9769707010991345443?gl=us",
+      "product_id": "9769707010991345443",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=9769707010991345443",
+      "number_of_comparisons": "5+",
+      "comparison_link": "https://www.google.com/shopping/product/9769707010991345443/offers?q=Coffee&gl=us&hl=en&prds=eto:1280367425302420620_0,pid:152934893023516747,rsk:PC_17834923385364537200&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLkb",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A1280367425302420620_0%2Cpid%3A152934893023516747%2Crsk%3APC_17834923385364537200&gl=us&hl=en&offers=1&product_id=9769707010991345443&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECLkb",
+      "source": "Black Rifle Coffee Company",
+      "price": "$24.99",
+      "extracted_price": 24.99,
+      "rating": 5,
+      "reviews": 9,
+      "extensions": [
+        "Medium Roast",
+        "Box",
+        "Instant"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTFvEU_7C9c5353Mgq_OjtJQkZwQWFYi2vckRb6Wd9EPYWbfMmfdu_fUH6YaUqWXOIXTnLdSKEND_9Deol4HDHECX2ucaqWYBWxmUVWaiG_vGJUqsKxu2EXUw&usqp=CAE",
+      "delivery": "Delivery by Thu, Jun 13"
+    },
+    {
+      "position": 59,
+      "title": "Segafredo Intermezzo Coffee Espresso Beans 1kg",
+      "link": "https://www.kaffee-frei-haus.com/en_US/kaffeebohnen/shop/segafredo-intermezzo-in-whole-beans.html",
+      "product_link": "https://www.google.com/shopping/product/6968716017595247702?gl=us",
+      "product_id": "6968716017595247702",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=6968716017595247702",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/6968716017595247702/offers?q=Coffee&gl=us&hl=en&prds=eto:4161642381259372336_0,pid:13040876510722446645,rsk:PC_13135140334575909872&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMob",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A4161642381259372336_0%2Cpid%3A13040876510722446645%2Crsk%3APC_13135140334575909872&gl=us&hl=en&offers=1&product_id=6968716017595247702&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECMob",
+      "source": "kaffee-frei-haus.com",
+      "price": "$15.08",
+      "extracted_price": 15.08,
+      "alternative_price": {
+        "price": "€13.82",
+        "extracted_price": 13.82,
+        "currency": "€"
+      },
+      "rating": 4.7,
+      "reviews": 2928,
+      "extensions": [
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmHCQiJEM2_n1YfFCELQCNfyK_LjZ6OIHaz9O9nxrYfKI91pb4eYXZDxSv2ED3qh7bVPdQ5n_h-9Z5r86URmZ3ekVuhMdLmLMHlD4UOsKwukXyvlO2tsWSwQ&usqp=CAE",
+      "delivery": "$40.83 delivery"
+    },
+    {
+      "position": 60,
+      "title": "Frederiks by Meijer Michigan Cherry Whole Bean Coffee (32 oz)",
+      "link": "https://www.doordash.com/product/76023614997_UPCA?utm_source=Google&utm_medium=PLA&utm_campaign=organic_product_listing&business_id=434736&dd_sic=urpc_23ce285c-0169-4864-9b8e-ed8c93b6ce9e&frt=7&srsltid=AfmBOoqt8Ca6Lg5BEVAGKMy_DU4VmURgbuqBK6wc5_I2E2AA-A2CUS6GGbY&region_id=1058435",
+      "product_link": "https://www.google.com/shopping/product/2316149900142816057?gl=us",
+      "product_id": "2316149900142816057",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=2316149900142816057",
+      "number_of_comparisons": "3",
+      "comparison_link": "https://www.google.com/shopping/product/2316149900142816057/offers?q=Coffee&gl=us&hl=en&prds=eto:6404672857563142204_0,pid:4018613231820076812&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNkb",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A6404672857563142204_0%2Cpid%3A4018613231820076812&gl=us&hl=en&offers=1&product_id=2316149900142816057&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNkb",
+      "source": "DoorDash - Meijer US",
+      "price": "$19.55",
+      "extracted_price": 19.55,
+      "extensions": [
+        "Light Roast",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS5nI13Ci095gmEqGYz552CFPY678Tq5wY28c3S19RZUuCxe6YbN2nJH2_PtMiVVu_E-v2XawXR-NOZY4sz7dkyEF-OyS-9q6FKOx1Ho2KdN3HL-dbtFXG8&usqp=CAE",
+      "delivery": "$5.99 delivery"
+    }
+  ],
+  "related_shopping_results": [
+    {
+      "position": 1,
+      "title": "Kicking Horse Power Dark Roast Coffee - 10 oz bag",
+      "link": "https://italybestcoffee.com/products/kicking-horse-coffee-454-horse-power-dark-roast-whole-bean-10-oz-certified-organic-fairtrade-kosher-coffee?variant=31265592475742&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorl1xpknBMKWdvGN6hrTFi86rKTal7z7KiPDleD7NUJ3EJh01rATIw&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/17734047143865203698?gl=us",
+      "product_id": "17734047143865203698",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=17734047143865203698",
+      "source": "Italy Best Coffee",
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "old_price": "$11.99",
+      "extracted_old_price": 11.99,
+      "rating": 4.7,
+      "reviews": 1154,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRayUiUXO0OwPOqig1hKmKgSwJ25k7Oh28kdMFL5HHWj3GLRhcu5XXTRaDpDyU83ToadSpEVM40Gws16N4sHyjXkJOLfTXzi1j9RQVwUZ-j3EryzHapnxcXlA&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Tue, Jan 30"
+    },
+    {
+      "position": 2,
+      "title": "Death Wish Coffee Co Coffee, Whole Bean, Medium Roast - 1 lb",
+      "link": "https://getironcore.com/organics/grocery/beverages/coffee-beverages/death-wish-coffee-medium-roast-whole-bean-coffee-16-oz/",
+      "product_link": "https://www.google.com/shopping/product/4783583468536379636?gl=us",
+      "product_id": "4783583468536379636",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=4783583468536379636",
+      "source": "Iron Core",
+      "price": "$17.99",
+      "extracted_price": 17.99,
+      "old_price": "$36.59",
+      "extracted_old_price": 36.59,
+      "rating": 4.8,
+      "reviews": 7380,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS4FreCMmxhBQE0jj1Ah7jxFVZ04JMfG9BdChvmjB5lqkXCamnjWJjhDZeHQmxX35r8QTj4uZTkUgSZQgz0J7cv22590_sD8zYGO_98ElG7xk106L92zmMi&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Mon, Jan 29"
+    },
+    {
+      "position": 3,
+      "title": "Boyds Coffee, Ground, Original Roast - 12 oz",
+      "link": "https://www.walmart.com/ip/Boyds-Coffee-Original-Roast-12-Oz/36360892?wmlspartner=wlpa&selectedSellerId=12988",
+      "product_link": "https://www.google.com/shopping/product/1874220880446157878?gl=us",
+      "product_id": "1874220880446157878",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1874220880446157878",
+      "source": "Walmart - DropAir",
+      "price": "$8.07",
+      "extracted_price": 8.07,
+      "old_price": "· Was $10.49",
+      "extracted_old_price": 10.49,
+      "rating": 5,
+      "reviews": 4,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcUwwDJSGyv6LebeHXDXL1j6NsY8SFFZNMUMXwkTq_axiN7JUMT7Q2wSft2ihSbAkBIDUX9zOwAFxM2GhGPv1gALXbKIE_BvB0Pubgy8H-H4ieecBp1gZQgw&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "$9.99 delivery"
+    },
+    {
+      "position": 4,
+      "title": "Dunkin' Coffee, Ground, Medium Roast, Original Blend - 18 oz",
+      "link": "https://www.meijer.com/shopping/product/dunkin--original-blend-ground-coffee--medium-roast--18-oz/88133401641.html",
+      "product_link": "https://www.google.com/shopping/product/7981316396667323350?gl=us",
+      "product_id": "7981316396667323350",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=7981316396667323350",
+      "source": "Meijer",
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "old_price": "$13.49",
+      "extracted_old_price": 13.49,
+      "rating": 4.6,
+      "reviews": 15170,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQfUmVqQ7W8-ZFprMO2mPNY6Jm_ODkXDb8SpkqdAXpxUi0VcDnHJjSVf8n0H8hZCOORNXmw-ALKGUbSGpSb07ERSrOCGSb9AVO9Jda3Xcjb&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ]
+    },
+    {
+      "position": 5,
+      "title": "Stok Coffee Beverage, Un-Sweet, Cold Brew, Black - 48 fl oz",
+      "link": "https://www.walmart.com/ip/SToK-Black-Unsweetened-Medium-Roast-Arabica-Based-Blend-Cold-Brew-Coffee-48-fl-oz-Bottle/52694732?wmlspartner=wlpa&selectedSellerId=101290311",
+      "product_link": "https://www.google.com/shopping/product/14019185330885633965?gl=us",
+      "product_id": "14019185330885633965",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14019185330885633965",
+      "source": "Walmart - Hayah Inc",
+      "price": "$4.28",
+      "extracted_price": 4.28,
+      "old_price": "$11.88",
+      "extracted_old_price": 11.88,
+      "rating": 4.6,
+      "reviews": 3775,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7WQJkwhTwcMj0YqSoVMPcRYJesKeyFV32n_gyy4tcW4zYBiDdCH2-t82xIQmYMgynBqu-VxX5P-bHpuL5-MqrbjLMemWaNnpUYCCUh0reb6v8f_8aAYz6sw&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "$12.99 delivery"
+    },
+    {
+      "position": 6,
+      "title": "Starbucks Coffee, Whole Bean, Dark Roast, Espresso Roast - 40 oz",
+      "link": "https://www.walmart.com/ip/Starbucks-Whole-Bean-Coffee-Espresso-Roast-Dark-40-oz/2834469097?wmlspartner=wlpa&selectedSellerId=101041601",
+      "product_link": "https://www.google.com/shopping/product/15817963817076310115?gl=us",
+      "product_id": "15817963817076310115",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=15817963817076310115",
+      "source": "Walmart - value sales",
+      "price": "$26.95",
+      "extracted_price": 26.95,
+      "old_price": "$34.84",
+      "extracted_old_price": 34.84,
+      "rating": 4.6,
+      "reviews": 11197,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQWSlaCoTs-w65u2akd0pPXWXAyzCRlZefTywBePp4M16Bn1x6DqtuFZ5rG1CLlKau94AtN9RirB4UWFlcpCvOCr84AHXLrZDZGxnz-RTKuwvcLZxx3Q5NlVA&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "$6.99 delivery"
+    },
+    {
+      "position": 7,
+      "title": "Hills Bros. Coffee, Ground, Medium Roast, Original Blend - 26 oz",
+      "link": "https://www.amazon.com/Hills-Bros-Original-Ground-Coffee/dp/B007PM9ABQ?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER",
+      "product_link": "https://www.google.com/shopping/product/14208409481951749203?gl=us",
+      "product_id": "14208409481951749203",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14208409481951749203",
+      "source": "Amazon.com",
+      "price": "$8.73",
+      "extracted_price": 8.73,
+      "old_price": "· Was $13.96",
+      "extracted_old_price": 13.96,
+      "rating": 4.4,
+      "reviews": 1046,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTA0BUG8swWbB1Hza2w2NCL4wZKF1QJc1Ul-TKxGT7uiGbU1nalqS5bMxYDsDyxsdz17vxiY3oOcdEMIRqutUMcJY-H6VQ9lO_sNe-Jus-loD98BupjpK_h&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "$5.99 delivery"
+    },
+    {
+      "position": 8,
+      "title": "Starbucks Coffee, Ground, Gingerbread - 17 oz",
+      "link": "https://www.walmart.com/ip/Starbucks-Gingerbread-Naturally-Flavored-Ground-Coffee-100-Arabica-1-Bag-17-Oz/493907936?wmlspartner=wlpa&selectedSellerId=0",
+      "product_link": "https://www.google.com/shopping/product/4717725771087345995?gl=us",
+      "product_id": "4717725771087345995",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=4717725771087345995",
+      "source": "Walmart",
+      "price": "$8.84",
+      "extracted_price": 8.84,
+      "old_price": "$12.48",
+      "extracted_old_price": 12.48,
+      "rating": 4.6,
+      "reviews": 127,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQesL4Lkcx9CLZvt_QFXwajNn2dv4RvCcria6QMDz2MMLzs0jZEoI5v0V3aWO7QwzWHDiXT-K2FEGnXoVvq0TJrS0VPC0uujVp8KR0b4ruOYUo9wBFRyGfD8A&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ]
+    },
+    {
+      "position": 9,
+      "title": "Nescafe Gold Original 200g",
+      "link": "https://www.amazon.com/Nescaf%C3%A9-Gold-Original-200g-Ounce/dp/B07BZRHJF1?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A10FNCY6P2Q0FO",
+      "product_link": "https://www.google.com/shopping/product/8132076588592503830?gl=us",
+      "product_id": "8132076588592503830",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=8132076588592503830",
+      "source": "Amazon.com - Seller",
+      "price": "$18.28",
+      "extracted_price": 18.28,
+      "rating": 4.5,
+      "reviews": 10487,
+      "extensions": [
+        "Discount shown at checkout",
+        "5% OFF"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQWk_p30PTXN6bqEfA1DUEG7nwopSvNaxqf629jQ97g_KOF-zx_-QIfPTyY7RpoKBpeTD7jkRcnoi5IWc2LLrrUpzT4L0xhye_TQNq8prdgCI6_HYInh0ft&usqp=CAE",
+      "tag": "5% OFF",
+      "delivery": "$5.99 delivery"
+    },
+    {
+      "position": 10,
+      "title": "Copper Cow Coffee Vietnamese Coffee, Premium, Pour Over Latte, Classic - 7.4 oz",
+      "link": "https://thrivemarket.com/p/copper-cow-coffee-pour-over-kit-classic-cream-latte?utm_source=google&utm_medium=pla",
+      "product_link": "https://www.google.com/shopping/product/15050353666645354046?gl=us",
+      "product_id": "15050353666645354046",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=15050353666645354046",
+      "source": "Thrive Market",
+      "price": "$11.99",
+      "extracted_price": 11.99,
+      "old_price": "$12.99",
+      "extracted_old_price": 12.99,
+      "rating": 4.8,
+      "reviews": 702,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQMs2-hHtQlTAoofmDMvOOdQIBAYxJpdv_xllEjH4iXSBCTqNdyVktOEPUaC-qDLixl0MnY-64WeV5yoF4Kl8G2K93HuQrhxj7VxrpAFUFJLX5dcAZwLZGp&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Thu, Jan 25"
+    },
+    {
+      "position": 11,
+      "title": "Red Diamond Classic Blend Medium Roast Ground Coffee, 11 oz",
+      "link": "https://groceryeshop.us/index.php?route=product/product&product_id=260358&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/2913166950887754873?gl=us",
+      "product_id": "2913166950887754873",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=2913166950887754873",
+      "source": "Groceryeshop",
+      "price": "$8.49",
+      "extracted_price": 8.49,
+      "old_price": "$9.49",
+      "extracted_old_price": 9.49,
+      "rating": 4.7,
+      "reviews": 12,
+      "extensions": [
+        "Apply GET5OFF",
+        "SALE"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqTDR_WpuALeD5BaaT91hyzGclrRAhgH1lLcaQYa3_enkPouXaHUtRtceY29VXdTWayGsstvnZciukDmKveBIh4ylTUDS7xyK0SzvmXGtDLPRBs2MuBCg-&usqp=CAE",
+      "tag": "SALE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 12,
+      "title": "Lavazza Intenso Ground Coffee - 12 oz bag",
+      "link": "https://italybestcoffee.com/products/lavazza-intenso-ground-coffee-blend-dark-roast-12-ounce-bag?variant=16435612483648&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoruDqBB5F9CT5za_1yLbrtl8rxiOekP48JcJSPCsb2I4BtiBe3zjP4&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/9018436143704747926?gl=us",
+      "product_id": "9018436143704747926",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=9018436143704747926",
+      "source": "Italy Best Coffee",
+      "price": "$6.99",
+      "extracted_price": 6.99,
+      "old_price": "$8.99",
+      "extracted_old_price": 8.99,
+      "rating": 4.9,
+      "reviews": 29,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT-UxJaW2fZrie-OoOykzATXudoZLqSNEtLal5Lh6wGkFN-UzBgAR2BXbmgsBdS9nckJuRMqhguKkWznScjHrK4jCrrV5Bs3heykniuHffl71P6VK4MLTgO&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Tue, Jan 30"
+    },
+    {
+      "position": 13,
+      "title": "Eight O’Clock Coffee, Ground, Medium Roast, The Original - 40 oz",
+      "link": "https://marcegari.com/eight-o-clock-ground-coffee-the-original-40-oz?srsltid=AfmBOorYUV0XuwN5N09Wi-F6mWtMppH2WW5TqRxX892ZhTkvY4PLZ0pQM2I",
+      "product_link": "https://www.google.com/shopping/product/5268217061575246880?gl=us",
+      "product_id": "5268217061575246880",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=5268217061575246880",
+      "source": "Marcegari",
+      "price": "$21.49",
+      "extracted_price": 21.49,
+      "old_price": "$28.65",
+      "extracted_old_price": 28.65,
+      "rating": 4.8,
+      "reviews": 2878,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTRk_pS3XFEYZgbXv7Nx2M4cfyYQPz1LMh7u4Sppz_-u141JBdEam01oAdsof_h2Yr2Y-7lCq3Ml3HWptmmpLQzz2Vaek4udKlDXCt4_XG4ZKr-DTR31EJE&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Tue, Jan 30"
+    },
+    {
+      "position": 14,
+      "title": "Costa Coffee Flat White Variety Pack, 12 Pack/11 oz",
+      "link": "https://www.meijer.com/shopping/product/coffee-flat-white-variety-pack-iced-coffee-cans--12-pack/4900054964.html",
+      "product_link": "https://www.google.com/shopping/product/14894839915837364527?gl=us",
+      "product_id": "14894839915837364527",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=14894839915837364527",
+      "source": "Meijer",
+      "price": "$18.99",
+      "extracted_price": 18.99,
+      "old_price": "$24.99",
+      "extracted_old_price": 24.99,
+      "rating": 4.8,
+      "reviews": 10,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSiCOzeU3M0owTT--T_zmWi1-R5TNs-yg22zr2IUzQx8nXqEV9KUEFHgMdJJeNjUEKuBGIxagox31xAYSbffxrh-5v_-QQViIzNQnOrEymq3Wno7EUnWMeI&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ]
+    },
+    {
+      "position": 15,
+      "title": "Folgers Classic Roast Ground Coffee (43.5 oz)",
+      "link": "https://www.ebay.com/itm/386113245454?chn=ps&mkevt=1&mkcid=28&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/1090572138154354800?gl=us",
+      "product_id": "1090572138154354800",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1090572138154354800",
+      "source": "eBay",
+      "price": "$11.99",
+      "extracted_price": 11.99,
+      "old_price": "· Was $18.07",
+      "extracted_old_price": 18.07,
+      "rating": 4.7,
+      "reviews": 14932,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQbd2CM8FfrS4i-tkEh2SUQOy5oMvjkezDh21dgBVMeO3J_pFJVLjIjkv1AIsOYqClF13KNI13Upg6b7cdhj7KlSz7snXDIQt18xsycthVldCyFyqKxPTAA&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Tue, Jan 30"
+    },
+    {
+      "position": 16,
+      "title": "Cafe Du Monde Coffee and Chicory - 15 oz",
+      "link": "https://poshmark.com/listing/Cafe-Du-Monde-Coffee-and-Chicory-15oz-65579dae450b42a9a8bc2b7e?srsltid=AfmBOoq1qCByxOjNTE3D2Fsvj1XtBL5GX7tbXXZfi4eJChpIHaUfGEZhk2s&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e#utm_source=gdm_unpaid",
+      "product_link": "https://www.google.com/shopping/product/16298417312326589581?gl=us",
+      "product_id": "16298417312326589581",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=16298417312326589581",
+      "source": "Poshmark",
+      "price": "$7.00",
+      "extracted_price": 7,
+      "old_price": "$12.00",
+      "extracted_old_price": 12,
+      "rating": 4.8,
+      "reviews": 618,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTWlvaGywzHkiOlN8iE-6FdN6Pmr3umzcHTU4iWu0EW2h26A2GHdw52seKUoUhPD5Z_oOeWYLrIEB7T6eCI15ySmUlr6-Xzs1GJStCPKGyTyljQWdyKtP-uZQ&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Fri, Jan 26"
+    },
+    {
+      "position": 17,
+      "title": "Gevalia Coffee, 100% Arabica, Majestic Roast, Bold, K-Cup Pods - 12 pods, 4.12 oz",
+      "link": "https://www.cvs.com/shop/gevalia-kaffe-majestic-roast-k-cup-pods-12-ct-prodid-1150381?skuId=523233&cgaa=QWxsb3dHb29nbGVUb0FjY2Vzc0NWU1BhZ2Vz",
+      "product_link": "https://www.google.com/shopping/product/15700823622531813505?gl=us",
+      "product_id": "15700823622531813505",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=15700823622531813505",
+      "source": "CVS Pharmacy",
+      "price": "$5.99",
+      "extracted_price": 5.99,
+      "old_price": "$12.49",
+      "extracted_old_price": 12.49,
+      "rating": 4.7,
+      "reviews": 26,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRwuv-bzBBWXqDto660-OcNkMbDjJQ6Ten-8zTGx7SoRHWV0Ux7ChsiI49wNYDNgudWHOAdt-MhYkO7V_cgQELYvDnVVUC5qYt4Y6Osj20Mq0fo6w8s6CpUxA&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ]
+    },
+    {
+      "position": 18,
+      "title": "Life Extension Rainforest Blend Ground Coffee 12 oz",
+      "link": "https://www.lifeextension.com/vitamins-supplements/item02169/rainforest-blend-ground-coffee?srsltid=AfmBOorbmcPidOzZW8Gd8baqiZeIybhQ12ktQKSYvhg3--8ZKT476rwGRcI",
+      "product_link": "https://www.google.com/shopping/product/12741603467107704411?gl=us",
+      "product_id": "12741603467107704411",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=12741603467107704411",
+      "source": "Life Extension",
+      "price": "$8.78",
+      "extracted_price": 8.78,
+      "old_price": "$9.75",
+      "extracted_old_price": 9.75,
+      "rating": 4.7,
+      "reviews": 647,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-7yc6WwPXhx7z6t0iYaB3YEkzKJ0Gcme7tpqM0MkHScP5pYQxLO8QMtGUSKm0dE559QwgESjbpqEnWC_NcjRaiVRZuUC7rFZjIywd-08&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "$5.50 delivery"
+    },
+    {
+      "position": 19,
+      "title": "Tim Hortons 100% Arabica Original Blend Ground Coffee, Medium Roast, 48 oz",
+      "link": "https://groceryeshop.us/index.php?route=product/product&product_id=260356&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/11750950317328457250?gl=us",
+      "product_id": "11750950317328457250",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=11750950317328457250",
+      "source": "Groceryeshop",
+      "price": "$31.99",
+      "extracted_price": 31.99,
+      "old_price": "$36.49",
+      "extracted_old_price": 36.49,
+      "rating": 4.6,
+      "reviews": 1539,
+      "extensions": [
+        "Apply GET5OFF",
+        "SALE"
+      ],
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-fi1Hl7G7AMkdRVtSrEjrnyJhR21Z3rB2KFtMoow1a8Hr0gM1dFzuwTJj8rqE9QeT7_7lHLAS5rRbu3kuFACm0QhsriE8LU3XM7luNQSbtKWFFAJ845tz&usqp=CAE",
+      "tag": "SALE",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 20,
+      "title": "Nguyen Coffee Supply Whole Bean Coffee, Loyalty",
+      "link": "https://thrivemarket.com/p/nguyen-coffee-supply-whole-bean-coffee-loyalty-vietnamese-house-blend?utm_source=google&utm_medium=pla",
+      "product_link": "https://www.google.com/shopping/product/2323059960173976048?gl=us",
+      "product_id": "2323059960173976048",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=2323059960173976048",
+      "source": "Thrive Market",
+      "price": "$13.99",
+      "extracted_price": 13.99,
+      "old_price": "$15.99",
+      "extracted_old_price": 15.99,
+      "rating": 4.8,
+      "reviews": 347,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNAPLMcfvRSs4tphdHr69ydmhI9FqYtcDFZqti0QaX5Z-8IQytp973bCbyGL2AlsCwSFY7qpxmflP6ipVaCm9f20PUaXrsXZSRUAmIAnGziyV37YVkZnjR1w&usqp=CAE",
+      "tag": "SALE",
+      "extensions": [
+        "SALE"
+      ],
+      "delivery": "Delivery by Thu, Jan 25"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Filter by type",
+      "filters": [
+        {
+          "title": "Ground",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRkBcoeeIdUKbG85RD4oo90VMI5tSjypOyKsWWdg4BYFgKuK8hl37WRHpuMHGVrniolG6upleSWd79lMn221fNfX9w_ksH1dKwzp7quRK14RuQb2ifcDIz8&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:933742%7C933743&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIrB4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A933742%7C933743"
+        },
+        {
+          "title": "Whole Bean",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTz3acNH_VBFLl-urvAxolCcizNyCKmgw2llHFzAdopScitlc8jutu_3Y-Z8AxgZ9stMmYfAVh-jBw9dSr7--pI9-612iV2ySMsDUZl3M0nAoexAOmHWiX1&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:933742%7C933745&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIrx4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A933742%7C933745"
+        },
+        {
+          "title": "Instant",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSHxCIuXhi-JXLcSaRpKOea4qUWPiCp5jhiMMf1w6Zt7w2Hw9xF7T5bLmqoq5Zd4rlg0ghZ8To1bx5e5WLWSifvAbjUkN1hkmDxBaAbNM7nzO4r7hZFvyRAag&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:933742%7C933744&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIsh4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A933742%7C933744"
+        },
+        {
+          "title": "Ready-to-Drink",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSovzCO6VX-gObA3sD_GNtlTxllljP6LNb6ZoP-rk4uUdOi81-OFCyV8UW4ED2xY1tz-hCfuN0qKdeTrNoDPRrmJWZB_j-qY6AJYfkSwdN1G41OKUPEWH7LGpc&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:933742%7C933747&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkItR4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A933742%7C933747"
+        }
+      ]
+    },
+    {
+      "title": "You might like",
+      "filters": [
+        {
+          "title": "Medium Roast",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQwOyy3mlav388Dk7820Z5R--sIU6u43ucYEPrxcwRcaEQneCio0_PaTmSks3cuZ7EnLcSkHvtknfZ26kVtG_EisDSUZLxZqgRzKWngZTE7MbonjtkWHz61&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:973849%7C973851&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIvB4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A973849%7C973851"
+        },
+        {
+          "title": "Dark Roast",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTzGirh0f0_LChkneP1WVWkuwQyB06Jp9LxI-gvO6UoxhV-K_sMnEMPDLSTRsZKR1AMB-Cq6J6aW_OsK3DlxX7S3meizEtaiJF9aDEE4r3O62HVGsh-gdzyNA&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:973849%7C973853&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIvx4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A973849%7C973853"
+        },
+        {
+          "title": "Light Roast",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRxp-V9tyjJk6NwAcI7V4UDbUFlHXVpHyoQFCyy0TMPRTNmkJu58dYtrfzeh7xmpYHfgTFeJ-peezoMY9EQvWcCH0rpeQpE9EbWhjLzIXrBmQgVkjF-n5e8bA&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:973849%7C973850&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIwh4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A973849%7C973850"
+        },
+        {
+          "title": "Box",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4uIJfU86nZxAm0irsA12CS0FdsR-Y--Pg9xmZy4o5WCdI-ZWtjmkqNKhUTuxDx9ERNZxsq7KyYv4p2MdHg84TJO0PQRkdVul5Jdaq6okDxF7W4a38mI2f5A&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658497%7C1658511&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIxR4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658497%7C1658511"
+        },
+        {
+          "title": "Chocolate",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHgifs08Z9EXZNvbS6ATuMmQxpTv0bSNCadhvcf3fpBIAVxHFUKThD-iNm1wbCvq3l-KsBQ_yAy6Y4PZM1mG00RtA5mccEBnoHPTERSJ1u61hBh1Mib3tKSQ&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658504%7C1658508&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIyB4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658504%7C1658508"
+        },
+        {
+          "title": "Medium-Dark Roast",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR-BHhegxsoTxCsqLxGC3ndO7dFAlQS_slWUXPCly7-ZYTWxF5uT5-xi1Sry4_llAsQSUIM_v6wPrERsLEvhI4ZlUERxvpLOUChaKhNmb1e5IZD_yihx207&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:973849%7C973852&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIyx4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A973849%7C973852"
+        },
+        {
+          "title": "NESCAFÉ",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ1zeZzNlxeF5qNI_HYnEsjfaAZf4HWoHpwM5dk2kK_894KZb3a-nggBVKs9VrlLenpYUjz7pFdEyr2D3Sv5A9oou8f8AuI68VU2Oi1kIpf0yT-mWX47Zm4uQ&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C1083000&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkIzh4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C1083000"
+        },
+        {
+          "title": "Jar",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTHJny0WF1eQVVout8ubNFrfXjpn-eNbNXy6TTFtCy6cH0irKXup-dEM93SBYGAbDc3r2leuqlN1Sz6XvZwtxh8MzzmVx04PMMIvxY9C4if8m74rEJ8BbuZ&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658497%7C1658499&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI0R4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658497%7C1658499"
+        },
+        {
+          "title": "Canister",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSb8oZl4WUUuBbOiiGBQ2mniaBrfqbIBjxtg6Jy-w0Y3XzqI4hNpLeqBhjiun3qtS4jaVeidRyY3jp9HO-_8LLSZ8CbFtmbHFZu2o01D4XF5RVxwKXuc-kL&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658497%7C1658498&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI1B4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658497%7C1658498"
+        },
+        {
+          "title": "Starbucks",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRM2azY2jocEYpDqYOj9lqtPrqQCPfRQWZICWdgbNXyKDl0JpE37gu5P8kgs4IuW_ILmVEGSqZeu54Rqd8CIHL2UnSmyQlTC7uNeYz9qE8&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C906023&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI1x4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C906023"
+        },
+        {
+          "title": "No Sugar Added",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS4vIFDy76Zhm8i9H3cRS5zbKLzww6T4wp9IaYjqET1Nl6UFtx5GPPqe1FabHmyT_Q0dheW8SYXCHDFiNB12K_WsalQ3dwPQhvM4KzXqkTPkofndgwrAKWBFw&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:3286779%7C3286786&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI2h4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A3286779%7C3286786"
+        },
+        {
+          "title": "Caramel",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQoXJ6x8gT7udnQd3TVkd7J013w-cEdLaTiWcsHSVMIc8g626kCWMjEotXV9yiJQSuNSBJDWaommffFKoV6z99PvSSBh9W0D7LLSA7ciptqQzuyGwuirpkX&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658504%7C1658509&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI3R4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658504%7C1658509"
+        },
+        {
+          "title": "Folgers",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzvEnoKlsFnwqLcb_8z2wKIzO5i8OwGbpeDyx9xd4Z3chlgfXR0RYWRHEQjCZI6DAhlSRxPvEptRm_2KUKxj5xvEf9jiA5wHJBAZyxCAxwr13mWOfjrb1v3A&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C906022&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI4B4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C906022"
+        },
+        {
+          "title": "Sugar Free",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQvd2FXipmsWLVIjvO8kNqubblYstoIDf17Jbr1bJgbbZRDU7z-_6AsdKP6wgbpHz79MneGDJ8cKckJu8VwKiMS-E6USlCTbpa6YLZrxy4&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:3286779%7C3286785&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI4x4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A3286779%7C3286785"
+        },
+        {
+          "title": "Seattle's Best Coffee",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSGGDjUMi5j3F-X9cdv7KwUxkr_EzYKKQk_9uosaTnCIUyLZjCA23wKa-VdOi5sFisJMj1H-VyC96Vn6I5yvgQNf0wTe87Pxm5wozS6pfJ7QUnrHNoW_TUR&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C906018&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI5h4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C906018"
+        },
+        {
+          "title": "Lavazza",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhvW5O5Mx2aaTZj02dZ4Mjc25G9AyN1WGFbr5yZc6nL0v8yj-8VxtSo_8q0_8AnhXLlu9RZMiyiuw4XcAjIRzXgqFF5C-WYDmKIrarCM9yPYwDb6kMqAaV&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C907116&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI6R4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C907116"
+        },
+        {
+          "title": "illy",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTGfCpLIsJeMo3RLl3qToNtPuAVnZ-Vk8SRskN9V5WSGNF86fOoB3aysJtCVY6VVKOyQUYCHDZXjNMOhMbBNmNtf1-8dSU4cijV-TswaWrCYaibXuulU7YpyA&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C907117&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI7B4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C907117"
+        },
+        {
+          "title": "Vanilla",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRWLhHJifnBedPIQvJKkVBq-SGeSdQVI7XtBzBs9HUdEJv1DymNi0XkF2IgA44uHiVZecZGWZdtSsv7whYA--kagMrqCzCa2i7OT6GnP7XkywJ-7LR3G2El&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:1658504%7C1658507&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI7x4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A1658504%7C1658507"
+        },
+        {
+          "title": "JML Coffee",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0LmWpWVdKpPvHbvDMvtSUb9bfrc_Avba6yoqku0lXw54KlnZ66dBokmupQMB0pR7rI9qvAb1tqRKFPBfR1_QtGilQ_4vo9aH1EFD7-w7Sncsv7A7vU-LW&usqp=CAE",
+          "link": "https://www.google.com/search?sca_esv=600239789&gl=us&hl=en&tbm=shop&q=Coffee&tbs=mr:1,pdtr0:906016%7C7472498&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQwQkI8h4oAA",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&tbs=mr%3A1%2Cpdtr0%3A906016%7C7472498"
+        }
+      ]
+    }
+  ],
+  "featured_shopping_results": [
+    {
+      "position": 1,
+      "title": "Ryze Mushroom Coffee (30 Servings)",
+      "link": "https://www.truegether.com/listing.html?id=USER.ae25b642-5846-4d2d-b655-6caddf53d1af",
+      "product_link": "https://www.google.com/shopping/product/12362505689845430002?gl=us",
+      "product_id": "12362505689845430002",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=12362505689845430002",
+      "number_of_comparisons": "2",
+      "comparison_link": "https://www.google.com/shopping/product/12362505689845430002/offers?q=Coffee&gl=us&hl=en&prds=eto:16371872193991328312_0,pid:1665720441172158712,rsk:PC_632867562764966943&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKYT",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A16371872193991328312_0%2Cpid%3A1665720441172158712%2Crsk%3APC_632867562764966943&gl=us&hl=en&offers=1&product_id=12362505689845430002&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECKYT",
+      "source": "MSM",
+      "price": "$61.00",
+      "extracted_price": 61,
+      "rating": 4.8,
+      "reviews": 102016,
+      "extensions": [
+        "Ground",
+        "Organic"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRuY4ku5T07wdFFPU7CBpPfb9mvCghtVUac05HiM1a31zfl2rnQ0En4Cn7olj2o0CnXCHlvV6ZX_tHNRa0yPncFkC5e9M2T2CJXObiqZIESsMLnqZy_cHaO&usqp=CAE",
+      "delivery": "$20.09 delivery",
+      "remark": "Pleasant body"
+    },
+    {
+      "position": 2,
+      "title": "5 Bag Sample Pack | Whole Bean | Bones Coffee",
+      "link": "https://www.bonescoffee.com/products/5-bag-sample-pack?variant=30972360327220&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorT7pDzuTQ17qszeaObRyamXOqz6LGchnmA8HHID3rFSg7mHPgYNYc&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e",
+      "product_link": "https://www.google.com/shopping/product/7733553032036677584?gl=us",
+      "product_id": "7733553032036677584",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=7733553032036677584",
+      "source": "Bones Coffee Company",
+      "price": "$33.00",
+      "extracted_price": 33,
+      "rating": 4.8,
+      "reviews": 11584,
+      "extensions": [
+        "Bag",
+        "Whole Bean"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSLx_H7cTEdEXfdcRcWYqhqip_gxC6FLk3dIB12Z1RqcZEBmemKgtoOr0F_STmKM04Y3vjwGuoy5SjDqkcaH7klqZ7bsR4PBr0eU-6nDEs&usqp=CAE",
+      "delivery": "Delivery by Wed, Jan 31",
+      "store_rating": 4.9,
+      "store_reviews": 3200,
+      "remark": "Pleasant aroma"
+    },
+    {
+      "position": 3,
+      "title": "Dunkin' Coffee, Medium Roast, Original Blend, K-Cup Pods - 44 pack, 0.37 oz pods",
+      "link": "https://www.staples.com/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "product_link": "https://www.google.com/shopping/product/1513439015840443605?gl=us",
+      "product_id": "1513439015840443605",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=1513439015840443605",
+      "number_of_comparisons": "20+",
+      "comparison_link": "https://www.google.com/shopping/product/1513439015840443605/offers?q=Coffee&gl=us&hl=en&prds=eto:8509237716506204324_0,local:1,pid:66980660492721560,prmr:2,rsk:PC_8449748082333385386&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNAT",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A8509237716506204324_0%2Clocal%3A1%2Cpid%3A66980660492721560%2Cprmr%3A2%2Crsk%3APC_8449748082333385386&gl=us&hl=en&offers=1&product_id=1513439015840443605&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECNAT",
+      "source": "Staples",
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "old_price": "$32.99",
+      "extracted_old_price": 32.99,
+      "rating": 4.7,
+      "reviews": 19780,
+      "extensions": [
+        "Pod",
+        "Medium Roast",
+        "Box",
+        "SALE"
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRdMGjaIB885_RKq530Vq76JC0cO_mXRbDUJnSaFKhGLpZvHgZpL2qPDpT_Oq_-banuhRoiwi7Gb50Mz5-lTDtMQL5Uj60P1U_ARe2AGX5T3y5oBRAzsG7tsw&usqp=CAE",
+      "tag": "SALE",
+      "delivery": "9.8 mi · Limited stock",
+      "store_rating": 4.5,
+      "store_reviews": 51,
+      "remark": "Smooth"
+    },
+    {
+      "position": 4,
+      "title": "Dunkin' Coffee, Ground, Medium Roast, Original Blend - 30 oz",
+      "link": "https://www.walmart.com/ip/Dunkin-Original-Blend-Medium-Roast-Coffee-30-Ounce-Canister/118940370?wl13=2354&selectedSellerId=0",
+      "product_link": "https://www.google.com/shopping/product/4882285222431606362?gl=us",
+      "product_id": "4882285222431606362",
+      "serpapi_product_api": "https://serpapi.com/search.json?device=desktop&engine=google_product&gl=us&google_domain=google.com&hl=en&product_id=4882285222431606362",
+      "number_of_comparisons": "25+",
+      "comparison_link": "https://www.google.com/shopping/product/4882285222431606362/offers?q=Coffee&gl=us&hl=en&prds=eto:1301226790413042975_0,local:1,pid:6997677376619847020,prmr:2,rsk:PC_8481527505144194408&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOcT",
+      "serpapi_product_api_comparisons": "https://serpapi.com/search.json?engine=google_product&filter=eto%3A1301226790413042975_0%2Clocal%3A1%2Cpid%3A6997677376619847020%2Cprmr%3A2%2Crsk%3APC_8481527505144194408&gl=us&hl=en&offers=1&product_id=4882285222431606362&sa=X&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ3q4ECOcT",
+      "source": "Walmart",
+      "price": "$17.97",
+      "extracted_price": 17.97,
+      "rating": 4.6,
+      "reviews": 15170,
+      "extensions": [
+        "Medium Roast",
+        "Bag",
+        "Ground",
+        "CURBSIDE"
+      ],
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT0O8iBz3tGIkJfrJ94cIpZy3OZjbliWVi-E9bdj4Kc-Io1CPX3_X2bJzT_wcwHQmt5MDsUBK3elPP643Nhsc4U5Bu33VP6Zksgfaz4W2I&usqp=CAE",
+      "tag": "CURBSIDE",
+      "delivery": "12.1 mi · In stock · Free 90-day returns",
+      "store_rating": 4.5,
+      "store_reviews": 754,
+      "remark": "Tastes good"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=60&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8NMDCIgf",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=60&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCPoe",
+      "3": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=120&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCPwe",
+      "4": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=180&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCP4e",
+      "5": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=240&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCIAf",
+      "6": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=300&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCIIf",
+      "7": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=360&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCIQf",
+      "8": "https://www.google.com/search?q=Coffee&sca_esv=600239789&gl=us&hl=en&tbs=vw:d&tbm=shop&ei=dUCtZYGlOOmbptQP98u94AI&start=420&sa=N&ved=0ahUKEwjBs93m7e6DAxXpjYkEHfdlDywQ8tMDCIYf"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=60&tbs=vw%3Ad",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=60&tbs=vw%3Ad",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=60&tbs=vw%3Ad",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=120&tbs=vw%3Ad",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=180&tbs=vw%3Ad",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=240&tbs=vw%3Ad",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=300&tbs=vw%3Ad",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=360&tbs=vw%3Ad",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Coffee&start=420&tbs=vw%3Ad"
+    }
+  }
+}

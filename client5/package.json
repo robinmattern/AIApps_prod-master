@@ -1,0 +1,38 @@
+{
+  "name": "aiapps_dev01-robin_client5_apps",
+  "version": "0.1.1",
+  "description": "LangChain JS Client5 APPs",
+  "keywords": [
+    "AI",
+    "OpenAI",
+    "Langchain.js",
+    "SQLite"
+  ],
+  "author": "Robin Mattern",
+  "license": "ISC",
+  "main": "1-main.mjs",
+  "dependencies": {
+    "@langchain/community": "^0.0.24",
+    "@langchain/openai": "^0.0.13",
+    "better-sqlite3": "^9.3.0",
+    "dotenv": "^16.4.1",
+    "langchain": "^0.1.11",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
+  },
+  "scripts": {
+    "start": "node 5c1_langchain-sql-app/1-main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinmattern/AIApps_dev01-robin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robinmattern/AIApps_dev01-robin/issues"
+  },
+  "homepage": "https://github.com/robinmattern/AIApps_dev01-robin#readme"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "sqlite",
+  "database": "/e/Repos/Robin/AIApps_/dev01-robin/client5/5c1_langchain-sql-app/assets/chinook.db",
+  "entities": [], 
+  "synchronize": false 
+}

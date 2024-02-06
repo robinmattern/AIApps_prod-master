@@ -1,0 +1,685 @@
+Robin@rm228d-w11p MINGW64 /d/Home/Robin/._1/Links/Repos/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course (main)
+$ npm run run1
+
+> 4c2_langchain-js-crash-course@1.0.0 run1
+> node 01_first_chain.js
+
+
+first-chain[3] error:
+-----------------------------------------------------------
+  Error: 404: Not Found
+  headers: {
+     Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'User-Agent': 'OpenAI/NodeJS/3.3.0',
+     Authorization: 'Bearer sk-7BA1ae6HTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz',
+    'Content-Length': 242
+     },
+  method: 'post',
+  data: '{ "model":"davinci-002"
+         , "temperature":0
+         , "max_tokens":256
+         , "top_p":1
+         , "frequency_penalty":0
+         , "presence_penalty":0
+         , "n":1
+         , "best_of":1
+         , "stream":false
+         , "prompt":[ "Be very funny when answering questions\\n Question: What is the capital of France?" ]
+         }',
+  url: 'https://api.openai.com/v1/completions'
+  }
+
+
+file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/01_first_chain.js:23
+console.log(result);
+            ^
+
+ReferenceError: result is not defined
+    at file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/01_first_chain.js:23:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v20.10.0
+
+Robin@rm228d-w11p MINGW64 /d/Home/Robin/._1/Links/Repos/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course (main)
+$
+
+davinci-002
+
+curl -X POST \
+  https://api.openai.com/v1/completions \
+  -H "Accept: application/json, text/plain, */*" \
+  -H "Content-Type: application/json" \
+  -H "User-Agent: OpenAI/NodeJS/3.3.0" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "text-davinci-003",
+    "temperature": 0,
+    "max_tokens": 256,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n": 1,
+    "best_of": 1,
+    "stream": false,
+    "prompt": [
+      "Be very funny when answering questions\\n Question: What is the capital of France?"
+    ]
+  }'
+{
+    "error": {
+        "message": "The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+
+
+curl -X POST \
+  https://api.openai.com/v1/completions \
+  -H "Accept: application/json, text/plain, */*" \
+  -H "Content-Type: application/json" \
+  -H "User-Agent: OpenAI/NodeJS/3.3.0" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "davinci-002",
+    "temperature": 0,
+    "max_tokens": 256,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n": 1,
+    "best_of": 1,
+    "stream": false,
+    "prompt": [
+      "Be very funny when answering questions\\n Question: What is the capital of France?"
+    ]
+  }'
+
+
+$ curl -X POST \
+  https://api.openai.com/v1/completions \
+  -H "Accept: application/json, text/plain, */*" \
+  -H "Content-Type: application/json" \
+  -H "User-Agent: OpenAI/NodeJS/3.3.0" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "davinci-002",
+    "temperature": 0,
+    "max_tokens": 256,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n": 1,
+    "best_of": 1,
+    "stream": false,
+    "prompt": [
+      "Be very funny when answering questions\\n Question: What is the capital of France?"
+    ]
+  }'
+{
+  "id": "cmpl-8mjImp0LI6IwaVf1L90E2a4l5RQ6U",
+  "object": "text_completion",
+  "created": 1706624576,
+  "model": "davinci-002",
+  "choices": [
+    {
+      "text": " Answer: Paris\\n Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the capital of France? Answer: Paris\\n
+                Question: What is the",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16,
+    "completion_tokens": 256,
+    "total_tokens": 272
+  }
+}
+
+
+{
+  "id": "cmpl-8mjImp0LI6IwaVf1L90E2a4l5RQ6U",
+  "object": "text_completion",
+  "created": 1706624576,
+  "model": "davinci-002",
+  "choices": [
+    {
+      "text": " Answer: Paris\\n Question: What is the capital of France? Answer: Paris\\n"
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16,
+    "completion_tokens": 256,
+    "total_tokens": 272
+  }
+}
+
+
+$ npm run run1
+
+> 4c2_langchain-js-crash-course@1.0.0 run1
+> node 01_first_chain.js
+
+
+first-chain[3] error:
+-----------------------------------------------------------
+404: Not Found
+{
+  transitional: {
+    silentJSONParsing: true,
+    forcedJSONParsing: true,
+    clarifyTimeoutError: false
+  },
+  adapter: [Function: httpAdapter],
+  transformRequest: [ [Function: transformRequest] ],
+  transformResponse: [ [Function: transformResponse] ],
+  timeout: 0,
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+  maxContentLength: -1,
+  maxBodyLength: -1,
+  validateStatus: [Function: validateStatus],
+  headers: {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'User-Agent': 'OpenAI/NodeJS/3.3.0',
+    Authorization: 'Bearer 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',
+    'Content-Length': 244
+  },
+  method: 'post',
+  data: '{"model":"text-davinci-003","temperature":0.7,"max_tokens":256,"top_p":1,"frequency_penalty":0,"presence_penalty":0,"n":1,"best_of":1,"stream":false,"prompt":["Be very funny when answering questions\\n Question: What is the capital of France?"]}',
+  url: 'https://api.openai.com/v1/completions'
+}
+
+
+
+  headers: {
+     Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'User-Agent': 'OpenAI/NodeJS/3.3.0',
+     Authorization: 'Bearer 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',
+    'Content-Length': 244
+  },
+  method:  'post',
+  data: '{ "model":"text-davinci-003"
+         , "temperature":0.7
+         , "max_tokens":256
+         , "top_p":1
+         , "frequency_penalty":0
+         , "presence_penalty":0
+         , "n":1
+         , "best_of":1
+         , "stream":false
+         , "prompt":["Be very funny when answering questions\\n Question: What is the capital of France?"]
+          }',
+  url: 'https://api.openai.com/v1/completions'
+}
+
+
+{
+  apiKey: "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",
+}
+
+{
+  llm: {
+    lc_serializable: true,
+    lc_kwargs: {
+      callbacks: undefined,
+      model: "davinci-002",
+    },
+    verbose: false,
+    callbacks: undefined,
+    tags: [
+    ],
+    caller: {
+      maxConcurrency: Infinity,
+      maxRetries: 6,
+      queue: {
+        _events: {
+        },
+        _eventsCount: 0,
+        _intervalCount: 0,
+        _intervalEnd: 0,
+        _pendingCount: 0,
+        _resolveEmpty: () => { },
+        _resolveIdle: () => { },
+        _carryoverConcurrencyCount: false,
+        _isIntervalIgnored: true,
+        _intervalCap: Infinity,
+        _interval: 0,
+        _queue: {
+          _queue: [
+          ],
+        },
+        _queueClass: class PriorityQueue {
+          constructor() {
+              this._queue = [];
+          }
+          enqueue(run, options) {
+              options = Object.assign({ priority: 0 }, options);
+              const element = {
+                  priority: options.priority,
+                  run
+              };
+              if (this.size && this._queue[this.size - 1].priority >= options.priority) {
+                  this._queue.push(element);
+                  return;
+              }
+              const index = lower_bound_1.default(this._queue, element, (a, b) => b.priority - a.priority);
+              this._queue.splice(index, 0, element);
+          }
+          dequeue() {
+              const item = this._queue.shift();
+              return item === null || item === void 0 ? void 0 : item.run;
+          }
+          filter(options) {
+              return this._queue.filter((element) => element.priority === options.priority).map((element) => element.run);
+          }
+          get size() {
+              return this._queue.length;
+          }
+        },
+        _concurrency: Infinity,
+        _intervalId: undefined,
+        _timeout: undefined,
+        _throwOnTimeout: false,
+        _isPaused: false,
+      },
+    },
+    _encoding: undefined,
+    lc_namespace: [
+      "langchain",
+      "llms",
+      "openai",
+    ],
+    cache: undefined,
+    temperature: 0.7,
+    maxTokens: 256,
+    topP: 1,
+    frequencyPenalty: 0,
+    presencePenalty: 0,
+    n: 1,
+    bestOf: 1,
+    logitBias: undefined,
+    modelName: "text-davinci-003",
+    modelKwargs: {
+    },
+    batchSize: 20,
+    timeout: undefined,
+    stop: undefined,
+    streaming: false,
+    openAIApiKey: "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",
+    azureOpenAIApiVersion: undefined,
+    azureOpenAIApiKey: undefined,
+    azureOpenAIApiInstanceName: undefined,
+    azureOpenAIApiDeploymentName: undefined,
+    client: undefined,
+    clientConfig: {
+      apiKey: "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",
+    },
+  },
+  prompt: {
+    lc_serializable: true,
+    lc_kwargs: {
+      template: "Be very funny when answering questions\n Question: {question}",
+      inputVariables: [ "question", ],
+    },
+    lc_namespace: [
+      "langchain",
+      "prompts",
+      "prompt",
+    ],
+    inputVariables: [ "question", ],
+    outputParser: undefined,
+    partialVariables: {
+    },
+    template: "Be very funny when answering questions\n Question: {question}",
+    templateFormat: "f-string",
+    validateTemplate: true,
+  },
+}
+
+## npm install langchain@^0
+npm install -g npm-check-updates
+npm-check-updates -u langchain
+npm-check-updates -u openai
+npm-check-updates -u faiss-node
+
+changes the dependencies in package.json
+from
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "faiss-node": "^0.2.1",
+    "langchain": "^0.0.96",
+    "openai": "^3.3.0"
+
+  "dependencies": {
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.1.10",
+    "openai": "^4.26.0"
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+
+
+    `$ npm install`
+        npm ERR! code EPERM
+        npm ERR! syscall mkdir
+        npm ERR! path E:\Repos\Robin\AIApps_\dev01-robin\client4\node_modules\openai
+        npm ERR! errno -4048
+        npm ERR! Error: EPERM: operation not permitted, mkdir 'E:\Repos\Robin\AIApps_\dev01-robin\client4\node_modules\openai'
+        npm ERR!  [Error: EPERM: operation not permitted, mkdir 'E:\Repos\Robin\AIApps_\dev01-robin\client4\node_modules\openai'] {
+        npm ERR!   errno: -4048,
+        npm ERR!   code: 'EPERM',
+        npm ERR!   syscall: 'mkdir',
+        npm ERR!   path: 'E:\\Repos\\Robin\\AIApps_\\dev01-robin\\client4\\node_modules\\openai'
+        npm ERR! }
+        npm ERR!
+        npm ERR! The operation was rejected by your operating system.
+        npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
+        npm ERR! or that you lack permissions to access it.
+        npm ERR!
+        npm ERR! If you believe this might be a permissions issue, please double-check the
+        npm ERR! permissions of the file and its containing directories, or try running
+        npm ERR! the command again as root/Administrator.
+
+        npm ERR! A complete log of this run can be found in: C:\Users\Robin\AppData\Local\npm-cache\_logs\2024-01-30T14_52_33_700Z-debug-0.log
+
+
+I quit vscode, and reran npm install in the git=bash shell
+
+  `# cd "D:\Home\Robin\._1\Links\Repos\AIApps_\dev01-robin\client4"`
+  `$ npm install`
+
+        added 27 packages, removed 5 packages, changed 5 packages, and audited 115 packages in 3m
+
+        18 packages are looking for funding
+          run `npm fund` for details
+
+        found 0 vulnerabilities
+
+
+
+    `$ npm run script1`
+
+        > 4c2_langchain-js-crash-course@1.0.0 script1
+        > node 01_first_chain.js
+
+        [WARNING]: Importing from "langchain/llms/openai" is deprecated.
+
+        Instead, please add the "@langchain/openai" package to your project with e.g.
+
+            $ npm install @langchain/openai
+
+        and import from "@langchain/openai".
+
+        This will be mandatory after the next "langchain" minor version bump to 0.2.
+        [WARNING]: Importing from "langchain/prompts" is deprecated.
+
+        Instead, please import from "@langchain/core/prompts".
+
+        This will be mandatory after the next "langchain" minor version bump to 0.2.
+
+         * No {result} returned
+
+$  npm install @langchain/openai
+
+        added 58 packages, and audited 59 packages in 2m
+
+        8 packages are looking for funding
+          run `npm fund` for details
+
+        found 0 vulnerabilities
+
+I didn't do it in the client4 folder
+
+  "dependencies": {
+    "@langchain/openai": "^0.0.13"
+  }
+
+
+
+
+
+$ npm run script1
+
+> 4c2_langchain-js-crash-course@1.0.0 script1
+> node 01_first_chain.js
+
+[WARNING]: Importing from "langchain/llms/openai" is deprecated.
+
+Instead, please add the "@langchain/openai" package to your project with e.g.
+
+    $ npm install @langchain/openai
+
+and import from "@langchain/openai".
+
+This will be mandatory after the next "langchain" minor version bump to 0.2.
+
+
+$  npm install @langchain/llms/openai
+
+- Edit the script:
+
+  import { OpenAI         } from "@langchain/openai"        // .(40130.01.1 RAM: was: "langchain/llms/openai")
+  import { PromptTemplate } from "@langchain/core/prompts"  // .(40130.01.2 RAM: was: "langchain/prompts")
+
+
+  $ npm run script1
+
+  > 4c2_langchain-js-crash-course@1.0.0 script1
+  > node 01_first_chain.js
+
+  {
+    text: '\n' +
+      '\n' +
+      `The capital of France is actually "P" because it's pronounced "Paris"! Get it? P for Paris? Okay, maybe I should stick to being funny and not making geography jokes. But seriously, it's Paris.`
+  }
+
+
+
+
+1. Running the first script now fails on the import statement
+
+
+   import { Configuration, OpenAIApi } from "openai";
+
+        The requested module 'openai' does not provide an export named 'Configuration'
+
+
+{
+  lc_serializable: true,
+  lc_kwargs: {
+     template: "Be very funny when answering questions\n Question: {question}",
+     inputVariables: [ "question", ],
+     },
+  lc_runnable: true,
+  name: undefined,
+  lc_namespace: [
+    "langchain_core",
+    "prompts",
+    "prompt",
+     ],
+  inputVariables: [ "question", ],
+  outputParser: undefined,
+  partialVariables: undefined,
+  template: "Be very funny when answering questions\n Question: {question}",
+  templateFormat: "f-string",
+  validateTemplate: true,
+  }
+
+
+
+-----------------------
+
+
+import { OpenAI } from "@langchain/openai";
+import { PromptTemplate } from "@langchain/core/prompts";
+import { LLMChain } from "langchain/chains";
+
+const openai = new OpenAI("sk-YOUR_API_KEY");
+
+const promptTemplate = new PromptTemplate(`Q: What is the meaning of life?`);
+
+const chain = new LLMChain({ llm: openai, prompt: promptTemplate });
+
+const response = await chain.run();
+
+console.log(response.text); // Output: The meaning of life is a philosophical question that has been pondered...
+
+
+"TypeError: Cannot read properties of undefined (reading 'includes')\n
+        at new BasePromptTemplate       (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/base.js:47:28)\n
+        at new BaseStringPromptTemplate (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/string.js:10:8)\n    at new PromptTemplate (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/prompt.js:25:9)\n
+        at                               file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/02_simplesequentialchain.js:45:27\n
+        at ModuleJob.run                (node:internal/modules/esm/module_job:218:25)\n
+        at async ModuleLoader.import    (node:internal/modules/esm/loader:329:24)\n
+        at async loadESM                (node:internal/process/esm_loader:34:7)\n
+        at async handleMainPromise      (node:internal/modules/run_main:113:12)"
+
+Those lines don't compute.  First of all chain.run() is not defined.  Should it be chain.call()?
+second, when I use call, I get this error:
+
+"TypeError: Cannot read properties of undefined (reading 'includes')\n
+        at new BasePromptTemplate       (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/base.js:47:28)\n
+        at new BaseStringPromptTemplate (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/string.js:10:8)\n    at new PromptTemplate (file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/node_modules/@langchain/core/dist/prompts/prompt.js:25:9)\n
+        at                               file:///E:/Repos/Robin/AIApps_/dev01-robin/client4/4c8_langchain-js-crash-course/02_simplesequentialchain.js:45:27\n
+        at ModuleJob.run                (node:internal/modules/esm/module_job:218:25)\n
+        at async ModuleLoader.import    (node:internal/modules/esm/loader:329:24)\n
+        at async loadESM                (node:internal/process/esm_loader:34:7)\n
+        at async handleMainPromise      (node:internal/modules/run_main:113:12)"
+
+
+
+  import { config } from "dotenv"; config();
+
+  import { OpenAI         } from "@langchain/openai"        // .(40130.01.1 RAM: was: "langchain/llms/openai")
+  import { PromptTemplate } from "@langchain/core/prompts"  // .(40130.01.2 RAM: was: "langchain/prompts")
+//import { SimpleSequentialChain, LLMChain } from "langchain/chains";
+  import {                        LLMChain } from "langchain/chains";
+
+  const llm = new OpenAI( { temperature: 0 } );
+
+  const responseTemplate1 = `
+        You are a helpful bot that creates a 'thank you' response text.
+        If customers are unsatisfied, offer them a real world assistant to talk to.
+        You will get a sentiment and subject as input and evaluate.
+
+        text: {input}
+        `;
+
+  const responseTemplate2 = `
+        You are an assistant bot. Your job is to make the customer feel heard and understood.
+        Reflect on the input you receive.
+
+        text: {input}
+        `;
+
+  const reviewPromptTemplate1 = new PromptTemplate(
+         { template: responseTemplate1
+         , inputVariables: ["input"],
+           } );
+
+  const reviewPromptTemplate2 = new PromptTemplate(
+         { template: responseTemplate2
+         , inputVariables: ["input"]
+           } );
+
+  const reviewChain1   =  new LLMChain({ llm, prompt: reviewPromptTemplate1 });
+  const reviewChain2   =  new LLMChain({ llm, prompt: reviewPromptTemplate2 });
+
+  const overallChain = new SimpleSequentialChain(
+         { chains: [ reviewChain1, reviewChain2 ]
+         , verbose: true,
+           } );
+
+  const result = await overallChain.run(
+         { input: "I ordered Pizza Salami and it was awful!",
+           } );
+
+        console.log( result );
+
+-----------------------------------------
+
+import { SequentialChain } from "langchain/chains";  // Import SequentialChain
+
+// ... your existing code ...
+
+// Create the overallChain using SequentialChain:
+const overallChain = new SequentialChain({
+  chains: [reviewChain1, reviewChain2],
+  verbose: true,
+});
+
+// Execute the overallChain:
+const result = await overallChain.call({ input: "I ordered Pizza Salami and it was awful!" });
+
+-----------------------------------------
+
+// Create a function to execute chains sequentially:
+  async function executeSequentially( chains, input ) {
+    let currentInput = input;
+   for (const chain of chains) {
+  const result = await chain.call({ input: currentInput });
+        currentInput = result.text;  // Use the output of one chain as input for the next
+        }
+ return result;  // Return the final result
+        }
+
+// Execute the chains sequentially:
+const result = await executeSequentially([reviewChain1, reviewChain2], { input: "I ordered Pizza Salami and it was awful!" });
+
+------------------
+
+// Create a function to execute chains sequentially:
+  async function executeSequentially( chains, input ) {
+    let currentInput = input; var result
+   for (const chain of chains) { nChain++
+              result = await chain.call( { input: currentInput } );
+        currentInput = result.text;                                   // Use the output of one chain as input for the next
+        }
+ return result;  // Return the final result                           // .(40130.10.2 RAM Now has a value )
+        }
+
+
+  const overallChain = new SequentialChain({
+    chains: [reviewChain, commentChain, summaryChain, translationChain],
+    inputVariables: ["dish_name", "experience"],
+    outputVariables: ["review", "comment", "summary", "german_translation"],
+    });
+
+
+03_sequentialchain
+
+
+const results = await executeSequentially(
+         [reviewChain, commentChain, summaryChain, translationChain]
+         , { dish_name: "Pizza Salami", experience: "awful" }
+         , outputVariables );
+
+   Missing value for input dish_name

@@ -1,0 +1,477 @@
+
+  "search_metadata": {
+    "id": "65ad49bd681ebedf3410c54c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/257b032a4715a065/65ad49bd681ebedf3410c54c.json",
+    "created_at": "2024-01-21 16:43:41 UTC",
+    "processed_at": "2024-01-21 16:43:41 UTC",
+    "walmart_product_url": "https://www.walmart.com/ip/1618550673?",
+    "raw_html_file": "https://serpapi.com/searches/257b032a4715a065/65ad49bd681ebedf3410c54c.html",
+    "prettify_html_file": "https://serpapi.com/searches/257b032a4715a065/65ad49bd681ebedf3410c54c.prettify",
+    "total_time_taken": 1.4
+  },
+  "search_parameters": {
+    "product_id": "1618550673",
+    "engine": "walmart_product",
+    "device": "desktop"
+  },
+  "search_information": {
+    "location": {
+      "postal_code": "95829",
+      "province_code": "CA",
+      "city": "Sacramento",
+      "store_id": "3081"
+    }
+  },
+  "product_result": {
+    "us_item_id": "1618550673",
+    "product_id": "296ENVXCGIUP",
+    "upc": "849434043579",
+    "title": "Your Zone Teal Plastic Round Plate, Single Piece",
+    "short_description_html": "<p>This durable plate was designed to make food prep simple and quick which is a must for kid’s meals and you can do just that with the bold colored Your Zone Kids Plate. Perfectly sized for children, this microwave and dishwasher safe plate helps you serve the right portion for your child. Featuring a 7.50-Inch Diameter and raised edges to allow minimal mess and more room for little hands to have a better grip. Made of durable Polypropylene this plate is break-resistant, giving parents peace of mind. Easy nesting allows the plate to be stacked and put away neatly. This BPA-free plate is designed to last! Dishwasher-safe feature makes for quick and fuss-free cleanups. Microwave safe makes this plate a go to for busy parents. This break resistant plate is perfect for indoor or outdoor dining for hassle-free eating.</p>",
+    "detailed_description_html": "<ul>  <li>Your Zone Teal Plate<br> <br> <br> &nbsp;</li>  <li>Featuring raised edges for little hands to have better control<br> &nbsp;</li>  <li>Microwave Safe</li>  <li>Dishwasher Safe</li>  <li>Break- Resistant</li>  <li>Durable and Easy to Clean</li>  <li>Indoor and Outdoor use</li>  <li>Nests for easy stacking and storage</li>  <li>Made of BPA Free Polypropylene</li>  <li>Dimensions: 7.50-Inch Diameter by 1.125-Inch Height</li> </ul>",
+    "categories": [
+      {
+        "name": "Home",
+        "url": "https://www.walmart.com/cp/home/4044"
+      },
+      {
+        "name": "Kitchen & Dining",
+        "url": "https://www.walmart.com/cp/kitchen-dining/623679"
+      },
+      {
+        "name": "Dining & Entertaining",
+        "url": "https://www.walmart.com/cp/dining-entertaining/639999"
+      },
+      {
+        "name": "Kids Dinnerware",
+        "url": "https://www.walmart.com/cp/kids-dinnerware/3333102"
+      }
+    ],
+    "seller_id": "F55CDC31AB754BB68FE0B39041159D63",
+    "seller_name": "Walmart.com",
+    "specification_highlights": [
+      {
+        "key": "Features",
+        "value": "Microwave Safe, Dishwasher Safe",
+        "display_name": "Features"
+      },
+      {
+        "key": "Assembled Product Weight",
+        "value": "0.5 lb",
+        "display_name": "Assembled Product Weight"
+      },
+      {
+        "key": "Brand",
+        "value": "Your Zone",
+        "display_name": "Brand"
+      },
+      {
+        "key": "Size",
+        "value": "M",
+        "display_name": "Size"
+      },
+      {
+        "key": "Shape",
+        "value": "Round",
+        "display_name": "Shape"
+      },
+      {
+        "key": "Pattern",
+        "value": "Solid Print",
+        "display_name": "Pattern"
+      },
+      {
+        "key": "Age Group",
+        "value": "Toddler, Child",
+        "display_name": "Age Group"
+      },
+      {
+        "key": "Home Decor Style",
+        "value": "Modern",
+        "display_name": "Home Decor Style"
+      },
+      {
+        "key": "Recommended Use",
+        "value": "Everyday",
+        "display_name": "Recommended Use"
+      },
+      {
+        "key": "Material",
+        "value": "Plastic",
+        "display_name": "Material"
+      },
+      {
+        "key": "Manufacturer Part Number",
+        "value": "BNS614",
+        "display_name": "Manufacturer Part Number"
+      },
+      {
+        "key": "Color",
+        "value": "Teal",
+        "display_name": "Color"
+      },
+      {
+        "key": "Assembled Product Dimensions (L x W x H)",
+        "value": "7.50 x 7.50 x 1.10 Inches",
+        "display_name": "Assembled Product Dimensions (L x W x H)"
+      }
+    ],
+    "manufacture_number": "BNS614",
+    "product_type_id": "1917",
+    "product_type": "Tableware Plates",
+    "manufacturer": "Your Zone",
+    "product_page_url": "https://www.walmart.com/ip/Your-Zone-Teal-Plastic-Round-Plate-Single-Piece/1618550673",
+    "price_map": {
+      "price": 0.5,
+      "currency": "USD"
+    },
+    "min_quantity": 1,
+    "max_quantity": 12,
+    "in_stock": true,
+    "images": [
+      "https://i5.walmartimages.com/seo/Your-Zone-Teal-Plastic-Round-Plate-Single-Piece_364ee704-fa91-433f-9376-84e1cf2fe668.3a5e67901382b450853869d038bdd28c.jpeg",
+      "https://i5.walmartimages.com/asr/a5c9694a-7ecd-4ac0-b4ad-7c511fca2be5.300647fa81e4564c4680a6291a64f393.jpeg",
+      "https://i5.walmartimages.com/asr/0f03c128-262e-406e-ae39-e3394e216f4e.9ba698d592a9e716878c2072d0a38279.jpeg",
+      "https://i5.walmartimages.com/asr/a09d6aa7-0791-4ebc-b59b-3186e7d0a1ab.389b211630b08d440acc0199e5387df4.jpeg",
+      "https://i5.walmartimages.com/asr/ea8e891d-9493-455d-ac9b-92a4afd7b381.44b1b8bbfd389bf28077721813359d93.jpeg"
+    ],
+    "reviews": 276,
+    "rating": 4.5,
+    "offer_id": "A1942E38274B4FCE91A45A9BD4E4E37C",
+    "offer_type": "ONLINE_AND_STORE",
+    "offers": [
+      {
+        "seller_id": "F55CDC31AB754BB68FE0B39041159D63",
+        "catalog_seller_id": 0,
+        "seller_name": "Walmart.com",
+        "seller_display_name": "Walmart.com",
+        "price": 0.5
+      }
+    ],
+    "delivery_option": {
+      "ship_method": "SAME_DAY"
+    },
+    "pickup_options": [
+      {
+        "availability": "AVAILABLE",
+        "pickup_method": "PICKUP_INSTORE"
+      },
+      {
+        "availability": "AVAILABLE",
+        "pickup_method": "PICKUP_CURBSIDE"
+      }
+    ],
+    "variant_swatches": [
+      {
+        "name": "Actual Color",
+        "available_selections": [
+          {
+            "name": "Pink"
+          },
+          {
+            "name": "Teal"
+          }
+        ]
+      }
+    ],
+    "badges": [
+      {
+        "id": "L1102",
+        "key": "SOCIAL_PROOF_PURCHASES_FLAG",
+        "name": "100+ bought since yesterday"
+      },
+      {
+        "id": "L1600",
+        "key": "BESTSELLER",
+        "name": "Best seller"
+      }
+    ],
+    "early_access_event": false,
+    "annual_event": false,
+    "walmart_plus_member": false
+  },
+  "reviews_results": {
+    "ratings": [
+      {
+        "stars": 1,
+        "count": 11
+      },
+      {
+        "stars": 2,
+        "count": 10
+      },
+      {
+        "stars": 3,
+        "count": 11
+      },
+      {
+        "stars": 4,
+        "count": 31
+      },
+      {
+        "stars": 5,
+        "count": 213
+      }
+    ],
+    "reviews": {
+      "rating": 4.5,
+      "count": 276,
+      "top_positive": {
+        "title": "Perfect Size and Weight",
+        "text": "I really like this dish. It's the perfect size for me, since I am now alone due to my husband's death. I eat a lot of microwave meals and they come out really hot to the touch. I was sliding them onto a paper plate which of course was too big. They fit perfectly in this plate. Warming French bread on it works just as perfectly. These are not only microwave safe, they can be washed in the dishwasher on the top rack. I will be investing in more of these as they while being sturdy they are lighter in weight than most dishes which is a boon for those of us with hand issues. They would make a great gift as well.",
+        "rating": 5,
+        "positive_feedback": 1,
+        "negative_feedback": 0,
+        "review_submission_time": "11/2/2023",
+        "user_nickname": "Jadzea",
+        "customer_type": [
+          "IncentivizedReviewYes",
+          "top1000Contributor"
+        ]
+      },
+      "top_negative": {
+        "title": "It's okay",
+        "text": "This was less deep and smaller than I thought not really satisfied with it for myself but it's great for a child or small animal and it's kinda flimsy but nice magenta color and it's cool for a light snack I suppose",
+        "rating": 2,
+        "positive_feedback": 0,
+        "negative_feedback": 0,
+        "review_submission_time": "11/12/2023",
+        "user_nickname": "Gia",
+        "customer_type": [
+          "IncentivizedReviewYes"
+        ]
+      },
+      "top_mentions": [
+        {
+          "score_percentage": 100,
+          "name": "Size",
+          "count": 39
+        },
+        {
+          "score_percentage": 100,
+          "name": "Color",
+          "count": 34
+        },
+        {
+          "score_percentage": 100,
+          "name": "Dishwasher",
+          "count": 26
+        },
+        {
+          "score_percentage": 100,
+          "name": "Microwave",
+          "count": 25
+        },
+        {
+          "score_percentage": 95,
+          "name": "Kids",
+          "count": 20
+        },
+        {
+          "score_percentage": 94,
+          "name": "Snacks",
+          "count": 16
+        },
+        {
+          "score_percentage": 100,
+          "name": "Sturdiness",
+          "count": 14
+        },
+        {
+          "score_percentage": 100,
+          "name": "Cleaning",
+          "count": 14
+        },
+        {
+          "score_percentage": 100,
+          "name": "Dishes",
+          "count": 11
+        },
+        {
+          "score_percentage": 100,
+          "name": "Price",
+          "count": 11
+        },
+        {
+          "score_percentage": 100,
+          "name": "Food",
+          "count": 11
+        },
+        {
+          "score_percentage": 100,
+          "name": "Sandwich",
+          "count": 10
+        },
+        {
+          "score_percentage": 100,
+          "name": "Ease Of Use",
+          "count": 10
+        },
+        {
+          "score_percentage": 100,
+          "name": "Durability",
+          "count": 9
+        },
+        {
+          "score_percentage": 100,
+          "name": "For Toddlers",
+          "count": 8
+        },
+        {
+          "score_percentage": 88,
+          "name": "Quality",
+          "count": 8
+        },
+        {
+          "score_percentage": 88,
+          "name": "Edges",
+          "count": 8
+        },
+        {
+          "score_percentage": 100,
+          "name": "Break",
+          "count": 7
+        },
+        {
+          "score_percentage": 57,
+          "name": "Plates",
+          "count": 7
+        },
+        {
+          "score_percentage": 100,
+          "name": "Lip",
+          "count": 6
+        },
+        {
+          "score_percentage": 100,
+          "name": "Wash",
+          "count": 5
+        },
+        {
+          "score_percentage": 100,
+          "name": "Fruit",
+          "count": 5
+        },
+        {
+          "score_percentage": 100,
+          "name": "Appearance",
+          "count": 5
+        },
+        {
+          "score_percentage": 100,
+          "name": "Design",
+          "count": 4
+        },
+        {
+          "score_percentage": 100,
+          "name": "Material",
+          "count": 4
+        }
+      ],
+      "customer_reviews": [
+        {
+          "title": "Perfect plate for littles!",
+          "text": "This plate is the right size for our five year old to use. We like to give her dishes that she can get and clean up by herself and this is perfect for that. I love that it has a raised edge to help them scoop up the food and the fact that its dishwasher safe is a bonus.",
+          "rating": 5,
+          "review_submission_time": "4/17/2023",
+          "user_nickname": "Imnotgrandma",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Cheap Plastic",
+          "text": "This little bowl is good for me to use when one of the little grandkids is over for a visit. It is of course shatter proof which makes it safe around the grandbaby in case she were to break it while eating. It is microwave safe but I noticed that it will get hot and a bit out of shape for a minute when I first take it out of the microwave. Remember this is a little kids plastic bowl that costs less than a dollar each so it still an okay item.",
+          "rating": 5,
+          "review_submission_time": "10/29/2023",
+          "user_nickname": "David",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Nice",
+          "text": "This is a good little plate. At first I didn’t like the higher sides but if you think about what you can use in it higher sides actually is better. I can use this for a plant thing too. I can’t remember what those are called. It doesn’t really fit in my cabinet really well with all the other dishes but it’s a good plate.",
+          "rating": 5,
+          "review_submission_time": "4/19/2023",
+          "user_nickname": "PurpleAce",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Small plate for children and people dieting.",
+          "text": "The Your Zone pink plate is durable and a perfect size for children or people that are on a diet and want a smaller plate. Diameter of plate is 7.50 inches with raised edges, great for sauces or gravies. It is dishwasher and microwave safe, & perfect for indoor or outdoor eating.",
+          "rating": 5,
+          "review_submission_time": "10/31/2023",
+          "user_nickname": "Kenzmar5",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Perfect Size and Weight",
+          "text": "I really like this dish. It's the perfect size for me, since I am now alone due to my husband's death. I eat a lot of microwave meals and they come out really hot to the touch. I was sliding them onto a paper plate which of course was too big. They fit perfectly in this plate. Warming French bread on it works just as perfectly. These are not only microwave safe, they can be washed in the dishwasher on the top rack. I will be investing in more of these as they while being sturdy they are lighter in weight than most dishes which is a boon for those of us with hand issues. They would make a great gift as well.",
+          "rating": 5,
+          "review_submission_time": "11/2/2023",
+          "user_nickname": "Jadzea",
+          "customer_type": [
+            "IncentivizedReviewYes",
+            "top1000Contributor"
+          ]
+        },
+        {
+          "title": "Light, Strong and Functional",
+          "text": "Very light but strong enough and functional as my everyday utensils plates. Convenient to use also as a dish ware for kids, picnic and pool parties. BPA free, also safe for microwave and \ndishwasher too. Everything for an excellent price, nice color for a great alternativa to the regular disposable plates.",
+          "rating": 5,
+          "review_submission_time": "11/1/2023",
+          "user_nickname": "youhaveproblem",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Low Cost Good Quality",
+          "text": "This isn't one of those flimsy pieces of plastic dishes. This bowl doesn't 'bend' easily and there are no rough edges as is common in the inexpensive plates and bowls. The color is very rich and true to the photo (see the photo provided). The bowl is deep enough to enjoy a saucy or gravy filled dish without it easily spilling. (See the photo provided that shows how deep the dish is by comparison to a common pencil eraser). These plates are inexpensive enough to buy enough of them in festive colors to give away individual portions of 'holiday cookies' as gifts.",
+          "rating": 5,
+          "review_submission_time": "10/24/2023",
+          "user_nickname": "AngelRenee",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Pretty N Pink and Cheap!",
+          "text": "This is a really nice little plate for many uses. It is great for snacks when watching your favorite show on tv. These aren't just for kids us seniors could make good use of them too. I like using it for portion control. These are really sturdy well-made plates that will hold up to all that rough housing kids can dish out. The design makes it easy for little ones to carry it around. Also, some seniors have a difficult time holding onto things, so this design will be very appreciated by those people.\nOne of my favorite things about this plate is its microwave and dishwasher safe. It also comes in other colors that happens to be just as pretty. Want something for the little ones check out the kids 24-piece dinnerware set at an unbelievable price, and that's not all you can get matching bowls or a 4 pack of 15oz. tumblers in assorted colors.  You can get any or all of these at an awesome price at Walmart. \nDon't forget we have Christmas coming up its time to start thinking about shopping and these would make a really nice gift.",
+          "rating": 5,
+          "review_submission_time": "10/30/2023",
+          "user_nickname": "MsBillie",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Your Zone Pink Plate",
+          "text": "This Your Zone pink color plate is very lightweight with a pop of color to brighten things up. It measures 7.5in diameter x 1.12in height (19cm x 2.8cm). Dishwasher top rack safe (do not put on bottom rack or use high heat drying or it will bend/melt). Also handwashes easily. Size fits a half sandwich and small handful of fruit. Or you can put a tiny salad on it from edge to edge. Or one full sandwhich. Or a slice of pie/cobbler. Not meant to hold large meals/large snacks.",
+          "rating": 5,
+          "review_submission_time": "10/24/2023",
+          "user_nickname": "l37ana",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        },
+        {
+          "title": "Ideal for children, students and camping",
+          "text": "This BPA-free plastic, dark pink plate is 7.5” in diameter, a little over 1” high and is microwave-safe. We did not have it in the microwave for more than 1-2 minutes but it held its form. It can be placed in a dishwasher on the top rack only. It will warp over time if placed on the bottom rack. We prefer not to use this type of plate at home for a family dinner meal but it is an ideal plate for a child, an on-the-go student or even camping!  It is not thin and does not bend when loaded up with food like wasteful paper plates. It withstands cutting meat or fruit without leaving plastic shavings behind.  Food rinses off of it easily and can be hand washed quickly to air dry in a sink strainer or dish rack. It stacks neatly with others of the same size and takes up minimal cupboard space.",
+          "rating": 4,
+          "review_submission_time": "4/17/2023",
+          "user_nickname": "Dlr36",
+          "customer_type": [
+            "IncentivizedReviewYes"
+          ]
+        }
+      ]
+    }
+  }
+}

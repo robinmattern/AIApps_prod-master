@@ -1,0 +1,650 @@
+{
+  lc_serializable: false,
+  lc_kwargs: {
+    appDataSource: {
+      "@instanceof": Symbol(DataSource),
+      migrations: [
+      ],
+      subscribers: [
+      ],
+      entityMetadatas: [
+      ],
+      entityMetadatasMap: {
+      },
+      name: "default",
+      options: {
+        type: "sqlite",
+        database: "./assets/chinook.db",
+      },
+      logger: {
+        options: undefined,
+      },
+      driver: {
+        isReplicated: false,
+        treeSupport: true,
+        transactionSupport: "nested",
+        supportedDataTypes: [
+          "int",
+          "integer",
+          "tinyint",
+          "smallint",
+          "mediumint",
+          "bigint",
+          "unsigned big int",
+          "int2",
+          "int8",
+          "integer",
+          "character",
+          "varchar",
+          "varying character",
+          "nchar",
+          "native character",
+          "nvarchar",
+          "text",
+          "clob",
+          "text",
+          "blob",
+          "real",
+          "double",
+          "double precision",
+          "float",
+          "real",
+          "numeric",
+          "decimal",
+          "boolean",
+          "date",
+          "time",
+          "datetime",
+          "json",
+        ],
+        supportedUpsertTypes: [
+          "on-conflict-do-update",
+        ],
+        withLengthColumnTypes: [
+          "character",
+          "varchar",
+          "varying character",
+          "nchar",
+          "native character",
+          "nvarchar",
+          "text",
+          "blob",
+          "clob",
+        ],
+        spatialTypes: [
+        ],
+        withPrecisionColumnTypes: [
+          "real",
+          "double",
+          "double precision",
+          "float",
+          "real",
+          "numeric",
+          "decimal",
+          "date",
+          "time",
+          "datetime",
+        ],
+        withScaleColumnTypes: [
+          "real",
+          "double",
+          "double precision",
+          "float",
+          "real",
+          "numeric",
+          "decimal",
+        ],
+        mappedDataTypes: {
+          createDate: "datetime",
+          createDateDefault: "datetime('now')",
+          updateDate: "datetime",
+          updateDateDefault: "datetime('now')",
+          deleteDate: "datetime",
+          deleteDateNullable: true,
+          version: "integer",
+          treeLevel: "integer",
+          migrationId: "integer",
+          migrationName: "varchar",
+          migrationTimestamp: "bigint",
+          cacheId: "int",
+          cacheIdentifier: "varchar",
+          cacheTime: "bigint",
+          cacheDuration: "int",
+          cacheQuery: "text",
+          cacheResult: "text",
+          metadataType: "varchar",
+          metadataDatabase: "varchar",
+          metadataSchema: "varchar",
+          metadataTable: "varchar",
+          metadataName: "varchar",
+          metadataValue: "text",
+        },
+        cteCapabilities: {
+          enabled: true,
+          requiresRecursiveHint: true,
+        },
+        attachedDatabases: {
+        },
+        connection: [Circular],
+        options: {
+          type: "sqlite",
+          database: "./assets/chinook.db",
+        },
+        database: "./assets/chinook.db",
+        sqlite: {
+          Database: function Database() { [native code] },
+          Statement: function Statement() { [native code] },
+          Backup: function Backup() { [native code] },
+          OPEN_READONLY: 1,
+          OPEN_READWRITE: 2,
+          OPEN_CREATE: 4,
+          OPEN_FULLMUTEX: 65536,
+          OPEN_URI: 64,
+          OPEN_SHAREDCACHE: 131072,
+          OPEN_PRIVATECACHE: 262144,
+          VERSION: "3.44.2",
+          SOURCE_ID: "2023-11-24 11:41:44 ebead0e7230cd33bcec9f95d2183069565b9e709bf745c9b5db65cc0cbf92c0f",
+          VERSION_NUMBER: 3044002,
+          OK: 0,
+          ERROR: 1,
+          INTERNAL: 2,
+          PERM: 3,
+          ABORT: 4,
+          BUSY: 5,
+          LOCKED: 6,
+          NOMEM: 7,
+          READONLY: 8,
+          INTERRUPT: 9,
+          IOERR: 10,
+          CORRUPT: 11,
+          NOTFOUND: 12,
+          FULL: 13,
+          CANTOPEN: 14,
+          PROTOCOL: 15,
+          EMPTY: 16,
+          SCHEMA: 17,
+          TOOBIG: 18,
+          CONSTRAINT: 19,
+          MISMATCH: 20,
+          MISUSE: 21,
+          NOLFS: 22,
+          AUTH: 23,
+          FORMAT: 24,
+          RANGE: 25,
+          NOTADB: 26,
+          LIMIT_LENGTH: 0,
+          LIMIT_SQL_LENGTH: 1,
+          LIMIT_COLUMN: 2,
+          LIMIT_EXPR_DEPTH: 3,
+          LIMIT_COMPOUND_SELECT: 4,
+          LIMIT_VDBE_OP: 5,
+          LIMIT_FUNCTION_ARG: 6,
+          LIMIT_ATTACHED: 7,
+          LIMIT_LIKE_PATTERN_LENGTH: 8,
+          LIMIT_VARIABLE_NUMBER: 9,
+          LIMIT_TRIGGER_DEPTH: 10,
+          LIMIT_WORKER_THREADS: 11,
+          path: "E:\\Repos\\Robin\\AIApps_\\dev01-robin\\client5\\node_modules\\sqlite3\\build\\Release\\node_sqlite3.node",
+          cached: {
+            Database: function(file, a, b) {
+              if (file === '' || file === ':memory:') {
+                  // Don't cache special databases.
+                  return new Database(file, a, b);
+              }
+
+              let db;
+              file = path.resolve(file);
+
+              if (!sqlite3.cached.objects[file]) {
+                  db = sqlite3.cached.objects[file] = new Database(file, a, b);
+              }
+              else {
+                  // Make sure the callback is called.
+                  db = sqlite3.cached.objects[file];
+                  const callback = (typeof a === 'number') ? b : a;
+                  if (typeof callback === 'function') {
+                      function cb() { callback.call(db, null); }
+                      if (db.open) process.nextTick(cb);
+                      else db.once('open', cb);
+                  }
+              }
+
+              return db;
+            },
+            objects: {
+            },
+          },
+          verbose: function() {
+            if (!isVerbose) {
+                const trace = require('./trace');
+                [
+                    'prepare',
+                    'get',
+                    'run',
+                    'all',
+                    'each',
+                    'map',
+                    'close',
+                    'exec'
+                ].forEach(function (name) {
+                    trace.extendTrace(Database.prototype, name);
+                });
+                [
+                    'bind',
+                    'get',
+                    'run',
+                    'all',
+                    'each',
+                    'map',
+                    'reset',
+                    'finalize',
+                ].forEach(function (name) {
+                    trace.extendTrace(Statement.prototype, name);
+                });
+                isVerbose = true;
+            }
+
+            return sqlite3;
+          },
+        },
+        databaseConnection: {
+        },
+        queryRunner: {
+          isReleased: false,
+          isTransactionActive: false,
+          data: {
+          },
+          loadedTables: [
+          ],
+          loadedViews: [
+          ],
+          sqlMemoryMode: false,
+          sqlInMemory: {
+            upQueries: [
+            ],
+            downQueries: [
+            ],
+          },
+          transactionDepth: 0,
+          cachedTablePaths: {
+          },
+          transactionPromise: null,
+          driver: [Circular],
+          connection: [Circular],
+          broadcaster: {
+            queryRunner: [Circular],
+          },
+          manager: {
+            "@instanceof": Symbol(EntityManager),
+            repositories: {
+            },
+            treeRepositories: [
+            ],
+            plainObjectToEntityTransformer: {
+            },
+            connection: [Circular],
+            queryRunner: [Circular],
+          },
+        },
+      },
+      manager: {
+        "@instanceof": Symbol(EntityManager),
+        repositories: {
+        },
+        treeRepositories: [
+        ],
+        plainObjectToEntityTransformer: {
+        },
+        connection: [Circular],
+      },
+      namingStrategy: {
+        nestedSetColumnNames: {
+          left: "nsleft",
+          right: "nsright",
+        },
+        materializedPathColumnName: "mpath",
+      },
+      metadataTableName: "typeorm_metadata",
+      queryResultCache: undefined,
+      relationLoader: {
+        connection: [Circular],
+      },
+      relationIdLoader: {
+        connection: [Circular],
+        queryRunner: undefined,
+      },
+      isInitialized: true,
+    },
+  },
+  lc_namespace: [
+    "langchain",
+    "sql_db",
+  ],
+  appDataSourceOptions: {
+    type: "sqlite",
+    database: "./assets/chinook.db",
+  },
+  appDataSource: {
+    "@instanceof": Symbol(DataSource),
+    migrations: [
+    ],
+    subscribers: [
+    ],
+    entityMetadatas: [
+    ],
+    entityMetadatasMap: {
+    },
+    name: "default",
+    options: {
+      type: "sqlite",
+      database: "./assets/chinook.db",
+    },
+    logger: {
+      options: undefined,
+    },
+    driver: {
+      isReplicated: false,
+      treeSupport: true,
+      transactionSupport: "nested",
+      supportedDataTypes: [
+        "int",
+        "integer",
+        "tinyint",
+        "smallint",
+        "mediumint",
+        "bigint",
+        "unsigned big int",
+        "int2",
+        "int8",
+        "integer",
+        "character",
+        "varchar",
+        "varying character",
+        "nchar",
+        "native character",
+        "nvarchar",
+        "text",
+        "clob",
+        "text",
+        "blob",
+        "real",
+        "double",
+        "double precision",
+        "float",
+        "real",
+        "numeric",
+        "decimal",
+        "boolean",
+        "date",
+        "time",
+        "datetime",
+        "json",
+      ],
+      supportedUpsertTypes: [
+        "on-conflict-do-update",
+      ],
+      withLengthColumnTypes: [
+        "character",
+        "varchar",
+        "varying character",
+        "nchar",
+        "native character",
+        "nvarchar",
+        "text",
+        "blob",
+        "clob",
+      ],
+      spatialTypes: [
+      ],
+      withPrecisionColumnTypes: [
+        "real",
+        "double",
+        "double precision",
+        "float",
+        "real",
+        "numeric",
+        "decimal",
+        "date",
+        "time",
+        "datetime",
+      ],
+      withScaleColumnTypes: [
+        "real",
+        "double",
+        "double precision",
+        "float",
+        "real",
+        "numeric",
+        "decimal",
+      ],
+      mappedDataTypes: {
+        createDate: "datetime",
+        createDateDefault: "datetime('now')",
+        updateDate: "datetime",
+        updateDateDefault: "datetime('now')",
+        deleteDate: "datetime",
+        deleteDateNullable: true,
+        version: "integer",
+        treeLevel: "integer",
+        migrationId: "integer",
+        migrationName: "varchar",
+        migrationTimestamp: "bigint",
+        cacheId: "int",
+        cacheIdentifier: "varchar",
+        cacheTime: "bigint",
+        cacheDuration: "int",
+        cacheQuery: "text",
+        cacheResult: "text",
+        metadataType: "varchar",
+        metadataDatabase: "varchar",
+        metadataSchema: "varchar",
+        metadataTable: "varchar",
+        metadataName: "varchar",
+        metadataValue: "text",
+      },
+      cteCapabilities: {
+        enabled: true,
+        requiresRecursiveHint: true,
+      },
+      attachedDatabases: {
+      },
+      connection: [Circular],
+      options: {
+        type: "sqlite",
+        database: "./assets/chinook.db",
+      },
+      database: "./assets/chinook.db",
+      sqlite: {
+        Database: function Database() { [native code] },
+        Statement: function Statement() { [native code] },
+        Backup: function Backup() { [native code] },
+        OPEN_READONLY: 1,
+        OPEN_READWRITE: 2,
+        OPEN_CREATE: 4,
+        OPEN_FULLMUTEX: 65536,
+        OPEN_URI: 64,
+        OPEN_SHAREDCACHE: 131072,
+        OPEN_PRIVATECACHE: 262144,
+        VERSION: "3.44.2",
+        SOURCE_ID: "2023-11-24 11:41:44 ebead0e7230cd33bcec9f95d2183069565b9e709bf745c9b5db65cc0cbf92c0f",
+        VERSION_NUMBER: 3044002,
+        OK: 0,
+        ERROR: 1,
+        INTERNAL: 2,
+        PERM: 3,
+        ABORT: 4,
+        BUSY: 5,
+        LOCKED: 6,
+        NOMEM: 7,
+        READONLY: 8,
+        INTERRUPT: 9,
+        IOERR: 10,
+        CORRUPT: 11,
+        NOTFOUND: 12,
+        FULL: 13,
+        CANTOPEN: 14,
+        PROTOCOL: 15,
+        EMPTY: 16,
+        SCHEMA: 17,
+        TOOBIG: 18,
+        CONSTRAINT: 19,
+        MISMATCH: 20,
+        MISUSE: 21,
+        NOLFS: 22,
+        AUTH: 23,
+        FORMAT: 24,
+        RANGE: 25,
+        NOTADB: 26,
+        LIMIT_LENGTH: 0,
+        LIMIT_SQL_LENGTH: 1,
+        LIMIT_COLUMN: 2,
+        LIMIT_EXPR_DEPTH: 3,
+        LIMIT_COMPOUND_SELECT: 4,
+        LIMIT_VDBE_OP: 5,
+        LIMIT_FUNCTION_ARG: 6,
+        LIMIT_ATTACHED: 7,
+        LIMIT_LIKE_PATTERN_LENGTH: 8,
+        LIMIT_VARIABLE_NUMBER: 9,
+        LIMIT_TRIGGER_DEPTH: 10,
+        LIMIT_WORKER_THREADS: 11,
+        path: "E:\\Repos\\Robin\\AIApps_\\dev01-robin\\client5\\node_modules\\sqlite3\\build\\Release\\node_sqlite3.node",
+        cached: {
+          Database: function(file, a, b) {
+            if (file === '' || file === ':memory:') {
+                // Don't cache special databases.
+                return new Database(file, a, b);
+            }
+
+            let db;
+            file = path.resolve(file);
+
+            if (!sqlite3.cached.objects[file]) {
+                db = sqlite3.cached.objects[file] = new Database(file, a, b);
+            }
+            else {
+                // Make sure the callback is called.
+                db = sqlite3.cached.objects[file];
+                const callback = (typeof a === 'number') ? b : a;
+                if (typeof callback === 'function') {
+                    function cb() { callback.call(db, null); }
+                    if (db.open) process.nextTick(cb);
+                    else db.once('open', cb);
+                }
+            }
+
+            return db;
+          },
+          objects: {
+          },
+        },
+        verbose: function() {
+          if (!isVerbose) {
+              const trace = require('./trace');
+              [
+                  'prepare',
+                  'get',
+                  'run',
+                  'all',
+                  'each',
+                  'map',
+                  'close',
+                  'exec'
+              ].forEach(function (name) {
+                  trace.extendTrace(Database.prototype, name);
+              });
+              [
+                  'bind',
+                  'get',
+                  'run',
+                  'all',
+                  'each',
+                  'map',
+                  'reset',
+                  'finalize',
+              ].forEach(function (name) {
+                  trace.extendTrace(Statement.prototype, name);
+              });
+              isVerbose = true;
+          }
+
+          return sqlite3;
+        },
+      },
+      databaseConnection: {
+      },
+      queryRunner: {
+        isReleased: false,
+        isTransactionActive: false,
+        data: {
+        },
+        loadedTables: [
+        ],
+        loadedViews: [
+        ],
+        sqlMemoryMode: false,
+        sqlInMemory: {
+          upQueries: [
+          ],
+          downQueries: [
+          ],
+        },
+        transactionDepth: 0,
+        cachedTablePaths: {
+        },
+        transactionPromise: null,
+        driver: [Circular],
+        connection: [Circular],
+        broadcaster: {
+          queryRunner: [Circular],
+        },
+        manager: {
+          "@instanceof": Symbol(EntityManager),
+          repositories: {
+          },
+          treeRepositories: [
+          ],
+          plainObjectToEntityTransformer: {
+          },
+          connection: [Circular],
+          queryRunner: [Circular],
+        },
+      },
+    },
+    manager: {
+      "@instanceof": Symbol(EntityManager),
+      repositories: {
+      },
+      treeRepositories: [
+      ],
+      plainObjectToEntityTransformer: {
+      },
+      connection: [Circular],
+    },
+    namingStrategy: {
+      nestedSetColumnNames: {
+        left: "nsleft",
+        right: "nsright",
+      },
+      materializedPathColumnName: "mpath",
+    },
+    metadataTableName: "typeorm_metadata",
+    queryResultCache: undefined,
+    relationLoader: {
+      connection: [Circular],
+    },
+    relationIdLoader: {
+      connection: [Circular],
+      queryRunner: undefined,
+    },
+    isInitialized: true,
+  },
+  allTables: [
+  ],
+  includesTables: [
+  ],
+  ignoreTables: [
+  ],
+  sampleRowsInTableInfo: 3,
+  customDescription: {
+  },
+}

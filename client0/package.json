@@ -1,0 +1,29 @@
+{
+  "name": "aiapps_dev01-robin_client0_apps",
+  "version": "0.1.1",
+  "description": "First Node.js AI Client0 Apps",
+  "keywords": [
+  ],
+  "author": "Robin Mattern",
+  "license": "ISC",
+  "main": "0c1_first-app/0-main.mjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "@langchain/community": "^0.0.24",
+    "@langchain/openai": "^0.0.13",
+    "@pinecone-database/pinecone": "^0.0.10",
+    "langchain": "^0.1.11"
+  },
+  "scripts": {
+    "start": "node 0c1_first-app/0-main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinmattern/AIApps_dev01-robin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robinmattern/AIApps_dev01-robin/issues"
+  },
+  "homepage": "https://github.com/robinmattern/AIApps_dev01-robin#readme"
+}

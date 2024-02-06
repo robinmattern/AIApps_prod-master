@@ -1,0 +1,1314 @@
+{
+  "search_metadata": {
+    "id": "65ad4605607393d224b1768d",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/4734ce01edf90bdd/65ad4605607393d224b1768d.json",
+    "created_at": "2024-01-21 16:27:49 UTC",
+    "processed_at": "2024-01-21 16:27:49 UTC",
+    "bing_shopping_url": "https://www.bing.com/shop?q=Coffee",
+    "raw_html_file": "https://serpapi.com/searches/4734ce01edf90bdd/65ad4605607393d224b1768d.html",
+    "total_time_taken": 0.6
+  },
+  "search_parameters": {
+    "engine": "bing_shopping",
+    "q": "Coffee",
+    "device": "desktop"
+  },
+  "shopping_results": [
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2270048385285%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2270048385285%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2270048385285%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Lavazza Ground Coffee Intenso Dark Roast 12 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.2hqJSXe33oagaw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$10.84",
+      "extracted_price": 10.84,
+      "old_price": "$14.39",
+      "extracted_old_price": 14.39,
+      "rating": 5,
+      "reviews": "12"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2231260225552%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2231260225552%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2231260225552%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Equal Exchange Organic Love Buzz Ground Coffee 10 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.jsnd5zH1xg5q8Q474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "price": "$12.59",
+      "extracted_price": 12.59,
+      "rating": 5,
+      "reviews": "9",
+      "special_offer": "15% Off Select Coffee, Tea & Honey"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22169329351866%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22169329351866%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22169329351866%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Classic Roast Medium Roast Ground Coffee - 30.5Oz - Market Pantry",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.jZyGpP4pdpd6zg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Target",
+      "price": "$9.29",
+      "extracted_price": 9.29
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2242834377224%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2242834377224%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2242834377224%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Kicking Horse Coffee, Kick Ass, Dark Roast, Whole Bean, Certified Organic, Fairtrade, Kosher Coffee, 2.2 Lb, 35.2 Ounce",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.lO2NMgaPlz1RHA474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$49.19",
+      "extracted_price": 49.19,
+      "rating": 4.5,
+      "reviews": "268",
+      "free_shipping": true,
+      "popular": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2280353136013%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2280353136013%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2280353136013%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Lavazza Espresso Italiano Whole Bean Coffee - 100% Arabica 12 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.lvQcTYGdWwQGnw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$12.49",
+      "extracted_price": 12.49,
+      "old_price": "$15.89",
+      "extracted_old_price": 15.89,
+      "rating": 4.5,
+      "reviews": "170"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22155835291129%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22155835291129%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22155835291129%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "San Francisco Bay Compostable Coffee Pods - DECAF French Roast (80 Ct) K Cup Compatible Including Keurig 2.0, Dark Roast, Swiss Water Processed",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.BphorXHvfCSZIQ474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$48.87",
+      "extracted_price": 48.87,
+      "rating": 4.5,
+      "reviews": "21",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2257584422307%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2257584422307%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2257584422307%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Illy Caffe Classico Classic Roast Illy Blend Coffee 10 K-Cups",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.Q5tKydKhJVqegw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$9.69",
+      "extracted_price": 9.69,
+      "old_price": "$12.45",
+      "extracted_old_price": 12.45,
+      "rating": 5,
+      "reviews": "44"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2232940367579%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2232940367579%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2232940367579%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Starbucks Via Instant Coffee Dark Roast French Roast 8 Packets",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.QGibB5IuVKxA8w474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$8.59",
+      "extracted_price": 8.59,
+      "old_price": "$9.99",
+      "extracted_old_price": 9.99,
+      "rating": 4,
+      "reviews": "49",
+      "top_pick": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2217549855326%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2217549855326%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2217549855326%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Starbucks Via Instant Coffee Medium Roast Columbian 8 Packets",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.U8WTSEyy6GYv0A474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$8.09",
+      "extracted_price": 8.09,
+      "old_price": "$9.99",
+      "extracted_old_price": 9.99,
+      "rating": 4.5,
+      "reviews": "68"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22133621664548%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22133621664548%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22133621664548%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Death Wish Coffee Co. Single Serve Pods - (50 Count)",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.RMGoDb4df3PyeA474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$44.36",
+      "extracted_price": 44.36,
+      "rating": 5,
+      "reviews": "244",
+      "free_shipping": true,
+      "popular": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22133529333462%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22133529333462%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22133529333462%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Coffee, Classic Roast, Ground, 25.9 Oz Canister",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.i7X0G05T19CXIw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Zuma Office Supply",
+      "price": "$21.20",
+      "extracted_price": 21.2,
+      "rating": 3.5,
+      "reviews": "46",
+      "top_pick": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2217549855296%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2217549855296%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2217549855296%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Starbucks Via Instant Coffee Medium Roast Pike Place Roast 8 Packets",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.qCNQplZ5v8WHUw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$8.79",
+      "extracted_price": 8.79,
+      "old_price": "$9.99",
+      "extracted_old_price": 9.99,
+      "rating": 4,
+      "reviews": "96",
+      "top_pick": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2253026838146%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2253026838146%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2253026838146%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Roy's Pacific Roast 10% Kona Blend Single Serve Coffee Pods",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.TeRlXYmfiSGBag474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Hawaii Coffee Copmany",
+      "price": "$13.95",
+      "extracted_price": 13.95
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2217549855304%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2217549855304%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2217549855304%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Starbucks Whole Bean Coffee Dark Roast French Roast 12 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.NJNQNKAtil4kNg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "price": "$12.69",
+      "extracted_price": 12.69,
+      "rating": 4,
+      "reviews": "47",
+      "top_pick": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2242832996224%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2242832996224%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2242832996224%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Maud's Dark Roast Coffee Pods, 100 Ct | Tall, Dark & Handsome Coffee Blend | 100% Arabica Dark Roast Coffee | Solar Energy Produced Recyclable Pods",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.sju2dE9A6kHyrg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price_drop": "20% DROP",
+      "price": "$35.52",
+      "extracted_price": 35.52,
+      "rating": 4,
+      "reviews": "32",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22132265223545%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22132265223545%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22132265223545%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Maxwell House French Roast Coffee, Keurig K-Cup Pods, 60 Count, Multicolor, 60 CT.",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.4%2b7s3%2f23ctwgbg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Kohl's",
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "rating": 5,
+      "reviews": "10"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2245124895882%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2245124895882%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2245124895882%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Thrive Market Regeneratively Grown Organic Viennese Blend Coffee, Ground 12 Oz Bag - Organic, Paleo, Vegan",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.KUnetxGTloiBjw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Thrive Market",
+      "sale": true,
+      "price": "$10.99",
+      "extracted_price": 10.99,
+      "old_price": "$16.59",
+      "extracted_old_price": 16.59
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2231260231623%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2231260231623%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2231260231623%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Equal Exchange Organic Mind Body And Soul Whole Bean Coffee 12 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.4vpfQ3YU4ZYpqQ474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$12.59",
+      "extracted_price": 12.59,
+      "old_price": "$12.99",
+      "extracted_old_price": 12.99,
+      "rating": 5,
+      "reviews": "10",
+      "special_offer": "15% Off Select Coffee, Tea & Honey"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2293878604048%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2293878604048%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2293878604048%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Nespresso Capsules Originalline, Kazaar Intenso, Dark Roast Coffee, 10 Count (Pack Of 5), Brews 1.35Oz - Packaging May Vary",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.b9XnTFdYh8nWiw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$40.00",
+      "extracted_price": 40,
+      "rating": 4.5,
+      "reviews": "120",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22163894704034%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22163894704034%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22163894704034%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Barista Prima Coffeehouse Italian Roast K-Cups 96Ct For Keurig Brewers - Packaging May Vary",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.kpMgnoYjzEA65w474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$50.40",
+      "extracted_price": 50.4,
+      "rating": 5,
+      "reviews": "24",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22160631639690%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22160631639690%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22160631639690%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Caffeinated Coffee Variety Classic Roast 43.5 Oz (Pack Of 2) And 100% Colombian 40.3 Oz (Pack Of 2)",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.7U%2btd5eD%2fqhiAQ474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon",
+      "price": "$79.95",
+      "extracted_price": 79.95,
+      "rating": 5,
+      "reviews": "1"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22118042094528%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22118042094528%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22118042094528%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Coffee, Regular Ground, 30.6 Oz Canister",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.cz9%2b1MjoDJsPOw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Zerbee",
+      "price": "$21.94",
+      "extracted_price": 21.94,
+      "rating": 4,
+      "reviews": "33"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2287180038987%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2287180038987%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2287180038987%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Amazonfresh 80 Ct. K-Cups, Decaf Colombia Medium Roast, Keurig K-Cup Brewer Compatible",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.SDLil0lnOtKVnw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$35.54",
+      "extracted_price": 35.54,
+      "rating": 4.5,
+      "reviews": "300",
+      "free_shipping": true,
+      "popular": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2253026838145%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2253026838145%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2253026838145%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Vanilla Macadamia 10% Kona Blend Single Serve Coffee Pods",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.67QnCtV0GqRASw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Hawaii Coffee Copmany",
+      "price": "$13.95",
+      "extracted_price": 13.95,
+      "rating": 3.5,
+      "reviews": "19"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2297863611774%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2297863611774%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2297863611774%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Classic Roast Ground Coffee",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.NFUw0u%2f%2f69sZaw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Bed Bath & Beyond",
+      "price": "$114.99",
+      "extracted_price": 114.99
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22119576362921%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22119576362921%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22119576362921%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Coffee Classic Roast Ground 30.5 Oz Canister FOL20421EA",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.IfbKSKg%2f3kzg%2bw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "EliteWarehouse.com",
+      "price": "$18.03",
+      "extracted_price": 18.03,
+      "rating": 4.5,
+      "reviews": "39"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2249143914933%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2249143914933%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2249143914933%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Dunkin' Midnight Dark Roast Coffee, 60 Keurig K-Cup Pods",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.gNGVVwPJs4z0%2fg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$50.28",
+      "extracted_price": 50.28,
+      "rating": 5,
+      "reviews": "364",
+      "free_shipping": true,
+      "popular": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2213083229975%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2213083229975%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2213083229975%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Life Extension Organic Rainforest Blend Coffee Whole Bean 12 Oz",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.0N2QrSTMneNhtQ474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Vitacost",
+      "sale": true,
+      "price": "$12.99",
+      "extracted_price": 12.99,
+      "old_price": "$13.00",
+      "extracted_old_price": 13,
+      "rating": 5,
+      "reviews": "19"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22146604036826%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22146604036826%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22146604036826%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Maxwell House House Blend Coffee, Keurig K-Cup Pods, Medium Roast, 60 Count, Multicolor, 60 CT.",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.%2f%2fO0hISaHYf8DQ474C474&w=220&h=220&o=5&pid=21.1",
+        "https://th.bing.com/th?id=OPHS.Y6zH5v7nfO1qQg474C474&w=220&h=220&o=5&pid=21.1"
+      ],
+      "seller": "Kohl's",
+      "price": "$28.99",
+      "extracted_price": 28.99,
+      "rating": 4.5,
+      "reviews": "32"
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2287177700961%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2287177700961%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2287177700961%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Amazon Brand - Solimo Medium Roast Coffee Pods, Colombian, Compatible With Keurig 2.0 K-Cup Brewers, 100 Count",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.nWF0WR9H1iNd%2fw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$43.85",
+      "extracted_price": 43.85,
+      "rating": 4.5,
+      "reviews": "362",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2242832924394%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2242832924394%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2242832924394%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Fresh Roasted Coffee, Organic Sumatra Swiss Water Decaf | Single Origin | Medium Roast | RFA Kosher | K-Cup Compatible | 72 Pods",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.4ZbhuCL4duRCyg474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$44.95",
+      "extracted_price": 44.95,
+      "rating": 4.5,
+      "reviews": "102",
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2245818755682%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2245818755682%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2245818755682%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Coffee, Classic Roast, Ground, 30.5 Oz Canister, 6/Carton - Breakroom Supplies, Beverages",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.xbxzZSvhtvFO9Q474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Direct Supply",
+      "price": "$108.99",
+      "extracted_price": 108.99
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%22162748419420%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%22162748419420%22+AucContextGuid%3a%220%22+GroupEntityId%3a%22162748419420%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Folgers Classic Roast Ground Coffee Medium Roast 25.9 Ounce (Pack Of 12)",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.8hp1XvJqBS9WMw474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "King Soopers",
+      "price": "$188.17",
+      "extracted_price": 188.17,
+      "free_shipping": true
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2276243949726%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2276243949726%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2276243949726%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "World Explorer's Coffee Sampler - Ground Coffee Beans - 5 Pack",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.%2b%2fa6O46nbT1RMA474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "UncommonGoods",
+      "price": "$40.00",
+      "extracted_price": 40
+    },
+    {
+      "link": "https://www.bing.com/shop/productpage?q=Coffee&filters=scenario%3a%2217%22+gType%3a%2212%22+gId%3a%2242833780517%22+gIdHash%3a%220%22+gGlobalOfferIds%3a%2242833780517%22+AucContextGuid%3a%220%22+GroupEntityId%3a%2242833780517%22+NonSponsoredOffer%3a%22True%22&productpage=true&FORM=SHPPDP&browse=true",
+      "title": "Larry's Coffee Organic Fair Trade Whole Bean 5 Pound Pack Of 1, Secret Espresso 17, 80 Ounce",
+      "thumbnails": [
+        "https://th.bing.com/th?id=OPHS.Z%2bwJbNuWXDHskA474C474&w=220&h=220&c=17&o=5&pid=21.1"
+      ],
+      "seller": "Amazon.com",
+      "price": "$66.21",
+      "extracted_price": 66.21,
+      "rating": 4.5,
+      "reviews": "21",
+      "free_shipping": true
+    }
+  ],
+  "ads_results": [
+    {
+      "title": "Freshly-Brewed Coffee | Enjoy a Delicious Beverage",
+      "link": "https://www.bing.com/aclick?ld=e8os6kkCw3Epy_d6nLCrBhMTVUCUyR14ZTX5TgdWsXU1b7wMDQRc7EQ4oW777mrt-jh-80zMWu622x9DlJTA-ZATWVD0i3h5VPSnJBK7leC5xDTVJp5n_-mEuT__Ci3naSodO1sHdjgLbHz3pBXE2W-gU1ftatYKlzCwppAbIfBwFurYRP&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGNvZmZlZSUyNUUyJTI1ODAlMjU5OSUyNmluZGV4JTNkYXBzJTI2dGFnJTNkbWgwYi0yMCUyNnJlZiUzZHBkX3NsXzF6NTRob2NkZW5fZSUyNmFkZ3JwaWQlM2QxMzM3MDA4NTEzODM5ODQ2JTI2aHZhZGlkJTNkODM1NjMyODg5NDg3MzAlMjZodm5ldHclM2RvJTI2aHZxbXQlM2RlJTI2aHZibXQlM2RiZSUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkJTI2aHZsb2NwaHklM2Q5ODE5MSUyNmh2dGFyZ2lkJTNka3dkLTgzNTY0MDYyNzA2NzY3JTNhbG9jLTE5MCUyNmh5ZGFkY3IlM2QyOTUxOF8xNDUyNDY5MA&rlid=3a6d88caa18d1ea9a817ed67e78816f6",
+      "displayed_link": "https://www.amazon.com/Shop/coffee’",
+      "snippet": "amazon.com has been visited by 1M+ users in the past month",
+      "extensions": [
+        "amazon.com has been visited by 1M+ users in the past month"
+      ],
+      "sitelinks": [
+        {
+          "title": "Clearance Items",
+          "link": "https://www.bing.com/aclick?ld=e8DESV45cePrj376-Lru8bAzVUCUzot3BUaPQjBkiYn3DNeryAKX84ClyU2r4Xsjk_2ORT9wUFxL2MT6xVJ3OxVB1BdnokO8unxXd6wwBk6wGegbcGBuuLJ143KRbu489zkn5ew2hE3IUBslU6WqMZooz5Uc-ELf1UXS2EoxgXJQBI26OFNi6qXGPnvpuXuRiJCoC9zQ&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZmFwcGxlLWNsZWFyYW5jZSUyZnMlM2ZrJTNkYXBwbGUlMmJjbGVhcmFuY2UlMmJpdGVtcyUyNnRhZyUzZG1oMGItMjAlMjZyZWYlM2RwZF9zbF8xejU0aG9jZGVuX2UlMjZhZGdycGlkJTNkMTMzNzAwODUxMzgzOTg0NiUyNmh2YWRpZCUzZDgzNTYzMjg4OTQ4NzMwJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkZSUyNmh2Ym10JTNkYmUlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkOTgxOTElMjZodnRhcmdpZCUzZGt3ZC04MzU2NDA2MjcwNjc2NyUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMjk1MThfMTQ1MjQ2OTA&rlid=2cfcd12d8a6e1bc18d8fb480cc6b13b2"
+        },
+        {
+          "title": "Outlet Clearance",
+          "link": "https://www.bing.com/aclick?ld=e8ZxItRBs5v8Iht7tFw1MGnDVUCUzyuXwHOnWAO2woFw1oJzstcnHbTZCyBoJ2G3-mbTsX9HcR1-bCJd4Fgq2BcVlNSWOooS2oWvx62HODRGYJRVWw2rTZPZxgKlwHZbTXSXCAECz0jAY1vfmf-SvhO1jjstt_NBZe6pgbPvnYThN9hESvxNhyoEOk_gyc11Edg3ROFA&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZm91dGxldC1jbGVhcmFuY2UlMmZzJTNmayUzZG91dGxldCUyYmNsZWFyYW5jZSUyNnRhZyUzZG1oMGItMjAlMjZyZWYlM2RwZF9zbF8xejU0aG9jZGVuX2UlMjZhZGdycGlkJTNkMTMzNzAwODUxMzgzOTg0NiUyNmh2YWRpZCUzZDgzNTYzMjg4OTQ4NzMwJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkZSUyNmh2Ym10JTNkYmUlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkOTgxOTElMjZodnRhcmdpZCUzZGt3ZC04MzU2NDA2MjcwNjc2NyUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMjk1MThfMTQ1MjQ2OTA&rlid=d6fc35a1eb06110148fc500cad03f086"
+        },
+        {
+          "title": "Closeouts Clearance",
+          "link": "https://www.bing.com/aclick?ld=e8Ror2ygr01-NZ1Rz2cbYxNzVUCUz83ZdIZKsG-QOh2nBkjJSLgpprsflLYDUByLCbX7Qn4BK2tLa3HDb2a4RwtikKxF46xKLOzx8m9ZVbgaLxX7ydj3HSci-txM8WUJttK3Kb8-n3xouRldr1S6d3amqSmpyn8ryb4OVOUfZn6e2RvhLpM1Qqh8tM5RxyUpl84w1zWg&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZmNsb3Nlb3V0cy1jbGVhcmFuY2UtSG9tZS1LaXRjaGVuJTJmcyUzZmslM2RjbG9zZW91dHMlMmJjbGVhcmFuY2UlMjZyaCUzZG4lMjUzQTEwNTUzOTglMjZ0YWclM2RtaDBiLTIwJTI2cmVmJTNkcGRfc2xfMXo1NGhvY2Rlbl9lJTI2YWRncnBpZCUzZDEzMzcwMDg1MTM4Mzk4NDYlMjZodmFkaWQlM2Q4MzU2MzI4ODk0ODczMCUyNmh2bmV0dyUzZG8lMjZodnFtdCUzZGUlMjZodmJtdCUzZGJlJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2QlMjZodmxvY3BoeSUzZDk4MTkxJTI2aHZ0YXJnaWQlM2Rrd2QtODM1NjQwNjI3MDY3NjclM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDI5NTE4XzE0NTI0Njkw&rlid=b78aa18fc7ff103a16d2c42281fa9360"
+        },
+        {
+          "title": "Shop Online Now",
+          "link": "https://www.bing.com/aclick?ld=e8dABJ_gtKN04MbcEDwrLn9zVUCUxS_QKYDYZ5KcSaXs0q8dJ7nnR5m6sA1-5K6CQl1_k9xqSsacxFZklalBpoc7xudI8FTZNrq9IXNWkVYQfR10WauK_zVEwewTKydvKtldWtAKPUKdvphbGSezIyUshx6KlumThX5Ea-yDqpghckZkZswcLzvktWb8OHz3B3PdukZg&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZkFubmFiZWxsZS1XYWxsaXMlMmZkcCUyZkIwME80VVE3SlUlM2Z0YWclM2RtaDBiLTIwJTI2cmVmJTNkcGRfc2xfMXo1NGhvY2Rlbl9lJTI2YWRncnBpZCUzZDEzMzcwMDg1MTM4Mzk4NDYlMjZodmFkaWQlM2Q4MzU2MzI4ODk0ODczMCUyNmh2bmV0dyUzZG8lMjZodnFtdCUzZGUlMjZodmJtdCUzZGJlJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2QlMjZodmxvY3BoeSUzZDk4MTkxJTI2aHZ0YXJnaWQlM2Rrd2QtODM1NjQwNjI3MDY3NjclM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDI5NTE4XzE0NTI0Njkw&rlid=b3e809fa78fe1a76238d6c573efb0462"
+        }
+      ]
+    },
+    {
+      "title": "Coffee from Around the World | Fresh-Roasted Gourmet Coffees",
+      "link": "https://www.bing.com/aclick?ld=e8hhp5ZCg0-o_kb4fZWoKG0TVUCUwy_VOEtfIxV0HTkXzGdbb70k-mBnfdP3kRKOcr8UPJDOupsgI6wp69v5sie-Wa4OeFVFhoqgol-3i3STXkWjL2N6OT6qF15oQNeGOjnINqZeqCeOQihuzvOx3PB5fm-siQRmUqTSNIZGf5cm8nT9rm&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlYW0uY29tJTJmZ291cm1ldC1jb2ZmZWUuaHRtbCUzZm1zY2xraWQlM2Q3OTQwZGEyNWM0NWExY2YwZTVlNmJmODg4MjVmZTM3MCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZERFU0slMjUyMGFjJTI1MjAlMjU1QmNvZmZlZSUyNTVEJTI2dXRtX3Rlcm0lM2Rjb2ZmZWVzJTI2dXRtX2NvbnRlbnQlM2QlMjU1QmNvZmZlZXMlMjU1RA&rlid=7940da25c45a1cf0e5e6bf88825fe370",
+      "displayed_link": "https://www.coffeeam.com",
+      "snippet": "4.5/5 (75 reviews)",
+      "extensions": [
+        "4.5/5 (75 reviews)"
+      ],
+      "sitelinks": [
+        {
+          "title": "Coffee Sale",
+          "link": "https://www.bing.com/aclick?ld=e8XHecjpLyRKgO246eqZFIyjVUCUw2X5CgRguUo0NyLwdXpCZlXd7zhxgEE8FSzvPowO8dMxugVZHBHHu5vtqJPhtxUvJf2Cpb_hkvBvYDe7sWM2sOy9I_QNBdM224cOS5L1lAAtuWzooQ6H18IQXBb-A0R1c4eJBaqxdhDnoYPzbbOryhofioB3NUrd9NmIpWyqa46Q&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlYW0uY29tJTJmY29mZmVlLXJvYXN0LXByb2ZpbGUlMmZtZWRpdW0tZGFyay1jb2ZmZWUuaHRtbCUzZm1zY2xraWQlM2RlZmZkYjBkZWIwMTAxNDc1Njg4NmQ1NzNmNjE1ZDU5NiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZERFU0slMjUyMGFjJTI1MjAlMjU1QmNvZmZlZSUyNTVEJTI2dXRtX3Rlcm0lM2Rjb2ZmZWVzJTI2dXRtX2NvbnRlbnQlM2QlMjU1QmNvZmZlZXMlMjU1RA&rlid=effdb0deb01014756886d573f615d596"
+        },
+        {
+          "title": "Gourmet Coffee Samplers",
+          "link": "https://www.bing.com/aclick?ld=e8YbXVEcqxZ5rkwdxD45LmdjVUCUxXsrZTbmUdtePBCrcAw1DjhdlwbakGSqkveIRLhzLiQAC-AbI40lg2sqsc9wq9qY-AmTv-wyZnKVIxY68aL89m0bxa3gmRR9Km--SPDN0ZAxL794smKaRIasMapFRaiTRwQ7f0jryF6Q4h_0ZiB0FB9AxVP_RbNlN_Z22S55TXLg&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlYW0uY29tJTJmY29mZmVlLXRlYS1naWZ0cy0xJTJmY29mZmVlLXNhbXBsZXJzLmh0bWwlMmYlM2Ztc2Nsa2lkJTNkYjcxMzBlNzZlZjgxMTQ0OTE4NzE2YmRiYTk4NGMwMTQlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RERVNLJTI1MjBhYyUyNTIwJTI1NUJjb2ZmZWUlMjU1RCUyNnV0bV90ZXJtJTNkY29mZmVlcyUyNnV0bV9jb250ZW50JTNkJTI1NUJjb2ZmZWVzJTI1NUQ&rlid=b7130e76ef81144918716bdba984c014"
+        },
+        {
+          "title": "Dark Roast Coffee",
+          "link": "https://www.bing.com/aclick?ld=e8cAjGBV09M7FAANtAjBQ77jVUCUwoqS_lYMds1o_UCGPffOB24YPgfQn23bXCEMmiCHqUC9vLdbWg50ewIsQsLyOUUqv9kc_iXf5ZCbWURSwDG9noi0vOxShZ5OKhiZjZusUc94OUAWeuHEUjTmNZUPkpVRvDAvJ5lZyqCYxHRZIo0gPE3h4ZXFJO5Nx7aXE4gA_rfQ&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlYW0uY29tJTNmbXNjbGtpZCUzZGE1NzA3YWY5NTI3NDE1MmQwMmNmMWY1NDE0NzFhMDI1JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkREVTSyUyNTIwYWMlMjUyMCUyNTVCY29mZmVlJTI1NUQlMjZ1dG1fdGVybSUzZGNvZmZlZXMlMjZ1dG1fY29udGVudCUzZCUyNTVCY29mZmVlcyUyNTVE&rlid=a5707af95274152d02cf1f541471a025"
+        },
+        {
+          "title": "Coffee Roasters",
+          "link": "https://www.bing.com/aclick?ld=e8ovD3Y06sUuSlCGq5oAx6TTVUCUy63zysFgw3MnLsCr_7Xx4KE5uyUbTWp-Ky23INiuzN8buYcWfLuvRS5CzWwBhWRKuZvB-k4nAgRQ2_j57TmotcI6AggFoykwj2Cvwf2NDQaXbPKANa-a6tTjl-k7DZegjHeTRi9Gky0731PeTin1myLxBXKQfeJzfX3Y4iLMLCaw&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlYW0uY29tJTNmbXNjbGtpZCUzZDFhOTNiNzRjMzg3YjEyMDQ4NTIzZDJlMTdlN2VmNTA4JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkREVTSyUyNTIwYWMlMjUyMCUyNTVCY29mZmVlJTI1NUQlMjZ1dG1fdGVybSUzZGNvZmZlZXMlMjZ1dG1fY29udGVudCUzZCUyNTVCY29mZmVlcyUyNTVE&rlid=1a93b74c387b12048523d2e17e7ef508"
+        }
+      ]
+    },
+    {
+      "title": "World Market® Coffee - Curbside Pickup Available",
+      "link": "https://www.bing.com/aclick?ld=e8dTmEwJPpcZst8-wda488hjVUCUzsxMjGQgNIvKTR6ManEqwY2WVxb-BpaI4YzgFFqCTOoxg_pgUEwqhQESnnfFX2ZHnGj3NCBTqq_1UegC0hCKoCC_oEjbnjM1FwdJaBuahPGUoyv2e_3NORDAmR6ecAjTPDG9vdwqZk6Ln6TJiposPa&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2QzOTcwMDA3NTY1ODkxNTA3NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODMwNDMyOTgwNyUyNmRzX2FfY2lkJTNkNDA1NTAxNTEzJTI2ZHNfYV9jYWlkJTNkMTk3ODI3ODIxMjUlMjZkc19hX2FnaWQlM2QxNDM1OTk1NDA0NjElMjZkc19hX2xpZCUzZGRzYS0xNDEwMTkzMTQ1NzU5JTI2JTI2ZHNfZV9hZGlkJTNkNzQwMTExNzAxMzQ3NjglMjZkc19lX3RhcmdldF9pZCUzZGRhdC0yMzI1ODEwNjkwMzY4MTM5JTNhbG9jLTE5MCUyNiUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3LndvcmxkbWFya2V0LmNvbSUyZnByb2R1Y3QlMmZuZXctbWV4aWNvLXBpbm9uLWNvZmZlZS1kYXJrLXJvYXN0LWdyb3VuZC1jb2ZmZWUuZG8lM2ZtcmtnYWRpZCUzZCUyNm1ya2djbCUzZDY2MCUyNm1ya2dlbiUzZCUyNm1ya2diZmxhZyUzZCUyNm1ya2djYXQlM2QlMjZjYW1wJTNkcHBjJTI1M0FCaW5nJTI1M0F0ZXh0RFNBTm9CcmFuZCUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9jYW1wYWlnbiUzZERTQSUyNTdDTm9uLUJyYW5kJTI2YWNjdGlkJTNkMjE3MDAwMDAwMDE2NjAyMjIlMjZkc2tleXdvcmRpZCUzZDM5NzAwMDc1NjU4OTE1MDc3JTI2bGlkJTNkMzk3MDAwNzU2NTg5MTUwNzclMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDgzMDQzMjk4MDclMjZkc19hX2NpZCUzZDQwNTUwMTUxMyUyNmRzX2FfY2FpZCUzZDE5NzgyNzgyMTI1JTI2ZHNfYV9hZ2lkJTNkMTQzNTk5NTQwNDYxJTI2ZHNfYV9saWQlM2Rkc2EtMTQxMDE5MzE0NTc1OSUyNmRldmljZSUzZGMlMjZuZXR3b3JrJTNkbyUyNm1hdGNodHlwZSUzZGIlMjZsb2NhdGlvbmlkJTNkOTgxOTElMjZjcmVhdGl2ZSUzZCUyNnRhcmdldGlkJTNkZGF0LTIzMjU4MTA2OTAzNjgxMzklM2Fsb2MtMTkwJTI2Y2FtcGFpZ25pZCUzZDU2NjUwNDEyNSUyNmFkZ3JvdXBpZCUzZDExODQxNzUwNzU5MDcyMjclMjZnY2xpZCUzZDQwZGEwYzM1NzU3YjFlMzdmMjk3Njk5ODMzN2U4YmE2JTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkNDBkYTBjMzU3NTdiMWUzN2YyOTc2OTk4MzM3ZThiYTY&rlid=40da0c35757b1e37f2976998337e8ba6",
+      "displayed_link": "https://www.worldmarket.com",
+      "snippet": "Exclusive Offers · Curbside Pickup · Personalized Experience · Best Sellers",
+      "extensions": [
+        "Exclusive Offers",
+        "Curbside Pickup",
+        "Personalized Experience",
+        "Best Sellers"
+      ],
+      "sitelinks": [
+        {
+          "title": "Clearance",
+          "link": "https://www.bing.com/aclick?ld=e8ginhQ2j5E9pyUdIFzG1y5DVUCUyylaVlMk6diYRg09EMmirmlWa4RnvhygRA8fJdTHzX7tgdblAUokdhjx9TZ0zbc8t7Mide78_gAj49uwjR9BvI4URMn9ZGjpwyEg7M22Hz5fgbuS2ONKjcPKKUFiOTR0ncrkMq-XtOzAXwFnb6fH96ylB0AmX1iQmQ9krqDGEeCw&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2QzOTcwMDA3NTY1ODkxNTA3NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODMwNDMyOTgwNyUyNmRzX2FfY2lkJTNkNDA1NTAxNTEzJTI2ZHNfYV9jYWlkJTNkMTk3ODI3ODIxMjUlMjZkc19hX2FnaWQlM2QxNDM1OTk1NDA0NjElMjZkc19hX2xpZCUzZGRzYS0xNDEwMTkzMTQ1NzU5JTI2JTI2ZHNfZV9hZGlkJTNkNzQwMTExNzAxMzQ3NjglMjZkc19lX3RhcmdldF9pZCUzZGRhdC0yMzI1ODEwNjkwMzY4MTM5JTNhbG9jLTE5MCUyNiUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3LndvcmxkbWFya2V0LmNvbSUyZmMlMmZzYWxlJTJmY2xlYXJhbmNlJTJmJTNmbXNjbGtpZCUzZGVmMjMxNjJiOGZiZDE5ZTM1NjkyNzM4NmM5Yjg5NDBjJTI2bXNjbGtpZCUzZGVmMjMxNjJiOGZiZDE5ZTM1NjkyNzM4NmM5Yjg5NDBj&rlid=ef23162b8fbd19e356927386c9b8940c"
+        },
+        {
+          "title": "My Account",
+          "link": "https://www.bing.com/aclick?ld=e8hPFyKkjQgU0FIJ4S6M5d0jVUCUz0BvcCIE50TjNvV37_VSvMzxM4gVqdbYNODYY4oJG7lSXBPYVANHbhEn-KlQ3HcY9sBG760g_HZ4NeeZjg5X96JrkliAFesOOZb6vM8E9UbW5ge_Ri_6vFjIg1G9cliMexE1Z_Bj65oqG8nwxis4Il30vHosKAUe6AyRMZMI4GIA&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2QzOTcwMDA3NTY1ODkxNTA3NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODMwNDMyOTgwNyUyNmRzX2FfY2lkJTNkNDA1NTAxNTEzJTI2ZHNfYV9jYWlkJTNkMTk3ODI3ODIxMjUlMjZkc19hX2FnaWQlM2QxNDM1OTk1NDA0NjElMjZkc19hX2xpZCUzZGRzYS0xNDEwMTkzMTQ1NzU5JTI2JTI2ZHNfZV9hZGlkJTNkNzQwMTExNzAxMzQ3NjglMjZkc19lX3RhcmdldF9pZCUzZGRhdC0yMzI1ODEwNjkwMzY4MTM5JTNhbG9jLTE5MCUyNiUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3LndvcmxkbWFya2V0LmNvbSUyZmFjY291bnQlMmZsb2dpbi5kbyUzZm1zY2xraWQlM2Q0NjRhMTlhZjMxOTIxOGQ0ZDkyYTdjMDI3Nzk3ZGZmZSUyNm1zY2xraWQlM2Q0NjRhMTlhZjMxOTIxOGQ0ZDkyYTdjMDI3Nzk3ZGZmZQ&rlid=464a19af319218d4d92a7c027797dffe"
+        }
+      ]
+    }
+  ],
+  "inline_ads_results": [
+    {
+      "link": "https://www.bing.com/aclick?ld=e8fjUiywPIoRKutIJHhp-scDVUCUzjEzeJWa7zlG3hBoI6FnkwJhSHUkas7rgdZk2o5hw73EbbGRsrjTZ0nqwxyB3DwijSCGyc94wELThkKgnson1g_cITFnNCb28Bo3SltXZkOrM3h3aWf79mRb_e6QbbcxelHrLvqd5TIK8cgXemQYle&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MjIxNDcyNzcwNzQ2OSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjU3ODQyNjAyMDA2OTkwJTI2Y2lkJTNkNzg2MTUyODgyMzAxNTQlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODIyMTQ3Mjc3MDc0NjklMjZrcGlkJTNkUy0yNDQ0MiUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjQ0NDIlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZkZvbGdlcnMtQ2xhc3NpYy1Sb2FzdC1Db2ZmZWUtUmVndWxhciUzZnByaWNvZGUlM2RXQjQ1NTglMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjQ0NDIlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yNDQ0MiUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZGY4N2UzNDVmOGNjOTE5MmE3YmM0NTFmMmNhY2M3Mjhj&rlid=f87e345f8cc9192a7bc451f2cacc728c",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.PMxKD%2bI5j2sHcQ474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$33.00",
+      "extracted_price": 33,
+      "title": "Folgers Classic Roast Coffee - Regular - ULINE - Box Of 36 Packets - S-24442",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8C7n0wa3pHBwGHS7m2SkniDVUCUwggBLebZO6yCPMlsi_zBzutf5Acz28856Mvh1T5BJDcy5nCi_yK8bjRxrYo48_jXBQZg66EZsvOOZ0H3FFWe313hqsaz5BDouoJN2H7VmO2Mqn954IAjvGPGwzxR_pu46BdlJn8L72kzYvJg9pcz3X&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MjIxNDcyNzcwNzQ2OSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjU3ODQyNjAyMDA2OTkwJTI2Y2lkJTNkNzg2MTUyODgyMzAxNTQlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODIyMTQ3Mjc3MDc0NjklMjZrcGlkJTNkUy03MzAyJTI2cXVlcnlTdHIlM2RDb2ZmZWUlMjZ1cmwlM2RodHRwcyUzYSUyZiUyZnd3dy51bGluZS5jb20lMmZQcm9kdWN0JTJmRGV0YWlsJTJmUy03MzAyJTJmQ29mZmVlLWFuZC1Db2ZmZWUtU3VwcGxpZXMlMmZNYXh3ZWxsLUhvdXNlLUNvZmZlZS1SZWd1bGFyJTNmcHJpY29kZSUzZFdCNDU1OCUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy03MzAyJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtNzMwMiUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZGNiNzM2OWNkMGRkMDE4ZDY3NjI4MGM2MDRiZDVjZjVk&rlid=cb7369cd0dd018d676280c604bd5cf5d",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.zSnPy%2fLEheatUA474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$48.00",
+      "extracted_price": 48,
+      "title": "Maxwell House Coffee - Regular - Box Of 42 Packets - S-7302",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8ztaz0n3iWCh5sbFYyZCIBjVUCUzffZNjhPjEJ9WaSezNne8cwAwlQQ2SpYyVMYaoBJ14Bow_MxFUFc93a4DVNpzcVoKf3tUd7hjQ0s12E6GxyniyWKhplGSF1M_kq5cuON7JlUVy9HhBxmLpilr1gTkDV9uOiF5aRJDbgm44zuOs91nq&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMjc1MyUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjI3NTMlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1WYXJpZXR5LVBhY2slM2Zwcmljb2RlJTNkV0I0NjkxJTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTIyNzUzJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjI3NTMlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNm1zY2xraWQlM2RjN2UyZWI1OGNjMTkxM2NmNmFmNDhlZjU4YTFjZTYwNw&rlid=c7e2eb58cc1913cf6af48ef58a1ce607",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.aJm1PX6QV1IcWw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$57.00",
+      "extracted_price": 57,
+      "title": "Single-Serve Coffee Cups - Variety Pack - ULINE - Pack Of 100 - S-22753",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8T6pFOAPkd7PoZIXuzaPAqTVUCUzlVaglQPdtoikOZhclhIUty9luWeJ9Eqnjkrze2nfjhQH0wJv856PxjaK76vB1oS01z5Bkgqo4QMJZm1uERgtEkawAcwVIq2tI5j_UQZAvjG3hYjTE-zlo_zPGCRSH5TVK0enu8etJ9lkciMvuOyjB&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTUyNzUzMjE2NzkwOCUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjQ2ODQ3NDg2MzA5NjM2JTI2Y2lkJTNkNzc5MjgwOTM3NDAyNDIlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE1Mjc1MzIxNjc5MDglMjZrcGlkJTNkUy0yNTA0MCUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjUwNDAlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZkR1bmtpbi1PcmlnaW5hbC1Sb2FzdC1Db2ZmZWUlM2Zwcmljb2RlJTNkV0I0MjQ3JTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTI1MDQwJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjUwNDAlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNm1zY2xraWQlM2RkYmU4ZTk0Zjk2ZmQxOGYxNTU2MDhjZTJkMGY4YTAzMw&rlid=dbe8e94f96fd18f155608ce2d0f8a033",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.yRuiXqE0V8EOtw474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$35.00",
+      "extracted_price": 35,
+      "title": "Dunkin' Original Roast Coffee - ULINE - S-25040",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8cysH6uQx0t8EZWtko_FknDVUCUyBguXLRviMSfMzweBCWoh6FdPwQwzO42ZjZoJEWa2Gvh4IbinTZgbDtJKwU81DaZ8Uu-52xEcU7y0Dy37uzH71OfD7B8rQV1Wg42g34pjdbwL3gtqqQTZZOyEBEKcvShzcbzeqZN5JUCQm0mWoRcW2&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTUyNzUzMjE2NzkxMCUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjQ2ODQ3NDg2MzA5NjM2JTI2Y2lkJTNkNzc5MjgwOTM3NDAyNDIlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE1Mjc1MzIxNjc5MTAlMjZrcGlkJTNkUy0xNDgyNiUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMTQ4MjYlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlVsaW5lLUdvdXJtZXQtQ29mZmVlJTNmcHJpY29kZSUzZFdCNDI0NyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0xNDgyNiUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTE0ODI2JTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZtc2Nsa2lkJTNkOTU2OTEyNDY0MzAzMTM4MDJhNmM3N2ViMDUwNjJjMGY&rlid=95691246430313802a6c77eb05062c0f",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.NjesT0YPEpxJsw474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$17.00",
+      "extracted_price": 17,
+      "title": "Uline Gourmet Coffee - S-14826",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8rCUXzNiCTdR-AJD6HnDM9DVUCUwUw8zt2Emj0BelqkzkVXUjxtSMyEHomvANfzi7DZWZI_hsafepNwtr1M4PYbVl7Y_VjC2jF1WaSuvlSvLkpOSvfrQjADoL8VYbT1yS2D5rshwjQLOruxDrPsx-q2SWc1r7j-rBzK4PzUwu7XnFsAKs&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMjM2MCUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjIzNjAlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1Db2xvbWJpYW4tTWVkaXVtLVJvYXN0JTNmcHJpY29kZSUzZFdCNDY5MSUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yMjM2MCUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTIyMzYwJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZtc2Nsa2lkJTNkODJhZjhmNDIyMzc3MTQyZDI2MDNlYWVmNjU3MjNjOWY&rlid=82af8f422377142d2603eaef65723c9f",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.0x5JrdYvgVKKsQ474C474&w=198&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Single-Serve Coffee Cups - Colombian Medium Roast - ULINE - 4 Packs Of 24 - S-22360",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8z4pOAAjqqQQ_g_J7eVBG1TVUCUz7ZWilEXSPsHr7okUv6Q3-AlffE4ErrkjDyBiA_Hkg8iCnH79ohavv3OElaqrmhstozk6safNqQm-BFA0xLjSvFEvXYEfoHOvVwoEP_E5-LfedRDyTB_vEdbI314G0ZoE3bZsxuX5gm4k2eNSC1wWQ&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTUyNzUzMjE2NzkxMCUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjQ2ODQ3NDg2MzA5NjM2JTI2Y2lkJTNkNzc5MjgwOTM3NDAyNDIlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE1Mjc1MzIxNjc5MTAlMjZrcGlkJTNkUy0yNDg5MiUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjQ4OTIlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZkZvbGdlcnMtUmVndWxhci1DbGFzc2ljLVJvYXN0LUNvZmZlZSUzZnByaWNvZGUlM2RXQjQyNDclMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjQ4OTIlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yNDg5MiUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZDNmMWQ0OTNjZGJmNTFiNjZiY2JjMmM5MTlkZjA2YTQy&rlid=3f1d493cdbf51b66bcbc2c919df06a42",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.pD93xqtPPgBHfg474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$22.00",
+      "extracted_price": 22,
+      "title": "Folgers Regular Classic Roast Coffee - ULINE - S-24892",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8z2llxqw_K_LcLz8mwhyc6DVUCUyZxiy4gcNa6YELtYYvXT4Xcqj1rLS_Zta3gj3MOvclQ8BOYDbqoVTgrCwoVN8eC5mxnHI-RTWlVL7qnzTK_dLlbzyTRURsgGyw9-2ads1faqYp_10pY_dD0wIuVW8yutssDByhlvn4jzVgyaFCh8gK&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMTAuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1hc3Rlci1vcmlnaW4tbWV4aWNvLXZlcnR1by1jb2ZmZWUtcG9kcyUzZmdjbGlkJTNkMjUzZGM4OWY3NTdiMWVhNjg1NDRhZDMyMzM3ZWY1NzglMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2QyNTNkYzg5Zjc1N2IxZWE2ODU0NGFkMzIzMzdlZjU3OA&rlid=253dc89f757b1ea68544ad32337ef578",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.Gz7%2boEWNzUyEwA474C474&w=187&h=150&c=17&pid=21.1",
+      "price": "$13.50",
+      "extracted_price": 13.5,
+      "title": "Nespresso Mexico",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.1K+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e82zMFhVOhWWUKKmaAfXsi1zVUCUwBSLXgm80i3d-Qm1g49EZJn8Pci4ORf8ZRhoyHbAxzjeJ29ERkLteIWUiH2r0pPAcM7sG_3Mnu5Nz3wVg2hCJcGPjMF380k1bZ24Ni8qaVGG56ogmKakaPUbhLjhNIBYi_SW_XrE-ZbAzay8R3hG5k&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNDQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmFsdGlzc2lvLWRlY2FmZmVpbmF0by1jb2ZmZWUtcG9kcyUzZmdjbGlkJTNkYmZkZGEyNWQwMmY5MTYyODIyYzZjN2YwNDRmYzVmMWElMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RiZmRkYTI1ZDAyZjkxNjI4MjJjNmM3ZjA0NGZjNWYxYQ&rlid=bfdda25d02f9162822c6c7f044fc5f1a",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.zs1xBfyQ7jfKVw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$10.50",
+      "extracted_price": 10.5,
+      "title": "Nespresso Altissio Decaffeinato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.6K+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8y6SfwPCJg1Y0AYOcequDFDVUCUz-yyI7ICBlGpcxlBT7O3d9MMLkbCmJp4PLp_U-TbzV_oTt6GUd_pyibNv2SdUahdp5TTuRQwD07a7MW1Q9MRxQr-WF8ymD6N8_20BrQaNGz4rj33Xg7wzBDRHQlZVW39gfwEQEPhrp3eKpSNJewNx_&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNTAuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZnJvYXN0ZWQtaGF6ZWxudXQtY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDU3YmFkY2FhZmNjZjE3YWJjZjNjYjkwN2JhY2E3OGE1JTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNTdiYWRjYWFmY2NmMTdhYmNmM2NiOTA3YmFjYTc4YTU&rlid=57badcaafccf17abcf3cb907baca78a5",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.2TgVsPgquEIwBQ474C474&w=180&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Roasted Hazelnut",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "2.6K+ viewed"
+      },
+      "rating": 5,
+      "reviews": "4",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e85XdB7oFb0fm2wrl4fGS_CjVUCUwJYVwzn_dH6MeS-ZbNv4UMR-JJmnTjrOIGu8OOs0MSxnOahYj2ObiecbvuKGpeBPD84AejwshyD6Akxv73fFkEeLBlugacPlbcPePS-g0kRB3dwtnIMC-810_HyNYpvyRaqtJ8tY9Y75UphjK8bXYH&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MjIxNDcyNzcwNzQ2OSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjU3ODQyNjAyMDA2OTkwJTI2Y2lkJTNkNzg2MTUyODgyMzAxNTQlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODIyMTQ3Mjc3MDc0NjklMjZrcGlkJTNkUy0xODQ4NCUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMTg0ODQlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZkZvbGdlcnMtQ2xhc3NpYy1Sb2FzdC1GaWx0ZXItUGFja3MtUmVndWxhciUzZnByaWNvZGUlM2RXQjQ1NTglMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMTg0ODQlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0xODQ4NCUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZDU0YmZjYWVlMzQxODE2MjlmNzliYWY0MzcyMWRlMDU5&rlid=54bfcaee34181629f79baf43721de059",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.G0faXYopvDxF0g474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$39.00",
+      "extracted_price": 39,
+      "title": "Folgers Classic Roast Filter Packs - Regular - Box Of 40 Packets - S-18484",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e88YGTfZhVkAVfMVE2heR92jVUCUw0h0G9YIKZeofU7HDJgtODghqznCjenE4mJBSYIZucGTRw4SKfJKf5bZhu1tUwTsRDYogGTWb2apIdRUjgHWmxvH7JDqlwrh18_dLcoGRx41acmPtJfu25uLu_lfaDgQQaKH2X9Q9v85e6qqpYbpjZ&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNTEuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZnJpY2gtY2hvY29sYXRlLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2QxNDRjMWQ3ZDBhYzExNmUwODAzYTc4ZDA0Y2M0MGFkZSUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDE0NGMxZDdkMGFjMTE2ZTA4MDNhNzhkMDRjYzQwYWRl&rlid=144c1d7d0ac116e0803a78d04cc40ade",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.ouhuzQjvd6xdaw474C474&w=180&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Rich Chocolate",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "2.4K+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8kvNPb_pikxtdg3L1edMiXTVUCUz7x4Qj9_ZQvQuRs7QKXnCz_r4JM5isaZ96HIJZ_8NFOfHF1h0Kam2L4KjaGL8mJHiGyGi2Ez4oRXF8qoOx7zKgRXRjbCh8VxSAJV74HpoBy0W20BNrp8Hd-7JJnbvyjPuafuQgXuQbX0MgMjeaKxxa&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTUyNzUzMjE2NzkxMCUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjQ2ODQ3NDg2MzA5NjM2JTI2Y2lkJTNkNzc5MjgwOTM3NDAyNDIlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE1Mjc1MzIxNjc5MTAlMjZrcGlkJTNkUy0yNDg5MyUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjQ4OTMlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZkZvbGdlcnMtRGVjYWYtQ2xhc3NpYy1Sb2FzdC1Db2ZmZWUlM2Zwcmljb2RlJTNkV0I0MjQ3JTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTI0ODkzJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjQ4OTMlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNm1zY2xraWQlM2RjMTk3Y2VjYWI4ODExMGI5NzI5MGFiNjdmZTg0MzM5NQ&rlid=c197cecab88110b97290ab67fe843395",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.Cvc9Pq0SfnYSUw474C474&w=167&h=150&c=17&pid=21.1",
+      "price": "$21.00",
+      "extracted_price": 21,
+      "title": "Folgers Decaf Classic Roast Coffee - ULINE - S-24893",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8OCmgUj9l3CuVWmQCXBrJAjVUCUzvk-tWkQQQbGk6KgrU0STp6Wx7YSjfPuQfsws7jQ4YP_fYGGMJgOghoVZCbXbLCi3u-Xo8AwxZI9ILjzFX4i_-DcRWc7GgeNqMhSXHLucAHYLplMBT0xpqRy_WYoN33GaYJteVmbQrTGBr0E2HJsic&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMTQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZnBlcnUtb3JnYW5pYy12ZXJ0dW8tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDYyM2NmZWVkNmI2ZjFiY2FjYWU4OWI0MDJkNmEyNTk1JTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNjIzY2ZlZWQ2YjZmMWJjYWNhZTg5YjQwMmQ2YTI1OTU&rlid=623cfeed6b6f1bcacae89b402d6a2595",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.6PR9ZJbgW3OLgw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$11.00",
+      "extracted_price": 11,
+      "title": "Nespresso Peru Organic",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "660+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e84cXEGTmfKLAOaek_PgF5qjVUCUyKQC1uoHZt7h54blvE8LxEoa_8_X3FTOCUFrNReYegOHhbTuf7PEFnq7usy4_vFgyzRTsvRoknxdQHBWmSkRaY5KZJojk7uqBOto8kWY9OxehY0PKDhchsUm8OtEMDIMwXjBT7w8madGFoMA516tmh&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMTk4NiUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjE5ODYlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1CcmVha2Zhc3QtQmxlbmQtTGlnaHQtUm9hc3QtRGVjYWYlM2Zwcmljb2RlJTNkV0I0NjkxJTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTIxOTg2JTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjE5ODYlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNm1zY2xraWQlM2Q2Y2IwN2FlMWQ4MjExYmIzZTBhODFmNGM5ZTI0NDAyOQ&rlid=6cb07ae1d8211bb3e0a81f4c9e244029",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.py41u9BtLbwGBg474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Single-Serve Coffee Cups - Breakfast Blend Light Roast Decaf - Caza Trail - 4 Packs Of 24 - S-21986",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8J4VA9vd-vtZ1w9KWDwEi9DVUCUyGflUWFEHbkuN9fjrTfZ3TT9-nGhgeZkKARlB4KMkRinxUeA8NX8jQX_Q4hEjkN2SP47UZsjZFXUxFKcoYA2x8hyckWumEsAWQnEqatAqvR1ara_gSxrrIEfvdBBVB6UAIHj-vhVA_EVCZuHwFyUGB&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmNsaWNrY2Vhc2UuY29tJTJmdHJhY2tlciUyZnRyYWNrZXIuYXNweCUzZmlkJTNkUXhiOEVYY2s4NWt4cDQlMjZhZHBvcyUzZCUyNmxvY3BoaXNpY2FsJTNkJTI2bG9jaW50ZXJlc3QlM2QlMjZhZGdycCUzZDEzMTM5MTgwMjExODg1MTMlMjZrdyUzZCUyNm53JTNkbyUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGdmluaWEuY29tJTI1MkZwcm9kdWN0cyUyNTJGdmluaWEtY29mZmVlJTI1M0Z2YXJpYW50JTI1M0Q0NDcyMDA4NDI1NDg4NCUyNTI2Y3VycmVuY3klMjUzRFVTRCUyNTI2dXRtX21lZGl1bSUyNTNEcHJvZHVjdF9zeW5jJTI1MjZ1dG1fc291cmNlJTI1M0RiaW5nJTI1MjZ1dG1fY29udGVudCUyNTNEc2FnX29yZ2FuaWMlMjUyNnV0bV9jYW1wYWlnbiUyNTNEc2FnX29yZ2FuaWMlMjZjcG4lM2Q1MTgzNzY1MTklMjZkZXZpY2UlM2RjJTI2Y2NwdHVybCUzZHZpbmlhLmNvbSUyNnBsJTNkJTI2bXNjbGtpZCUzZGY0MWUyNmQzNDlkYTExNDM0NzhiNDM3ZTBmZGY3MmM5&rlid=f41e26d349da1143478b437e0fdf72c9",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.S%2fMQo9hhxEOddQ474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "old_price": "$139.98",
+      "extracted_old_price": 139.98,
+      "title": "VINIA COFFEE 60 Pod / Subscription",
+      "seller": "Vinia",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8yGvty83AZGwTotEqkKwhIjVUCUzhBkV7rVadiYvy2c3zZ3TwqNL80i1f7267YbHn0wstC0rHZ0bjP4_UPrTA6zWHfdALZtFO6BroYCo_aYGIkrsx2HDbfxBKigJXrZJWIwmqps7ai9BnBYYAV6w8gCVE7aU7cezYSI9QO0RrRHQLEDag&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMTE5MyUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjExOTMlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1Db2FzdGFsLUJsZW5kLU1lZGl1bS1Sb2FzdCUzZnByaWNvZGUlM2RXQjQ2OTElMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjExOTMlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yMTE5MyUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZDkwMzEyMzBlOTFkNzE5MjUzMDVkNDZhM2Q3ZDJiMDhm&rlid=9031230e91d71925305d46a3d7d2b08f",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.7OvhWNZqPxTcXg474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Single-Serve Coffee Cups - Coastal Blend Medium Roast - Caza Trail - 4 Packs Of 24 - S-21193",
+      "seller": "Uline",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8BNOep4dre_nC-6s6qK4bMjVUCUwCrjKk286n5CA8d15Th1USb8EIqjqHbhS5p5n6aTgSZ6Y2k2fADugpfZtts3FNDxFngA80ZncGCLs96Sfbu3rUdVnP6g3ooC-gjr6OLxT1ZZ0r2A5ALhFRKum522M4iPAjGaEn-3uoaagkLaNaU7eM&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNDUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmZvcnRhZG8tZGVjYWZmZWluYXRvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2QyNWEzNGUyMTQyMGUxZDY0OGJkYzJiOGMwNDBiYjIyNSUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDI1YTM0ZTIxNDIwZTFkNjQ4YmRjMmI4YzA0MGJiMjI1&rlid=25a34e21420e1d648bdc2b8c040bb225",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.aH58I3DmdpeyHA474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$12.00",
+      "extracted_price": 12,
+      "title": "Nespresso Fortado Decaffeinato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1K+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8pw69xdylkLL8daHEvzG4wzVUCUxXTkKECsaSr2JY_gRszmeXNb63jEbu07Y4Cf19zKp531wiu4zUKYWtR1MMne4b4c985sGBRp3aUC9FTTUS6BNmdnEW9Mc3KoBZ3bgKsgguPP49GJp2tMzlhvbZRgbxLJxgkR9WSAbrmTsSVKBSiagv&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNDIuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmFsdG8tYW1icmF0by12ZXJ0dW8tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDk3ODFiMTE1YmViZjFkNGIxYmRlZDRiOGY4YmE2OGNiJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkOTc4MWIxMTViZWJmMWQ0YjFiZGVkNGI4ZjhiYTY4Y2I&rlid=9781b115bebf1d4b1bded4b8f8ba68cb",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.CWN4h9zhIzqL0w474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Nespresso Alto Ambrato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.4K+ viewed"
+      },
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8wzEw8p88v2tagoZ9zeXpUzVUCUx36hTI2CzuV0plGa3IHaCLSVcAJNpRNZljQ37TcwW31EIPSsrwLaynYgxqF3zuxIbrVW9Z3kxXhHrti5mFHEI0UmmkRY1FmdAabawUViZLpJplum941rI6rKDveE4ZW3Kk2Mgi1K3YAqu5sTnExkSP&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMzQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1lbG96aW8tZGVjYWZmZWluYXRvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2Q3NWFhY2M4MDk4MmMxNjBjYzQ2ZGE5MmRkZTI5YjdjYiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDc1YWFjYzgwOTgyYzE2MGNjNDZkYTkyZGRlMjliN2Ni&rlid=75aacc80982c160cc46da92dde29b7cb",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.g7vmVBZDOK5x4w474C474&w=187&h=150&c=17&pid=21.1",
+      "price": "$13.00",
+      "extracted_price": 13,
+      "title": "Nespresso Melozio Decaffeinato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.7K+ viewed"
+      },
+      "rating": 5,
+      "reviews": "1",
+      "block_position": "top"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e88mMjL0IxOaUF-8qaRGjHrjVUCUwWfzRIsO0V9KAWKm63u4od4g41POPw5sLUUr1cuXbsaT3JIThxZG1_mv1DhdwdfON2TtlcfHyUkd9edpFdEfp9_Pwg_tYPgnS1Ju7KnWmlJJVUnL4SsS2g6lEION7sPLA6f08VlJvvV_W5ZEpo97Ha&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMTE5MyUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjExOTMlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1Db2FzdGFsLUJsZW5kLU1lZGl1bS1Sb2FzdCUzZnByaWNvZGUlM2RXQjQ2OTElMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjExOTMlMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yMTE5MyUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZGY1NTBjYjkyYzA3ZTE0OTU0NGMwYWUzZjg2N2JhMzRi&rlid=f550cb92c07e149544c0ae3f867ba34b",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.7OvhWNZqPxTcXg474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Single-Serve Coffee Cups - Coastal Blend Medium Roast - Caza Trail - 4 Packs Of 24 - S-21193",
+      "seller": "Uline",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8QR5vjgatrlu3r_W2N0PwOTVUCUzsaHdClkrPGq8fUYl3sac2DW4kvJQGoxpNZYPO4VXU9zroHGGT5BWzjrJPC4Ix8QKkz0m3qPcZ6DAKeZz5SVyv5vydqRAY9ZX3un14S7RxQs2GrJ5F1XE_DAex_IaVKDsFAVr2V0Yw8u8BZcBVSlqY&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNDUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmZvcnRhZG8tZGVjYWZmZWluYXRvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2QzNzNkNTkyOGM2YjQxYTczYTgzNTNjODU4MGIxMTA3OSUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDM3M2Q1OTI4YzZiNDFhNzNhODM1M2M4NTgwYjExMDc5&rlid=373d5928c6b41a73a8353c8580b11079",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.aH58I3DmdpeyHA474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$12.00",
+      "extracted_price": 12,
+      "title": "Nespresso Fortado Decaffeinato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1K+ viewed"
+      },
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8KlrwCpAsPerQc3QVj2hGmzVUCUyRMC_GmkmQzDtPcjPRmwwUusGzEhdk1u1TwCVM2GKYA0BGsEdytTPcadhaup-nOxr2kk0PLbmrUlAgbNixZqsLH2p8hHzpU0tk7C8VDY_srWEuiiwiLUU7PlR9nTNUibMHv1E8MC5SQigbPKu7xw4l&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNDIuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmFsdG8tYW1icmF0by12ZXJ0dW8tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZGRkOTdlODBmZjlhNzE3M2M2ODczOGRhMmJmYTI5ZmUwJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkZGQ5N2U4MGZmOWE3MTczYzY4NzM4ZGEyYmZhMjlmZTA&rlid=dd97e80ff9a7173c68738da2bfa29fe0",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.CWN4h9zhIzqL0w474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Nespresso Alto Ambrato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.4K+ viewed"
+      },
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8WRxeRB4Yz57HgzKC0ub16jVUCUw_4ClElPHulKtkZCaQTq39mDZfwmVsCImT9743Ab4QMT620rtmQYv5ph7v0RQSWKRwKv-q2B4QoDGIUtlOaO4lvdTKQEcM6ynzZo-xLuHG-x5bAyhoeF5PE8_9fJP9zWQ9XR5Cjjg4lZ2lkqWX_0Bz&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMzQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1lbG96aW8tZGVjYWZmZWluYXRvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2RmZjlkNjFmM2Y4MjkxZjQ1NzM2YTA0NWViZTJjYmZiMCUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZGZmOWQ2MWYzZjgyOTFmNDU3MzZhMDQ1ZWJlMmNiZmIw&rlid=ff9d61f3f8291f45736a045ebe2cbfb0",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.g7vmVBZDOK5x4w474C474&w=187&h=150&c=17&pid=21.1",
+      "price": "$13.00",
+      "extracted_price": 13,
+      "title": "Nespresso Melozio Decaffeinato",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.7K+ viewed"
+      },
+      "rating": 5,
+      "reviews": "1",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8FG-1VhaoYoYunNaZ65Hr_TVUCUyUvM3y_rgPKH3olJvl4KjzKa3-58r3p2z5xYxgSLn0ja_C_OalwIMwPY-yNErll5ztWqFBVhDHQ7FHyWz_u5tOkOCvVzj5JrGcBWfwvZZ0jBMrgU_mIfFlHdvVPzVRkAAIucWHXqD5IN5jPIoylMO1&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc1ODguMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmY29zaSUzZmdjbGlkJTNkMThkYmRlNmFiMDM0MTIyYmExMDFiYmM3ZjYzMTRmODIlMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2QxOGRiZGU2YWIwMzQxMjJiYTEwMWJiYzdmNjMxNGY4Mg&rlid=18dbde6ab034122ba101bbc7f6314f82",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.X8DsrrG7DmvsiA474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Cosi",
+      "seller": "Nespresso US",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8doo0rnV_dy6KRT4ejvCHVzVUCUzbL1jXbokIsWkqQuVLdT6aj1W_5S4m0KPIaAmdubQCCNGxujZ6SF-RrWx18hSR_MP9T6bgqv72z6-bqKAXpjprA5IOvtFgtKPTo91uGNWmLxkSvSlpUxGVsNfOnzcBrDkXrNowacLMci4DBp99CzBl&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MjIxNDcyNzcwNzQ2NyUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjU3ODQyNjAyMDA2OTkwJTI2Y2lkJTNkNzg2MTUyODgyMzAxNTQlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODIyMTQ3Mjc3MDc0NjclMjZrcGlkJTNkUy0yNDM0MCUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjQzNDAlMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlN0YXJidWNrcy1QaWtlLVBsYWNlLUNvZmZlZS1SZWd1bGFyJTNmcHJpY29kZSUzZFdCNDU1OCUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yNDM0MCUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2dXRtX3NvdXJjZSUzZEJpbmclMjZ1dG1fbWVkaXVtJTNkcGxhJTI2dXRtX3Rlcm0lM2RTLTI0MzQwJTI2dXRtX2NhbXBhaWduJTNkSmFuaXRvcmlhbCUyNTJCU3VwcGxpZXMlMjZtc2Nsa2lkJTNkZmU0YThmZmVlMGE3MTI0NTU2YmRlYTUzYTZhMmZmZDk&rlid=fe4a8ffee0a7124556bdea53a6a2ffd9",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.ve9yJXs%2bPndynA474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$69.00",
+      "extracted_price": 69,
+      "title": "Starbucks Pike Place Coffee - Regular - ULINE - Box Of 18 Packets - S-24340",
+      "seller": "Uline",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8bUq2T4i-6KmG8e5NSWgznDVUCUx99M1aZqaykSjCHasiUSl4Zdd9B0NvldFygAHEySKHR7zojpMzn_SQh3MwaSBmXwaxjjC-I78w4IKMJ75DdkUh65TRlcKQQ4QXjc-vHfsq0OmXUxeUqP_gg1-JxQtj40D1eesiAsXFKswBHU-pll7M&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMTguMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmRpYXZvbGl0dG8tdmVydHVvLWVzcHJlc3NvLXBvZHMlM2ZnY2xpZCUzZDQ1ZDY3YzEzZjRhMjFiODlmNmEyMTliZWIyYTc2NjZjJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNDVkNjdjMTNmNGEyMWI4OWY2YTIxOWJlYjJhNzY2NmM&rlid=45d67c13f4a21b89f6a219beb2a7666c",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.8yhxSZjLpiL1rw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$9.50",
+      "extracted_price": 9.5,
+      "title": "Nespresso Diavolitto",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "970+ viewed"
+      },
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e82Bda1dUuMqzQKPqUrOZ87zVUCUyfJsUnGQ2wtbf57Jm76AP8efKKWr7xTzJvj8KnbcNuhJbh_zpeQGH5ixD17j_xzvxTIjZ_JW9eTPreCepxYbQjXfw6KHMNhfftP2apaUwPGKr-xLB7MdUBbhVoImzXPEAmvtwQ-mYsf2z7N0XRyxWw&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmNsaWNrY2Vhc2UuY29tJTJmdHJhY2tlciUyZnRyYWNrZXIuYXNweCUzZmlkJTNkUXhiOEVYY2s4NWt4cDQlMjZhZHBvcyUzZCUyNmxvY3BoaXNpY2FsJTNkJTI2bG9jaW50ZXJlc3QlM2QlMjZhZGdycCUzZDEzMTM5MTgwMjExODg1MTMlMjZrdyUzZCUyNm53JTNkbyUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGdmluaWEuY29tJTI1MkZwcm9kdWN0cyUyNTJGdmluaWEtY29mZmVlJTI1M0Z2YXJpYW50JTI1M0Q0NDcyMDA4NDI1NDg4NCUyNTI2Y3VycmVuY3klMjUzRFVTRCUyNTI2dXRtX21lZGl1bSUyNTNEcHJvZHVjdF9zeW5jJTI1MjZ1dG1fc291cmNlJTI1M0RiaW5nJTI1MjZ1dG1fY29udGVudCUyNTNEc2FnX29yZ2FuaWMlMjUyNnV0bV9jYW1wYWlnbiUyNTNEc2FnX29yZ2FuaWMlMjZjcG4lM2Q1MTgzNzY1MTklMjZkZXZpY2UlM2RjJTI2Y2NwdHVybCUzZHZpbmlhLmNvbSUyNnBsJTNkJTI2bXNjbGtpZCUzZDkzMWRlMmFjODk1ZjFiMmYzYmFkODcwMWNmNWE4ZTk1&rlid=931de2ac895f1b2f3bad8701cf5a8e95",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.S%2fMQo9hhxEOddQ474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$99.99",
+      "extracted_price": 99.99,
+      "old_price": "$139.98",
+      "extracted_old_price": 139.98,
+      "title": "VINIA COFFEE 60 Pod / Subscription",
+      "seller": "Vinia",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8rHaT3O7g4bM8Fdsg1XakSTVUCUwQlUXbdEqYUDUWY5iGVNUQTTZOCgxHsYczu7wtnmEwvWWzVvVXpb_XWnl5vAPOrlu-nVziEAQXyb8Znx-vw_HyCCX7CFLNB_4PbVLR-HH3emlmqAiUaqainLQ9eDMgIFMAFLpK0gW3trvLzjbZFRTy&u=aHR0cHMlM2ElMmYlMmY4NzU5LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MDIlMjZjYW1wJTNkMTQ3NiUyNmtjdCUzZG1zbiUyNmtjaGlkJTNkMTM0OSUyNmNyaXRlcmlhaWQlM2RwbGEtNDU4MTkzOTg0OTM2OTAyOSUyNmNhbXBhaWduaWQlM2QzOTY0MjU3MTclMjZsb2NwaHklM2QlMjZhZGdyb3VwaWQlM2QxMjUzNDQ0NTU1NDYwMTM4JTI2Y2lkJTNkNzgzNDA0MTAzNzA2OTYlMjZrZHYlM2RjJTI2a2V4dCUzZCUyNmtwZyUzZDQ1ODE5Mzk4NDkzNjkwMjklMjZrcGlkJTNkUy0yMTk4OCUyNnF1ZXJ5U3RyJTNkQ29mZmVlJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cudWxpbmUuY29tJTJmUHJvZHVjdCUyZkRldGFpbCUyZlMtMjE5ODglMmZDb2ZmZWUtYW5kLUNvZmZlZS1TdXBwbGllcyUyZlNpbmdsZS1TZXJ2ZS1Db2ZmZWUtQ3Vwcy1IYXplbG51dC1MaWdodC1Sb2FzdCUzZnByaWNvZGUlM2RXQjQ2OTElMjZ1dG1fc291cmNlJTNkQmluZyUyNnV0bV9tZWRpdW0lM2RwbGElMjZ1dG1fdGVybSUzZFMtMjE5ODglMjZ1dG1fY2FtcGFpZ24lM2RKYW5pdG9yaWFsJTI1MkJTdXBwbGllcyUyNnV0bV9zb3VyY2UlM2RCaW5nJTI2dXRtX21lZGl1bSUzZHBsYSUyNnV0bV90ZXJtJTNkUy0yMTk4OCUyNnV0bV9jYW1wYWlnbiUzZEphbml0b3JpYWwlMjUyQlN1cHBsaWVzJTI2bXNjbGtpZCUzZDU5ZTBkMWQxNDFmZjEwNjZmNDc1YjQ3YzA3ZmE3OGZl&rlid=59e0d1d141ff1066f475b47c07fa78fe",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.Xup4Fp%2blPBLuAg474C474&w=196&h=150&c=17&pid=21.1",
+      "price": "$15.00",
+      "extracted_price": 15,
+      "title": "Single-Serve Coffee Cups - Hazelnut Light Roast - Caza Trail - 4 Packs Of 24 - S-21988",
+      "seller": "Uline",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8oJLtRYSj9XTPoaJfX1g0AzVUCUxxBENX3RnpOARXYN_LctWhCewEBcJb-wYRSisfGp8G2HgRI-dng_yygLVBI7ZauS5gLCirB4liir51WaYrJBU0EIoiX9VtSId2g0fP19EXaCwbF_VAcvn0t4SD0XFKsbCvpN5aB1Yyw4n0geFZV805&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMDEuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1lbG96aW8tdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2Q0Zjc5YWNiZjVmOTAxYjAzZjc4MGM5MTIxOTk1YzUyZiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDRmNzlhY2JmNWY5MDFiMDNmNzgwYzkxMjE5OTVjNTJm&rlid=4f79acbf5f901b03f780c9121995c52f",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.LWTQIvvNk8YUoA474C474&w=181&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Melozio",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "750+ viewed"
+      },
+      "rating": 5,
+      "reviews": "2",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8yIxTXmbMfcdPfLr8K0V1QTVUCUyCpA4SSuSB-Hge14Mp4vfTud9sgjwbwTwozTYEKVR7Jwjwd8QxQJ95Ovn_Oza8Fw4HR40bqImq8uGgJQTJtcVoZyg05FQ3HjtZxt17YbG1uZxdA6zCBGmO4erMemQJ2-TAmyABCIr7NemIdsyrn5Sv&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzExMDY2NSUyNmRzX2VfcHJvZHVjdF9jb3VudHJ5JTNkVVMlMjZkc19lX3Byb2R1Y3RfbGFuZ3VhZ2UlM2RFTiUyNmRzX2VfcHJvZHVjdF9jaGFubmVsJTNkT25saW5lJTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cubmVzcHJlc3NvLmNvbSUyZnVzJTJmZW4lMmZvcmRlciUyZmNhcHN1bGVzJTJmdmVydHVvJTJmdmVydHVvLWNvbm5vaXNzZXVycy1jb2ZmZWUtYXNzb3J0bWVudCUzZmdjbGlkJTNkZWFjNjlhYTZjNDUwMTZiNDQ4MTNmZjBiODI1NTEzMTMlMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RlYWM2OWFhNmM0NTAxNmI0NDgxM2ZmMGI4MjU1MTMxMw&rlid=eac69aa6c45016b44813ff0b82551313",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.QW9KPRj9rU7BxQ474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$43.50",
+      "extracted_price": 43.5,
+      "title": "Nespresso Vertuo 40 Capsule Connoisseurs Pack",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.1K+ viewed"
+      },
+      "free_shipping": true,
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8tNj6SwBD-E6eEGcbBrJPojVUCUyErQD7vWZaNxYMHl8bQl8v8-Vd2PDGiohzC9na8oVZHVf6xuji4T7VWwxrORzFrktlsLYTdr0S5hdeocmXQDDFAlXc7Qev3lSbgK60AT-gsdTmN50PW93NUa4coEN4ny3A7smk0zgCTynJRDEptckc&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMjUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmRvdWJsZS1lc3ByZXNzby1zY3Vyby12ZXJ0dW8tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDRmNTA4YmQ4M2Q3MTE4YjFlMjI3ZWU3NTdiNzQwMGEzJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNGY1MDhiZDgzZDcxMThiMWUyMjdlZTc1N2I3NDAwYTM&rlid=4f508bd83d7118b1e227ee757b7400a3",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.EFwsrQWSerLPHQ474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$11.50",
+      "extracted_price": 11.5,
+      "title": "Nespresso Double Espresso Scuro",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "2.1K+ viewed"
+      },
+      "rating": 5,
+      "reviews": "2",
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8A-HClOL0Hqmg2B4V9kDTZjVUCUyCQAdDzT7DM5WQlVvWIXCb0nxfe3_m2MuNFM0iB-_o1FbP5iaOvPxiawYabGCNvxZUVELP5Jd-Y_iOJwt7k2R304loshnX1vNANCdv3rOayIEYaqHQRYqzIptI-SjAXBgPpVa56AmeIce1hZ2SdLy4&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMTEuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1hc3Rlci1vcmlnaW4tY29sb21iaWEtdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2RjMzIwNzk2ZTllMDkxMzI5NjBmYTFjYzNkODBjZjg1YiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZGMzMjA3OTZlOWUwOTEzMjk2MGZhMWNjM2Q4MGNmODVi&rlid=c320796e9e09132960fa1cc3d80cf85b",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.LUI7%2bm6q0e%2fWNA474C474&w=187&h=150&c=17&pid=21.1",
+      "price": "$13.50",
+      "extracted_price": 13.5,
+      "title": "Nespresso Colombia",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "2.3K+ viewed"
+      },
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e88PXWPjKqNsAwAFGYmmw3xDVUCUzNgDE8SMdFim72gFCg-vffC2K-usTmkYSudEcafS_OK6N__ktK_e3p2oQRKpREbdZtDQHmBebnVEryy453VjiBm7mfQAZ2vUyZBhWRWekjQhOO8G2e2u6T-hGEZcRjWjSCYNkk-JdZVYxgRKnvCYl8&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMjQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmRvdWJsZS1lc3ByZXNzby1jaGlhcm8tdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2RiOWJmYWFhMmI2NzUxZWJkMzIxMWNmMGZmMDcwMGVjZCUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZGI5YmZhYWEyYjY3NTFlYmQzMjExY2YwZmYwNzAwZWNk&rlid=b9bfaaa2b6751ebd3211cf0ff0700ecd",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.JHnrpfbaVxkvjg474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$11.50",
+      "extracted_price": 11.5,
+      "title": "Nespresso Double Espresso Chiaro",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "3.1K+ viewed"
+      },
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8Ovxr89XbdjZWXri00MVoyzVUCUxi_QZgt-8-uDlQLPbWDD73vRCixBJghspC0RktKnwC6rXJc0LJL04IeKQd-lbFmJkVQf4ehKbNsjgG6GIZ_6ogVBen5J3_lJ9dbfoc0mgZYeHuoLaG-zcPn5xtvnkcueJndUSn6sW3apQrsyVSEXBC&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzExMDY2MyUyNmRzX2VfcHJvZHVjdF9jb3VudHJ5JTNkVVMlMjZkc19lX3Byb2R1Y3RfbGFuZ3VhZ2UlM2RFTiUyNmRzX2VfcHJvZHVjdF9jaGFubmVsJTNkT25saW5lJTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cubmVzcHJlc3NvLmNvbSUyZnVzJTJmZW4lMmZvcmRlciUyZmNhcHN1bGVzJTJmb3JpZ2luYWwlMmZvcmlnaW5hbC1jb2ZmZWUtZGlzY292ZXJ5LWFzc29ydG1lbnQlM2ZnY2xpZCUzZGZjNTQ2MmVkMTAyNzE1ZGQ2MDhkMDc0MDU2MjI0MjJjJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkZmM1NDYyZWQxMDI3MTVkZDYwOGQwNzQwNTYyMjQyMmM&rlid=fc5462ed102715dd608d07405622422c",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.9ECChX0LBPQE8w474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$82.00",
+      "extracted_price": 82,
+      "title": "Nespresso Original 100 Capsule Discovery Pack",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "880+ viewed"
+      },
+      "free_shipping": true,
+      "block_position": "middle"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8np4UCD-RFmA-y18fjJgcgTVUCUy_CweDYKwVxF9RsB1WOIvTLi8J4nWueP61A46FhuRfFUkwl_35dQaV8BQsBfvxmFDzk7tCN3XSL26Upt-0C7X1cAeoqMYXlU80-QWuoCxsS9oxX4eLAkK39W0UqvK8d2t3sgXL0XAAD7XymM5sQrO3&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcxOTAuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZnZpdmlkYS1jb2ZmZWUtcG9kcyUzZmdjbGlkJTNkZThjNzEyNzlkZjUxMWQwNjZjOTk3N2Q0OTk1NDBkZGElMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RlOGM3MTI3OWRmNTExZDA2NmM5OTc3ZDQ5OTU0MGRkYQ&rlid=e8c71279df511d066c9977d499540dda",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.8VtKRBzzCpaWYA474C474&w=182&h=150&c=17&pid=21.1",
+      "price": "$14.00",
+      "extracted_price": 14,
+      "title": "Nespresso Vivida",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "2.6K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8X4isW3rQ7L0U9Fqh8Sf7rDVUCUyadxxMt97IACC0MxekkwjpVEgnj4TmV9qZZ2dNomcvZhPXaGg3i13gW8QNihMpaJO5irzEGFGwhy0is2nvOVsDDGlVwhrTUT8TSQ1tReqzHku4SZaIoCCtsYWHR81ID4JCdGAm-bV9efox4eaTAfie&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyNzYuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm1hc3Rlci1vcmlnaW5zLWVsLXNhbHZhZG9yJTNmZ2NsaWQlM2Q0MzZmMGVlNmIxODgxYmUzZjQ5YjZiNGJmNzhkYmU2OSUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDQzNmYwZWU2YjE4ODFiZTNmNDliNmI0YmY3OGRiZTY5&rlid=436f0ee6b1881be3f49b6b4bf78dbe69",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.8mN7VLjlPQiblQ474C474&w=180&h=150&c=17&pid=21.1",
+      "price": "$13.50",
+      "extracted_price": 13.5,
+      "title": "Nespresso El Salvador",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.5K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e88SMN1-0DOG4JDMKMMCui6zVUCUzwgWYj9MrcgVEv5tBD61aFCjtbbwOnUhKDykyZcAlHlpWoRcQnbOw0CsVNC9mSGPUyWh6yaJOcERzKS0huA8LkPt2BtS-iPnBb6y-pOJ783mZaTHEPE3DDMlF9K_uM_BiV3FR3-Yoa22YKv2cbPkD3&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3NTUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmc3RvY2tob2xtLWZvcnRpc3Npby1sdW5nby1jb2ZmZWUtcG9kcyUzZmdjbGlkJTNkZjNlYjdhZjY3ZmUxMTNlNTY5MDgxZjViMzllNDFjNmElMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RmM2ViN2FmNjdmZTExM2U1NjkwODFmNWIzOWU0MWM2YQ&rlid=f3eb7af67fe113e569081f5b39e41c6a",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.P%2br1Kya%2fv3D31Q474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.50",
+      "extracted_price": 8.5,
+      "title": "Nespresso Stockholm Fortissio Lungo",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "770+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8dSnojEpYP3SJZM-yao7_7jVUCUzN8yWysMZCgu3B2KdYEVPVcZiSEpSIXhFuGIwP9YrP4gPHUUG9uacelVM4y1UjG3gehykou-m1gJsUN-xh9PehTvc9nPCUsjcdFcxzOdHbFpMX9Hj_qtdN4QwHzgQwxiHamEkad1wU47k_i2_fXc_7&u=aHR0cHMlM2ElMmYlMmZ3d3cuY29mZmVlaG91c2VleHByZXNzLmNvbSUyZnAlMmZXRlI0MjAwMC5odG1sJTNmX3ZzcmVmZG9tJTNkYWR3b3JkcyUyNm1zY2xraWQlM2Q3ZTBiMjkyNTA1MmIxNzJlYzVjZDRjODg0MzJlZTgwNyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZCoqTFAlMjUyMFNob3AlMjUyMC0lMjUyMENvZmZlZSUyNTIwJTI1MjYlMjUyMEVzcHJlc3NvJTI1MjBNYWtlcnMlMjZ1dG1fdGVybSUzZDQ1NzQ2NTU1NjczMDE5OTUlMjZ1dG1fY29udGVudCUzZFdGUjQyMDAwJTI1MjAlMjU3QyUyNTIwU3VwZXJpb3IlMjUyMFdvcmxkcyUyNTIwRmluYXN0JTI1MjBDb2ZmZWUlMjUyMDQyY3QlMjUyMCUyNTdDJTI1MjAlMjUyNDQzLjUlMjUyMChBVy1DVik&rlid=7e0b2925052b172ec5cd4c88432ee807",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.nA7KVQtelRwUCw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$52.30",
+      "extracted_price": 52.3,
+      "title": "Superior Worlds Finest Coffee Packets - 40Ct",
+      "seller": "Atlas Management Corp. DB…",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8c3rYTmIn5aXK2r8IT_XIRzVUCUwPeOW7KAuJkEbkuXnUxMs_yXg9KlzLxtpnJKAItw3mKz7Db8Za6rEM00NO0RYOfNy_740aLlJW_kQdGDTXbyYHQgPBulgRpTVbzS3MbX4nJ15ABluulz2Z4w_7BCeJd5_Bk_rL_cbIyKAGXgeU1qFc&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMDIuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmludGVuc28tdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2QxY2NlNTU2Y2I0MDcxNDIyODU0YTMwYzFmMjAyYTRlNCUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDFjY2U1NTZjYjQwNzE0MjI4NTRhMzBjMWYyMDJhNGU0&rlid=1cce556cb4071422854a30c1f202a4e4",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.J8Jx8MkGNC8KwA474C474&w=181&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Intenso",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "500+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8k4uNbCcDrqkU1fdWVaYj4zVUCUw3oybY_KaD6s7Ah3ZehM5uSg_T-ZitFMBDTx4OPpvbgdaNK9sP4YGhehoIMmBI7fRFG3UNQbFmH67j2m-MS9bQaXQbhDmJWJdKIRCnRh9CDztCfWhta488UBuxnym8JPOZxdd7mhT1phB4nzeRS6uw&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcxOTkuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZm9kYWNpby12ZXJ0dW8tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDc4ZjE2MjdiYzRhZDE2ZDNkZmNkMDdkNjgyYThiMzU2JTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNzhmMTYyN2JjNGFkMTZkM2RmY2QwN2Q2ODJhOGIzNTY&rlid=78f1627bc4ad16d3dfcd07d682a8b356",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.uSbH7QY01HwL5g474C474&w=181&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Odacio",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.7K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8oXApxCkR6_xiei5MhoW0IjVUCUwu2OAJPCwvj_8bJsGOALLeqp8v9vdoQ46KQZLSmK2lpdT6oMC0qSbXXKOrDgjsqTwUGuqYfuKntwsFRHXFRZRY8zkSQ4hvjRKgAggMeZm6hvr5PpjPtwNAYpT4V-PpoEbqycpCpQ3KsPToSRfl_TIG&u=aHR0cHMlM2ElMmYlMmZ0cmFja2luZy5kZWVwc2VhcmNoLmFkbHVjZW50LmNvbSUyZmFkbHVjZW50JTJmUmVkaXJlY3RvciUzZnJldGFpbGVyJTNkZ2xvYmFsaW5kdXN0cmlhbCUyNmFkbF9jaGFubmVsJTNkYmluZ3Byb2R1Y3RhZHMlMjZhZGxfc2t1JTNkQjIyOTA3MzZfMEJNQyUyNmFkbF9hZFR5cGUlM2RQTEElMjZhZGxfYWRpZCUzZDc5NzgzNDQwNTczMzQ3JTI2YWRsX2RldmljZSUzZGMlMjZhZGxfcGxhaWQlM2Q0NTgzMzgyOTUzMjY4NjcxJTI2YXVkaWVuY2VpZCUzZHBsYS00NTgzMzgyOTUzMjY4NjcxJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ0cmFja2luZy5kZWVwc2VhcmNoLmFkbHVjZW50LmNvbSUyZmFkbHVjZW50JTJmUmVkaXJlY3RvciUzZnJldGFpbGVyJTNkZ2xvYmFsaW5kdXN0cmlhbCUyNmFkbF9jaGFubmVsJTNkYmluZ3Byb2R1Y3RhZHMlMjZhZGxfc2t1JTNkQjIyOTA3MzZfMEJNQyUyNmFkbF9hZFR5cGUlM2RQTEElMjZhZGxfYWRpZCUzZDc5NzgzNDQwNTczMzQ3JTI2YWRsX2RldmljZSUzZGMlMjZhZGxfcGxhaWQlM2Q0NTgzMzgyOTUzMjY4NjcxJTI2YXVkaWVuY2VpZCUzZHBsYS00NTgzMzgyOTUzMjY4NjcxJTI2dXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuZ2xvYmFsaW5kdXN0cmlhbC5jb20lMmZwJTJmaG91c2UtYmxlbmQtY29mZmVlLTk2LXBvZHMlM2ZpbmZvUGFyYW0uY2FtcGFpZ25JZCUzZFdSJTI2bXNjbGtpZCUzZDQ1NWQ0MWY1ODQ0NTFmMTBjNDY5MjQ1OGMyNDAzMzFlJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkJTI1NUJBREwlMjU1RCUyNTIwJTI1NUJQTEElMjU1RCUyNTIwJTI1NUJGb29kc2VydmljZSUyNTIwJTI1MjYlMjUyMEFwcGxpYW5jZXMlMjU1RCUyNTIwJTI1N0JPdGhlciUyNTdEJTI1MjAoTmV1dHJhbCklMjUyMC0lMjUyMCUyNTVCSGlnaCUyNTIwUHJpb3JpdHklMjUyMFNLVXMlMjU1RCUyNnV0bV90ZXJtJTNkNDU4MzM4Mjk1MzI2ODY3MSUyNnV0bV9jb250ZW50JTNkRm9vZHNlcnZpY2UlMjUyMCUyNTI2JTI1MjBBcHBsaWFuY2VzJTI1MjAtJTI1MjBPdGhlciUyNTIwLSUyNTIwKE5ldXRyYWwp&rlid=455d41f584451f10c4692458c240331e",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.OrQpOsO78dwyLg474C474&w=199&h=150&c=17&pid=21.1",
+      "price": "$58.95",
+      "extracted_price": 58.95,
+      "title": "Pintail Coffee House Blend , Medium Roast, 0.53 Oz., 96 K-Cups/Box",
+      "seller": "Global Industrial",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8SSPC_dUmxJlvMH3LnFERWDVUCUx0dgQmVWMGrjiuix1QvthVUt8HYwyPc_ro4QKwLAMhTQgzoeHi7YVaF4PGg14ie0dW7sjVTfJyxyjh2Og2n05kwmOlevjB4MsRxGQYxH25e5Gloapva_dsZIPMb0pPOd4RaTz4xMka8tuC93IK0g36&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMTYuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmFsdGlzc2lvLXZlcnR1by1lc3ByZXNzby1wb2RzJTNmZ2NsaWQlM2Q1MGY3ODVkM2MxNmUxMDZlZDM3MGUwN2U4NzZiZWJjMCUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDUwZjc4NWQzYzE2ZTEwNmVkMzcwZTA3ZTg3NmJlYmMw&rlid=50f785d3c16e106ed370e07e876bebc0",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.HvKn1AbqSUFrAw474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$9.80",
+      "extracted_price": 9.8,
+      "title": "Nespresso Altissio",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.7K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8C9T4ecqQiut8fOqvN4iiFDVUCUybp3iiTNuWjIyYc20DeOfmX5ux1KFJYtMR1cXkOWcyyXY4SKp-1Pf6EuP-VAwVvAR8KrG40ZAzbor24AeFW2JE38fAuzpgcBfFB6O3uBrzlyxkaKmoYBmjAmGoinWktuA_sBQLlkVTf2UrjhOPa3KD&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3OTYuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmbm9jY2lvbGEtY29mZmVlLXBvZHMlM2ZnY2xpZCUzZGE3YWFkM2UzMmJlNjFjMGMxZjgxYjY0ZTZkZTM0ZGRkJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkYTdhYWQzZTMyYmU2MWMwYzFmODFiNjRlNmRlMzRkZGQ&rlid=a7aad3e32be61c0c1f81b64e6de34ddd",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.DEptA6gT3VVLfw474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.50",
+      "extracted_price": 8.5,
+      "title": "Nespresso Nocciola",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "640+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8vmUJoKj1shbExx-tVEyCmjVUCUy9HRzzjoCHO0ql2QoglDO0LrgYBuVL5h1gDb8zegweDw9ycGgLeRwu2_LWpJ8lnEznEzGpNNuqq_Nm96OECLZgZwpBgpEwqtJ7jBuUGAlpwBklVoDIJFvE4ToN-23AxZ2bmLV87fPsfCPr__n2ZOFR&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMzMuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmZvcnRhZG8tdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2QwM2I3ZTdhYWE5Y2MxMmYyYWUzNzgyMDdlZmM5MDQ5NiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDAzYjdlN2FhYTljYzEyZjJhZTM3ODIwN2VmYzkwNDk2&rlid=03b7e7aaa9cc12f2ae378207efc90496",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.bLp36mIU3q55KA474C474&w=200&h=150&c=17&pid=21.1",
+      "price": "$11.50",
+      "extracted_price": 11.5,
+      "title": "Nespresso Fortado",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.2K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8p1j3ZWVAsTPFHVZCLsHSFDVUCUyrLX5WoUDtHL3PmpbrYB4SMwvwq96QsbUGeWmyvanjWpUsjcQaQWhlkEdlP4_CtZB_lXyoeVU8DCoWsFoz3lEdv5LEaFdO8DN0mfs8cKlb_gnqbP9qoPGPxCWkXLv6bi3ot68w64TBezxq06qR6ptL&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmNsaWNrY2Vhc2UuY29tJTJmdHJhY2tlciUyZnRyYWNrZXIuYXNweCUzZmlkJTNkUXhiOEVYY2s4NWt4cDQlMjZhZHBvcyUzZCUyNmxvY3BoaXNpY2FsJTNkJTI2bG9jaW50ZXJlc3QlM2QlMjZhZGdycCUzZDEzMTM5MTgwMjExODg1MTMlMjZrdyUzZCUyNm53JTNkbyUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGdmluaWEuY29tJTI1MkZwcm9kdWN0cyUyNTJGdmluaWEtY29mZmVlLWRlY2FmJTI1M0Z2YXJpYW50JTI1M0Q0NDgxNzg4MDM4MzY1MiUyNTI2Y3VycmVuY3klMjUzRFVTRCUyNTI2dXRtX21lZGl1bSUyNTNEcHJvZHVjdF9zeW5jJTI1MjZ1dG1fc291cmNlJTI1M0RiaW5nJTI1MjZ1dG1fY29udGVudCUyNTNEc2FnX29yZ2FuaWMlMjUyNnV0bV9jYW1wYWlnbiUyNTNEc2FnX29yZ2FuaWMlMjZjcG4lM2Q1MTgzNzY1MTklMjZkZXZpY2UlM2RjJTI2Y2NwdHVybCUzZHZpbmlhLmNvbSUyNnBsJTNkJTI2bXNjbGtpZCUzZGU1NWI5YjhmNDZmMTFlMmQ1ZDI4ZmUyMjAwZjRkNDEz&rlid=e55b9b8f46f11e2d5d28fe2200f4d413",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.bbqUawRoEp7gHA474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$129.99",
+      "extracted_price": 129.99,
+      "title": "VINIA COFFEE Decaf 60 Pod / One Time",
+      "seller": "Vinia",
+      "tag": {
+        "bottom": "520+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e83TsMBZgZGkSWIDqU7JG5EDVUCUyG_vHmltklsAwd_PA7WoYFnf2Y9FcbK3FUTXe57A29WP0WIOz16HdO182cWcSL7JKYNFrgs_gQlehfUvZ0sUn6m8vE5_kueVojn2R5bETfp6ahRW84CR-TSd9ybYrnqh9Fr0sMWsaO-g3xEJVbwJIW&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3NjQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmZnJlZGRvLWludGVuc28tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZGFlMWJhMWZjMzQwYTFlYzYwOTE4YzQ1MTcyMGYxMjVkJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkYWUxYmExZmMzNDBhMWVjNjA5MThjNDUxNzIwZjEyNWQ&rlid=ae1ba1fc340a1ec60918c451720f125d",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.PsOj88SQ8%2bY6gQ474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Freddo Intenso",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "860+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e80JlBOhXE-02_Ii6sUJkppzVUCUzIlArrDobIaf8K6rtFZ6WpNXU8FcXkLlwF9imx_4Jkl6hRs0BqLozDSw0FIfjwD3Y9odqha5vdBMnU_VlvJrPAz0adbVCFwifIX-E4Ux7ZGBgCqHSYuJF3S8jZnSqw_QqDBTcdL4Ebfgi3BKgkukxz&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3NjUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmaXNwaXJhemlvbmUtZmlyZW56ZS1jb2ZmZWUtY2Fwc3VsZSUzZmdjbGlkJTNkZTAwZjUyOTJiN2I1MWU2ZDcxMTgzNzNmZjFiMDZiMjklMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RlMDBmNTI5MmI3YjUxZTZkNzExODM3M2ZmMWIwNmIyOQ&rlid=e00f5292b7b51e6d7118373ff1b06b29",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.%2fFVjj9%2b7DU%2bwMg474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Firenze Arpeggio",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.7K+ viewed"
+      },
+      "rating": 5,
+      "reviews": "6",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8Go7wrc2WiPpP4whZ47GXfzVUCUz2Iw_hd8cC1pb47aXgfh4pEsOOhcPzdcRDU0y53Zw0zr1HuojbhZFRIROKxIawKW0f7TGWszSlHleVY4s_zweur6B8kY1icU3ecFOm4zJSPdKpvJXaZ5sG-6Mz3KT8S8u7dDC-BM-iel7_PddmXVrW&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3NTQuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmdmllbm5hLWxpbml6aW8tbHVuZ28tY29mZmVlLXBvZHMlM2ZnY2xpZCUzZDQwZmM2ZTc5ODY5MTE2YzhkN2FmMGJkNGMwOTRhNGQ5JTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkNDBmYzZlNzk4NjkxMTZjOGQ3YWYwYmQ0YzA5NGE0ZDk&rlid=40fc6e79869116c8d7af0bd4c094a4d9",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.Zb4KTWi3P2tl%2fA474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Vienna Linizio Lungo",
+      "seller": "Nespresso US",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8FgJ-6y749li6NzEDeiwIXDVUCUzyE_AgWDQ4sAcRbP5zR-Ww2utI7f6Zj6KFJIK4bIVPjTinKS1gD52SmgBDq2k6ieg7nQUIUzJK0yXfGic60vVybhCojTXcvfFSWIDgwSHc-Imc6qqR-rFsyh77bs_V9AJgusxWf-oxCFylLm5n5C6X&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc3NDUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmaXNwaXJhemlvbmUtZ2Vub3ZhLWNvZmZlZS1jYXBzdWxlJTNmZ2NsaWQlM2Q4ZWMzZGI3NDIzNGMxZGNhMDQ5YmJlZDk2NTQ5OTEwYiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZDhlYzNkYjc0MjM0YzFkY2EwNDliYmVkOTY1NDk5MTBi&rlid=8ec3db74234c1dca049bbed96549910b",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.KUP7aJXN%2bendVg474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Genova Livanto",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "540+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8Wly68KZPEh63MgycNA37zDVUCUyDTEeCyggW3QNzPmckhPnpBkOoUW9h217s2CxHieB2k8xcsJNe4PZ1ioMtCagoyGMSdKS7Hh6vOJUAVgGGSNzzxO_f1o2Ci8N8DnItubBX3OAn3InQzol6Z405PganShs5qxLmRpdTD4Y_OcHyh6eq&u=aHR0cHMlM2ElMmYlMmZ3d3cuc2hvcGxldC5jb20lMmZCbGstQm9sZC1TcGVjaWFsdHktQmV2ZXJhZ2VzLUNvZmZlZS1pc2gtQ29mZmVlLUZyYWN0aW9uLVBhY2tzJTJmQktET0tCOTAxNzYlMmZzcGR2JTNmcHQlM2Rya19tc25fcGxhJTI2cHBwJTNkZ19hWm9aLTlrZmk2S1ElMjZtc2Nsa2lkJTNkODRjYjMxY2FmYTliMTgxNTE1OGQ1NDY3YmM5ZTg4YzUlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RCUEElMjUyMC0lMjUyMEl0ZW1zJTI1MjAtJTI1MjBHUFRpZXIlMjUzQTElMjZ1dG1fdGVybSUzZDQ1ODQ5NjM0OTIwMDc4OTMlMjZ1dG1fY29udGVudCUzZEJQQSUyNTIwSXRlbSUyNTIwLSUyNTIwR1BUaWVyJTI1M0ExJTI1N0MxMDAtMjAw&rlid=84cb31cafa9b1815158d5467bc9e88c5",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.0mw0QVxb6aEULQ474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$145.70",
+      "extracted_price": 145.7,
+      "old_price": "$186.05",
+      "extracted_old_price": 186.05,
+      "title": "Blk & Bold Specialty Beverages Coffee-Ish Coffee Fraction Packs - BKDOKB90176",
+      "seller": "Shoplet.com",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8hjlLywVm1_UcMQqhdmRUEjVUCUzTbuT-lv7Ls0RqadbuokBtObrlH9iWlARdj4DZ7fGnr8rCOzVS2a1v7WGJOqYbXb_iI8S1lDWa9PSLivCtDUp97h6b6fMGgXZrdXmXaF7b1yoavmTA7zQ3QVB39K56UAqA-f4wLDy83XVzLFH_2Xcd&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcxOTcuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZnN0b3JtaW8tdmVydHVvLWNvZmZlZS1wb2RzJTNmZ2NsaWQlM2RiNWJlMWQyMzIyYzUxYTBhMDkzMDc4OGU2NGMwY2EzZiUyNmdjbHNyYyUzZDNwLmRzJTI2bXNjbGtpZCUzZGI1YmUxZDIzMjJjNTFhMGEwOTMwNzg4ZTY0YzBjYTNm&rlid=b5be1d2322c51a0a0930788e64c0ca3f",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.f0eBWdEJnjt9zQ474C474&w=181&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Stormio",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "1.8K+ viewed"
+      },
+      "rating": 4.5,
+      "reviews": "5",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8r18Asfc8HWYw_QjCy5mYIzVUCUwXsQ2x_LTCgY4-EZ5ggPRvQK8A0YkmSpWwU7vcjVlOOzwpBgxWSLflCfDPs98NjAOtnSXG37gdqKzmMwVwiYyCf02FelLmIGFaIG7W4p-6Z3AFxStH14tcMjSut2o7iEcRgU4gv1oIBrGdwxLql5G_&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzcyMDUuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZnZlcnR1byUyZmljZS1mb3J0ZS1jb2ZmZWUtcG9kcyUzZmdjbGlkJTNkZmU0ODJkZjEzNjQ5MWM1OTY5ZTU0ODVjNzA0YzU0MTglMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RmZTQ4MmRmMTM2NDkxYzU5NjllNTQ4NWM3MDRjNTQxOA&rlid=fe482df136491c5969e5485c704c5418",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.wW%2bc2aNgSHCMnA474C474&w=180&h=150&c=17&pid=21.1",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "title": "Nespresso Ice Forte",
+      "seller": "Nespresso US",
+      "tag": {
+        "bottom": "3.5K+ viewed"
+      },
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8hS1mZ66dvQDmDMOY4-ZFRjVUCUxU1sVpk44aIguYhQBa9iMORxkvwExt9eHoIW8_RC5w-wVugAsMBXr4RRZSEjUnGhgM4VPZoxcAj76DRUfCZrrjxtMWxEVLLX-Dw6GjdxB4mxcXm9Ejiqsi3CYCGjdiIpkZruWetmP_rzYXdzTJU7pL&u=aHR0cHMlM2ElMmYlMmZ0aGVmZWVkLmNvbSUyZnByb2R1Y3RzJTJmcHJldHR5LWdyZWF0LWluc3RhbnQtY29sZC1icmV3JTNmYl9hZGdyb3VwJTNkQlBBJTI1MjBJdGVtJTI1MjAtJTI1MjBCcmVha2Zhc3QlMjU3Q1ByZXR0eSUyNTIwR3JlYXQlMjU3QzEwLTMwJTI1N0NDJTI1M0E3MCUyNmJfYWRncm91cGlkJTNkMTE0ODk5MTI5MDc2ODkyMyUyNmJfYWRpZCUzZDcxODEyMDkwMzA3NjY0JTI2Yl9jYW1wYWlnbiUzZEJQQSUyNTIwLSUyNTIwSXRlbXMlMjUyMC0lMjUyMEJyZWFrZmFzdCUyNmJfY2FtcGFpZ25pZCUzZDMzNzI2NjI3OSUyNmJfaXNwcm9kdWN0JTNkcHJvZHVjdCUyNmJfcHJvZHVjdGlkJTNkcGdfaW5zdGFudF9jYl9ieCUyNmJfdGVybSUzZGRlZmF1bHQlMjZiX3Rlcm1pZCUzZHBsYS00NTc1NDExNDk4NTg1NjkwJTI2bXNjbGtpZCUzZDVhOWM5ZTVkMjMzNTFjZDVlM2ViZmJmMDY1MzAwODBlJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQlBBJTI1MjAtJTI1MjBJdGVtcyUyNTIwLSUyNTIwQnJlYWtmYXN0JTI2dXRtX3Rlcm0lM2Q0NTc1NDExNDk4NTg1NjkwJTI2dXRtX2NvbnRlbnQlM2RCUEElMjUyMEl0ZW0lMjUyMC0lMjUyMEJyZWFrZmFzdCUyNTdDUHJldHR5JTI1MjBHcmVhdCUyNTdDMTAtMzAlMjU3Q0MlMjUzQTcw&rlid=5a9c9e5d23351cd5e3ebfbf06530080e",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.GZYP%2boCH%2fHVmIw474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$14.95",
+      "extracted_price": 14.95,
+      "title": "Pretty Great Instant Cold Brew -",
+      "seller": "The Feed",
+      "block_position": "bottom"
+    },
+    {
+      "link": "https://www.bing.com/aclick?ld=e8Pq6Hc911xq15iOatCV02MTVUCUzN_Ah0wxcpiuufr38ErGixV0jm8Wg1OBKjZpy1wLzJj9wPwQa4jcA_eQ8s5xFhJhtagrm6f2kYjh9zpMA1J82eCymXQ8CypbLTycWD7BdaDmIbWuQlWJIyU6FgjjGjPAYC3jmClip4FRfKXyzVs-Ra&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q5MjcwMDA3ODYxMzAwMTUyNiUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODYwOTg2NTAzOSUyNmRzX3NfaW52ZW50b3J5X2ZlZWRfaWQlM2Q5NzcwMDAwMDAxMDgyNjE2MSUyNmRzX2FfY2lkJTNkNDA2OTc3Nzg0JTI2ZHNfYV9jYWlkJTNkMjA3OTEyMDg1MjklMjZkc19hX2FnaWQlM2QxNjExNTQzOTk3MzIlMjZkc19hX2xpZCUzZHBsYS0yMjU4OTk0ODUyMzcxJTI2JTI2ZHNfZV9hZGlkJTNkODI0NjM3NDQ4NTgxNzQlMjZkc19lX3RhcmdldF9pZCUzZHBsYS00NTg2MDYzMDA0OTk3MzczJTI2ZHNfZV9wcm9kdWN0X2dyb3VwX2lkJTNkNDU4NjA2MzAwNDk5NzM3MyUyNmRzX2VfcHJvZHVjdF9pZCUzZFVTXzc1ODcuMTAlMjZkc19lX3Byb2R1Y3RfY291bnRyeSUzZFVTJTI2ZHNfZV9wcm9kdWN0X2xhbmd1YWdlJTNkRU4lMjZkc19lX3Byb2R1Y3RfY2hhbm5lbCUzZE9ubGluZSUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3Lm5lc3ByZXNzby5jb20lMmZ1cyUyZmVuJTJmb3JkZXIlMmZjYXBzdWxlcyUyZm9yaWdpbmFsJTJmdm9sbHV0by1kZWNhZmZlaW5hdG8lM2ZnY2xpZCUzZDMxZjA2NGRmZjdhNTFhZDA5NTgxMDE3MmIxYTA1ZTcwJTI2Z2Nsc3JjJTNkM3AuZHMlMjZtc2Nsa2lkJTNkMzFmMDY0ZGZmN2E1MWFkMDk1ODEwMTcyYjFhMDVlNzA&rlid=31f064dff7a51ad095810172b1a05e70",
+      "thumbnail": "https://th.bing.com/th?id=OPHS.p6RbrTceAAj12g474C474&w=160&h=150&c=17&pid=21.1",
+      "price": "$8.00",
+      "extracted_price": 8,
+      "title": "Nespresso Volluto Decaffeinato",
+      "seller": "Nespresso US",
+      "block_position": "bottom"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.bing.com/shop?q=Coffee&filters=scenario%3a%2215%22+LookupKey%3a%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3a%22cc623660417949cdb1658c2f6c29f94c%22&originIGUID=86D737751DF747B9BC1F55605272DA36&page=2&efirst=37",
+    "other_pages": {
+      "2": "https://www.bing.com/shop?q=Coffee&filters=scenario%3a%2215%22+LookupKey%3a%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3a%22cc623660417949cdb1658c2f6c29f94c%22&originIGUID=86D737751DF747B9BC1F55605272DA36&page=2&efirst=37",
+      "3": "https://www.bing.com/shop?q=Coffee&filters=scenario%3a%2215%22+LookupKey%3a%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3a%22cc623660417949cdb1658c2f6c29f94c%22&originIGUID=86D737751DF747B9BC1F55605272DA36&page=3&efirst=73",
+      "4": "https://www.bing.com/shop?q=Coffee&filters=scenario%3a%2215%22+LookupKey%3a%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3a%22cc623660417949cdb1658c2f6c29f94c%22&originIGUID=86D737751DF747B9BC1F55605272DA36&page=4&efirst=109",
+      "5": "https://www.bing.com/shop?q=Coffee&filters=scenario%3a%2215%22+LookupKey%3a%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3a%22cc623660417949cdb1658c2f6c29f94c%22&originIGUID=86D737751DF747B9BC1F55605272DA36&page=5&efirst=145"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&efirst=37&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=2&q=Coffee",
+    "next": "https://serpapi.com/search.json?device=desktop&efirst=37&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=2&q=Coffee",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&efirst=37&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=2&q=Coffee",
+      "3": "https://serpapi.com/search.json?device=desktop&efirst=73&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=3&q=Coffee",
+      "4": "https://serpapi.com/search.json?device=desktop&efirst=109&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=4&q=Coffee",
+      "5": "https://serpapi.com/search.json?device=desktop&efirst=145&engine=bing_shopping&filters=scenario%3A%2215%22+LookupKey%3A%22cc623660417949cdb1658c2f6c29f94c%22+ParentRguid%3A%22cc623660417949cdb1658c2f6c29f94c%22&page=5&q=Coffee"
+    }
+  },
+  "related_searches": [
+    {
+      "text": "Coffee Brands",
+      "link": "https://www.bing.com/shop?q=Coffee+Brands&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Coffee+Brands",
+      "highlighted_words": [
+        "Brands"
+      ]
+    },
+    {
+      "text": "Coffee Makers",
+      "link": "https://www.bing.com/shop?q=Coffee+Makers&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Coffee+Makers",
+      "highlighted_words": [
+        "Makers"
+      ]
+    },
+    {
+      "text": "Keurig Coffee Makers",
+      "link": "https://www.bing.com/shop?q=Keurig+Coffee+Makers&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Keurig+Coffee+Makers",
+      "highlighted_words": [
+        "Keurig",
+        "Makers"
+      ]
+    },
+    {
+      "text": "Coffee Bean",
+      "link": "https://www.bing.com/shop?q=Coffee+Bean&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Coffee+Bean",
+      "highlighted_words": [
+        "Bean"
+      ]
+    },
+    {
+      "text": "Gourmet Coffee",
+      "link": "https://www.bing.com/shop?q=Gourmet+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Gourmet+Coffee",
+      "highlighted_words": [
+        "Gourmet"
+      ]
+    },
+    {
+      "text": "K Cups",
+      "link": "https://www.bing.com/shop?q=K+Cups&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=K+Cups"
+    },
+    {
+      "text": "Best Coffee",
+      "link": "https://www.bing.com/shop?q=Best+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Best+Coffee",
+      "highlighted_words": [
+        "Best"
+      ]
+    },
+    {
+      "text": "Best Ground Coffee",
+      "link": "https://www.bing.com/shop?q=Best+Ground+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Best+Ground+Coffee",
+      "highlighted_words": [
+        "Best",
+        "Ground"
+      ]
+    },
+    {
+      "text": "Types of Coffee",
+      "link": "https://www.bing.com/shop?q=Types+of+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Types+of+Coffee",
+      "highlighted_words": [
+        "Types"
+      ]
+    },
+    {
+      "text": "Types of Coffee Drinks",
+      "link": "https://www.bing.com/shop?q=Types+of+Coffee+Drinks&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Types+of+Coffee+Drinks",
+      "highlighted_words": [
+        "Types",
+        "Drinks"
+      ]
+    },
+    {
+      "text": "Black Rifle Coffee",
+      "link": "https://www.bing.com/shop?q=Black+Rifle+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Black+Rifle+Coffee",
+      "highlighted_words": [
+        "Black",
+        "Rifle"
+      ]
+    },
+    {
+      "text": "Coffee Grinder",
+      "link": "https://www.bing.com/shop?q=Coffee+Grinder&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Coffee+Grinder",
+      "highlighted_words": [
+        "Grinder"
+      ]
+    },
+    {
+      "text": "Peet's Coffee",
+      "link": "https://www.bing.com/shop?q=Peet%27s+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Peet%27s+Coffee",
+      "highlighted_words": [
+        "Peet's"
+      ]
+    },
+    {
+      "text": "Best Tasting Coffee",
+      "link": "https://www.bing.com/shop?q=Best+Tasting+Coffee&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Best+Tasting+Coffee",
+      "highlighted_words": [
+        "Best",
+        "Tasting"
+      ]
+    },
+    {
+      "text": "Coffee near me",
+      "link": "https://www.bing.com/shop?q=Coffee+near+me&FORM=RSPINN",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=bing_shopping&q=Coffee+near+me",
+      "highlighted_words": [
+        "near"
+      ]
+    }
+  ]
+}

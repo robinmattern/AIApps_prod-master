@@ -1,0 +1,19 @@
+
+
+  const   db   =  await SqlDatabase.fromDataSourceParams( { appDataSource:  datasource } );
+  const  pDB   =  await SqlDatabase.fromDataSourceParams( { appDataSource: pDatasource } );
+
+  const  llm   =  new   ChatOpenAI( { temperature: 0 } );
+  const pLLM   =  new   ChatOpenAI( { temperature: 0 } );
+
+  const  chain =  await createSqlQueryChain( {  llm,  db, dialect: 'sqlite' } );
+  const pChain =  await createSqlQueryChain( { pLLM, pDB, dialect: 'sqlite' } );
+
+
+   JSON.stringify(llm) === JSON.stringify(pLLM);
+
+   Wanna talk today and chat about this?  Lots of other things to catch up on.  I have been on a journey with Bruce to learn AI and SicommNet has a contract management partner as well as linking the iCatalog to Amazon.
+
+
+
+
