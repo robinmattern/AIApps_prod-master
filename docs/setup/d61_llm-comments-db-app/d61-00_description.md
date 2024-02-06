@@ -13,12 +13,12 @@ requiring a response, not needed a response or offensive.
  - **GitHub:** adriantwarog/youtube-comments-openai-gpt3 [Repo](https://github.com/adriantwarog/youtube-comments-openai-gpt3.git)
  - **Project Repos App**: c61_llm-comments-db-app
  - **Google Project App**: [aiapps-dev01-robin](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)
- - **Links:** [OpenAI API_KEY](https://platform.openai.com/api-keys),
-              [Google Dev API_KEY](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)
-              [SingleStore DB Service](https://www.singlestore.com/cloud-trial/),
-              [Bard Conversation](https://g.co/bard/share/51c7ebe1d626),
-              [App Build Log](d61-01_build-log.md)  
-              [Bard Session](https://)  
+ - **Links:** 
+   - [OpenAI API_KEY](https://platform.openai.com/api-keys),
+   -[Google Dev API_KEY](https://console.cloud.google.com/welcome?project=aiapps-dev01-robin)
+   -[SingleStore DB Service](https://www.singlestore.com/cloud-trial/),
+   -[Bard Conversation](https://g.co/bard/share/7713d9089754),
+   -[App Build Log](setup/d61_llm-comments-db-app/d61-01_build-log.md)  
  - **Modules**:  
 
 ### B. Setup Project and Database 
@@ -74,17 +74,17 @@ have exceeded our quota for how many times we can run the model.  This
 what will be charged against our free $500 started quota.  
 
 I seems that all the free models can only be run 3 times per minute.  So I asked Bard to help me out 
-and write a runction to throttle how often the API, pOpenAI.createCompletion( pRequest ), gets run. 
+and write a runction to throttle how often the API, pOpenAI.createCompletion( pRequest ), gets run.   
 
-16. **Write and run script to run comments against OpenAI model** 
-17. **Add Bard's function, throttledCreateCompletion**
-18. **Write and run simple script to process 5 comments**
+16. **Write and run script to run comments against OpenAI model**   
+17. **Add Bard's function, throttledCreateCompletion**  
+18. **Write and run simple script to process 5 comments**  
 
-### H. Refactor DB and main index scripts 
+### H. Refactor DB and main index scripts   
 I refactored the DB script to handle multiple SQL operations and the main index script 
-to run the variouse processes from the command line. 
-19. **Refactor addComments into doComments**
-20. **Write and run improved script to test multiple processes**
-21. **Run improved script to test multiple processes**
+to run the variouse processes from the command line.   
+19. **Refactor addComments into doComments**   
+20. **Write and run improved script to test multiple processes**  
+21. **Run improved script to test multiple processes**  
 
 

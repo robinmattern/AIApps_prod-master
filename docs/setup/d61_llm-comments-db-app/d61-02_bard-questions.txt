@@ -235,7 +235,7 @@ function, addComments
           await addComments( mComments )
 
 
-Bard Question 7
+Bard Question 7 -- Test OpenAi API
 --------------------------------------------------------------------------
 Now for the good part, passing the comments to an OpenAI model in order to
 determine if the comments needs to be responded to.  After getting an API_KEY
@@ -264,9 +264,13 @@ to the model.
 
                 console.log( pResponse.data.choices[0].text );
 
-Bard Question 8
+
+Bard Question 8 - Explain prompt submitted for each comment
 --------------------------------------------------------------------------
-This script loops through
+This script creates a funtion that loops through an array of comments submitting each one to the OpenAI LLM model with a prompt
+containing two "Context examples" and a third "Actual use case" with the comment. Could you explain how this prompt
+causes the model to know whether to return "Should Reply as "Yes" or "No" as a response. If the response is "Yes" then
+the function updates the "Respond "comment record
 
         import dotenv from 'dotenv'; dotenv.config()
         import { Configuration, OpenAIApi } from "openai";
@@ -283,6 +287,7 @@ This script loops through
         // 09.3 Write function updateDatabaseUsingGPT
         // -------------------------------------------------
         async function updateDatabaseUsingGPT( ) {
+
             var mComments = await doComments( 'select' );
 
                 console.log( `Processing ${mComments.length} comments.` )
@@ -304,7 +309,7 @@ This script loops through
                             // Actual use case
                             + `User: ${mComments[0].commenter}\n`
                             + `Comment: ${mComments[i].comment}\n`
-                            + `Should Reply:`
+                            + `Should Reply:  `
 
                 var pResponse = await pOpenAI.createCompletion(
                      { model : "davinci-002"   // .(40204.09.1 RAM Deprecated: text-davinci-003)
@@ -313,10 +318,12 @@ This script loops through
                     , max_tokens:  7
                     , temperature: 0
                       } );
+
                 var aResponse = pResponse.data.choices[0].text.trim()
                     console.log( `Comment Id ${mComments[i].id} response: ${aResponse}` );
 
                 if (aResponse == "Yes") {
+
               await doComments( 'update',[ mComments[i].id ] );
                     console.log( `Comment Id ${mComments[i].id} updated` )
                     } // if comment respond = "Yes"
@@ -337,3 +344,98 @@ This script loops through
         // -------------------------------------------------
 
                 updateDatabaseUsingGPT();
+
+
+Bard Question 9 - Run OpenAI API for each comment
+--------------------------------------------------------------------------
+When I run the script above, it display a reposponse for five comments, then it fails with
+a statuscode of 429.  I believe this has something to do with the quota for the number of
+times that I can query the OpenAI model.  Can yo tell me how I can increase the quota for
+a free account so that I can run 100 comments against the model.
+
+        User:      @AdrianTwarog
+        Comment: ? Try the OpenAI Template - Starter Kit I've made (by Adrian (me!!!))?
+                   https://enhanceui.gumroad.com/l/chatgpt-starter-template
+                   This is new and ready for those looking to kickstart their own app or website
+                   using the OpenAI GPT models. I've built it on MERN it should save you over 100 hours
+                   if you want to build or test your own ideas! This also supports the channel
+                   if you have found these videos of benefit!
+        Should Reply:'
+        Comment Id 1419 response: No
+        Comment Id 1420 response: Yes
+        Comment Id 1420 updated
+        Comment Id 1421 response: Yes
+        Comment Id 1421 updated
+        Comment Id 1422 response: No
+        Comment Id 1423 response: No
+        Failed to process pOpenAI.createCompletion
+        ERROR NaN: Request failed with status code 429
+        Process exited with code 1
+
+--------------------------------------------------------------------------
+Does this use case need the davinci-002 model.  Is there a less expensive model that I can use.
+Where and/or how can i find out how many times I can submit a prompt against any give OpenAI model.
+
+--------------------------------------------------------------------------
+I have only used .11 cents of my $5 quota, but I am getting a Request failed with status code 429 after submitting 3 or 4 api requests
+
+Thanks for sharing the details and reporting the bug! A member of our team will follow-up with you as soon as possible.
+
+Hi there, Sorry you're running into issues regarding rate limits! Rate limits, which are restrictions
+we place on the number of API calls you can make, exist so we can make sure everyone has fair access
+to the API. If you're bumping up against these limits, here are some strategies you might try: Reduce
+max_tokens : Reducing max_tokens to match the size of your completions. Since max_tokens factor into
+your rate limit calculation, this adjustment might resolve the issue if your Current tokens used are
+exceeding your token Limit. Optimize Your Requests: Batch requests and employ strategies like exponential
+backoff along with other error mitigation tactics. Wait for 48 Hours: If you're a new pay-as-you-go user,
+be aware that we place daily rate limits during the first 48 hours. More details on your specific rate
+limits can be found here. Check Your Quota: Ensure you're not exceeding your monthly spending quota.
+If you need adjustments, you can do so through the quota increase form. Ensure you're on our
+Pay-As-You-Go-Plan: Update your billing with credit card details for the API Platform (not ChatGPT) here.
+Explore (or free trial users) are heavily restricted, regardless if you already have credits or grants in
+your account. Still encountering issues? You can request a rate limit increase by filling out our Rate
+Limit Increase form. Please note that this applies only to certain models, as gpt-4 and gpt-3.5-turbo-16k
+are currently capacity constrained and we can't offer increases today. If these steps don't resolve your
+issue, please provide more details, and I'll be glad to assist you further. Best,
+
+OpenAI Team
+
+
+--------------------------------------------------------------------------
+I visited this page: https://platform.openai.com/account/limits and it seems that most models have a
+3 RPM (requests per minute).  So can you write a bit of code that will throttle my requests
+var pResponse = await pOpenAI.createCompletion( pRequest).  My pRequest has max_tokens: 7.  Does that
+affect how many requests I can make?
+
+
+const wait = require("util").promisify(setTimeout); // Import for throttling
+import { promisify } from "util"; const wait = promisify(setTimeout);
+
+// ... other code
+
+async function throttledCreateCompletion( pRequest, nWaitSecs ) {
+  const startTime   = Date.now();
+  const response    = await pOpenAI.createCompletion( pRequest );
+  const elapsedTime = Date.now() - startTime;
+  const waitTime    = Math.max( 0, (nWaitSecs * 1000) - elapsedTime); // Wait at least 1 second
+  await wait( waitTime );
+  return response;
+  }
+
+async function updateDatabaseUsingGPT() {
+  // ... other code (fetch comments, etc.)
+
+  for (const comment of mComments) {
+    // Construct your prompt here
+
+    try {
+      const response = await throttledCreateCompletion( pRequest );
+      // ... process response
+
+    } catch (error) {
+      // Handle errors appropriately
+    }
+  }
+}
+
+// ... call updateDatabaseUsingGPT()
