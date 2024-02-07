@@ -65,7 +65,7 @@ These two scripts save the comments into the comments table in the MySQL databas
 14. **Write addComments in 01_db_v07-addComments.mjs** 
 15. **Write and run script to add comments into MySQL Database** 
 
-### G. Run comments to against OpenAI model, davinci-002 
+### G. Run comments against OpenAI model, davinci-002 
 Finally we loop though the comments and create a prompt for each one that 
 get submitted to the OpenAI model using the API, We got an error 472 that indicates we
 have exceeded our quota for how many times we can run the model.  This 
