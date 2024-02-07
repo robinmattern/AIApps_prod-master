@@ -52,9 +52,9 @@ make it easier to switch between local and remote MySQL databases
 ### E. Get YouTube comments with Google API 
 
 Next we use the Google YouTube API to get the comments for Adrian's
-YouTube Video.  We create a project at https://console.cloud.google.com/projectcreate
-Then enable the "youtube data api v3" API at: https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3
-And finally we get an API_KEY for it at: https://console.cloud.google.com/apis/credentials?project=aiapps-dev01-robin
+YouTube Video.  We create a project at the [projectcreate page](https://console.cloud.google.com/projectcreate)
+Then enable the "youtube data api v3" API at the [api page](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
+And finally we get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=aiapps-dev01-robin)
 
 11. **Get Google YouTube API_KEY and put it into .env**  
 12. **Write a script to get YouTube comments**  
