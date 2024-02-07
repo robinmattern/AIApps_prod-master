@@ -46,7 +46,7 @@ We will now add a function to insert comment records into the database. We'll al
 make it easier to switch between local and remote MySQL databases
 
  8. **Write an insert function**  [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L156)
- 9. **Write and use a function getDBconfig()**  
+ 9. **Write and use a function getDBconfig()**  [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L185)
 10. **Run the script to insert a sample comment record**  
 
 ### E. Get YouTube comments with Google API 
