@@ -226,7 +226,7 @@
         GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       ```
 
-12. **Write a script to get YouTube comments**  
+#### 12. **Write a script to get YouTube comments**  
     `# nano 02_comments_u01-testAPI.js`  
       ```
           import   dotenv   from 'dotenv'; dotenv.config() 
