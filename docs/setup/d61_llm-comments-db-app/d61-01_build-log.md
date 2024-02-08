@@ -4,12 +4,16 @@
  - **GitHub:** adriantwarog/youtube-comments-openai-gpt3 [Repo](https://github.com/adriantwarog/youtube-comments-openai-gpt3.git)
  - **Project App**: c61_llm-comments-db-app
 
+<span id="b1"></span>
+
 ### B. Setup
  1. **Clone the Repository**  
-    `# cd /e/Repos/Robin/AIApps_/dev01-robin/client6`  
-    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git temp`  
+    `# cd /C/Repos`     
+    `# mkdir -p AIApps_/dev01-{username}/client6`  
+    `# cd       AIApps_/dev01-{username}/client6`  
+    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git c60o_llm-comments-db-app_vOrig`  
 
-        Cloning into 'temp'...
+        Cloning into 'c60o_llm-comments-db-app_vOrig'...
         remote: Enumerating objects: 11, done.
         remote: Counting objects: 100% (11/11), done.
         remote: Compressing objects: 100% (10/10), done.
@@ -17,10 +21,23 @@
         Receiving objects: 100% (11/11), 20.34 KiB | 365.00 KiB/s, done.
 
  2. **Install Node Modules**  
-    `# cp temp/package.json   .` 
-    `# nano package.json`  
-    `# npm install`  
+    `# cp c60o_llm-comments-db-app_vOrig/package.json  .` 
+    `# nano package.json` 
+      ```
+        {
+          "type": "module",
+          "dependencies": {
+            "dotenv": "^16.4.1",
+            "googleapis": "^114.0.0",
+            "mysql2": "^3.2.0",
+            "mysql2-promise": "^0.1.4",
+            "openai": "^3.2.1"
+             }
+           }
+      ```
 
+    `# npm install`  
+      ```
         added 66 packages, and audited 67 packages in 3m
 
         15 packages are looking for funding
@@ -32,13 +49,36 @@
         npm audit fix --force
 
         Run `npm audit` for details.
+      ```
 
  3. **Copy Source Files into App folder**  
-    `# mkdir c60o_llm-comments-db-app_vOrig`  
-    `# mv temp c61_llm-comments-db-app`  
-    `# cp -r ../client0/c01_first-ap c61_llm-comments-db-app`  
+    `# cp -r c60o_llm-comments-db-app_vOrig  c61_llm-comments-db-app`  
+    `# cp -r ../client0/c01_first-ap c61_llm-comments-db-app  # SKIP THIS STEP`  
     `# cd c61_llm-comments-db-app`  
-    `# nano package.json # Edit name and start script`  
+    `# nano package.json  # Edit name, description, author and start scripts`  
+      ```
+        {
+          "name": "aiapps_dev01-robin_client6_app1",
+          "version": "0.1.1",
+          "description": "First Node.js AI Client6 App",
+          "Author": "Robin Mattern",
+          "main": "index_u03.mjs",
+          "scripts": {
+            "start":        "node index_u03.mjs",   
+            "vueDocs":      "bash ../../docs/run-docsify.sh",   
+            "getComments":  "node index_u01.mjs",   
+            "savComments":  "node index_u03.mjs insert",   
+            "runModel":     "node index_u02.mjs",   
+            "test": "echo \"Error: no test specified\" && exit 1"
+          },
+          "keywords": [],
+          "author": "",
+          "license": "ISC",
+          "dependencies": { },
+
+          "type": "module"
+          }
+      ```
 
  4. **Create Database and Table**
    - In MySQL Workbench, create a new schema, named: `comments`

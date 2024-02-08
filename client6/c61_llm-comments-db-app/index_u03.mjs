@@ -84,7 +84,7 @@
 //----------------------------------------------------------
  if (bRun == 0) {
      console.log( "" )
-     console.log( "  Syntax: index_u03.mjs {aCmd}")
+     console.log( "  Syntax:   node index_u03.mjs {aCmd}")
      console.log( "    aCmd    Command" )
      console.log( "    ------  --------------------------------------" )
      console.log( "    test    Test OpenAI model with simple prompt" )

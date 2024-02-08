@@ -1,10 +1,15 @@
 {
   "name": "aiapps_dev01-robin_client6_app1",
   "version": "0.1.1",
-  "description": "First Node.js AI Client0 Apps",
-  "main": "00_main.mjs",
+  "description": "First Node.js AI Client6 App",
+  "Author": "Robin Mattern",
+  "main": "index_u03.mjs",
   "scripts": {
-    "start": "node 00_main.mjs",    
+    "start":        "node index_u03.mjs",   
+    "vueDocs":      "bash ../../docs/run-docsify.sh",   
+    "getComments":  "node index_u01.mjs",   
+    "savComments":  "node index_u03.mjs insert",   
+    "runModel":     "node index_u02.mjs",   
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

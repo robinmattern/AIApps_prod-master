@@ -41,7 +41,9 @@ you will need to get your own API_KEYs from the Google and OpenAI links above an
 - `# node 03_ai_u02-updateDB.js` 
 - `# node index_u02.mjs`  
 
-### B. Setup Project and Database 
+<span id="61B"></span>
+
+### B. Setup Project and Database                   &nbsp; ([view setup](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=b1))
 
 Before writing any code, you will need to create a project folder, clone the repository that goes with the video, 
 install node modules in the client6 folder and setup the app folder.  Finally, if you are using your own MySQL
@@ -80,7 +82,7 @@ And finally you'll get an API_KEY for it at the [apis/library page]( https://con
 12. **Write a script to get YouTube comments**              [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=_12-Write-a-script-to-get-YouTube-comments) 
 13. **Run script to get YouTube comments. Then turn it into a module script**  [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=E13) 
 
-### F. Add YouTube comments to MySQL database               ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f-add-youtube-comments-to-mysql-database))
+### F. Add YouTube comments to MySQL database       &nbsp; ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f-add-youtube-comments-to-mysql-database))
 These two scripts save the comments retreived from the Google YouTube API into the `comments` table in the MySQL database
 
 14. **Write addComments in 01_db_v07-addComments.mjs**      [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L276) 
