@@ -67,8 +67,8 @@ Now you can add a function to insert comment records into the database. Step 9. 
 make it easier to switch between different local and remote MySQL databases.
 
  8. **Write an insert function**                            [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md#D8)
- 9. **Write and use a function getDBconfig()**              [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L185)
-10. **Run the script to insert a sample comment record**    [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L209) 
+ 9. **Write and use a function getDBconfig()**              [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=D9)
+10. **Run the script to insert a sample comment record**    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=D10) 
 
 ### E. Get YouTube comments with Google API 
 
@@ -76,7 +76,7 @@ Next you'll use the Google YouTube API to get the comments for Adrian's YouTube 
 Then enable the "youtube data api v3" API at the [api page](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
 And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
 
-11. **Get Google YouTube API_KEY and put it into .env**     [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L217) 
+11. **Get Google YouTube API_KEY and put it into .env**     [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=E11) 
 12. **Write a script to get YouTube comments**              [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L223) 
 13. **Run script to get YouTube comments. Then turn it into a module script**  [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L257) 
 
