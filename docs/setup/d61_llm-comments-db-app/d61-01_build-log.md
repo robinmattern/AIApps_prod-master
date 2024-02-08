@@ -25,15 +25,15 @@
     `# nano package.json` 
       ```
         {
-          "type": "module",
           "dependencies": {
             "dotenv": "^16.4.1",
-            "googleapis": "^114.0.0",
             "mysql2": "^3.2.0",
             "mysql2-promise": "^0.1.4",
+            "googleapis": "^114.0.0",
             "openai": "^3.2.1"
-             }
-           }
+          },
+          "type": "module"
+        }
       ```
 
     `# npm install`  
