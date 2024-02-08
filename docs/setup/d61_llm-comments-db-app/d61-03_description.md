@@ -19,15 +19,17 @@ requiring a response, not needed a response or offensive.
     - [Google Dev API_KEY Page](https://console.cloud.google.com/apis/credentials?project=)   
     - [SingleStore DB Service](https://www.singlestore.com/cloud-trial/)
     - [Bard Conversation](https://g.co/bard/share/6f48fe97c585)
+    - [App Build Log]((https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L1)
     - [App Build Log 0](d61-01_build-log.md)
     - [App Build Log 1](./d61-01_build-log.md)
     - [App Build Log 2](docs/setup/d61_llm-comments-db-app/d61-01_build-log.md)
     - [App Build Log 3](/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md)
     - [App Build Log 4](./docs/setup/d61_llm-comments-db-app/d61-01_build-log.md)
     - [App Build Log 5](setup/d61_llm-comments-db-app/d61-01_build-log.md)
-    - [App Build Log 6](./setup/d61_llm-comments-db-app/d61-01_build-log.md)
-    - [App Build Log 7](d61_llm-comments-db-app/d61-01_build-log.md)
-    - [App Build Log 8](./d61_llm-comments-db-app/d61-01_build-log.md)
+    - [App Build Log 6](/setup/d61_llm-comments-db-app/d61-01_build-log.md)
+    - [App Build Log 7](./setup/d61_llm-comments-db-app/d61-01_build-log.md)
+    - [App Build Log 8](d61_llm-comments-db-app/d61-01_build-log.md)
+    - [App Build Log 9](./d61_llm-comments-db-app/d61-01_build-log.md)
  - **Modules**:  
    - dotenv v16.4.1
    - mysql2-promise v0.1.4
