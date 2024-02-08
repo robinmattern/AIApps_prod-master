@@ -57,16 +57,16 @@ the YouTube video comments.
 
 These three steps create a script to perform the connection to the MySQL database specified in the .env file. 
 
- 5. **Write a simple DB connect script**                    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L60)
- 6. **Add MySQL config parameters to .env**                 [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md#L104)
- 7. **Run the DB Connect script**                           [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md/#/#L113)
+ 5. **Write a simple DB connect script**                    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md#C5)
+ 6. **Add MySQL config parameters to .env**                 [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md#C6)
+ 7. **Run the DB Connect script**                           [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md/#C8)
 
 ### D. Add a Sample Data Record
 
 Now you can add a function to insert comment records into the database. Step 9. adds a helper function to 
 make it easier to switch between different local and remote MySQL databases.
 
- 8. **Write an insert function**                            [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L157)
+ 8. **Write an insert function**                            [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md#D8)
  9. **Write and use a function getDBconfig()**              [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L185)
 10. **Run the script to insert a sample comment record**    [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L209) 
 

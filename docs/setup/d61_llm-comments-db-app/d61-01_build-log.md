@@ -56,7 +56,7 @@
           )
       ```
 ### C. Connect to a MySQL database
- 5. **Write a simple DB connect script**  
+{#C5} 5. **Write a simple DB connect script**  
     `# cp .env_v03 .env` 
     `# nano 00_db_u01_connect.js`  
       ```
@@ -100,8 +100,8 @@
         //----------------------------------------------------
 
       ```
-
- 6. **Add MySQL config paramerters to .env**  
+{#C6}
+  6. **Add MySQL config paramerters to .env**  
     `# nano .env`  
       ```
            DB3_MYSQL_HOST     = '127.0.0.1';
@@ -110,7 +110,7 @@
            DB3_MYSQL_DATABASE = 'comments';
       ```
 
- 7. **Run the DB Connect script**  
+<a name="C7"></a> 7. **Run the DB Connect script**  
     `# node 00_db_u01_connect.js`
       ```
         Failed to connect to MySQL DB at: '127.0.0.1';.
@@ -152,7 +152,7 @@
 
     `# node 00_db_u01_connect.js`
       ```
-
+<a name="D8"></a>
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
     `# cp 00_db_u01_connect.js 01_db_u01-testInsert.js`  
