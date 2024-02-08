@@ -77,10 +77,10 @@ Then enable the "youtube data api v3" API at the [api page](https://console.clou
 And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
 
 11. **Get Google YouTube API_KEY and put it into .env**     [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=E11) 
-12. **Write a script to get YouTube comments**              [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=12.-Write-a-script-to-get-YouTube-comments) 
-13. **Run script to get YouTube comments. Then turn it into a module script**  [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L257) 
+12. **Write a script to get YouTube comments**              [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=_12-Write-a-script-to-get-YouTube-comments) 
+13. **Run script to get YouTube comments. Then turn it into a module script**  [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=E13) 
 
-### F. Add YouTube comments to MySQL database               ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f.-add-youTube-comments-to-mysql-database))
+### F. Add YouTube comments to MySQL database               ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f-add-youtube-comments-to-mysql-database))
 These two scripts save the comments retreived from the Google YouTube API into the `comments` table in the MySQL database
 
 14. **Write addComments in 01_db_v07-addComments.mjs**      [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L276) 
