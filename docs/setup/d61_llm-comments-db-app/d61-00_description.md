@@ -19,7 +19,7 @@ requiring a response, not needed a response or offensive.
     - [Google Dev API_KEY Page](https://console.cloud.google.com/apis/credentials?project=)   
     - [SingleStore DB Service](https://www.singlestore.com/cloud-trial/)
     - [Bard Conversation](https://g.co/bard/share/6f48fe97c585)
-    - [App Build Log](d61-01_build-log.md)  
+    - [App Build Log](./d61-01_build-log.md)  
  - **Modules**:  
    - dotenv v16.4.1
    - mysql2-promise v0.1.4
