@@ -1,5 +1,4 @@
+*_v[0-9]*
 node_modules
-faiss.index
-docstore.json
 package-lock.json
 .env

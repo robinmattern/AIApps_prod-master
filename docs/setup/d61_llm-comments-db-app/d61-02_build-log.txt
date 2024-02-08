@@ -1,3 +1,0 @@
-Integrate OpenAI GPT3 with a Database
-I'm now going to implement this YouTube tutorial: How to integrate OpenAI GPT3 with a Database - Crash Course - https://www.youtube.com/watch?v=N4nX_rTwKx4
-https://github.com/adriantwarog/youtube-comments-openai-gpt3.git

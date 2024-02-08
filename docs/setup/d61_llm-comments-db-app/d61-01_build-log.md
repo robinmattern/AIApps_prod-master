@@ -1,5 +1,4 @@
 ## Integrate OpenAI GPT3 with a Database
-
 ### A. Background
  - **Title**: How to integrate OpenAI GPT3 with a Databases - Crash Course - [Video](https://www.youtube.com/watch?v=N4nX_rTwKx4)
  - **GitHub:** adriantwarog/youtube-comments-openai-gpt3 [Repo](https://github.com/adriantwarog/youtube-comments-openai-gpt3.git)
@@ -8,7 +7,6 @@
 ### B. Setup
  1. **Clone the Repository**  
     `# cd /e/Repos/Robin/AIApps_/dev01-robin/client6`  
-
     `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git temp`  
 
         Cloning into 'temp'...
@@ -58,8 +56,9 @@
           )
       ```
 ### C. Connect to a MySQL database
- 5. **Write a script**  
-    `# nano 01_db_u05_connect.js`  
+ 5. **Write a simple DB connect script**  
+    `# cp .env_v03 .env` 
+    `# nano 00_db_u01_connect.js`  
       ```
          import dotenv from 'dotenv'; dotenv.config() 
          import mysql  from 'mysql2/promise';
@@ -102,17 +101,17 @@
 
       ```
 
- 6. **Add MySQL Config paramerters to .env**  
+ 6. **Add MySQL config paramerters to .env**  
     `# nano .env`  
       ```
            DB3_MYSQL_HOST     = '127.0.0.1';
            DB3_MYSQL_USER     = 'root';
-           DB3_MYSQL_PASSWORD = 'FormR!1234';
+           DB3_MYSQL_PASSWORD = 'password';
            DB3_MYSQL_DATABASE = 'comments';
       ```
 
- 7. **Run the DB Connection app**  
-    `# node 01_db_u05_connect.js`
+ 7. **Run the DB Connect script**  
+    `# node 00_db_u01_connect.js`
       ```
         Failed to connect to MySQL DB at: '127.0.0.1';.
         ERROR: Error: getaddrinfo ENOTFOUND '127.0.0.1';
@@ -130,7 +129,7 @@
       ```
 
  7. **Modify call to main function to prevent "promise" error**  
-    `# node 01_db_u05_connect.js`  
+    `# node 00_db_u01_connect.js`  
 
         // 01.2 Call main() function
         // 02.1 Add await and process.exit()    
@@ -146,16 +145,18 @@
      The main problem was due to semi-colons after the IP Address. Spaces and quotes are ok.   
     `# nano .env`  
       ```
-           DB3_MYSQL_HOST     = '127.0.0.1'
-           DB3_MYSQL_USER     = 'root'
-           DB3_MYSQL_PASSWORD = 'FormR!1234'
+           DB3_MYSQL_HOST     = 'xxx.xxx.xxx.xxx'
+           DB3_MYSQL_USER     = 'xxxxxx'
+           DB3_MYSQL_PASSWORD = 'xxxxxxxxxx'
            DB3_MYSQL_DATABASE = 'comments'
+
+    `# node 00_db_u01_connect.js`
       ```
 
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
-    `# cp 01_db_u05_connect.js 01_db_u06_insert.js`  
-    `# nano 01_db_u06_insert.js`  
+    `# cp 00_db_u01_connect.js 01_db_u01-testInsert.js`  
+    `# nano 01_db_u01-testInsert.js`  
       ```
         // 03.1 Write insert() function to be run inside main
         //----------------------------------------------------
@@ -182,7 +183,7 @@
       ```
                   
  9. **Write and use a function getDBconfig()**  
-    `# nano 01_db_u06_insert.js`  
+    `# nano 01_db_u01-testInsert.js`  
       ```
           async function main() {
             var pConnection 
@@ -195,18 +196,18 @@
         //----------------------------------------------------
         function getDBconfig(aDB) {                                 // .(40203.05.2 RAM Write getDBconfig())
             var pCfg =  
-                 { host:     process.env[`${aDB}_MYSQL_HOST`]
-                 , user:     process.env[`${aDB}_MYSQL_USER`]
-                 , password: process.env[`${aDB}_MYSQL_PASSWORD`]
-                 , database: process.env[`${aDB}_MYSQL_DATABASE`]
+                 { host:     process.env[`#{aDB}_MYSQL_HOST`]
+                 , user:     process.env[`#{aDB}_MYSQL_USER`]
+                 , password: process.env[`#{aDB}_MYSQL_PASSWORD`]
+                 , database: process.env[`#{aDB}_MYSQL_DATABASE`]
                  , port:     3306 // Default MySQL port
                    } 
          return pCfg            
                 };
         //----------------------------------------------------
       ```
-10. **Run the script to insert a sample comment record**  
-    `# node 01_db_u01.js`   
+10. **Run the script to insert a test comment record**  
+    `# node 01_db_u01-testInsert.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
@@ -220,7 +221,7 @@
       ```
 
 12. **Write a script to get YouTube comments**  
-    `# nano 02_comments_u01.js`  
+    `# nano 02_comments_u01-testAPI.js`  
       ```
           import   dotenv   from 'dotenv'; dotenv.config() 
           import { google } from 'googleapis';
@@ -253,15 +254,27 @@
                 console.log( `YouTube Comments Returned: ${mComments.length}.` );    
       ```
 
-13. **Run the script to get YouTube comments**  
-    `# node 02_comments_u01.js`  
+13. **Run script to get YouTube comments. Then turn it into a module script**  
+    `# node 02_comments_u01-testAPI.js`  
       ```
         YouTube Comments Found: 100.  
       ```
+    `# cp 02_comments_u01-testAPI.js 02_comments_u03-module.mjs`  
+    `# nano 02_comments_u03-module.mjs`  
+      ```
+        // 05.2 Run function getYoutubeComments
+        // -------------------------------------------------
+        //  var mComments = await getYoutubeComments();                           //#.(40204.05.3 RAM Don't run it now)
+        //      console.log( `YouTube Comments Returned: ${mComments.length}.` ); //#.(40204.05.3)
 
+        // 05.3 Export getYoutubeComments
+        // -------------------------------------------------
+         export default getYoutubeComments                                         //#.(40204.05.3 RAM Export getYoutubeComments)
+      ```
+    
 ### F. Add YouTube comments to MySQL database 
 14. **Write addComments in 01_db_v07-addComments.mjs** 
-    `# nano 01_db_v07-addComments.mjs`  
+    `# nano 01_db_u02-addComments.js`  
       ```
         //#01.1 Write main() function which is run at the end
         // 06.1 Change main() into into addComments()) to insert mComments array
@@ -303,25 +316,25 @@
         //#01.2 Call main() function 
         // 06.3 Export addComments() function 
         //----------------------------------------------------
-        //      main()                                              //#.(40204.07.2 RAM Don't run main() now)
-         export default addComments                                 // .(40204.07.2 RAM Export addComments())
+        //      main()                                              //#.(40204.06.3 RAM Don't run main() now)
+         export default addComments                                 // .(40204.06.3 RAM Export addComments())
         //----------------------------------------------------
       ```
 
-15. **Write and run script to add comments into MySQL Database** 
-    `# nano index_v01.mjs`  
+15. **Write and run script to add comments into MySQL DB* 
+    `# nano index_u01.mjs`  
       ```
-        // 06.5 Import two modules
+        // 06.4 Import two modules
         //----------------------------------------------------------
-         import   addComments   from './01_db_v07-addComments.mjs'
-         import   getComments   from './02_comments_u03-module.mjs'
+         import   getComments   from './02_comments_u02-module.mjs'
+         import   addComments   from './01_db_u02-addComments.mjs'
 
-        // 06.6 Get and add comments to database
+        // 06.5 Get and add comments to database
         //----------------------------------------------------------
-            var mComments = await getComments() 
+            var mComments = await getYoutubeComments() 
           await addComments( mComments )
       ```
-    `# node index_v01.mjs`  
+    `# node index_u01.mjs`  
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1118 - '? Try the OpenAI Template - Starter Kit I've made ...'
@@ -331,9 +344,10 @@
         Inserted row id: 1122 - 'GPTs store popular recommendations:<br>1. The magical...
       ```
 
-### G. Run comments to against OpenAI model, davinci-002 
-16. **Write and run script to run comments against OpenAI model** 
-    `$ nano 03_ai_u02-updateDB-byRAM.js` 
+### G. Run comments against OpenAI model, davinci-002 
+16. **Test OpenAI model. Write and run script to run comments against OpenAI model** 
+    `# node 03_ai_u01-testOpenAI.js` 
+    `# nano 03_ai_u02-updateDB.js` 
       ```
         import dotenv from 'dotenv'; dotenv.config() 
         import { Configuration, OpenAIApi } from "openai";
@@ -348,7 +362,7 @@
             var pOpenAI        =  new OpenAIApi( pConfiguration );
 
         //#09.3 Write function updateDatabaseUsingGPT
-        // 09.5 Refactor function updateDatabaseUsingGPT to take m
+        // 09.5 Refactor function updateDatabaseUsingGPT to take aPromptTemplate, mComments as arguments
         // -------------------------------------------------
           async function updateDatabaseUsingGPT( aPromptTemplate, mComments ) {                   // .(40204.09.5 RAM Add Arguments) 
                 mComments  =  mComments ?  mComments : [ { id: 1, commenter: '', comment: '' } ]  // .(40204.09.6 RAM Make mComents optional)
@@ -418,7 +432,7 @@
         // --------------------------------------------------------
 
       ```
-    `$ node 03_ai_u02-updateDB-byRAM.js` 
+    `# node 03_ai_u02-updateDB.js` 
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Selected 20 rows from comments table
@@ -432,8 +446,8 @@
       ```
 
 17. **Add Bard's function, throttledCreateCompletion**
-    `$ cp 03_ai_u02-updateDB-byRAM.js 03_ai_u03-module.mjs` 
-    `$ nano 03_ai_u03-module.mjs` 
+    `# cp 03_ai_u02-updateDB.js 03_ai_u03-module.mjs` 
+    `# nano 03_ai_u03-module.mjs` 
       ```
          import { promisify } from "util"; const wait = promisify( setTimeout );  // .(40206.02.1 BARD Write wait function)
 
@@ -451,15 +465,15 @@
       ```
 
 18. **Write and run simple script to process 5 comments**
-    `$ nano index_v02.mjs` 
+    `# nano index_u02.mjs` 
       ```
-        // 06.5 Import two modules
+        // 06.4 Import two modules
         //----------------------------------------------------------
          import doComments   from './01_db_u03-module.mjs'         // .(40204.07.11 RAM New module)
          import getComments  from './02_comments_u03-module.mjs'
          import updComments  from './03_ai_u03-module.mjs'         // .(40204.10.3 RAM New module)
 
-        // 06.6 Get and add comments to database
+        // 06.5 Get and add comments to database
         //----------------------------------------------------------
             var mComments =  await getComments( 5 ) 
           await doComments( 'connect' )                             // .(40204.07.13 RAM Use new connect option)
@@ -471,7 +485,7 @@
           await doComments( 'connect' )                             // .(40204.07.13 RAM Use new connect option)
           await updComments('all', 'davinci-002' )                 // .(40204.10.4 RAM New AI method)
       ```
-    `# node index_v02.mjs`  
+    `# node index_u02.mjs`  
       ```
         Retreiving 5 comments from google.youtube.commentThreads API
 
@@ -500,7 +514,7 @@
 ### H. Refactor DB and main index scripts 
 19. **Refactor addComments into doComments**
     `# cp 01_db_v07-addComments.mjs 01_db_u03-module.mjs`  
-    `# nano 01_db_u03-module.mjs01_db_u03-module.mjs`  
+    `# nano 01_db_u03-module.mjs`  
       ```
         //#01.1 Write main() function which is run at the end
         //#06.1 Change main() into into addComments()) to insert mComments array
@@ -605,8 +619,8 @@
         //----------------------------------------------------
       ```
 
-20. **Write and run improved script to test multiple processes**
-    `$ nano index_u03.mjs` 
+20. **Write improved script to test multiple processes**
+    `# nano index_u03.mjs` 
       ```
         // 11.3 Import three modules
         //----------------------------------------------------------
@@ -701,10 +715,8 @@
              }
  
 21. **Run improved script to test multiple processes**
-    `$ node index_u03.mjs` 
+    `# node index_u03.mjs` 
       ```
-        $ node index_u03.mjs 
-
           Syntax: index_u03.mjs {aCmd}
             aCmd    Command
             ------  --------------------------------------
@@ -713,7 +725,7 @@
             update  Update comments after running OpenAI model
             select  Select comments with respond = 1
       ```
-    `$ node index_v03.mjs test` 
+    `# node index_u03.mjs test` 
       ```
         Running 1 comments against OpenAI 'davinci-002' model.
         Submitting prompt every 20 secs (16:03:40).

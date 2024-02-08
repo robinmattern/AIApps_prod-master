@@ -1,5 +1,5 @@
 import { promisify } from "util"; const wait = promisify( setTimeout );   // .(40206.02.1 BARD Write wait function)
-import dotenv from 'dotenv'; dotenv.config() 
+import dotenv from 'dotenv'; dotenv.config()
 import { Configuration, OpenAIApi } from "openai";
 import doComments from './01_db_u03-module.mjs'    // .(40204.07.11 RAM New module)
 
@@ -14,10 +14,10 @@ var pConfiguration = new Configuration(
 //#09.3 Write function updateDatabaseUsingGPT
 // 09.5 Refactor function updateDatabaseUsingGPT
 // -------------------------------------------------
-//  async function updateDatabaseUsingGPT(         aPromptTemplate, mComments ) {         // .(40204.09.5 RAM Add Arguments) 
-    async function updateDatabaseUsingGPT( aModel, aPromptTemplate, mComments ) {         // .(40205.13.5 RAM Add aModel) 
+//  async function updateDatabaseUsingGPT(         aPromptTemplate, mComments ) {         // .(40204.09.5 RAM Add Arguments)
+    async function updateDatabaseUsingGPT( aModel, aPromptTemplate, mComments ) {         // .(40205.13.5 RAM Add aModel)
         mComments  =  mComments ?  mComments : [ { id: 1, commenter: '', comment: '' } ]  // .(40204.09.6 RAM Make mComents optional)
-    var nWaitSecs  =  20                                                                  // .(40206.06.1 RAM Add nWaitSecs)
+    var nWaitSecs  =  mComments[0].comment == '' ? 2 : 20                                 // .(40207.14.1 RAM Override 20 secs if testing).(40206.06.1 RAM Add nWaitSecs)
 
         console.log( `Running ${mComments.length} comments against OpenAI '${aModel}' model.` )
         console.log( `Submitting prompt every ${nWaitSecs} secs (${ `${new Date()}`.substr( 16, 8 )}).`) // .(40206.06.2)
@@ -28,20 +28,20 @@ var pConfiguration = new Configuration(
         var aPrompt =  aPromptTemplate.replace( /{Commenter}/, mComments[0].commenter )  // .(40204.09.8)
         var aPrompt =  aPrompt.replace(         /{Comment}/,   mComments[i].comment   )  // .(40204.09.9)
 
-        var pRequest =  
+        var pRequest =
 //           { model :     "davinci-002"                    //#.(40204.09.2 RAM Deprecated: text-davinci-003).(40204.13.6)
              { model :      aModel                          // .(40204.13.6 RAM Add aModel)
-             , prompt:      aPrompt 
+             , prompt:      aPrompt
              , stop:        [ "\n", "User:", "Comment:", "Should Reply:" ]
              , max_tokens:  7
              , temperature: 0
                };
 //      var pResponse = await pOpenAI.createCompletion( pRequest )              //#.(40206.02.2)
-        var pResponse = await throttledCreateCompletion( pRequest, nWaitSecs )  // .(40206.06.1 RAM Add nWaitSecs).(40206.02.2 RAM Run every minute) 
+        var pResponse = await throttledCreateCompletion( pRequest, nWaitSecs )  // .(40206.06.1 RAM Add nWaitSecs).(40206.02.2 RAM Run every minute)
 
-        var aResponse = pResponse.data.choices[0].text.trim().padEnd(3)    
+        var aResponse = pResponse.data.choices[0].text.trim().padEnd(3)
 //          console.log( `Comment Id ${mComments[i].id} response: ${aResponse} (${ `${new Date()}`.substr(16,8)})` );
-        var aMsg = `Comment Id ${mComments[i].id} response: ${aResponse} (${ `${new Date()}`.substr( 16, 8 )})` 
+        var aMsg = `Comment Id ${mComments[i].id} response: ${aResponse} (${ `${new Date()}`.substr( 16, 8 )})`
 
         if (aResponse == "Yes") {
       await doComments(  'update', { set: 'respond = 1', where: `id = ${ mComments[i].id }` } );
@@ -50,7 +50,7 @@ var pConfiguration = new Configuration(
             } // if comment respond = "Yes"
             console.log( aMsg );
 
-        } // eol for each mComments  
+        } // eol for each mComments
 
     } catch( pErr ) {
         console.log(   `Failed to process pOpenAI.createCompletion`);
@@ -58,7 +58,7 @@ var pConfiguration = new Configuration(
         process.exit(1);
 //  } finally {
 //      process.exit()
-        }        
+        }
     } // eof updateDatabaseUsingGPT
 // --------------------------------------------------------
 
@@ -79,31 +79,31 @@ var pConfiguration = new Configuration(
  return pResponse;
         }                                                                 // .(40206.02.3 BARD End)
 // --------------------------------------------------------
-  
+
 // 09.6 Run refactored function, updateDatabaseUsingGPT
-// 10.1 Write function, updComments, for export 
+// 10.1 Write function, updComments, for export
 // -------------------------------------------------
-//async function updComments( aUpdType ) {    
+//async function updComments( aUpdType ) {
   async function updComments( aUpdType, aModel ) {      // .(40205.13.1 RAM Add aModel)
-        aUpdType   =  aUpdType ? aUpdType : 'all'    
+        aUpdType   =  aUpdType ? aUpdType : 'all'
         aModel     =  aModel   ? aModel   : 'ada'       // .(40205.13.2)
     var aPrompt1   = "Say this is a test"
 
     var aPrompt2   = `The following AI tool helps YouTubers identify if a comment can should be replied to or not.\n`
-                    + `Questions and/or asking for advice are good examples of when a reply is needed.\n\n` 
+                    + `Questions and/or asking for advice are good examples of when a reply is needed.\n\n`
                     // Context Example 1
-                    + `User: John Smith\n` 
-                    + `Comment: That was a great video, thanks!\n` 
-                    + `Should Reply: No\n\n` 
+                    + `User: John Smith\n`
+                    + `Comment: That was a great video, thanks!\n`
+                    + `Should Reply: No\n\n`
 
                     // Context Example 2
-                    + `User: Sue Mary\n` 
-                    + `Comment: I'm stuck on step four, how do I do it?\n` 
-                    + `Should Reply: Yes\n\n` 
+                    + `User: Sue Mary\n`
+                    + `Comment: I'm stuck on step four, how do I do it?\n`
+                    + `Should Reply: Yes\n\n`
 
                     // Actual use case
-                    + `User: {Commenter}\n` 
-                    + `Comment: {Comment}\n` 
+                    + `User: {Commenter}\n`
+                    + `Comment: {Comment}\n`
                     + `Should Reply:`
 
     if (aUpdType == 'test') {
@@ -118,8 +118,8 @@ var pConfiguration = new Configuration(
         } // eof updComments
 // -------------------------------------------------
 
-// 10.2 Export function, updateComments 
+// 10.2 Export function, updateComments
 // -------------------------------------------------
    export default updComments
-    
+
 // --------------------------------------------------------
