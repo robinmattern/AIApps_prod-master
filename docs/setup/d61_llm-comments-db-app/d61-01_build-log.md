@@ -112,7 +112,7 @@
            DB3_MYSQL_PASSWORD = 'password';
            DB3_MYSQL_DATABASE = 'comments';
       ```
-<span id="C7"></span>
+<span id="c7"></span>
 
  7. **Run the DB Connect script**  
     `# node 00_db_u01_connect.js`
@@ -156,7 +156,7 @@
 
     `# node 00_db_u01_connect.js`
       ```
-<span id="D8"></span>
+<span id="d8"></span>
 
 ### D. Add a Sample Data Record
  8. **Write an insert function**  

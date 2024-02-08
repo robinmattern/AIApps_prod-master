@@ -57,9 +57,9 @@ the YouTube video comments.
 
 These three steps create a script to perform the connection to the MySQL database specified in the .env file. 
 
- 5. **Write a simple DB connect script**                    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=C5)
- 6. **Add MySQL config parameters to .env**                 [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=C6)
- 7. **Run the DB Connect script**                           [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=C8)
+ 5. **Write a simple DB connect script**                    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c5)
+ 6. **Add MySQL config parameters to .env**                 [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c6)
+ 7. **Run the DB Connect script**                           [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c7)
 
 ### D. Add a Sample Data Record
 
