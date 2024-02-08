@@ -55,8 +55,10 @@
           respond   INT(1)  
           )
       ```
+<span id="c5"></span>
+
 ### C. Connect to a MySQL database
-{#C5} 5. **Write a simple DB connect script**  
+ 5. **Write a simple DB connect script**  
     `# cp .env_v03 .env` 
     `# nano 00_db_u01_connect.js`  
       ```
@@ -100,7 +102,8 @@
         //----------------------------------------------------
 
       ```
-{#C6}
+<span id="c6"></span>
+
   6. **Add MySQL config paramerters to .env**  
     `# nano .env`  
       ```
@@ -109,8 +112,7 @@
            DB3_MYSQL_PASSWORD = 'password';
            DB3_MYSQL_DATABASE = 'comments';
       ```
-
-<a name="c7"></a>
+<span id="C7"></span>
 
  7. **Run the DB Connect script**  
     `# node 00_db_u01_connect.js`
@@ -154,7 +156,8 @@
 
     `# node 00_db_u01_connect.js`
       ```
-<a name="d8"></a>
+<span id="D8"></span>
+
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
     `# cp 00_db_u01_connect.js 01_db_u01-testInsert.js`  
@@ -183,7 +186,7 @@
                   } );
                console.log( `Inserted row id is: ${id}.` );    
       ```
-<div id="d9"></div>  
+<span id="d9"></span>  
 
  9. **Write and use a function getDBconfig()**  
     `# nano 01_db_u01-testInsert.js`  
@@ -209,7 +212,7 @@
                 };
         //----------------------------------------------------
       ```
-<div id="d10"></div>
+<span id="d10"></span>
 
 10. **Run the script to insert a test comment record**    
     `# node 01_db_u01-testInsert.js`   
