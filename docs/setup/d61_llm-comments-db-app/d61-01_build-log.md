@@ -110,7 +110,7 @@
            DB3_MYSQL_DATABASE = 'comments';
       ```
 
-<a name="C7"></a>
+<a name="c7"></a>
 
  7. **Run the DB Connect script**  
     `# node 00_db_u01_connect.js`
@@ -154,7 +154,7 @@
 
     `# node 00_db_u01_connect.js`
       ```
-<a name="D8"></a>
+<a name="d8"></a>
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
     `# cp 00_db_u01_connect.js 01_db_u01-testInsert.js`  
@@ -183,7 +183,7 @@
                   } );
                console.log( `Inserted row id is: ${id}.` );    
       ```
-<div id="D9"></div>  
+<div id="d9"></div>  
 
  9. **Write and use a function getDBconfig()**  
     `# nano 01_db_u01-testInsert.js`  
@@ -209,7 +209,7 @@
                 };
         //----------------------------------------------------
       ```
-<div id="D10"></div>
+<div id="d10"></div>
 
 10. **Run the script to insert a test comment record**    
     `# node 01_db_u01-testInsert.js`   
@@ -217,7 +217,7 @@
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
       ```
-<span id="E11"></span>
+<span id="e11"></span>
 
 ### E. Get YouTube comments with Google API 
 11. **Get Google YouTube API_KEY and put it into .env**  
