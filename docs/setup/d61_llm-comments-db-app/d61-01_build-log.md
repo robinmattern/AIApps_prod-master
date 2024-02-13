@@ -279,9 +279,9 @@
 
 Go to the Google Cloud Console to create a project, enable the YouTube API and get an API key as follows: 
 - Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)
-  ![](./assets/IMGs/d61-00-01_Google-project_v40211.1751.jpg)
+  ![](./assets/IMGs/d61-00-01_Google-project_u40211.1751.jpg)
 - Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
-  ![](./assets/VIDs/d61-00-02_Google-project_v40211.3.gif)
+  ![](./assets/VIDs/d61-00-02_Google-project_u40211.3.gif)
 
 - And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
 
@@ -427,7 +427,7 @@ Go to the Google Cloud Console to create a project, enable the YouTube API and g
 Go to the OpenAI to ...  as follows: 
 - Create a account at the [Create OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
 - Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)
-  ![](./assets/VIDs/d61-00-03_OpenAI-Keys_v40213.5.gif)
+  ![](./assets/VIDs/d61-00-03_OpenAI-Keys_u40213.5.gif)
 
 - And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
 
