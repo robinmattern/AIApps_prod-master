@@ -1,6 +1,7 @@
 
 
-## AI Repo Apps 
+
+## AI Repo Apps ([view docs](https://robinmattern.github.io/AIApps_dev01-robin/#/))
 ### 11. &nbsp; [Fine Tune BERT for Text Classification with TensorFlow](docs/setup/c11_bert-text-classification/README.md)
 ### 12. &nbsp; [Gemini Pro Model App](docs/setup/c12_gemini-pro-model/Gemini-Pro-Model-Tutorial.md)
 ### 13. &nbsp; [First Gemini App    ](docs/setup/1c3_first-gemini-app/ai0103_Setup-1st-Google-Gemini-ML-App.md)
