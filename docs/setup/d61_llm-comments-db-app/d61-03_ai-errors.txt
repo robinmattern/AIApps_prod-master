@@ -1,0 +1,219 @@
+http://127.0.0.1:5500/docs/index.html#/setup/d61_llm-comments-db-app/d61-00_description?id=e1
+
+
+#b1      b1
+#B1      b1
+id=b1    b1
+id=B1    b1
+
+#c1      C1
+#C1      C1
+id=c1    C1
+id=C1    C1
+
+
+AIzaSyC_XwdEp2Qq_ndfx_jZdxTqD8z5iJpWyMw
+
+
+
+git remote set-url origin git@github-sue:suzeeparker/AIApps_dev02-sujzee.git`
+
+
+AIApps-dev01-suzee-c61   OPENAI_API_KEY       = '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'
+AIApps-dev01-robin-c61   OPENAI_API_KEY       = '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'
+
+       OpenAI API returned: . I'm gonna say this is
+
+  `## Possible errors`
+         Failed to process pOpenAI.createCompletion
+         ERROR NaN: Request failed with status code 429
+         ERROR NaN: Request failed with status code 401
+         ERROR NaN: Request failed with status code 400
+
+
+The following AI tool helps YouTubers identify if a comment can should be replied to or not.
+Questions and/or asking for advice are good examples of when a reply is needed.
+
+User: John Smith
+Comment: That was a great video, thanks!
+Should Reply: No
+
+User: Sue Mary
+Comment: I'm stuck on step four, how do I do it?
+Should Reply: Yes
+
+User: @AdrianTwarog
+Comment: 'My first intro to ChatGPT or anything AI - I\'m gonna love it!'
+Should Reply:
+
+
+-----------------------------------------------------------------------
+
+pErr.request.url
+"https://api.openai.com/v1/completions"
+
+pErr.request.method
+post
+
+pErr.request.headers
+POST /v1/completions HTTP/1.1
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+User-Agent: OpenAI/NodeJS/3.3.0
+Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Content-Length: 922
+Host: api.openai.com
+Connection: keep-alive
+
+pErr.request.data
+"{\"model\":\"davinci-002\",\"prompt\":\"The following AI tool helps YouTubers identify if a comment can should be replied to or not.\\nQuestions and/or asking for advice are good examples of when a reply is needed.\\n\\nUser: John Smith\\nComment: That was a great video, thanks!\\nShould Reply: No\\n\\nUser: Sue Mary\\nComment: I'm stuck on step four, how do I do it?\\nShould Reply: Yes\\n\\nUser: @AdrianTwarog\\nComment:  Try the OpenAI Template - Starter Kit I\\\\'ve made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\\\\'ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\\nShould Reply:\",\"stop\":[\"\\n\",\"User:\",\"Comment:\",\"Should Reply:\"],\"max_tokens\":7,\"temperature\":0}"
+
+----------------------------------------------------------------
+
+`      URL: ${pErr.request.url}
+  Headers: ${pErr.request.headers}
+     Data: ${pErr.request.data}`
+
+
+
+aPrompt
+'The following AI tool helps YouTubers identify if a comment can should be replied to or not.
+Questions and/or asking for advice are good examples of when a reply is needed.
+
+User: John Smith
+Comment: That was a great video, thanks!
+Should Reply: No
+
+User: Sue Mary
+Comment: I'm stuck on step four, how do I do it?
+Should Reply: Yes
+
+User: @AdrianTwarog
+Comment: 'My first intro to ChatGPT or anything AI - I\'m gonna love it!'
+Should Reply:'
+
+
+pErr.response.data.error.message
+''$.stop' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.'
+
+URL: https://api.openai.com/v1/completions
+Headers:
+    POST /v1/completions HTTP/1.1
+    Accept: application/json, text/plain, */*
+    Content-Type: application/json
+    User-Agent: OpenAI/NodeJS/3.3.0
+    Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    Content-Length: 922
+    Host: api.openai.com
+    Connection: keep-alive
+Data: "{\"model\":\"davinci-002\",\"prompt\":\"The following AI tool helps YouTubers identify if a comment can should be replied to or not.\\nQuestions and/or asking for advice are good examples of when a reply is needed.\\n\\nUser: John Smith\\nComment: That was a great video, thanks!\\nShould Reply: No\\n\\nUser: Sue Mary\\nComment: I'm stuck on step four, how do I do it?\\nShould Reply: Yes\\n\\nUser: @AdrianTwarog\\nComment:  Try the OpenAI Template - Starter Kit I\\\\'ve made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\\\\'ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\\nShould Reply:\",\"stop\":[\"\\n\",\"User:\",\"Comment:\",\"Should Reply:\"],\"max_tokens\":7,\"temperature\":0}"
+                                   "prompt":  "The following AI tool helps YouTubers identify if a comment can should be replied to or not.\n Questions and/or asking for advice are good examples of when a reply is needed.\n \n User: John Smith\n Comment: That was a great video, thanks!\n Should Reply: No\n \n User: Sue Mary\nComment: I\'m stuck on step four, how do I do it?\n Should Reply: Yes\n \n User: @AdrianTwarog\n Comment: Try the OpenAI Template - Starter Kit I\    've made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\   've built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\n Should Reply:",
+
+
+                                   "prompt":  "The following AI tool helps YouTubers identify if a comment can should be replied to or not.\nQuestions and/or asking for advice are good examples of when a reply is needed.\n\nUser: John Smith\nComment: That was a great video, thanks!\nShould Reply: No\n\nUser: Sue Mary\nComment: I\'m stuck on step four, how do I do it?\nShould Reply: Yes\n\nUser: @AdrianTwarog\nComment: Try the OpenAI Template - Starter Kit I\'ve made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\'ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\nShould Reply:",
+
+
+"prompt": """The following AI tool helps YouTubers identify if a comment can should be replied to or not.
+Questions and/or asking for advice are good examples of when a reply is needed.
+
+User: John Smith
+Comment: That was a great video, thanks!
+Should Reply: No
+
+User: Sue Mary
+Comment: I'm stuck on step four, how do I do it?
+Should Reply: Yes
+
+User: @AdrianTwarog
+Comment: Try the OpenAI Template - Starter Kit I've made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I've built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!
+Should Reply:"""
+
+
+
+curl -X POST https://api.openai.com/v1/completions \
+  -H "Authorization: Bearer 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" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "davinci-002",
+    "prompt": "The following AI tool helps YouTubers identify if a comment can should be replied to or not.\nQuestions and/or asking for advice are good examples of when a reply is needed.\n\nUser: John Smith\nComment: That was a great video, thanks!\nShould Reply: No\n\nUser: Sue Mary\nComment: I\'m stuck on step four, how do I do it?\nShould Reply: Yes\n\nUser: @AdrianTwarog\nComment: Try the OpenAI Template - Starter Kit I\'ve made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\'ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\nShould Reply:",
+    "prompt": "The following AI tool helps YouTubers identify if a comment can should be replied to or not.\nQuestions and/or asking for advice are good examples of when a reply is needed.\n\nUser: John Smith\nComment: That was a great video, thanks!\nShould Reply: No\n\nUser: Sue Mary\nComment: I\'m stuck on step four, how do I do it?\nShould Reply: Yes\n\nUser: @AdrianTwarog\nComment: Try the OpenAI Template - Starter Kit I\'ve made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I\'ve built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!\nShould Reply:",
+    "stop": ["\\n", "User:", "Comment:", "Should Reply:"],
+    "max_tokens": 7,
+    "temperature": 0
+  }' \
+  --verbose
+
+
+  curl -X POST https://api.openai.com/v1/completions \
+    -H "Authorization: Bearer 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" \
+    -H "Content-Type: application/json" \
+    -d '{
+      "model": "davinci-002",
+      "prompt": """The following AI tool helps YouTubers identify if a comment can should be replied to or not.
+Questions and/or asking for advice are good examples of when a reply is needed.
+
+User: John Smith
+Comment: That was a great video, thanks!
+Should Reply: No
+
+User: Sue Mary
+Comment: I'm stuck on step four, how do I do it?
+Should Reply: Yes
+
+User: @AdrianTwarog
+Comment: Try the OpenAI Template - Starter Kit I've made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I've built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!
+Should Reply:"""
+      "stop": ["\\n", "User:", "Comment:", "Should Reply:"],
+      "max_tokens": 7,
+      "temperature": 0
+    }' \
+  --verbose
+
+
+
+
+  const fetch = require('node-fetch');
+
+  // Replace with your API key
+  const apiKey = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  const url = 'https://api.openai.com/v1/completions';
+
+  const data = {
+    model:  "davinci-002",
+    prompt: `The following AI tool helps YouTubers identify if a comment can should be replied to or not.
+    Questions and/or asking for advice are good examples of when a reply is needed.
+
+    User: John Smith
+    Comment: That was a great video, thanks!
+    Should Reply: No
+
+    User: Sue Mary
+    Comment: I'm stuck on step four, how do I do it?
+    Should Reply: Yes
+
+    User: @AdrianTwarog
+    Comment: Try the OpenAI Template - Starter Kit I've made (by Adrian (me!!!))\\r\\nhttps://enhanceui.gumroad.com/l/chatgpt-starter-template \\r\\nThis is new and ready for those looking to kickstart their own app or website using the OpenAI GPT models. I've built it on MERN it should save you over 100 hours if you want to build or test your own ideas! This also supports the channel if you have found these videos of benefit!
+    Should Reply:`,
+    stop: ["\\n", "User:", "Comment:", "Should Reply:"],
+    max_tokens: 7,
+    temperature: 0
+  };
+
+  const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify(data),
+  };
+
+  fetch(url, options)
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    })
+    .catch(error => {
+      console.error(error);
+  });
+

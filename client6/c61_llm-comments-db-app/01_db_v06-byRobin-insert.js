@@ -3,7 +3,7 @@
 
 // 03.1 Write insert() function to be run inside main
 //----------------------------------------------------
-  async function insert( { pConnection, pComment } ) {      // .(40203.03.1 RAM Was create())
+  async function insert( { pConnection, pComment } ) {      // .(40203.03.1 RAM Write insert(), was create())
     const [ results ] = await pConnection.execute(
 //  const   results   = await pConnection.execute(
             'INSERT INTO comments (commentid, commenter, comment, gpt, flag, respond) VALUES ( ?, ?, ?, ?, ?, ? )'

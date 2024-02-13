@@ -1,3 +1,5 @@
+<div style="width: 800px;">
+
 ## Integrate OpenAI GPT3 with a Database
 ### A. Background
  - **Title**: How to integrate OpenAI GPT3 with a Databases - Crash Course - [Video](https://www.youtube.com/watch?v=N4nX_rTwKx4)
@@ -8,26 +10,29 @@
 
 ### B. Setup
  1. **Clone the Repository**  
-    `# cd /C/Repos`     
-    `# mkdir -p AIApps_/dev01-{username}/client6`  
-    `# cd       AIApps_/dev01-{username}/client6`  
-    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git c60o_llm-comments-db-app_vOrig`  
 
-        Cloning into 'c60o_llm-comments-db-app_vOrig'...
-        remote: Enumerating objects: 11, done.
-        remote: Counting objects: 100% (11/11), done.
-        remote: Compressing objects: 100% (10/10), done.
-        remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
-        Receiving objects: 100% (11/11), 20.34 KiB | 365.00 KiB/s, done.
-
- 2. **Install Node Modules**  
-    `# cp c60o_llm-comments-db-app_vOrig/package.json  .` 
-    `# nano package.json` 
+    `# cd /C/Repos`  
+    `# git clone https://github.com/robinmattern/AIApps_dev01-robin  AIApps_/dev01-robin`  
+      ```
+        Cloning into 'AIApps_/dev01-robin'...
+        remote: Enumerating objects: 507, done.
+        remote: Counting objects: 100% (507/507), done.
+        remote: Compressing objects: 100% (372/372), done.
+        remote: Total 507 (delta 245), reused 368 (delta 124), pack-reused 0Receiving objects:  91% (462/507)
+        Receiving objects: 100% (507/507), 2.90 MiB | 19.40 MiB/s, done.
+        Resolving deltas: 100% (245/245), done.
+        Updating files: 100% (310/310), done.
+      ```
+ <span id="b2"></span>
+   
+ 2. **Install Client Node Modules**  
+    `# cd /C/Repos/AIApps_/dev01-username/client6`   
+    `# cp c60o_llm-comments-db-app_vOrig/package.json  package.json`   
+    `# nano package.json`   
       ```
         {
           "dependencies": {
             "dotenv": "^16.4.1",
-            "mysql2": "^3.2.0",
             "mysql2-promise": "^0.1.4",
             "googleapis": "^114.0.0",
             "openai": "^3.2.1"
@@ -35,7 +40,6 @@
           "type": "module"
         }
       ```
-
     `# npm install`  
       ```
         added 66 packages, and audited 67 packages in 3m
@@ -50,18 +54,18 @@
 
         Run `npm audit` for details.
       ```
+<span id="b3"></span>
 
- 3. **Copy Source Files into App folder**  
-    `# cp -r c60o_llm-comments-db-app_vOrig  c61_llm-comments-db-app`  
-    `# cp -r ../client0/c01_first-ap c61_llm-comments-db-app  # SKIP THIS STEP`  
-    `# cd c61_llm-comments-db-app`  
+ 3. **Edit the App package.json file**  
+    `# cd  /C/Repos/AIApps_/dev01-{username}/client6` 
+    `# cd  c61_llm-comments-db-app`  
     `# nano package.json  # Edit name, description, author and start scripts`  
       ```
         {
-          "name": "aiapps_dev01-robin_client6_app1",
+          "name": "aiapps_dev01-username_client6_app1",
           "version": "0.1.1",
           "description": "First Node.js AI Client6 App",
-          "Author": "Robin Mattern",
+          "Author": "{Author_Name}",
           "main": "index_u03.mjs",
           "scripts": {
             "start":        "node index_u03.mjs",   
@@ -79,6 +83,7 @@
           "type": "module"
           }
       ```
+<span id="b4"></span>
 
  4. **Create Database and Table**
    - In MySQL Workbench, create a new schema, named: `comments`
@@ -99,7 +104,9 @@
 
 ### C. Connect to a MySQL database
  5. **Write a simple DB connect script**  
-    `# cp .env_v03 .env` 
+    `# cd /C/Repos/AIApps_/dev01-{username}/client6/` 
+    `# cd  c62_llm-comments-db-app`  
+    `# cp  c62_llm-comments-db-app/.env_v03  .env` 
     `# nano 00_db_u01_connect.js`  
       ```
          import dotenv from 'dotenv'; dotenv.config() 
@@ -144,21 +151,24 @@
       ```
 <span id="c6"></span>
 
-  6. **Add MySQL config paramerters to .env**  
+ 6. **Add MySQL config paramerters to .env**  
     `# nano .env`  
       ```
-           DB3_MYSQL_HOST     = '127.0.0.1';
-           DB3_MYSQL_USER     = 'root';
-           DB3_MYSQL_PASSWORD = 'password';
-           DB3_MYSQL_DATABASE = 'comments';
+           GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+           OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+
+           DB2_MYSQL_HOST     = 'xxx.xxx.xxx.xxx';
+           DB2_MYSQL_USER     = 'xxxxxx';
+           DB2_MYSQL_PASSWORD = 'xxxxxxxxxx';
+           DB2_MYSQL_DATABASE = 'comments';
       ```
 <span id="c7"></span>
 
  7. **Run the DB Connect script**  
     `# node 00_db_u01_connect.js`
       ```
-        Failed to connect to MySQL DB at: '127.0.0.1';.
-        ERROR: Error: getaddrinfo ENOTFOUND '127.0.0.1';
+        Failed to connect to MySQL DB at: 'xxx.xxx.xxx.xxx';.
+        ERROR: Error: getaddrinfo ENOTFOUND 'xxx.xxx.xxx.xxx';
             at Object.createConnection (E:\Repos\Robin\AIApps_\dev01-robin\client6\node_modules\mysql2\promise.js:253:31)
             at main (file:///E:/Repos/Robin/AIApps_/dev01-robin/client6/c61_llm-comments-db-app/01_db_v03-byRobin-error.js:11:35)
             at file:///E:/Repos/Robin/AIApps_/dev01-robin/client6/c61_llm-comments-db-app/01_db_v03-byRobin-error.js:37:9
@@ -171,6 +181,7 @@
           sqlState: undefined
         }
       ```
+<span id="b7a"></span>
 
  7. **Modify call to main function to prevent "promise" error**  
     `# node 00_db_u01_connect.js`  
@@ -184,6 +195,8 @@
      This was caused by using `async/await` with the plain `'mysql2'` module. 
      It was fixed by importing `'mysql/promise'`. Calling `main()`
      without the `await` or `process.exit()` then worked fine.
+
+<span id="b7b"></span>
 
  7. **Remove the semi-colons in .env**  
      The main problem was due to semi-colons after the IP Address. Spaces and quotes are ok.   
@@ -260,16 +273,28 @@
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
       ```
+<span id="e10"></span>
+
+### E. Get YouTube comments with Google API   
+
+Go to the Google Cloud Console to create a project, enable the YouTube API and get an API key as follows: 
+- Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)
+  ![](./assets/IMGs/d61-00-01_Google-project_v40211.1751.jpg)
+- Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
+  ![](./assets/VIDs/d61-00-02_Google-project_v40211.3.gif)
+
+- And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
+
 <span id="e11"></span>
 
-### E. Get YouTube comments with Google API 
-11. **Get Google YouTube API_KEY and put it into .env**  
+11. **Put the Google YouTube API_KEY into .env**   
     `# nano .env`   
       ```
         GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       ```
+<span id="e12"></span>
 
-#### 12. **Write a script to get YouTube comments**  
+12. **Write a script to get YouTube comments**  
     `# nano 02_comments_u01-testAPI.js`  
       ```
           import   dotenv   from 'dotenv'; dotenv.config() 
@@ -302,6 +327,7 @@
             var mComments = await getYoutubeComments();                           
                 console.log( `YouTube Comments Returned: ${mComments.length}.` );    
       ```
+<span id="e13"></span>
 
 13. **Run script to get YouTube comments. Then turn it into a module script**  
     `# node 02_comments_u01-testAPI.js`  
@@ -320,6 +346,7 @@
         // -------------------------------------------------
          export default getYoutubeComments                                         //#.(40204.05.3 RAM Export getYoutubeComments)
       ```
+<span id="f14"></span>
     
 ### F. Add YouTube comments to MySQL database 
 14. **Write addComments in 01_db_v07-addComments.mjs** 
@@ -369,8 +396,9 @@
          export default addComments                                 // .(40204.06.3 RAM Export addComments())
         //----------------------------------------------------
       ```
+<span id="f15"></span>
 
-15. **Write and run script to add comments into MySQL DB* 
+15. **Write and run script to add comments into MySQL DB** 
     `# nano index_u01.mjs`  
       ```
         // 06.4 Import two modules
@@ -392,11 +420,74 @@
         Inserted row id: 1121 - '0:00: ?? This video is a crash course on using Ope...'
         Inserted row id: 1122 - 'GPTs store popular recommendations:<br>1. The magical...
       ```
+<span id="g10"></span>
 
-### G. Run comments against OpenAI model, davinci-002 
-16. **Test OpenAI model. Write and run script to run comments against OpenAI model** 
-    `# node 03_ai_u01-testOpenAI.js` 
-    `# nano 03_ai_u02-updateDB.js` 
+### G. Run the YouTube comments against OpenAI model, davinci-002 
+
+Go to the OpenAI to ...  as follows: 
+- Create a account at the [Create OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
+- Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)
+  ![](./assets/VIDs/d61-00-03_OpenAI-Keys_v40213.5.gif)
+
+- And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
+
+<span id="g16"></span>
+
+16. **Get OpenAI API_KEY and put it into .env**   
+    `# nano .env`   
+      ```
+        GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+      ```
+<span id="g17"></span>
+
+17. **Write and run a script to test OpenAI model**  
+    `# nano 03_ai_u01-testOpenAI.js`  
+      ```
+      import dotenv from 'dotenv'; dotenv.config()
+      import { Configuration, OpenAIApi } from "openai";
+
+      // 09.1 Set OpenAI API_KEY
+      // -------------------------------------------------
+          var pConfiguration = new Configuration(
+              { apiKey      : process.env.OPENAI_API_KEY
+      //       , organization: process.env.OPENAI_ORG
+                } );
+
+      // 09.2 Run test of OpenAI createCompletion
+      try {
+        var pOpenAI = new OpenAIApi( pConfiguration );
+        var pResponse  = await pOpenAI.createCompletion(
+            { model       : "davinci-002"                               // .(40204.9.2 RAM Deprecated: text-davinci-003)
+            , prompt      : "Say this is a test"
+            , max_tokens  :  7
+            , temperature :  0
+              } );
+
+        var aResponse = pResponse.data.choices[0].text.trim()
+            console.log(   `\nOpenAI API returned: ${aResponse}` );
+
+        } catch( pErr ) {
+            console.log(   `\nFailed to process pOpenAI.createCompletion`);
+            console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
+            process.exit(1);
+        } finally {
+            process.exit()
+            }
+      ```
+    `# node 03_ai_u01-testOpenAI.js`  
+      ```
+        OpenAI API returned: . I'm gonna say this is
+      
+        ## Possible errors   
+        Failed to process pOpenAI.createCompletion
+        ERROR NaN: Request failed with status code 429  
+        ERROR NaN: Request failed with status code 401             
+      ```
+<span id="g18"></span>
+
+18. **Write and run script to run comments against OpenAI model**    
+    `# nano 03_ai_u02-updateDB.js`   
       ```
         import dotenv from 'dotenv'; dotenv.config() 
         import { Configuration, OpenAIApi } from "openai";
@@ -479,9 +570,8 @@
               updateDatabaseUsingGPT( aPrompt2, mComments2 );
 
         // --------------------------------------------------------
-
       ```
-    `# node 03_ai_u02-updateDB.js` 
+    `# node 03_ai_u02-updateDB.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Selected 20 rows from comments table
@@ -493,13 +583,14 @@
         ERROR NaN: Request failed with status code 429
         Process exited with code 1
       ```
+<span id="g19"></span>
 
-17. **Add Bard's function, throttledCreateCompletion**
-    `# cp 03_ai_u02-updateDB.js 03_ai_u03-module.mjs` 
-    `# nano 03_ai_u03-module.mjs` 
+19. **Add Bard's function, throttledCreateCompletion**   
+    `# cp 03_ai_u02-updateDB.js 03_ai_u03-module.mjs`   
+    `# nano 03_ai_u03-module.mjs`   
       ```
          import { promisify } from "util"; const wait = promisify( setTimeout );  // .(40206.02.1 BARD Write wait function)
-
+            ... 
             var pResponse = await throttledCreateCompletion( pRequest, nWaitSecs) // .(40206.06.1 RAM Add nWaitSecs).(40206.02.2 RAM Run every minute) 
             ... 
           async function throttledCreateCompletion( pRequest, nWaitSecs ) {       // .(40206.06.1).(40206.02.3 BARD Write function)
@@ -512,9 +603,10 @@
          return pResponse;
                 }                                                                 // .(40206.02.3 BARD End)
       ```
+<span id="g20"></span>
 
-18. **Write and run simple script to process 5 comments**
-    `# nano index_u02.mjs` 
+20. **Write and run simple script to process 5 comments**   
+    `# nano index_u02.mjs`   
       ```
         // 06.4 Import two modules
         //----------------------------------------------------------
@@ -559,11 +651,12 @@
 
         AI Model update completed.
       ```
+<span id="h21"></span>
 
-### H. Refactor DB and main index scripts 
-19. **Refactor addComments into doComments**
-    `# cp 01_db_v07-addComments.mjs 01_db_u03-module.mjs`  
-    `# nano 01_db_u03-module.mjs`  
+### H. Refactor DB and main index scripts    
+21. **Refactor addComments into doComments**   
+    `# cp 01_db_v07-addComments.mjs 01_db_u03-module.mjs`    
+    `# nano 01_db_u03-module.mjs`    
       ```
         //#01.1 Write main() function which is run at the end
         //#06.1 Change main() into into addComments()) to insert mComments array
@@ -667,9 +760,10 @@
          export default doComments                                  // .(40204.07.10 RAM Export doComments())
         //----------------------------------------------------
       ```
+<span id="h22"></span>
 
-20. **Write improved script to test multiple processes**
-    `# nano index_u03.mjs` 
+22. **Write improved script to test multiple processes**   
+    `# nano index_u03.mjs`   
       ```
         // 11.3 Import three modules
         //----------------------------------------------------------
@@ -762,9 +856,10 @@
              console.log( "    update  Update comments after running OpenAI model" )
              console.log( "    select  Select comments with respond = 1" )
              }
+<span id="h23"></span>
  
-21. **Run improved script to test multiple processes**
-    `# node index_u03.mjs` 
+23. **Run improved script to test multiple processes**   
+    `# node index_u03.mjs`   
       ```
           Syntax: index_u03.mjs {aCmd}
             aCmd    Command
@@ -774,7 +869,7 @@
             update  Update comments after running OpenAI model
             select  Select comments with respond = 1
       ```
-    `# node index_u03.mjs test` 
+    `# node index_u03.mjs test`   
       ```
         Running 1 comments against OpenAI 'davinci-002' model.
         Submitting prompt every 20 secs (16:03:40).
@@ -783,3 +878,75 @@
         AI Model test completed.      
       ```
 
+<span id="i24"></span>
+
+### I. Create your own repository    
+
+24. **Setup a new repository**    
+    `## -- To create and save your own repository`    
+    `# cd  /C/Repos`     
+    `# git init /AIApps_/dev01-username`   
+    `# git git config --global core.eol lf`   
+    `# git git config user.name  "User Name"`   
+    `# git git config user.email "user.name@domain.com"`   
+    `# git remote set-url origin git@github-usr:accountname/AIApps_dev01-username.git`   
+    `# gh  repo create AIApps_dev01-username --public`     
+    `# git config --local --list`   
+    ```
+        Initialized empty Git repository in C:/Repos/AIApps_/dev01-username/.git/
+        ✓ Created repository accountname/AIApps_dev01-username on GitHub
+        remote.origin.url=git@github-sue:accountname/AIApps_dev01-username.git
+        remote.origin.fetch=+refs/heads/master:refs/remotes/origin/master
+        user.name=User Name
+        user.email=user.name@domain.com
+    ```
+<span id="i25"></span>
+
+25. **Create an empty app folder in client6 from template**    
+    `# cd /C/Repos/AIApps_`    
+    `# cp -r dev01-robin/._2/FRTs/MT  dev01-username`   
+    `# cp -r dev01-robin/client0      dev01-username/client6`   
+    `# cd dev01-username/client6`  
+    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git  c60o_llm-comments-db-app_vOrig`
+
+        Cloning into 'c60o_llm-comments-db-app_vOrig'...
+        remote: Enumerating objects: 11, done.
+        remote: Counting objects: 100% (11/11), done.
+        remote: Compressing objects: 100% (10/10), done.
+        remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
+        Receiving objects: 100% (11/11), 20.34 KiB | 365.00 KiB/s, done.git config --global core.eol lf
+
+<span id="i26"></span>
+
+26. **Update your repository in Github**    
+    `# cd  /C/Repos/AIApps_/dev01-username`     
+    `# echo .env >.gitignore`   
+    `# git add .`   
+    `# git commit -a "First Commit"`   
+    `# git push`     
+
+      [main (root-commit) 3494b45] First Commit
+      4 files changed, 3 insertions(+)
+      create mode 100644 .gitignore
+ 
+      Enumerating objects: 5, done.
+      Counting objects: 100% (5/5), done.
+      Delta compression using up to 24 threads
+      Compressing objects: 100% (2/2), done.
+      Writing objects: 100% (5/5), 304 bytes | 304.00 KiB/s, done.
+      Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+      To github-sue:suzeeparker/AIApps_dev02-suzee.git
+      * [new branch]      main -> main
+      branch 'main' set up to track 'origin/main'.    
+
+<span id="i27"></span>
+
+27. **Update your or the master repository from Github**   
+
+    `## -- Backup the repository if necessary`   
+    `# cp /C/Repos/AIApps_/dev01-username  /C/Repos/AIApps_/dev01-username_vYMMDD`  
+    `# cd /C/Repos/AIApps_/dev01-username`   
+    `# git pull`    
+
+<div style="height:1000px;"></div>
+</div>
