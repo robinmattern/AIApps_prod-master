@@ -10,8 +10,8 @@
 
 ### B. Setup
  1. **Clone the Repository**  
-    - Open Windows Command or Git Bash terminal  
-    `# cd "C:\Repos"  
+    - Open Windows Command or Git Bash terminal   
+    `# cd "C:\Repos"    
     `# git clone https://github.com/robinmattern/AIApps_prod-master  AIApps`
       ```
         Cloning into 'AIApps_/dev01-robin'...
@@ -60,8 +60,8 @@
 <span id="b3"></span>
 
  3. **Edit the App package.json file**  
-    - In VSCode, open New Integrated Terminal 
-    `# cd ./client6/c61_llm-comments-db-app`  
+    - In VSCode, open New Integrated Terminal   
+    `# cd ./client6/c61_llm-comments-db-app`    
     `# nano package.json  # Edit name, description, author and start scripts`  
       ```
         {
@@ -89,8 +89,8 @@
 <span id="b4"></span>
 
  4. **Create Database and Table**
-   - In MySQL Workbench, create a new schema, named: `comments`
-   - Create a new table, named: `comments`  
+   - In MySQL Workbench, create a new schema, named: `comments`  
+   - Create a new table, named: `comments`    
       ```
         USE comments;  
         CREATE TABLE comments(  
@@ -107,9 +107,9 @@
 
 ### C. Connect to a MySQL database
  5. **Write a simple DB connect script**  
-    - In VSCode, open New Integrated Terminal 
-    `# cd ./client6/c61*` 
-    `# nano 00_db_u01-connect.js`  
+    - In VSCode, open New Integrated Terminal   
+    `# cd ./client6/c61*`   
+    `# nano 00_db_u01-connect.js`    
       ```
          import dotenv from 'dotenv'; dotenv.config() 
          import mysql  from 'mysql2/promise';
@@ -152,8 +152,8 @@
 <span id="c6"></span>
 
  6. **Add MySQL config paramerters to .env**  
-    `# cp .env_u03  .env` 
-    `# nano .env`  
+    `# cp .env_u03  .env`   
+    `# nano .env`    
       ```
            GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
            OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
@@ -174,8 +174,8 @@
 
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
-    - In VSCode, open New Integrated Terminal 
-    `# cd ./client6/c61*` 
+    - In VSCode, open New Integrated Terminal   
+    `# cd ./client6/c61*`   
     `# nano 00_db_u01-testInsert.js`  
       ```
         // 03.1 Write insert() function to be run inside main
@@ -204,7 +204,7 @@
 <span id="d9"></span>  
 
  9. **Write and use a function getDBconfig()**  
-    `# nano 00_db_u01-testInsert.js`  
+    `# nano 00_db_u01-testInsert.js`   
       ```
           async function main() {
             var pConnection 
@@ -248,8 +248,8 @@ Go to the Google Cloud Console to create a project, enable the YouTube API and g
 <span id="e11"></span>
 
 11. **Put the Google YouTube API_KEY into .env**   
-    - In VSCode, open New Integrated Terminal 
-    `# cd ./client6/c61*` 
+    - In VSCode, open New Integrated Terminal   
+    `# cd ./client6/c61*`   
     `# nano .env`   
       ```
         GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
