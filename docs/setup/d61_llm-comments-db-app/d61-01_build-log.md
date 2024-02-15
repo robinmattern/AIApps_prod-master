@@ -12,7 +12,7 @@
  1. **Clone the Repository**  
     - Open Windows Command or Git Bash terminal   
     `# cd "C:\Repos"    
-    `# git clone https://github.com/robinmattern/AIApps_prod-master  AIApps`
+    ```# git clone https://github.com/robinmattern/AIApps_prod-master  AIApps ```   
       ```
         Cloning into 'AIApps_/dev01-robin'...
         remote: Enumerating objects: 507, done.
@@ -23,13 +23,14 @@
         Resolving deltas: 100% (245/245), done.
         Updating files: 100% (310/310), done.
       ```   
-    `# code AIApps.code-workspace`
+    `# cd AIApps`   
+    `# code AIApps.code-workspace`   
       ```
  <span id="b2"></span>
    
  2. **Install Client Node Modules**  
-    - In VSCode, open New Integrated Terminal 
-    `# cd ./client6`   
+    - In VSCode, open New Integrated Terminal    
+    `# cd ./client6`    
     `# cat package.json`   
       ```
         {
