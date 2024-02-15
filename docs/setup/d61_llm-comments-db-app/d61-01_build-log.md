@@ -10,9 +10,9 @@
 
 ### B. Setup
  1. **Clone the Repository**  
-
-    `# cd /C/Repos`  
-    `# git clone https://github.com/robinmattern/AIApps_dev01-robin  AIApps_/dev01-robin`  
+    - Open Windows Command or Git Bash terminal  
+    `# cd "C:\Repos"  
+    `# git clone https://github.com/robinmattern/AIApps_prod-master  AIApps`
       ```
         Cloning into 'AIApps_/dev01-robin'...
         remote: Enumerating objects: 507, done.
@@ -22,17 +22,20 @@
         Receiving objects: 100% (507/507), 2.90 MiB | 19.40 MiB/s, done.
         Resolving deltas: 100% (245/245), done.
         Updating files: 100% (310/310), done.
+      ```   
+    `# code AIApps.code-workspace`
       ```
  <span id="b2"></span>
    
  2. **Install Client Node Modules**  
-    `# cd /C/Repos/AIApps_/dev01-username/client6`   
-    `# cp c60o_llm-comments-db-app_vOrig/package.json  package.json`   
-    `# nano package.json`   
+    - In VSCode, open New Integrated Terminal 
+    `# cd ./client6`   
+    `# cat package.json`   
       ```
         {
           "dependencies": {
             "dotenv": "^16.4.1",
+            "mysql2": "^3.9.1",
             "mysql2-promise": "^0.1.4",
             "googleapis": "^114.0.0",
             "openai": "^3.2.1"
@@ -57,14 +60,14 @@
 <span id="b3"></span>
 
  3. **Edit the App package.json file**  
-    `# cd  /C/Repos/AIApps_/dev01-{username}/client6` 
-    `# cd  c61_llm-comments-db-app`  
+    - In VSCode, open New Integrated Terminal 
+    `# cd ./client6/c61_llm-comments-db-app`  
     `# nano package.json  # Edit name, description, author and start scripts`  
       ```
         {
-          "name": "aiapps_dev01-username_client6_app1",
+          "name": "aiapps_client6-c61_llm-comments-db-app",
           "version": "0.1.1",
-          "description": "First Node.js AI Client6 App",
+          "description": "First Node.js AI Client App to label YouTube comments using OpenAI model",
           "Author": "{Author_Name}",
           "main": "index_u03.mjs",
           "scripts": {
@@ -96,22 +99,20 @@
           commenter VARCHAR(64),  
           comment   VARCHAR(512),  
           gpt       VARCHAR(512),  
-          flag      INT(1),  
-          respond   INT(1)  
+          flag      INT,  
+          respond   INT  
           )
       ```
 <span id="c5"></span>
 
 ### C. Connect to a MySQL database
  5. **Write a simple DB connect script**  
-    `# cd /C/Repos/AIApps_/dev01-{username}/client6/` 
-    `# cd  c62_llm-comments-db-app`  
-    `# cp  c62_llm-comments-db-app/.env_v03  .env` 
-    `# nano 00_db_u01_connect.js`  
+    - In VSCode, open New Integrated Terminal 
+    `# cd ./client6/c61*` 
+    `# nano 00_db_u01-connect.js`  
       ```
          import dotenv from 'dotenv'; dotenv.config() 
          import mysql  from 'mysql2/promise';
-        //mport mysql  from 'mysql2';
 
         // 01.1 Write main() function which is run at the end
         //----------------------------------------------------
@@ -119,17 +120,17 @@
             var pConnection 
             try {
             var pConnection = await mysql.createConnection(
-                  { host:     process.env.DB2_MYSQL_HOST
-                  , user:     process.env.DB2_MYSQL_USER
-                  , password: process.env.DB2_MYSQL_PASSWORD
-                  , database: process.env.DB2_MYSQL_DATABASE
+                  { host:     process.env.DB1_MYSQL_HOST
+                  , user:     process.env.DB1_MYSQL_USER
+                  , password: process.env.DB1_MYSQL_PASSWORD
+                  , database: process.env.DB1_MYSQL_DATABASE
                   , port:     3306 // Default MySQL port
         //        , pool:     true 
                   } );
-                console.log(   `Successful connection to MySQL DB at: ${process.env.DB2_MYSQL_HOST}.`);
+                console.log(   `Successful connection to MySQL DB at: ${process.env.DB1_MYSQL_HOST}`);
 
             } catch( pErr ) {
-                console.log(   `Failed to connect to MySQL DB at: ${process.env.DB2_MYSQL_HOST}.`);
+                console.log(   `Failed to connect to MySQL DB at: ${process.env.DB1_MYSQL_HOST}`);
         //      console.error( `ERROR:`,  pErr );
         //      console.error( `ERROR: ${ pErr }` );
                 console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
@@ -147,74 +148,35 @@
                 main() 
 
         //----------------------------------------------------
-
       ```
 <span id="c6"></span>
 
  6. **Add MySQL config paramerters to .env**  
+    `# cp .env_u03  .env` 
     `# nano .env`  
       ```
            GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
            OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-           DB2_MYSQL_HOST     = 'xxx.xxx.xxx.xxx';
-           DB2_MYSQL_USER     = 'xxxxxx';
-           DB2_MYSQL_PASSWORD = 'xxxxxxxxxx';
+           DB2_MYSQL_HOST     = '127.0.0.1';
+           DB2_MYSQL_USER     = 'root';
+           DB2_MYSQL_PASSWORD = 'FormR!1234';
            DB2_MYSQL_DATABASE = 'comments';
       ```
 <span id="c7"></span>
 
  7. **Run the DB Connect script**  
-    `# node 00_db_u01_connect.js`
+    `# node 00_db_u01-connect.js`
       ```
-        Failed to connect to MySQL DB at: 'xxx.xxx.xxx.xxx';.
-        ERROR: Error: getaddrinfo ENOTFOUND 'xxx.xxx.xxx.xxx';
-            at Object.createConnection (E:\Repos\Robin\AIApps_\dev01-robin\client6\node_modules\mysql2\promise.js:253:31)
-            at main (file:///E:/Repos/Robin/AIApps_/dev01-robin/client6/c61_llm-comments-db-app/01_db_v03-byRobin-error.js:11:35)
-            at file:///E:/Repos/Robin/AIApps_/dev01-robin/client6/c61_llm-comments-db-app/01_db_v03-byRobin-error.js:37:9
-            at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
-            at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
-            at async loadESM (node:internal/process/esm_loader:34:7)
-            at async handleMainPromise (node:internal/modules/run_main:113:12) {
-          code: 'ENOTFOUND',
-          errno: -3008,
-          sqlState: undefined
-        }
-      ```
-<span id="b7a"></span>
-
- 7. **Modify call to main function to prevent "promise" error**  
-    `# node 00_db_u01_connect.js`  
-
-        // 01.2 Call main() function
-        // 02.1 Add await and process.exit()    
-        //----------------------------------------------------
-                await main() 
-                process.exit() 
-
-     This was caused by using `async/await` with the plain `'mysql2'` module. 
-     It was fixed by importing `'mysql/promise'`. Calling `main()`
-     without the `await` or `process.exit()` then worked fine.
-
-<span id="b7b"></span>
-
- 7. **Remove the semi-colons in .env**  
-     The main problem was due to semi-colons after the IP Address. Spaces and quotes are ok.   
-    `# nano .env`  
-      ```
-           DB3_MYSQL_HOST     = 'xxx.xxx.xxx.xxx'
-           DB3_MYSQL_USER     = 'xxxxxx'
-           DB3_MYSQL_PASSWORD = 'xxxxxxxxxx'
-           DB3_MYSQL_DATABASE = 'comments'
-
-    `# node 00_db_u01_connect.js`
+        Successful connection to MySQL DB at: 127.0.0.1
       ```
 <span id="d8"></span>
 
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
-    `# cp 00_db_u01_connect.js 01_db_u01-testInsert.js`  
-    `# nano 01_db_u01-testInsert.js`  
+    - In VSCode, open New Integrated Terminal 
+    `# cd ./client6/c61*` 
+    `# nano 00_db_u01-testInsert.js`  
       ```
         // 03.1 Write insert() function to be run inside main
         //----------------------------------------------------
@@ -242,7 +204,7 @@
 <span id="d9"></span>  
 
  9. **Write and use a function getDBconfig()**  
-    `# nano 01_db_u01-testInsert.js`  
+    `# nano 00_db_u01-testInsert.js`  
       ```
           async function main() {
             var pConnection 
@@ -268,7 +230,7 @@
 <span id="d10"></span>
 
 10. **Run the script to insert a test comment record**    
-    `# node 01_db_u01-testInsert.js`   
+    `# node 00_db_u01-testInsert.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
@@ -278,16 +240,16 @@
 ### E. Get YouTube comments with Google API   
 
 Go to the Google Cloud Console to create a project, enable the YouTube API and get an API key as follows: 
-- Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)
-  ![](./assets/IMGs/d61-00-01_Google-project_u40211.1751.jpg)
-- Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
-  ![](./assets/VIDs/d61-00-02_Google-project_u40211.3.gif)
-
-- And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
+- Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)  
+- Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)  
+- And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=) <br>   
+  ![](./assets/VIDs/d61-00-02_Google-Keys_v40214.13.gif)
 
 <span id="e11"></span>
 
 11. **Put the Google YouTube API_KEY into .env**   
+    - In VSCode, open New Integrated Terminal 
+    `# cd ./client6/c61*` 
     `# nano .env`   
       ```
         GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
@@ -426,10 +388,8 @@ Go to the Google Cloud Console to create a project, enable the YouTube API and g
 
 Go to the OpenAI to ...  as follows: 
 - Create a account at the [Create OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
-- Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)
+- Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)  <br>  
   ![](./assets/VIDs/d61-00-03_OpenAI-Keys_u40213.5.gif)
-
-- And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)
 
 <span id="g16"></span>
 

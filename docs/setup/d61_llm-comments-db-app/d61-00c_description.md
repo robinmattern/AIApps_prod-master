@@ -45,7 +45,7 @@ a
 - Setup Project and MySQL Database    ([view info id=c1](/setup/d61_llm-comments-db-app/d61-00c_description.md?id=c1))
 - Setup Project and MySQL Database    ([view info id=C1](/setup/d61_llm-comments-db-app/d61-00c_description.md?id=C1))
 
-- `# cp .env_u03 .env; nano .env`     [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c6)
+- `# cp .env_u03 .env; nano .env`     [view code](setup/d61_llm-comments-db-app/d61-01_build-log_v20414.md?id=c6)
 - `# node 02_comments_u01-testAPI.js` [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e12)  
 - `# node 03_ai_u01-testOpenAI.js`    [view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=E11)
 
