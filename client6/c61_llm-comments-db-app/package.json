@@ -1,7 +1,7 @@
 {
-  "name": "aiapps_dev01-robin_client6_app1",
+  "name": "aiapps_client6-c61_llm-comments-db-app",
   "version": "0.1.1",
-  "description": "First Node.js AI Client6 App",
+  "description": "First Node.js AI Client App to label YouTube comments using OpenAI model",
   "Author": "Robin Mattern",
   "main": "index_u03.mjs",
   "scripts": {

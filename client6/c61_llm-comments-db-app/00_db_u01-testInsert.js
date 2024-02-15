@@ -17,10 +17,10 @@
 //----------------------------------------------------
   async function main() {
     var pConnection
-    var pDBconfig = getDBconfig( 'DB2' )                    // .(40203.01.1 RAM Use getDBconfig())
+    var pDBconfig = getDBconfig( 'DB1' )                    // .(40203.01.1 RAM Use getDBconfig())
     try {
     var pConnection = await mysql.createConnection( pDBconfig )
-        console.log( `\nSuccessful connection to MySQL DB at: ${pDBconfig.host}.`);
+        console.log( `\nSuccessful connection to MySQL DB at: ${pDBconfig.host}`);
 
 // 03.2 Use insert() function inside main
 //----------------------------------------------------
@@ -36,7 +36,7 @@
         console.log( `Inserted row id: ${id}.` );
 
     } catch( pErr ) {
-        console.log(   `\nFailed to connect to MySQL DB at: ${pDBconfig.host}.`);
+        console.log(   `\nFailed to connect to MySQL DB at: ${pDBconfig.host}`);
         console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
         process.exit(1);
     } finally {
