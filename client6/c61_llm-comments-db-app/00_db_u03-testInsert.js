@@ -52,17 +52,3 @@
         main()
 
 //----------------------------------------------------
-
-// 04.1 Write getDBconfig() function to be run inside main
-//----------------------------------------------------
-function getDBconfig(aDB) {                                 // .(40203.01.2 RAM Write getDBconfig())
-    var pCfg =
-         { host:     process.env[`${aDB}_MYSQL_HOST`]
-         , user:     process.env[`${aDB}_MYSQL_USER`]
-         , password: process.env[`${aDB}_MYSQL_PASSWORD`]
-         , database: process.env[`${aDB}_MYSQL_DATABASE`]
-         , port:     3306 // Default MySQL port
-           }
- return pCfg
-        };
-//----------------------------------------------------

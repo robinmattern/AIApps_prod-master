@@ -61,15 +61,14 @@
 <span id="b3"></span>
 
  3. **Edit the App package.json file**  
-    - In VSCode, open New Integrated Terminal   
-    `# cd ./client6/c61_llm-comments-db-app`    
-    `# nano package.json  # Edit name, description, author and start scripts`  
+    `# cd ./c61_llm-comments-db-app`    
+    `# cat package.json`  
       ```
         {
           "name": "aiapps_client6-c61_llm-comments-db-app",
           "version": "0.1.1",
           "description": "First Node.js AI Client App to label YouTube comments using OpenAI model",
-          "Author": "{Author_Name}",
+          "Author": "Robin Mattern",
           "main": "index_u03.mjs",
           "scripts": {
             "start":        "node index_u03.mjs",   
@@ -89,8 +88,8 @@
       ```
 <span id="b4"></span>
 
- 4. **Create Database and Table**
-   - In MySQL Workbench, create a new schema, named: `comments`  
+ 4. **Create Database and Table**   
+   - In MySQL Workbench, create a new schema, named: `comments`   
    - Create a new table, named: `comments`    
       ```
         USE comments;  
@@ -107,10 +106,10 @@
 <span id="c5"></span>
 
 ### C. Connect to a MySQL database
- 5. **Write a simple DB connect script**  
+ 5. **Write a simple DB connect script**   
     - In VSCode, open New Integrated Terminal   
     `# cd ./client6/c61*`   
-    `# nano 00_db_u01-connect.js`    
+    `# cat 00_db_u01-connect.js`    
       ```
          import dotenv from 'dotenv'; dotenv.config() 
          import mysql  from 'mysql2/promise';
@@ -152,17 +151,17 @@
       ```
 <span id="c6"></span>
 
- 6. **Add MySQL config paramerters to .env**  
-    `# cp .env_u03  .env`   
-    `# nano .env`    
+ 6. **Add MySQL config paramerters to .env**   
+    `# cp  .env_u03  .env`   
+    `# cat .env`    
       ```
            GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
            OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-           DB2_MYSQL_HOST     = '127.0.0.1';
-           DB2_MYSQL_USER     = 'root';
-           DB2_MYSQL_PASSWORD = 'FormR!1234';
-           DB2_MYSQL_DATABASE = 'comments';
+           DB2_MYSQL_HOST     = '127.0.0.1'
+           DB2_MYSQL_USER     = 'root'
+           DB2_MYSQL_PASSWORD = 'FormR!1234'
+           DB2_MYSQL_DATABASE = 'comments'
       ```
 <span id="c7"></span>
 
@@ -176,8 +175,8 @@
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
     - In VSCode, open New Integrated Terminal   
-    `# cd ./client6/c61*`   
-    `# nano 00_db_u01-testInsert.js`  
+    `# cd ./client6/c61*`  
+    `# cat 00_db_u01-testInsert.js`  
       ```
         // 03.1 Write insert() function to be run inside main
         //----------------------------------------------------
@@ -205,7 +204,7 @@
 <span id="d9"></span>  
 
  9. **Write and use a function getDBconfig()**  
-    `# nano 00_db_u01-testInsert.js`   
+    `# cat 00_db_u02-testInsert.js`   
       ```
           async function main() {
             var pConnection 
@@ -231,7 +230,7 @@
 <span id="d10"></span>
 
 10. **Run the script to insert a test comment record**    
-    `# node 00_db_u01-testInsert.js`   
+    `# node 00_db_u02-testInsert.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
