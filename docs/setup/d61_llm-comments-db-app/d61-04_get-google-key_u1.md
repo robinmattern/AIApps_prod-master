@@ -65,5 +65,4 @@
 
 + End +
 
-([Return to details](./d61-01_build-log.md?id=e10)) 
-
+11. **Put Google YouTube API_KEY .env**     ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e11)) 
