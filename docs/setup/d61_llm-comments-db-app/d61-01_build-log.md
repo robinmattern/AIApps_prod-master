@@ -243,7 +243,7 @@ Go to the Google Cloud Console to create a project, enable the YouTube API and g
 - Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)
 - Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
 - And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)<br><br>
-For a long list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-04_get-google-key_v1.md). <br><br>
+For a long list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-04_get-google-key_u1.md). <br><br>
   ![](./assets/VIDs/d61-00-02_Google-Keys_u40214.13.gif "-gifcontrol-mode=click;")
 
 <span id="e11"></span>
