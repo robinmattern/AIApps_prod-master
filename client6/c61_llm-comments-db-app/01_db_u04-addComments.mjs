@@ -18,7 +18,7 @@
 //----------------------------------------------------
   async function addComments( mComments) {                  // .(40204.07.1 RAM Change main() into addComments())
    var pConnection 
-   var pDBconfig = getDBconfig( 'DB3' )                    // .(40205.01.1 RAM Use getDBconfig())   
+   var pDBconfig = getDBconfig( 'DB1' )                    // .(40205.01.1 RAM Use getDBconfig())   
    try {
    var pConnection = await mysql.createConnection( pDBconfig )
     console.log( `Successful connection to MySQL DB at: ${pDBconfig.host}.`);

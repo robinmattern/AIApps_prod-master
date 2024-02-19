@@ -20,3 +20,4 @@ with the app **61). LLM Comments DB App** based on a tutorial by Adrian Twarog.
 14). [Text to SQL in CoLab](docs/setup/c14_text-to-sql/LangChain-SerpAPI-App.md)  
 59). [Langchain SQL App   ](docs/setup/c59_Langchain-sql-app/c59_Langchain-sql-app.md)  
 61). [LLM Command DB App  ](docs/setup/d61_llm-comments-db-app/d61-00_description.md)   
+62). [Google Photos App   ](setup/d62_google-photos-app/d62-00_description.md) 

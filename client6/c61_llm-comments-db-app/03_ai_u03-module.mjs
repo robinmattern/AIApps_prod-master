@@ -1,7 +1,7 @@
 import { promisify } from "util"; const wait = promisify( setTimeout );   // .(40206.02.1 BARD Write wait function)
 import   dotenv      from 'dotenv'; dotenv.config()
 import { Configuration, OpenAIApi } from "openai";
-import   doComments  from './01_db_u03-module.mjs'    // .(40204.07.11 RAM New module)
+import   doComments  from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
 
 // 09.1 Set OpenAI API_KEY
 // -------------------------------------------------

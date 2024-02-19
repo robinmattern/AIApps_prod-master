@@ -1,6 +1,6 @@
 // 06.4 Import two modules
 //----------------------------------------------------------
- import   addComments   from './01_db_u02-addComments.mjs'
+ import   addComments   from './01_db_u04-addComments.mjs'
  import   getComments   from './02_comments_u03-module.mjs'
 
 // 06.5 Get and add comments to database

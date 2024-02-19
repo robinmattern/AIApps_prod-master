@@ -22,9 +22,9 @@
   async function doComments( aVerb, mComments) {            // .(40204.07.1 RAM Change addComments() into execComments() )
     var pConnection 
 
-//  var pDBconfig = getDBconfig( 'DB3' )                    //#.(40203.05.1 RAM Use getDBconfig())
+//  var pDBconfig = getDBconfig( 'DB1' )                    //#.(40203.05.1 RAM Use getDBconfig())
     if (TheDB > "") {
-//  var aDB       =  mComments ? mComments : 'DB3'          // .(40205.01.1)
+//  var aDB       =  mComments ? mComments : 'DB1'          // .(40205.01.1)
     var pDBconfig =  getDBconfig( TheDB )                   // .(40205.01.2 RAM Use DB arg).(40203.05.1 RAM Use getDBconfig())
         pConnection = await mysql.createConnection( pDBconfig )
 //      console.log( `Successful connection to MySQL DB at: ${pDBconfig.host}.`);
@@ -94,7 +94,7 @@ for (let i = 0; i < mComments.length; i++) {               // .(40204.06.1 RAM A
 // 07.8 Connect
 //----------------------------------------------------
   case 'connect':                                           // .)40204.07.8 RAM Added verb: connect)
-    var aDB       =  mComments ? mComments : 'DB3'          // .(40205.01.1)
+    var aDB       =  mComments ? mComments : 'DB1'          // .(40205.01.1)
     var pDBconfig = getDBconfig(  aDB  )                    // .(40205.01.2 RAM Use DB arg).(40203.05.1 RAM Use getDBconfig())
         pConnection = await mysql.createConnection( pDBconfig )
         console.log( `\nSuccessful connection to MySQL DB at: ${pDBconfig.host}.`);

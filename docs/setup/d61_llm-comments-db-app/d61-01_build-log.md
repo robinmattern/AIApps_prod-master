@@ -208,7 +208,7 @@
       ```
           async function main() {
             var pConnection 
-            var pDBconfig = getDBconfig( 'DB3' )                    // .(40203.05.1 RAM Use getDBconfig())
+            var pDBconfig = getDBconfig( 'DB1' )                    // .(40203.05.1 RAM Use getDBconfig())
             try {
             var pConnection = await mysql.createConnection( pDBconfig )
                 ... 
@@ -313,14 +313,14 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
     
 ### F. Add YouTube comments to MySQL database 
 14. **Write addComments in 01_db_v07-addComments.mjs** 
-    `# nano 01_db_u02-addComments.js`  
+    `# nano 01_db_u04-addComments.js`  
       ```
         //#01.1 Write main() function which is run at the end
         // 06.1 Change main() into into addComments()) to insert mComments array
         //----------------------------------------------------
         //async function addComments( mComments) {                  // .(40204.07.1 RAM Change main() into addComments())
             var pConnection 
-            var pDBconfig = getDBconfig( 'DB3' )                    // .(40203.05.1 RAM Use getDBconfig())
+            var pDBconfig = getDBconfig( 'DB1' )                    // .(40203.05.1 RAM Use getDBconfig())
             try {
             var pConnection = await mysql.createConnection( pDBconfig )
                 console.log( `Successful connection to MySQL DB at: ${pDBconfig.host}.`);
@@ -367,7 +367,7 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
         // 06.4 Import two modules
         //----------------------------------------------------------
          import   getComments   from './02_comments_u02-module.mjs'
-         import   addComments   from './01_db_u02-addComments.mjs'
+         import   addComments   from './01_db_u04-addComments.mjs'
 
         // 06.5 Get and add comments to database
         //----------------------------------------------------------
@@ -452,7 +452,7 @@ Go to the OpenAI to ...  as follows:
       ```
         import dotenv from 'dotenv'; dotenv.config() 
         import { Configuration, OpenAIApi } from "openai";
-        import doComments from './01_db_u03-module.mjs'    // .(40204.07.11 RAM New module)
+        import doComments from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
 
         // 09.1 Set OpenAI API_KEY
         // -------------------------------------------------
@@ -571,7 +571,7 @@ Go to the OpenAI to ...  as follows:
       ```
         // 06.4 Import two modules
         //----------------------------------------------------------
-         import doComments   from './01_db_u03-module.mjs'         // .(40204.07.11 RAM New module)
+         import doComments   from './01_db_u05-module.mjs'         // .(40204.07.11 RAM New module)
          import getComments  from './02_comments_u03-module.mjs'
          import updComments  from './03_ai_u03-module.mjs'         // .(40204.10.3 RAM New module)
 
@@ -616,8 +616,8 @@ Go to the OpenAI to ...  as follows:
 
 ### H. Refactor DB and main index scripts    
 21. **Refactor addComments into doComments**   
-    `# cp 01_db_v07-addComments.mjs 01_db_u03-module.mjs`    
-    `# nano 01_db_u03-module.mjs`    
+    `# cp 01_db_v07-addComments.mjs 01_db_u05-module.mjs`    
+    `# nano 01_db_u05-module.mjs`    
       ```
         //#01.1 Write main() function which is run at the end
         //#06.1 Change main() into into addComments()) to insert mComments array
@@ -626,7 +626,7 @@ Go to the OpenAI to ...  as follows:
         //async function addComments( mComments) {                  //#.(40204.07.1 RAM Change main() into addComments())
           async function doComments( aVerb, mComments ) {           // .(40204.07.4 RAM Change addComments() into execComments() )
             var pConnection 
-            var pDBconfig = getDBconfig( 'DB3' )                    // .(40203.05.1 RAM Use getDBconfig())
+            var pDBconfig = getDBconfig( 'DB1' )                    // .(40203.05.1 RAM Use getDBconfig())
             try {
             var pConnection = await mysql.createConnection( pDBconfig )
         //      console.log( `Successful connection to MySQL DB at: ${pDBconfig.host}.`);
@@ -729,11 +729,11 @@ Go to the OpenAI to ...  as follows:
         // 11.3 Import three modules
         //----------------------------------------------------------
         //mport addComments        from './01_db_u02-module.mjs'  
-         import doComments         from './01_db_u03-module.mjs'    // .(40204.07.11 RAM New module)
+         import doComments         from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
          import getComments        from './02_comments_u03-module.mjs'
          import updComments        from './03_ai_u03-module.mjs'    // .(40204.10.3 RAM New module)
 
-            var TheDB    = 'DB3'
+            var TheDB    = 'DB1'
 
             var TheCount =  20            // .(40206.04.6 RAM Add TheCount) 
 
@@ -868,9 +868,9 @@ Go to the OpenAI to ...  as follows:
     `# cp -r dev01-robin/._2/FRTs/MT  dev01-username`   
     `# cp -r dev01-robin/client0      dev01-username/client6`   
     `# cd dev01-username/client6`  
-    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git  c60o_llm-comments-db-app_vOrig`
+    `# git clone https://github.com/adriantwarog/youtube-comments-openai-gpt3.git  c61o_llm-comments-db-app_vOrig`
 
-        Cloning into 'c60o_llm-comments-db-app_vOrig'...
+        Cloning into 'c61o_llm-comments-db-app_vOrig'...
         remote: Enumerating objects: 11, done.
         remote: Counting objects: 100% (11/11), done.
         remote: Compressing objects: 100% (10/10), done.

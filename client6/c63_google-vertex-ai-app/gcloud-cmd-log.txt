@@ -1,0 +1,833 @@
+
+    `$ gcloud >gcloud-help.txt`
+
+        ERROR: (gcloud) Command name argument expected.
+        Command name argument expected.
+
+        Available command groups for gcloud:
+
+          AI and Machine Learning
+              ai                      Manage entities in Vertex AI.
+              ai-platform             Manage AI Platform jobs and models.
+              ml                      Use Google Cloud machine learning capabilities.
+              ml-engine               Manage AI Platform jobs and models.
+              notebooks               Notebooks Command Group.
+              workbench               Workbench Command Group.
+
+          API Platform and Ecosystems
+              api-gateway             Manage Cloud API Gateway resources.
+              apigee                  Manage Apigee resources.
+              endpoints               Create, enable and manage API services.
+              recommender             Manage Cloud recommendations and recommendation rules.
+              services                List, enable and disable APIs and services.
+
+          Anthos CLI
+              anthos                  Anthos command Group.
+
+          Batch
+              batch                   Manage Batch resources.
+
+          Billing
+              billing                 Manage billing accounts and associate them with projects.
+
+          CI/CD
+              artifacts               Manage Artifact Registry resources.
+              builds                  Create and manage builds for Google Cloud Build.
+              deploy                  Create and manage Cloud Deploy resources.
+              scheduler               Manage Cloud Scheduler jobs and schedules.
+              tasks                   Manage Cloud Tasks queues and tasks.
+
+          Compute
+              app                     Manage your App Engine deployments.
+              bms                     Manage Bare Metal Solution resources.
+              compute                 Create and manipulate Compute Engine resources.
+              container               Deploy and manage clusters of machines for running containers.
+              edge-cloud              Manage edge-cloud resources.
+              functions               Manage Google Cloud Functions.
+              run                     Manage your Cloud Run applications.
+              vmware                  Manage Google Cloud VMware Engine resources.
+
+          Data Analytics
+              composer                Create and manage Cloud Composer Environments.
+              data-catalog            Manage Data Catalog resources.
+              dataflow                Manage Google Cloud Dataflow resources.
+              dataplex                Manage Dataplex resources.
+              dataproc                Create and manage Google Cloud Dataproc clusters and jobs.
+              looker                  Manage Looker resources.
+              metastore               Manage Dataproc Metastore resources.
+              pubsub                  Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
+
+          Databases
+              alloydb                 Create and manage AlloyDB databases.
+              bigtable                Manage your Cloud Bigtable storage.
+              database-migration      Manage Database Migration Service resources.
+              datastore               Manage your Cloud Datastore resources.
+              datastream              Manage Cloud Datastream resources.
+              firestore               Manage your Cloud Firestore resources.
+              memcache                Manage Cloud Memorystore Memcached resources.
+              redis                   Manage Cloud Memorystore Redis resources.
+              spanner                 Command groups for Cloud Spanner.
+              sql                     Create and manage Google Cloud SQL databases.
+
+          Identity
+              active-directory        Manage Managed Microsoft AD resources.
+              identity                Manage Cloud Identity Groups and Memberships resources.
+
+          Identity and Security
+              access-approval         Manage Access Approval requests and settings.
+              access-context-manager  Manage Access Context Manager resources.
+              auth                    Manage oauth2 credentials for the Google Cloud CLI.
+              iam                     Manage IAM service accounts and keys.
+              iap                     Manage IAP policies.
+              kms                     Manage cryptographic keys in the cloud.
+              org-policies            Create and manage Organization Policies.
+              policy-intelligence     A platform to help better understand, use and manage policies at scale.
+              policy-troubleshoot     Troubleshoot Google Cloud Platform policies.
+              privateca               Manage private Certificate Authorities on Google Cloud.
+              publicca                Manage accounts for Google Trust Services' Certificate Authority.
+              recaptcha               Manage reCAPTCHA Enterprise Keys.
+              resource-manager        Manage Cloud Resources.
+              resource-settings       Create and manage Resource Settings.
+              secrets                 Manage secrets on Google Cloud.
+
+          Internet of Things
+              iot                     *(DEPRECATED)*  Manage Cloud IoT resources.
+
+          Management Tools
+              cloud-shell             Manage Google Cloud Shell.
+              deployment-manager      Manage deployments of cloud resources.
+              essential-contacts      Manage Essential Contacts.
+              infra-manager           Manage Infra Manager resources.
+              logging                 Manage Cloud Logging.
+              organizations           Create and manage Google Cloud Platform Organizations.
+              projects                Create and manage project access policies.
+
+          Mobile
+              firebase                Work with Google Firebase.
+
+          Monitoring
+              monitoring              Manage Cloud Monitoring dashboards.
+
+          Network Security
+              network-security        Manage Network Security resources.
+
+          Networking
+              certificate-manager     Manage SSL certificates for your Google Cloud projects.
+              dns                     Manage your Cloud DNS managed-zones and record-sets.
+              domains                 Manage domains for your Google Cloud projects.
+              edge-cache              Manage Media CDN resources.
+              ids                     Manage Cloud IDS.
+              network-connectivity    Manage Network Connectivity Center resources.
+              network-management      Manage Network Management resources.
+              network-services        Manage Network Services resources.
+              service-directory       Command groups for Service Directory.
+              telco-automation        Manage Telco Automation resources.
+
+          Other
+              immersive-stream        Manage Immersive Stream resources.
+              workspace-add-ons       Manage Google Workspace Add-ons resources.
+
+          SDK Tools
+              beta                    Beta versions of gcloud commands.
+              components              List, install, update, or remove Google Cloud CLI components.
+              config                  View and edit Google Cloud CLI properties.
+              emulators               Set up your local development environment using emulators.
+              source                  Cloud git repository commands.
+              topic                   gcloud supplementary help.
+
+          Security
+              asset                   Manage the Cloud Asset Inventory.
+              assured                 Read and manipulate Assured Workloads data controls.
+              scc                     Manage Cloud SCC resources.
+
+          Serverless
+              eventarc                Manage Eventarc resources.
+
+          Solutions
+              healthcare              Manage Cloud Healthcare resources.
+              transcoder              Manage Transcoder jobs and job templates.
+
+          Storage
+              backup-dr               Manage Backup and DR resources.
+              filestore               Create and manipulate Filestore resources.
+              netapp                  Create and manipulate Cloud NetApp Files resources.
+              storage                 Create and manage Cloud Storage buckets and objects.
+
+          Tools
+              workflows               Manage your Cloud Workflows resources.
+              workstations            Manage Cloud Workstations resources.
+
+          Transfer
+              transfer                Manage Transfer Service jobs, operations, and agents.
+
+        Available commands for gcloud:
+
+          Other
+              cheat-sheet             Display gcloud cheat sheet.
+              docker                  *(DEPRECATED)*  Enable Docker CLI access to Google Container Registry.
+              survey                  Invoke a customer satisfaction survey for Google Cloud CLI.
+
+          SDK Tools
+              feedback                Provide feedback to the Google Cloud CLI team.
+              help                    Search gcloud help text.
+              info                    Display information about the current gcloud environment.
+              init                    Initialize or reinitialize gcloud.
+              version                 Print version information for Google Cloud CLI components.
+
+--------------------------------------------------------------------------------------
+
+    `# gcloud`
+
+         Usage: gcloud [optional flags] <group | command>
+
+           group may be   access-approval | access-context-manager |
+                          active-directory | ai | ai-platform | alloydb |
+                          anthos | api-gateway | apigee | app | artifacts |
+                          asset | assured | auth | backup-dr | batch | beta |
+                          bigtable | billing | bms | builds |
+                          certificate-manager | cloud-shell | components |
+                          composer | compute | config | container |
+                          data-catalog | database-migration | dataflow |
+                          dataplex | dataproc | datastore | datastream | deploy |
+                          deployment-manager | dns | domains | edge-cache |
+                          edge-cloud | emulators | endpoints |
+                          essential-contacts | eventarc | filestore | firebase |
+                          firestore | functions | healthcare | iam | iap |
+                          identity | ids | immersive-stream | infra-manager |
+                          iot | kms | logging | looker | memcache | metastore |
+                          ml | ml-engine | monitoring | netapp |
+                          network-connectivity | network-management |
+                          network-security | network-services | notebooks |
+                          org-policies | organizations | policy-intelligence |
+                          policy-troubleshoot | privateca | projects | publicca |
+                          pubsub | recaptcha | recommender | redis |
+                          resource-manager | resource-settings | run | scc |
+                          scheduler | secrets | service-directory | services |
+                          source | spanner | sql | storage | tasks |
+                          telco-automation | topic | transcoder | transfer |
+                          vmware | workbench | workflows | workspace-add-ons |
+                          workstations
+           command may be cheat-sheet | docker | feedback | help | info | init |
+                          survey | version
+
+--------------------------------------------------------------------------------------
+
+    `# gcloud info`
+
+         Google Cloud SDK             [464.0.0]
+
+         Platform:                    [Windows, x86_64] uname_result(system='Windows', node='rm228d-w11p', release='11', version='10.0.22631', machine='AMD64')
+         Locale:                      ('English_United States', '1252')
+         Python Version:              [3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]]
+         Python Location:             [C:\Users\Robin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe]
+         OpenSSL:                     [OpenSSL 3.0.13 30 Jan 2024]
+         Requests Version:            [2.25.1]
+         urllib3 Version:             [1.26.9]
+         Default CA certs file:       [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\third_party\certifi\cacert.pem]
+         Site Packages:               [Disabled]
+
+         Installation Root:           [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk]
+         Installed Components:
+           beta:                      [2024.02.09]
+           bq:                        [2.0.101]
+           core:                      [2024.02.09]
+           gcloud-crc32c:             [1.0.0]
+           gsutil:                    [5.27]
+         System PATH:                 [C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Robin\bin;C:\Home\._0\Cmder\vendor\conemu-maximus5;C:\Home\._0\Cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;E:\WEBs\8020\VMs\et218t\webs\nodeapps\FRTools_\prod1-master\._2\bin;C:\home\.0\bin;E:\usr\bin;C:\Home\._0\bin;C:\Home\._0\Cmds;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Installs\oracle\instantclient_19_19;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Microsoft SQL Server\110\DTS\Binn;C:\Program Files\SparkLabs\OpenVPN Configuration Generator;C:\Users\robin\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;node_modules\.bin;E:\Repos\Robin\AIApps_\dev01-robin_v40212\client6\node_modules\.bin;C:\Program Files (x86)\PDFtk\bin;C:\Program Files\TortoiseGit\bin;C:\Python39\Scripts;C:\Python39;C:\Users\robin\AppDa;C:\Program Files\WinMerge;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\GitHub CLI;D:\INSTs\SQlite;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Robin\AppData\Local\Microsoft\WindowsApps;C:\Users\Robin\AppData\Local\nvs\default;C:\Users\Robin\AppData\Local\nvs]
+         Python PATH:                 [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\third_party;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\python312.zip;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\DLLs;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0]
+         Cloud SDK on PATH:           [True]
+         Kubectl on PATH:             [False]
+
+         Installation Properties:     [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\properties]
+         User Config Directory:       [C:\Users\Robin\AppData\Roaming\gcloud]
+         Active Configuration Name:   [default]
+         Active Configuration Path:   [C:\Users\Robin\AppData\Roaming\gcloud\configurations\config_default]
+
+         Account:                     [robin.mattern@gmail.com]
+         Project:                     [photos-dev02-rob-1693697865078]
+
+         Current Properties:
+           [accessibility]
+             screen_reader:           [False] (property file)
+           [core]
+             account:                 [robin.mattern@gmail.com] (property file)
+             disable_usage_reporting: [True] (property file)
+             project:                 [photos-dev02-rob-1693697865078] (property file)
+
+         Logs Directory:              [C:\Users\Robin\AppData\Roaming\gcloud\logs]
+         Last Log File:               [C:\Users\Robin\AppData\Roaming\gcloud\logs\2024.02.18\10.34.06.897666.log]
+
+         git:                         [git version 2.38.1.windows.1]
+         ssh:                         [OpenSSH_9.0p1, OpenSSL 1.1.1q  5 Jul 2022]
+
+ --------------------------------------------------------------------------------
+
+    `# gcloud projects create --help`
+
+         gcloud projects - create and manage project access policies
+
+         SYNOPSIS
+             gcloud projects COMMAND [GCLOUD_WIDE_FLAG ...]
+
+         DESCRIPTION
+             The gcloud projects group lets you create and manage IAM policies for
+             projects on the Google Cloud Platform. Resources are organized
+             hierarchically and assigned to a particular project. A Project resource is
+             required to use Google Cloud Platform, and forms the basis for creating,
+             enabling and using all Cloud Platform services, managing APIs, enabling
+             billing, adding and removing collaborators, and managing permissions.
+
+             More information on the Cloud Platform Resource Hierarchy and the project
+             resource can be found here: https://cloud.google.com/resource-manager/docs/creating-managing-organization
+             and detailed documentation on creating and managing projects can be found
+             here: https://cloud.google.com/resource-manager/docs/creating-managing-projects
+
+         GCLOUD WIDE FLAGS
+             These flags are available to all commands: --help.
+
+             Run $ gcloud help for details.
+
+         COMMANDS
+             COMMAND is one of the following:
+
+              add-iam-policy-binding            Add IAM policy binding for a project.
+              create                            Create a new project.
+              delete                            Delete a project.
+              describe                          Show metadata for a project.
+              get-ancestors                     Get the ancestors for a project.
+              get-ancestors-iam-policy          Get IAM policies for a project and its ancestors.
+              get-iam-policy                    Get IAM policy for a project.
+              list                              List projects accessible by the active account.
+              remove-iam-policy-binding         Remove IAM policy binding for a project.
+              set-iam-policy                    Set IAM policy for a project.
+              undelete                          Undelete a project.
+              update                            Update the name of a project.
+
+         NOTES
+             This variant is also available:
+
+                $ gcloud beta projects
+
+----------------------------------------------------------------------------------------
+
+    `# gcloud projects delete --help`
+
+        NAME
+            gcloud projects delete - delete a project
+
+        SYNOPSIS
+            gcloud projects delete PROJECT_ID_OR_NUMBER [GCLOUD_WIDE_FLAG ...]
+
+        DESCRIPTION
+            Deletes the project with the given project ID.
+
+            This command can fail for the following reasons:
+              o The project specified does not exist.
+              o The active account does not have IAM role role/owner or another IAM
+                role with the resourcemanager.projects.delete permission for the given
+                project.
+
+            See Access control for projects using IAM
+            (https://cloud.google.com/resource-manager/docs/access-control-proj) for
+            more information.
+
+        EXAMPLES
+            The following command deletes the project with the ID example-foo-bar-1:
+
+                $ gcloud projects delete example-foo-bar-1
+
+        POSITIONAL ARGUMENTS
+             PROJECT_ID_OR_NUMBER
+                ID or number for the project you want to delete.
+
+        GCLOUD WIDE FLAGS
+            These flags are available to all commands: --access-token-file, --account,
+            --billing-project, --configuration, --flags-file, --flatten, --format,
+            --help,            --impersonate-service-account, --log-http, --project, --quiet,
+            --trace-token,     --user-output-enabled, --verbosity.
+
+            Run $ gcloud help for details.
+
+        SEE ALSO
+            See https://support.google.com/cloud/answer/6251787 for information on
+            creating or deleting projects from the Google Cloud Platform Console.
+
+        NOTES
+            This variant is also available:
+
+                $ gcloud beta projects delete
+
+----------------------------------------------------------------------------------------
+
+    `$ gcloud projects list`
+
+        PROJECT_ID                      NAME                        PROJECT_NUMBER
+        aiapps-dev01-robin              AIApps-dev01-robin          806188713192
+        aiapps-prod1-robin              AIApps-prod1-robin          751494062637
+        api-project-836162413139        API Project                 836162413139
+        cogent-nimbus-107606            My Project                  289607522927
+        corded-fact-114410              My Project                  704469525331
+        deft-beanbag-178820             My Project 2                1013866499032
+        gen-lang-client-0376273863      Generative Language Client  1044229179737
+        my-project-1-178819             My Project 1                810578248712
+        photos-dev01-robin              Photos-dev01-robin          415009251497
+        photos-dev02-rob-1693697865078  Photos-dev02-robin          1098022921730
+        youtube-dev01-ram               YouTube-dev01-ram           919991886955
+        zeta-range-569                  My Project                  105430380506
+
+----------------------------------------------------------------------------------------
+
+    `$ gcloud auth login`  # for suzee.parker@gmail.com
+
+        Your browser has been opened to visit:
+
+            https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=bdyErpzx6omm2JuZKCZADIsXwidv0G&access_type=offline&code_challenge=g7xSZwW-nn_be1lGuN4vSxjaTPFQ_LpGEEd0BgF0ERk&code_challenge_method=S256
+
+    `$ gcloud projects list`
+
+        PROJECT_ID                     NAME                           PROJECT_NUMBER
+        aiapps-dev01-suzee             AIApps-dev01-suzee             983706187338
+        aiapps-dev01-suzee-c63         AIApps-dev01-suzee-c63         944206899696
+        aiapps-dev01-suzee-c64-exps    AIApps-dev01-suzee-c64-exps    843971386438
+        aiapps-dev01-username-app-c61  AIApps-dev01-username-app-c61  405360879782
+        just-plate-411621              My First Project               782785811513
+        metal-sorter-414116            My Project 48120               899222250474
+
+    `# gcloud projects add-iam-policy-binding aiapps-dev01-suzee-c63 --member="user:suzee.parker@gmail.com" --role="roles/serviceusage.consumer"`
+
+----------------------------------------------------------------------------------------
+
+    `$ gcloud projects get-iam-policy aiapps-dev01-suzee-c63`
+
+        bindings:
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/actions.Admin
+        - members:
+          - serviceAccount:service-944206899696@gcp-sa-aiplatform.iam.gserviceaccount.com
+          role: roles/aiplatform.serviceAgent
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/appengine.appAdmin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/appengine.appCreator
+        - members:
+          - serviceAccount:service-944206899696@gcp-gae-service.iam.gserviceaccount.com
+          role: roles/appengine.serviceAgent
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/artifactregistry.admin
+        - members:
+          - serviceAccount:service-944206899696@gcp-sa-artifactregistry.iam.gserviceaccount.com
+          role: roles/artifactregistry.serviceAgent
+        - members:
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/bigquery.admin
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/cloudbuild.builds.builder
+        - members:
+          - serviceAccount:service-944206899696@gcp-sa-cloudbuild.iam.gserviceaccount.com
+          role: roles/cloudbuild.serviceAgent
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/cloudfunctions.admin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/cloudfunctions.developer
+        - members:
+          - serviceAccount:service-944206899696@gcf-admin-robot.iam.gserviceaccount.com
+          role: roles/cloudfunctions.serviceAgent
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/cloudscheduler.admin
+        - members:
+          - serviceAccount:service-944206899696@containerregistry.iam.gserviceaccount.com
+          role: roles/containerregistry.ServiceAgent
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/datastore.user
+        - members:
+          - serviceAccount:944206899696-compute@developer.gserviceaccount.com
+          - serviceAccount:aiapps-dev01-suzee-c63@appspot.gserviceaccount.com
+          role: roles/editor
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/eventarc.admin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebase.admin
+        - members:
+          - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com
+          - serviceAccount:service-944206899696@gcp-sa-firebase.iam.gserviceaccount.com
+          role: roles/firebase.managementServiceAgent
+        - members:
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebase.sdkAdminServiceAgent
+        - members:
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebaseauth.admin
+        - members:
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebasecloudmessaging.admin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebaserules.admin
+        - members:
+          - serviceAccount:service-944206899696@firebase-rules.iam.gserviceaccount.com
+          role: roles/firebaserules.system
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/firebasestorage.admin
+        - members:
+          - serviceAccount:service-944206899696@gcp-sa-firebasestorage.iam.gserviceaccount.com
+          role: roles/firebasestorage.serviceAgent
+        - members:
+          - serviceAccount:service-944206899696@gcp-sa-firestore.iam.gserviceaccount.com
+          role: roles/firestore.serviceAgent
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/iam.serviceAccountAdmin
+        - members:
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/iam.serviceAccountTokenCreator
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/iam.serviceAccountUser
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/logging.logWriter
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/logging.viewer
+        - members:
+          - user:suzee.parker@gmail.com
+          role: roles/owner
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/pubsub.admin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/resourcemanager.projectIamAdmin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/run.admin
+        - members:
+          - serviceAccount:service-944206899696@serverless-robot-prod.iam.gserviceaccount.com
+          role: roles/run.serviceAgent
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/secretmanager.admin
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/secretmanager.secretAccessor
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/servicedirectory.admin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/serviceusage.serviceUsageAdmin
+        - members:
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/storage.admin
+        - members:
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          role: roles/storage.objectAdmin
+
+        etag: BwYRqHkQRSU=
+        version: 1
+
+-----------------------------------------------------------------------------
+
+        bindings:
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/actions.Admin
+        - members:  - serviceAccount:service-944206899696@gcp-sa-aiplatform.iam.gserviceaccount.com         role: roles/aiplatform.serviceAgent
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appCreator
+        - members:  - serviceAccount:service-944206899696@gcp-gae-service.iam.gserviceaccount.com           role: roles/appengine.serviceAgent
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/artifactregistry.admin
+        - members:  - serviceAccount:service-944206899696@gcp-sa-artifactregistry.iam.gserviceaccount.com   role: roles/artifactregistry.serviceAgent
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/bigquery.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudbuild.builds.builder
+        - members:  - serviceAccount:service-944206899696@gcp-sa-cloudbuild.iam.gserviceaccount.com         role: roles/cloudbuild.serviceAgent
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.developer
+        - members:  - serviceAccount:service-944206899696@gcf-admin-robot.iam.gserviceaccount.com           role: roles/cloudfunctions.serviceAgent
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudscheduler.admin
+        - members:  - serviceAccount:service-944206899696@containerregistry.iam.gserviceaccount.com         role: roles/containerregistry.ServiceAgent
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/datastore.user
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/datastore.user
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+        - members:  - serviceAccount:944206899696-compute@developer.gserviceaccount.com                     role: roles/editor
+                    - serviceAccount:aiapps-dev01-suzee-c63@appspot.gserviceaccount.com                     role: roles/editor
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/eventarc.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebase.admin
+        - members:  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.comrole: roles/firebase.managementServiceAgent
+                    - serviceAccount:service-944206899696@gcp-sa-firebase.iam.gserviceaccount.com           role: roles/firebase.managementServiceAgent
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebase.sdkAdminServiceAgent
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/firebasecloudmessaging.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaserules.admin
+        - members:  - serviceAccount:service-944206899696@firebase-rules.iam.gserviceaccount.com            role: roles/firebaserules.system
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebasestorage.admin
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firebasestorage.iam.gserviceaccount.com    role: roles/firebasestorage.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firestore.iam.gserviceaccount.com          role: roles/firestore.serviceAgent
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountAdmin
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/iam.serviceAccountTokenCreator
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountTokenCreator
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.logWriter
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/logging.logWriter
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/logging.logWriter
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.viewer
+        - members:  - user:suzee.parker@gmail.com                                                           role: roles/owner
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/pubsub.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/resourcemanager.projectIamAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/run.admin
+        - members:  - serviceAccount:service-944206899696@serverless-robot-prod.iam.gserviceaccount.com     role: roles/run.serviceAgent
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.secretAccessor
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/secretmanager.secretAccessor
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/secretmanager.secretAccessor
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/servicedirectory.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/serviceusage.serviceUsageAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+
+        -----------------------------------------------------------------------------------------------------------------------------------------
+
+        - members:  - user:suzee.parker@gmail.com                                                           role: roles/owner
+
+                    - serviceAccount:aiapps-dev01-suzee-c63@appspot.gserviceaccount.com                     role: roles/editor
+
+        - members:  - serviceAccount:944206899696-compute@developer.gserviceaccount.com                     role: roles/editor
+
+        - members:  - serviceAccount:service-944206899696@serverless-robot-prod.iam.gserviceaccount.com     role: roles/run.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firestore.iam.gserviceaccount.com          role: roles/firestore.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firebasestorage.iam.gserviceaccount.com    role: roles/firebasestorage.serviceAgent
+                    - serviceAccount:service-944206899696@gcp-sa-firebase.iam.gserviceaccount.com           role: roles/firebase.managementServiceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-cloudbuild.iam.gserviceaccount.com         role: roles/cloudbuild.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-artifactregistry.iam.gserviceaccount.com   role: roles/artifactregistry.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-aiplatform.iam.gserviceaccount.com         role: roles/aiplatform.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-gae-service.iam.gserviceaccount.com           role: roles/appengine.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcf-admin-robot.iam.gserviceaccount.com           role: roles/cloudfunctions.serviceAgent
+        - members:  - serviceAccount:service-944206899696@firebase-rules.iam.gserviceaccount.com            role: roles/firebaserules.system
+        - members:  - serviceAccount:service-944206899696@containerregistry.iam.gserviceaccount.com         role: roles/containerregistry.ServiceAgent
+
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/serviceusage.serviceUsageAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/servicedirectory.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/run.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/resourcemanager.projectIamAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/pubsub.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountTokenCreator
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebasestorage.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaserules.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebase.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/eventarc.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudscheduler.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.developer
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appCreator
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appAdmin
+
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/secretmanager.secretAccessor
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/logging.logWriter
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/datastore.user
+
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/secretmanager.secretAccessor
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/logging.logWriter
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/firebasecloudmessaging.admin
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/datastore.user
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/bigquery.admin
+
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.secretAccessor
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.viewer
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.logWriter
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+                    - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudbuild.builds.builder
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/artifactregistry.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/actions.Admin
+
+        - members:  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.comrole: roles/firebase.managementServiceAgent
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/iam.serviceAccountTokenCreator
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebaseauth.admin
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebase.sdkAdminServiceAgent
+
+        -----------------------------------------------------------------------------------------------------------------------------------------
+
+        - members:  - user:suzee.parker@gmail.com                                                           role: roles/owner
+
+                    - serviceAccount:aiapps-dev01-suzee-c63@appspot.gserviceaccount.com                     role: roles/editor
+        - members:  - serviceAccount:944206899696-compute@developer.gserviceaccount.com                     role: roles/editor
+
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/actions.Admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/appengine.appCreator
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/artifactregistry.admin
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/bigquery.admin
+
+        - members:  - serviceAccount:service-944206899696@gcp-sa-aiplatform.iam.gserviceaccount.com         role: roles/aiplatform.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-artifactregistry.iam.gserviceaccount.com   role: roles/artifactregistry.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-gae-service.iam.gserviceaccount.com           role: roles/appengine.serviceAgent
+
+        - members:  - serviceAccount:service-944206899696@gcp-sa-cloudbuild.iam.gserviceaccount.com         role: roles/cloudbuild.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcf-admin-robot.iam.gserviceaccount.com           role: roles/cloudfunctions.serviceAgent
+        - members:  - serviceAccount:service-944206899696@containerregistry.iam.gserviceaccount.com         role: roles/containerregistry.ServiceAgent
+
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudbuild.builds.builder
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudfunctions.developer
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/cloudscheduler.admin
+
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/datastore.user
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/datastore.user
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/datastore.user
+
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/eventarc.admin
+
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebase.admin
+        - members:  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.comrole: roles/firebase.managementServiceAgent
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebase.sdkAdminServiceAgent
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/firebaseauth.admin
+                    - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaseauth.admin
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/firebaseauth.admin
+        - members:  - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/firebasecloudmessaging.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebaserules.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/firebasestorage.admin
+
+                    - serviceAccount:service-944206899696@gcp-sa-firebase.iam.gserviceaccount.com           role: roles/firebase.managementServiceAgent
+        - members:  - serviceAccount:service-944206899696@firebase-rules.iam.gserviceaccount.com            role: roles/firebaserules.system
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firebasestorage.iam.gserviceaccount.com    role: roles/firebasestorage.serviceAgent
+        - members:  - serviceAccount:service-944206899696@gcp-sa-firestore.iam.gserviceaccount.com          role: roles/firestore.serviceAgent
+
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountAdmin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountTokenCreator
+        - members:  - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com role: roles/iam.serviceAccountTokenCreator
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/iam.serviceAccountUser
+
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/logging.logWriter
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/logging.logWriter
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.logWriter
+
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/logging.viewer
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/pubsub.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/resourcemanager.projectIamAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/run.admin
+
+        - members:  - serviceAccount:service-944206899696@serverless-robot-prod.iam.gserviceaccount.com     role: roles/run.serviceAgent
+
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.admin
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/secretmanager.secretAccessor
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/secretmanager.secretAccessor
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/secretmanager.secretAccessor
+
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/servicedirectory.admin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/serviceusage.serviceUsageAdmin
+        - members:  - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.admin
+                    - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+
+                    - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com              role: roles/storage.objectAdmin
+                    - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com          role: roles/storage.objectAdmin
+        - members:  - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com            role: roles/storage.objectAdmin
+
+---------------------------------------------------------------------------------------------------------------
+
+    `# gcloud projects get-iam-policy aiapps-dev01-suzee-c63 | grep 'roles/serviceusage.consumer'`
+    `# gcloud projects get-iam-policy aiapps-dev01-suzee-c63 | grep 'aiapps-dev01-suzee-c63'`
+
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:aiapps-dev01-suzee-c63@appspot.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:firebase-adminsdk-i04t6@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-backend@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-functions@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-hooks@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+          - serviceAccount:rowy-service@aiapps-dev01-suzee-c63.iam.gserviceaccount.com
+
+
+
+
