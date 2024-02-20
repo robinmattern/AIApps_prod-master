@@ -1,24 +1,24 @@
 // 11.3 Import three modules
 //----------------------------------------------------------
 //mport addComments        from './01_db_u02-module.mjs'
- import doComments         from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
- import getComments        from './02_comments_u03-module.mjs'
- import updComments        from './03_ai_u03-module.mjs'    // .(40204.10.3 RAM New module)
+ import doComments         from './01_db_u05-module.mjs'                  // .(40204.07.11 RAM New module)
+ import getComments        from './02_cm_u03-getComments.mjs'
+ import updComments        from './03_ai_u03-updComments.mjs'             // .(40204.10.3 RAM New module)
 
 // 11.9 Insert Youtube comments into database
 //----------------------------------------------------------
-function Help() {                                           // .(40217.11.9 RAM Beg Added)
+function Help() {                                                         // .(40217.11.9 RAM Beg Added)
         console.log( "" )
         console.log( "  Syntax:   node index_u03.mjs {aCmd}")
         console.log( "    aCmd    Command" )
         console.log( "    ------  --------------------------------------" )
         console.log( "    testDB  Test Access to MySQL DB" )
         console.log( "    testAI  Test OpenAI model with simple prompt" )
-        console.log( "    google  Retreive comments from Google YouTube API" )
+        console.log( "    google  Get comments from Google YouTube API" )
         console.log( "    insert  Insert comments into database from Google YouTube API" )
-        console.log( "    update  Update comments after running OpenAI model" )
+        console.log( "    update  Add comments after running OpenAI model" )
         console.log( "    select  Select comments with respond = 1" )
-        }                                                   // .(40217.11.9 RAM End)
+        }                                                                 // .(40217.11.9 RAM End)
 //----------------------------------------------------------
 
     var TheDB    = 'DB1'
@@ -30,7 +30,7 @@ function Help() {                                           // .(40217.11.9 RAM 
 //  var TheModel = 'ada'          // .(40205.13.1 RAM Add least expensive model)
 
 //  var aTests = "update,show"    // Runs the AI Model for each comments and updates the database
-//  var aTests = "insert"         // Gets the Google Data and stores it in the database
+    var aTests = "insert"         // Gets the Google Data and stores it in the database
 //  var aTests = "insert,update,show"
 //  var aTests = "select"
 //  var aTests = "google"

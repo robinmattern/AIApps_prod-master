@@ -29,7 +29,8 @@ This application utilizes a Google API to obtain information about Google Photos
 1. **Initial Links** 
    - <a href="https://ai.google.dev" target="_blank" rel="noopener noreferrer">ai.google.dev</a>  
    - <a href="https://aistudio.google.com/app/prompts/new_chat?utm_source=agd&utm_medium=referral&utm_campaign=core-cta&utm_content=">aistudio.google.com</a>  
-   - <a href="https://console.cloud.google.com/vertex-ai/generative?project=" target="_blank">vertex-ai</a>   
+   - <a href="https://console.cloud.google.com/vertex-ai/generative?project=" target="_blank">vertex-ai starter</a>   
+   - <a href="https://console.cloud.google.com/vertex-ai/generative/multimodal/create/text?project=aiapps-dev01-suzee-c63b" target="_blank" rel="noopener noreferrer">vertex-ai multimodel</a>    
      &nbsp;<br>     
    
 1. **Get Google YouTube API_KEY and put it into .env**     [view code](https://github.com/robinmattern/dev01-robin/blob/f3d1bca139fb3a0631045cb4885edac72e59cb89/docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?plain=1#L217) 

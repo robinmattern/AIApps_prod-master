@@ -1,0 +1,40 @@
+    `# gcloud init`
+
+        Welcome to the Google Cloud CLI! Run "gcloud -h" to get the list of available commands.
+        ---
+        Welcome! This command will take you through the configuration of gcloud.
+
+        Your current configuration has been set to: [default]
+
+        You can skip diagnostics next time by using the following flag:
+          gcloud init --skip-diagnostics
+
+        Network diagnostic detects and fixes local network connection issues.
+        Checking network connection...done.
+        Reachability Check passed.
+        Network diagnostic passed (1/1 checks passed).
+
+        You must log in to continue. Would you like to log in (Y/n)?  y
+
+        Your browser has been opened to visit:
+
+            https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=THMpiotOKfv5F5SeLK3UhemOGSOiK6&access_type=offline&code_challenge=I_OZW0Z2PdznLpiRO9UtRC70F6rbIScT4Z3KF7oBwv8&code_challenge_method=S256
+
+        You are logged in as: [robin.mattern@gmail.com].
+
+        Pick cloud project to use:
+         [1] aiapps-dev01-robin
+         [2] aiapps-prod1-robin
+         [3] api-project-836162413139
+         [4] cogent-nimbus-107606
+         [5] corded-fact-114410
+         [6] deft-beanbag-178820
+         [7] gen-lang-client-0376273863
+         [8] my-project-1-178819
+         [9] photos-dev01-robin
+         [10] photos-dev02-rob-1693697865078
+         [11] youtube-dev01-ram
+         [12] zeta-range-569
+         [13] Enter a project ID
+         [14] Create a new project
+        Please enter numeric choice or text value (must exactly match list item):      - In VSCode, open New Integrated Terminal

@@ -26,5 +26,5 @@
 // 05.2 Run function getYoutubeComments
 // -------------------------------------------------
     var mComments = await getYoutubeComments();                           
-        console.log( `YouTube Comments Returned: ${mComments.length}.` );    
+        console.log( `\nYouTube Comments Returned: ${mComments.length}.` );    
    

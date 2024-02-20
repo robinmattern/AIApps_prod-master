@@ -13,9 +13,9 @@
           "scripts": {
             "start":        "node index_u03.mjs",   
             "vueDocs":      "bash ../../docs/run-docsify.sh",   
-            "getComments":  "node index_u01.mjs",   
+            "getComments":  "node index_u03.mjs google",   
             "savComments":  "node index_u03.mjs insert",   
-            "runModel":     "node index_u02.mjs",   
+            "runModel":     "node index_u03.mjs update",   
             "test": "echo \"Error: no test specified\" && exit 1"
           },
           "keywords": [],

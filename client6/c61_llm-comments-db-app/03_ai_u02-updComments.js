@@ -1,7 +1,8 @@
 
 import   dotenv      from 'dotenv'; dotenv.config()
 import { Configuration, OpenAIApi } from "openai";
-import   doComments  from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
+
+import   doComments  from './01_db_u05-module.mjs'                                        // .(40204.07.11 RAM New module)
 
 // 09.1 Set OpenAI API_KEY
 // -------------------------------------------------
@@ -48,7 +49,7 @@ var pConfiguration = new Configuration(
 
 
         if (aResponse == "Yes") {
-      await doComments(  'update',[ mComments[i].id ] );
+//    await doComments(  'update',[ mComments[i].id ] );
       await doComments(  'update', { set: 'respond = 1', where: `id = ${ mComments[i].id }` } );
             console.log( `Comment Id ${mComments[i].id} updated` )
 
@@ -58,12 +59,12 @@ var pConfiguration = new Configuration(
         } // eol for each mComments
 
     } catch( pErr ) {
-        console.log(   `Failed to process pOpenAI.createCompletion`);
-        console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
-        console.log(   `    URL: ${pErr.config.url}\n\n`
-                     + ` Headers: ${pErr.request._header.replace( /\n+$/, "" ).replace( /\n/g, "\n          " ) }\n`
-                     + `Req Data: ${pErr.config.data}\n\n`
-                     + `Res Data: ${pErr.response.data.error.message}\n` )
+        console.log(   `\nFailed to process pOpenAI.createCompletion`);
+        console.error( `ERROR ${-pErr.errno}: ${pErr.message}\n` );
+        console.log(   `      URL: ${pErr.config.url}\n\n`
+                     + `  Headers: ${pErr.request._header.replace( /\n+$/, "" ).replace( /\n/g, "\n           " ) }\n`
+                     + ` Req Data: ${pErr.config.data}\n\n`
+                     + ` Res Data: ${pErr.response.data.error.message}\n` )
         process.exit(1);
     } finally {
         process.exit()

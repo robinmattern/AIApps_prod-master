@@ -1,7 +1,8 @@
-import { promisify } from "util"; const wait = promisify( setTimeout );   // .(40206.02.1 BARD Write wait function)
+import { promisify } from "util"; const wait = promisify( setTimeout );                   // .(40206.02.1 BARD Write wait function)
 import   dotenv      from 'dotenv'; dotenv.config()
 import { Configuration, OpenAIApi } from "openai";
-import   doComments  from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
+
+import   doComments  from './01_db_u05-module.mjs'                                        // .(40204.07.11 RAM New module)
 
 // 09.1 Set OpenAI API_KEY
 // -------------------------------------------------
@@ -58,12 +59,12 @@ var pConfiguration = new Configuration(
         } // eol for each mComments
 
     } catch( pErr ) {
-        console.log(   `Failed to process pOpenAI.createCompletion`);
-        console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
-        console.log(   `    URL: ${pErr.config.url}\n\n`
-                     + ` Headers: ${pErr.request._header.replace( /\n+$/, "" ).replace( /\n/g, "\n          " ) }\n`
-                     + `Req Data: ${pErr.config.data}\n\n`
-                     + `Res Data: ${pErr.response.data.error.message}\n` )
+        console.log(   `\nFailed to process pOpenAI.createCompletion`);
+        console.error( `ERROR ${-pErr.errno}: ${pErr.message}\n` );
+        console.log(   `      URL: ${pErr.config.url}\n\n`
+                     + `  Headers: ${pErr.request._header.replace( /\n+$/, "" ).replace( /\n/g, "\n           " ) }\n`
+                     + ` Req Data: ${pErr.config.data}\n\n`
+                     + ` Res Data: ${pErr.response.data.error.message}\n` )
         process.exit(1);
 //  } finally {
 //      process.exit()
@@ -82,9 +83,9 @@ var pConfiguration = new Configuration(
 // 10.1 Write function, updComments, for export
 // -------------------------------------------------
 //async function updComments( aUpdType ) {
-  async function updComments( aUpdType, aModel ) {          // .(40205.13.1 RAM Add aModel)
+  async function updComments( aUpdType, aModel ) {          			  // .(40205.13.1 RAM Add aModel)
         aUpdType   =  aUpdType ? aUpdType : 'all'
-        aModel     =  aModel   ? aModel   : 'ada'           // .(40205.13.2)
+        aModel     =  aModel   ? aModel   : 'davinci-002'   			  // .(40205.13.2)
     var aPrompt1   = "Say this is a test"
 
     var aPrompt2   = `The following AI tool helps YouTubers identify if a comment can should be replied to or not.\n`
@@ -136,3 +137,7 @@ var pConfiguration = new Configuration(
    export default updComments
 
 // --------------------------------------------------------
+
+    if (import.meta.url.replace( /.+\//, "" ) == process.argv[1].replace( /.+[\\\/]/, "" ) ) {
+        updComments( )
+        }

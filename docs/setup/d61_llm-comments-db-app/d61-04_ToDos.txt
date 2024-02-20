@@ -1,0 +1,15 @@
+
+
+7a. Select Project
+7b. APIs and Services on left
+7c. ENABLE API AND SERVICES
+
+Move to a seperate detour before Choosing API
+8. START FREE vs ACTIVATE  (link gmail account to Google Cloud Platform account, give a credit card)
+8a. Agree and continue
+8b Payment Verification
+8c. Answer 4 info pages
+
+9.
+
+

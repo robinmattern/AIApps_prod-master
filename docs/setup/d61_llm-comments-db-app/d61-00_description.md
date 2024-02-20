@@ -41,15 +41,15 @@ in order to edit or create the scripts for this application
 - Setup Project and MySQL Database    ([view details](setup/d61_llm-comments-db-app/d61-00_description.md#b1))
 - Get Google Project and API_KEY      ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e10))
 - Get OpenAI Model API_KEY            ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g10))
-- `# cd /C/Repos/AIApps_/dev01-robin/client6/c61*`
+- `# cd /C/Repos/AIApps/client6/c61*`
 - `# cp .env_u03 .env; nano .env`     ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c6))
-- `# node 02_comments_u01-testAPI.js` ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e12))  
+- `# node 02_cm_u01-testAPI.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e12))  
 - `# node 03_ai_u01-testOpenAI.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g17))
-- `# node 00_db_u01_connect.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c5))
-- `# node 01_db_u01-testInsert.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=d8))
-- `# node index_u01.mjs`              ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
-- `# node 03_ai_u02-updateDB.js`      ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g18))
-- `# node 03_ai_u03-module.mjs`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
+- `# node 00_db_u01-connect.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c5))
+- `# node 01_db_u03-testInsert.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=d8))
+- `# node 02_cm_u03-getComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e13))
+- `# node 02_db_u05-addComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
+- `# node 03_ai_u03-updComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
 - `# node index_u03.mjs`              ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g22))
 
 <span id="b1" name="b1"></span>

@@ -10,9 +10,9 @@
 
 ### B. Setup
  1. **Clone the Repository**  
-    - Open Windows Command or Git Bash terminal   
-    `# cd "C:\Repos"    
-    ```# git clone https://github.com/robinmattern/AIApps_prod-master  AIApps ```   
+    - Open Windows Command or Git Bash terminal to clone the AIApps repository   
+    `# cd "C:\Repos"`   
+    `# git clone  https://github.com/robinmattern/AIApps_prod-master  AIApps `    
       ```
         Cloning into 'AIApps_/dev01-robin'...
         remote: Enumerating objects: 507, done.
@@ -22,13 +22,13 @@
         Receiving objects: 100% (507/507), 2.90 MiB | 19.40 MiB/s, done.
         Resolving deltas: 100% (245/245), done.
         Updating files: 100% (310/310), done.
-      ```   
+      ```
     `# cd AIApps`   
     `# code AIApps.code-workspace`   
-      ```
- <span id="b2"></span>
-   
- 2. **Install Client Node Modules**  
+
+<span id="b2"></span>
+
+ 2. **Install Client Node Modules**    
     - In VSCode, open New Integrated Terminal    
     `# cd ./client6`    
     `# cat package.json`   
@@ -60,7 +60,7 @@
       ```
 <span id="b3"></span>
 
- 3. **Edit the App package.json file**  
+ 3. **View or edit the App package.json file**  
     `# cd ./c61_llm-comments-db-app`    
     `# cat package.json`  
       ```
@@ -73,9 +73,9 @@
           "scripts": {
             "start":        "node index_u03.mjs",   
             "vueDocs":      "bash ../../docs/run-docsify.sh",   
-            "getComments":  "node index_u01.mjs",   
-            "savComments":  "node index_u03.mjs insert",   
-            "runModel":     "node index_u02.mjs",   
+            "getComments":  "node index_u03.mjs google"",   
+            "addComments":  "node index_u03.mjs insert",   
+            "runModel":     "node index_u03.mjs update",   
             "test": "echo \"Error: no test specified\" && exit 1"
           },
           "keywords": [],
@@ -90,7 +90,7 @@
 
  4. **Create Database and Table**   
    - In MySQL Workbench, create a new schema, named: `comments`   
-   - Create a new table, named: `comments`    
+   - Then, create a new table, named: `comments`    
       ```
         USE comments;  
         CREATE TABLE comments(  
@@ -102,12 +102,17 @@
           flag      INT,  
           respond   INT  
           )
+      ``````          
+   - Modify the width of the comments column       
+      ```
+      ALTER TABLE `comments`.`comments` 
+        CHANGE COLUMN `comment` `comment` VARCHAR(4096) NULL DEFAULT NULL ;
       ```
 <span id="c5"></span>
 
 ### C. Connect to a MySQL database
  5. **Write a simple DB connect script**   
-    - In VSCode, open New Integrated Terminal   
+    - In Git-Bash or a VSCode New Integrated Terminal, view and/or run NodeJS script   
     `# cd ./client6/c61*`   
     `# cat 00_db_u01-connect.js`    
       ```
@@ -151,17 +156,18 @@
       ```
 <span id="c6"></span>
 
- 6. **Add MySQL config paramerters to .env**   
+ 6. **Add MySQL config paramerters to .env** 
+    - Comfirm that the DB1 variables are set to access your local MySQL database  
     `# cp  .env_u03  .env`   
     `# cat .env`    
       ```
            GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
            OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-           DB2_MYSQL_HOST     = '127.0.0.1'
-           DB2_MYSQL_USER     = 'root'
-           DB2_MYSQL_PASSWORD = 'FormR!1234'
-           DB2_MYSQL_DATABASE = 'comments'
+           DB1_MYSQL_HOST     = '127.0.0.1'
+           DB1_MYSQL_USER     = 'root'
+           DB1_MYSQL_PASSWORD = 'FormR!1234'
+           DB1_MYSQL_DATABASE = 'comments'
       ```
 <span id="c7"></span>
 
@@ -174,9 +180,9 @@
 
 ### D. Add a Sample Data Record
  8. **Write an insert function**  
-    - In VSCode, open New Integrated Terminal   
+    - In Git-Bash or a VSCode New Integrated Terminal, view and/or run NodeJS script,  00_db_u01-testInsert.js     
     `# cd ./client6/c61*`  
-    `# cat 00_db_u01-testInsert.js`  
+    `# cat 01_db_u01-testInsert.js`  
       ```
         // 03.1 Write insert() function to be run inside main
         //----------------------------------------------------
@@ -204,7 +210,7 @@
 <span id="d9"></span>  
 
  9. **Write and use a function getDBconfig()**  
-    `# cat 00_db_u02-testInsert.js`   
+    `# cat 01_db_u03-testInsert.js`   
       ```
           async function main() {
             var pConnection 
@@ -230,7 +236,7 @@
 <span id="d10"></span>
 
 10. **Run the script to insert a test comment record**    
-    `# node 00_db_u02-testInsert.js`   
+    `# node 01_db_u03-testInsert.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1.
@@ -258,7 +264,7 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
 <span id="e12"></span>
 
 12. **Write a script to get YouTube comments**  
-    `# nano 02_comments_u01-testAPI.js`  
+    `# nano 02_cm_u01-testAPI.js`  
       ```
           import   dotenv   from 'dotenv'; dotenv.config() 
           import { google } from 'googleapis';
@@ -293,12 +299,12 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
 <span id="e13"></span>
 
 13. **Run script to get YouTube comments. Then turn it into a module script**  
-    `# node 02_comments_u01-testAPI.js`  
+    `# node 02_cm_u01-testAPI.js`      
       ```
         YouTube Comments Found: 100.  
       ```
-    `# cp 02_comments_u01-testAPI.js 02_comments_u03-module.mjs`  
-    `# nano 02_comments_u03-module.mjs`  
+    `# cp 02_cm_u01-testAPI.js  02_cm_u03-getComments.mjs      
+    `# nano 02_cm_u03-getComments.mjs`      
       ```
         // 05.2 Run function getYoutubeComments
         // -------------------------------------------------
@@ -311,70 +317,90 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
       ```
 <span id="f14"></span>
     
-### F. Add YouTube comments to MySQL database 
-14. **Write addComments in 01_db_v07-addComments.mjs** 
-    `# nano 01_db_u04-addComments.js`  
+### F. Add YouTube comments to MySQL database   
+14. **Write addComments in 01_db_u03-testInsert.js**   
+    `# cp 01_db_u03-testInsert.js  02_db_u04-addComments.js`   
+    `# nano 02_db_u04-addComments.js`  
       ```
+        import dotenv from 'dotenv'; dotenv.config()
+        import mysql  from 'mysql2/promise';
+        import getComments from './02_cm_u03-getComments.mjs'      // .(40219.01.1)     
+
+        // 03.1 Write insert() function to be run inside main
+        //----------------------------------------------------
+          async function insert( { pConnection, pComment } ) {      // .(40203.03.1 RAM Write insert(), was create())
+            const [ results ] = await pConnection.execute(
+        //  const   results   = await pConnection.execute(
+                    'INSERT INTO comments (commentid, commenter, comment, gpt, flag, respond) VALUES ( ?, ?, ?, ?, ?, ? )'
+                , [ pComment.commentid, pComment.commenter, pComment.comment, pComment.gpt, pComment.flag, pComment.respond ]
+                  );
+          return results.insertId;
+                }
+        //----------------------------------------------------
+
         //#01.1 Write main() function which is run at the end
         // 06.1 Change main() into into addComments()) to insert mComments array
         //----------------------------------------------------
-        //async function addComments( mComments) {                  // .(40204.07.1 RAM Change main() into addComments())
+          async function addComments( mComments) {              // .(40204.07.1 RAM Change main() into addComments())
             var pConnection 
-            var pDBconfig = getDBconfig( 'DB1' )                    // .(40203.05.1 RAM Use getDBconfig())
+            var pDBconfig   = getDBconfig( 'DB1' )                  // .(40203.05.1 RAM Use getDBconfig())
             try {
             var pConnection = await mysql.createConnection( pDBconfig )
-                console.log( `Successful connection to MySQL DB at: ${pDBconfig.host}.`);
+                console.log( `\nSuccessful connection to MySQL DB at: ${pDBconfig.host}.`);
 
+            var mComments   = await getComments( 5 )                // .(40219.01.1 RAM Getem if necessary) 
+            
         // 06.2 Loop through mComments array calling insert() for each one
         //----------------------------------------------------
-         for (let i = 0; i < mComments.length; i++) {               // .(40204.08.1 RAM Add loop)
+            for (let i = 0; i < mComments.length; i++) {            // .(40204.08.1 RAM Add loop)
             var pSnippet  =  mComments[i].snippet.topLevelComment.snippet  
             var id = await insert( { pConnection, pComment:         // .(40203.03.2 RAM Use insert, was create())
-                   { commentid: mComments[i].id                     // .(40204.08.2 RAM Beg Add data for ith comment)
-                   , commenter: pSnippet.authorDisplayName          // .(40204.08.3)
-                   , comment  : pSnippet.textOriginal               // .(40204.08.4)
-                   , gpt      : ""
-                   , flag     : 0
-                   , respond  : 0                                    
-                     } 
-                  } );
+                    { commentid: mComments[i].id                    // .(40204.08.2 RAM Beg Add data for ith comment)
+                    , commenter: pSnippet.authorDisplayName         // .(40204.08.3)
+                    , comment  : pSnippet.textOriginal              // .(40204.08.4)
+                    , gpt      : ""
+                    , flag     : 0
+                    , respond  : 0                                    
+                        } 
+                    } );
                 console.log( `Inserted row id: ${id} - '${pSnippet.textOriginal.substr(0,50).replace( /\n/g, "<br>" ) }...'` );    
                 }
 
-            } catch( pErr ) {
-                console.log(   `Failed to connect to MySQL DB at: ${pDBconfig.host}.`);
-                console.error( `ERROR ${-pErr.errno}: ${pErr.message}` );
+            } catch( pErr ) {  pErr.errno = pErr.errno ? (pErr.errno > 0 ? pErr.errno : -pErr.errno ): '0000'
+            var aErr = (pErr.errno == 1045)  ? 'SQL Error in' : 'Failed to connect to' 
+                console.log(   `${aErr} MySQL DB at: ${pDBconfig.host}.`);
+                console.error( `ERROR ${pErr.errno}: ${pErr.message}` );
                 process.exit(1);
             } finally {
             if (pConnection) {
                 await pConnection.end();
                 }
+              }  
             } // eof addComments
         //----------------------------------------------------
 
-        //#01.2 Call main() function 
-        // 06.3 Export addComments() function 
+        // 01.2 Call main() function 
+        // 06.2 Run addComments() function 
         //----------------------------------------------------
-        //      main()                                              //#.(40204.06.3 RAM Don't run main() now)
-         export default addComments                                 // .(40204.06.3 RAM Export addComments())
-        //----------------------------------------------------
-      ```
+        //      main()                                              //#.(40204.06.2 RAM Don't run main() now)
+                addComments()                                       // .(40204.06.2)
+          ```
 <span id="f15"></span>
 
-15. **Write and run script to add comments into MySQL DB** 
-    `# nano index_u01.mjs`  
+15. **Modify addComments common script into a module script**    
+    `# cp 02_db_u04-addComments.js  02_db_u05-addComments.mjs`   
+    `# nano 02_db_u05-addComments.mjs`    
       ```
-        // 06.4 Import two modules
-        //----------------------------------------------------------
-         import   getComments   from './02_comments_u02-module.mjs'
-         import   addComments   from './01_db_u04-addComments.mjs'
-
-        // 06.5 Get and add comments to database
-        //----------------------------------------------------------
-            var mComments = await getYoutubeComments() 
-          await addComments( mComments )
+        //#01.2 Call main() function 
+        //#06.2 Run addComments() function 
+        // 06.3 Export addComments() function 
+        //----------------------------------------------------
+        //      main()                                              //#.(40204.07.2 RAM Don't run main() now)
+        //      addComments()                                       //#.(40204.06.2)
+        export default addComments                                 // .(40204.07.2 RAM Export addComments())
+        //----------------------------------------------------
       ```
-    `# node index_u01.mjs`  
+    `# node 02_db_u05-addComments.mjs`  
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Inserted row id: 1118 - '? Try the OpenAI Template - Starter Kit I've made ...'
@@ -448,7 +474,7 @@ Go to the OpenAI to ...  as follows:
 <span id="g18"></span>
 
 18. **Write and run script to run comments against OpenAI model**    
-    `# nano 03_ai_u02-updateDB.js`   
+    `# nano 03_ai_u02-updComments.js`   
       ```
         import dotenv from 'dotenv'; dotenv.config() 
         import { Configuration, OpenAIApi } from "openai";
@@ -532,7 +558,7 @@ Go to the OpenAI to ...  as follows:
 
         // --------------------------------------------------------
       ```
-    `# node 03_ai_u02-updateDB.js`   
+    `# node 03_ai_u02-updComments.js`   
       ```
         Successful connection to MySQL DB at: 127.0.0.1.
         Selected 20 rows from comments table
@@ -547,8 +573,8 @@ Go to the OpenAI to ...  as follows:
 <span id="g19"></span>
 
 19. **Add Bard's function, throttledCreateCompletion**   
-    `# cp 03_ai_u02-updateDB.js 03_ai_u03-module.mjs`   
-    `# nano 03_ai_u03-module.mjs`   
+    `# cp 03_ai_u02-updComments.js  03_ai_u03-updComments.mjs`   
+    `# nano 03_ai_u03-updComments.mjs`   
       ```
          import { promisify } from "util"; const wait = promisify( setTimeout );  // .(40206.02.1 BARD Write wait function)
             ... 
@@ -567,13 +593,13 @@ Go to the OpenAI to ...  as follows:
 <span id="g20"></span>
 
 20. **Write and run simple script to process 5 comments**   
-    `# nano index_u02.mjs`   
+    `# nano 03_ai_u03-updComments.mjs`   
       ```
         // 06.4 Import two modules
         //----------------------------------------------------------
          import doComments   from './01_db_u05-module.mjs'         // .(40204.07.11 RAM New module)
-         import getComments  from './02_comments_u03-module.mjs'
-         import updComments  from './03_ai_u03-module.mjs'         // .(40204.10.3 RAM New module)
+         import getComments  from './02_cm_u03-addComments.mjs'
+         import updComments  from './03_ai_u03-updComments.mjs'    // .(40204.10.3 RAM New module)
 
         // 06.5 Get and add comments to database
         //----------------------------------------------------------
@@ -587,9 +613,9 @@ Go to the OpenAI to ...  as follows:
           await doComments( 'connect' )                             // .(40204.07.13 RAM Use new connect option)
           await updComments('all', 'davinci-002' )                 // .(40204.10.4 RAM New AI method)
       ```
-    `# node index_u02.mjs`  
+    `# node 03_ai_u03-updComments.mjs`  
       ```
-        Retreiving 5 comments from google.youtube.commentThreads API
+        Retreived 5 comments from google.youtube.commentThreads API
 
         Successful connection to MySQL DB at: 127.0.0.1.
         Deleted all rows from comments table
@@ -729,16 +755,16 @@ Go to the OpenAI to ...  as follows:
         // 11.3 Import three modules
         //----------------------------------------------------------
         //mport addComments        from './01_db_u02-module.mjs'  
-         import doComments         from './01_db_u05-module.mjs'    // .(40204.07.11 RAM New module)
-         import getComments        from './02_comments_u03-module.mjs'
-         import updComments        from './03_ai_u03-module.mjs'    // .(40204.10.3 RAM New module)
+         import doComments         from './01_db_u05-module.mjs'         // .(40204.07.11 RAM New module)
+         import getComments        from './02_cm_u03-addComments.mjs'
+         import updComments        from './03_ai_u03-updComments.mjs'    // .(40204.10.3 RAM New module)
 
             var TheDB    = 'DB1'
 
             var TheCount =  20            // .(40206.04.6 RAM Add TheCount) 
 
             var TheModel = 'davinci-002'  // .(40205.13.1 RAM Add most expensive model)
-        //  var TheModel = 'curie-001'    // .(40205.13.1
+        //  var TheModel = 'curie-001'    // .(40205.13.1)
         //  var TheModel = 'ada'          // .(40205.13.1 RAM Add least expensive model)
 
          // var aTests = "update,show"    // Runs the AI Model for each comments and updates the database   

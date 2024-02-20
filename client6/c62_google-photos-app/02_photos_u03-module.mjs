@@ -12,7 +12,7 @@
 
   async function getGooglePhotos( nPhotos ) {
     var nPhotos = nPhotos ? nPhotos : 20
-        console.log( `\nRetreiving ${nPhotos} photos from google.youtube.commentThreads API`)
+        console.log( `\nRetreived ${nPhotos} photos from google.youtube.commentThreads API`)
  return new Promise( ( resolve, reject ) => {
         pYouTube.commentThreads.list(
          { part:      'snippet'
