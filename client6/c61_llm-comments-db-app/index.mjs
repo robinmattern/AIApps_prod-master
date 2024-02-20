@@ -9,7 +9,7 @@
 //----------------------------------------------------------
 function Help() {                                                         // .(40217.11.9 RAM Beg Added)
         console.log( "" )
-        console.log( "  Syntax:   node index_u03.mjs {aCmd}")
+        console.log( "  Syntax:   node index.mjs {aCmd}")
         console.log( "    aCmd    Command" )
         console.log( "    ------  --------------------------------------" )
         console.log( "    testDB  Test Access to MySQL DB" )
@@ -18,6 +18,7 @@ function Help() {                                                         // .(4
         console.log( "    insert  Insert comments into database from Google YouTube API" )
         console.log( "    update  Add comments after running OpenAI model" )
         console.log( "    select  Select comments with respond = 1" )
+        console.log( "    doemall Run get, insert and update commands" )
         }                                                                 // .(40217.11.9 RAM End)
 //----------------------------------------------------------
 
@@ -29,11 +30,12 @@ function Help() {                                                         // .(4
 //  var TheModel = 'curie-001'    // .(40205.13.1
 //  var TheModel = 'ada'          // .(40205.13.1 RAM Add least expensive model)
 
-//  var aTests = "update,show"    // Runs the AI Model for each comments and updates the database
-    var aTests = "insert"         // Gets the Google Data and stores it in the database
+//  var aTests = "select"         // ?? 
+//  var aTests = "google"         // Gets the Google YouTube comments
+//  var aTests = "insert"         // Gets the Google Data and stores it in the database
 //  var aTests = "insert,update,show"
-//  var aTests = "select"
-//  var aTests = "google"
+//  var aTests = "update,show"    // Runs the AI Model for each comments and updates the database
+//  var aTests = "doemall"
 //  var aTests = "test"
     var bRun   =  0
 
@@ -64,7 +66,7 @@ function Help() {                                                         // .(4
 
 // 11.10 Get YouTube Comments using Google API 
 //----------------------------------------------------------
-    if (aTests.match( /google/ )) { bRun = 1                // .(40217.11.10 RAM Beg Add google option)
+    if (aTests.match( /google/ )) { bRun = 1                // .(40217.11.10 RAM Beg Add google command)
     var mComments = await getComments( TheCount )               
         } // eif google                                     // .(40217.11.10 RAM End)
 
@@ -94,7 +96,7 @@ function Help() {                                                         // .(4
 
 // 11.7 Show Comments with Respond = 1
 //----------------------------------------------------------
-    if (aTests.match( /select/ )) { bRun = 1
+    if (aTests.match( /show|select/ )) { bRun = 1
 //                  await doComments( 'connect', aDB )      //#.(40204.07.13 RAM Use new connect option)
                     await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use TheDB)
     var mComments = await doComments( 'select', 'respond = 1' ) // .(40204.07.15 RAM New syntax)
@@ -108,6 +110,12 @@ function Help() {                                                         // .(4
                    console.log( "no comments with response = 1" )
         } // eif no mComments
       } // eif show
+
+// 11.9 Run doEmAll script
+//----------------------------------------------------------
+    if (aTests.match( /doemall/ )) { bRun = 1
+        console.log( `\n Run:\n # node '04_ai_u01-doEmAll.mjs'\n` )        
+        } // eif doemall
 
 // 11.8 Invalid aTests cmd
 //----------------------------------------------------------

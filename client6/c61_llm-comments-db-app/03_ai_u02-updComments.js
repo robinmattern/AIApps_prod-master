@@ -110,7 +110,7 @@ var pConfiguration = new Configuration(
 
 
 
-//                    await doComments( 'connect', 'DB2' );
+//                    await doComments( 'connect', 'DB1' );
     var mComments2 =  await doComments( 'select' );
 
 //      updateDatabaseUsingGPT(         aPrompt1 );

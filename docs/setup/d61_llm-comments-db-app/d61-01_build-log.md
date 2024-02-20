@@ -69,13 +69,13 @@
           "version": "0.1.1",
           "description": "First Node.js AI Client App to label YouTube comments using OpenAI model",
           "Author": "Robin Mattern",
-          "main": "index_u03.mjs",
+          "main": "index.mjs",
           "scripts": {
-            "start":        "node index_u03.mjs",   
+            "start":        "node index.mjs",   
             "vueDocs":      "bash ../../docs/run-docsify.sh",   
-            "getComments":  "node index_u03.mjs google"",   
-            "addComments":  "node index_u03.mjs insert",   
-            "runModel":     "node index_u03.mjs update",   
+            "getComments":  "node index.mjs google"",   
+            "addComments":  "node index.mjs insert",   
+            "runModel":     "node index.mjs update",   
             "test": "echo \"Error: no test specified\" && exit 1"
           },
           "keywords": [],
@@ -413,14 +413,15 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
 
 ### G. Run the YouTube comments against OpenAI model, davinci-002 
 
-Go to the OpenAI to ...  as follows: 
+Go to the OpenAI to get a secret API_KEY  as follows: 
 - Create a account at the [Create OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
 - Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)  <br>  
-  ![](./assets/VIDs/d61-00-03_OpenAI-Keys_u40213.5.gif)
+For a list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-05_get-openai-key_u1.md). <br><br>
+  ![](./assets/VIDs/d61-00-03_OpenAI-Keys_u40213.23.gif)
 
 <span id="g16"></span>
 
-16. **Get OpenAI API_KEY and put it into .env**   
+16. **Put then OpenAI API_KEY into .env**   
     `# nano .env`   
       ```
         GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
@@ -747,66 +748,136 @@ Go to the OpenAI to ...  as follows:
          export default doComments                                  // .(40204.07.10 RAM Export doComments())
         //----------------------------------------------------
       ```
+
 <span id="h22"></span>
 
-22. **Write improved script to test multiple processes**   
-    `# nano index_u03.mjs`   
+22. **Write script to run all steps**   
+    `# nano 04_ai_u01-doEmAll.mjs`   
+      ```
+
+      ```
+
+<span id="h23"></span>
+
+23. **Run script to run get, insert and update comments**   
+    `# node 04_ai_u01-doEmAll.mjs`   
+      ```
+        Retreived 5 comments from google.youtube.commentThreads API
+
+        Successful connection to MySQL DB at: 127.0.0.1.
+        Deleted all rows from comments table
+        Inserting 5 comments into MySQL database.
+        Inserted row id: 2480 - '⭐ Try the OpenAI Template - Starter Kit ...'
+        Inserted row id: 2481 - 'Your voice is like nails going down a ch...'
+        Inserted row id: 2482 - 'Thank you so much for this. I feel confi...'
+        Inserted row id: 2483 - 'Thank you...'
+        Inserted row id: 2484 - 'My first intro to ChatGPT or anything AI...'
+
+        Successful connection to MySQL DB at: 127.0.0.1.
+        Selected 5 rows from comments table
+        Running 5 comments against OpenAI 'davinci-002' model.
+        Submitting prompt every 20 secs (10:02:17).
+        Comment Id 2480 response: No  (10:02:37)
+        Comment Id 2481 response: No  (10:02:58)
+        Comment Id 2482 response: Yes (10:03:18); Updated: 'Thank you so much for this. I feel confi...'
+        Comment Id 2483 response: No  (10:03:39)
+        Comment Id 2484 response: No  (10:03:59)
+
+        AI Model update completed.      
+      ```
+
+<span id="h24"></span>
+
+24. **Write improved main script to run multiple steps**   
+    `# nano index.mjs`   
       ```
         // 11.3 Import three modules
         //----------------------------------------------------------
-        //mport addComments        from './01_db_u02-module.mjs'  
-         import doComments         from './01_db_u05-module.mjs'         // .(40204.07.11 RAM New module)
-         import getComments        from './02_cm_u03-addComments.mjs'
-         import updComments        from './03_ai_u03-updComments.mjs'    // .(40204.10.3 RAM New module)
+        //mport addComments        from './01_db_u02-module.mjs'
+        import doComments         from './01_db_u05-module.mjs'                  // .(40204.07.11 RAM New module)
+        import getComments        from './02_cm_u03-getComments.mjs'
+        import updComments        from './03_ai_u03-updComments.mjs'             // .(40204.10.3 RAM New module)
+
+        // 11.9 Insert Youtube comments into database
+        //----------------------------------------------------------
+        function Help() {                                                         // .(40217.11.9 RAM Beg Added)
+                console.log( "" )
+                console.log( "  Syntax:   node index.mjs {aCmd}")
+                console.log( "    aCmd    Command" )
+                console.log( "    ------  --------------------------------------" )
+                console.log( "    testDB  Test Access to MySQL DB" )
+                console.log( "    testAI  Test OpenAI model with simple prompt" )
+                console.log( "    google  Get comments from Google YouTube API" )
+                console.log( "    insert  Insert comments into database from Google YouTube API" )
+                console.log( "    update  Add comments after running OpenAI model" )
+                console.log( "    select  Select comments with respond = 1" )
+                console.log( "    doemall Run get, insert and update commands" )
+                }                                                                 // .(40217.11.9 RAM End)
+        //----------------------------------------------------------
 
             var TheDB    = 'DB1'
 
-            var TheCount =  20            // .(40206.04.6 RAM Add TheCount) 
+            var TheCount =  20            // .(40206.04.6 RAM Add TheCount)
 
             var TheModel = 'davinci-002'  // .(40205.13.1 RAM Add most expensive model)
-        //  var TheModel = 'curie-001'    // .(40205.13.1)
+        //  var TheModel = 'curie-001'    // .(40205.13.1
         //  var TheModel = 'ada'          // .(40205.13.1 RAM Add least expensive model)
 
-         // var aTests = "update,show"    // Runs the AI Model for each comments and updates the database   
-        //  var aTests = "insert"         // Gets the Google Data and stores it in the database  
-            var aTests = "insert,update,show"     
-        //  var aTests = "select"     
-            var aTests = "test"     
+        //  var aTests = "update,show"    // Runs the AI Model for each comments and updates the database
+            var aTests = "insert"         // Gets the Google Data and stores it in the database
+        //  var aTests = "insert,update,show"
+        //  var aTests = "select"
+        //  var aTests = "google"
+        //  var aTests = "test"
             var bRun   =  0
 
+        //      console.log(`process.argv[2]: ${process.argv[2]}`); process.exit()
             var aTests = (process.argv[2] ? process.argv[2] : aTests)
-                console.log("") 
+            var aTests = (typeof aTests) != 'undefined' ? aTests : ''
 
         // 09.2 Get and add comments to database
         //----------------------------------------------------------
         /*
-            var mComments = await getComments() 
+            var mComments = await getComments()
                             await addComments( mComments )          //#.(40204.07.8 RAM)
                             await doComments( 'insert', mComments ) // .(40204.07.8 RAM New syntax)
-        */        
-        // 11.4 Insert Youtube comments into database
+        */
+        // 11.11 Test access to MySQL database
         //----------------------------------------------------------
-          if (aTests.match( /insert/ )) { bRun = 1                  // .(40205.11.4 RAM New delete optione)
-            var mComments = await getComments( TheCount )           // .(40206.04.7 RAM Add TheCount) 
-        //                  console.log( `Retreived ${mComments.length} comments from the Google YouTube API`)
+            if (aTests.match( /testDB/ )) { bRun = 1                // .(40205.11.11 RAM Add testDB option)
                             await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use new connect option)
-                            await doComments( 'delete'  )           // .(40204.07.14 RAM New delete option)
-                            await doComments( 'insert', mComments )           
-                } // eif insert
+                } // eif testDB
 
         // 11.5 Test running OpenAI API model
         //----------------------------------------------------------
-          if (aTests.match( /test/   )) { bRun = 1                  // .(40205.11.4 RAM New test option)
+            if (aTests.match( /testAI/ )) { bRun = 1                // .(40205.11.4 RAM New test option)
+                                  console.log( "" )
         //                  await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use new connect option)
-                            await updComments( 'test', TheModel )   // .(40205.11.5 RAM Test OpenAI API)
-              } // eif test
+                            await updComments( 'test', TheModel)    // .(40205.11.5 RAM Test OpenAI API)
+            } // eif testAI
+
+        // 11.10 Get YouTube Comments using Google API 
+        //----------------------------------------------------------
+            if (aTests.match( /google/ )) { bRun = 1                // .(40217.11.10 RAM Beg Add google option)
+            var mComments = await getComments( TheCount )               
+                } // eif google                                     // .(40217.11.10 RAM End)
+
+        // 11.4 Insert Youtube comments into database
+        //----------------------------------------------------------
+            if (aTests.match( /insert/ )) { bRun = 1                // .(40205.11.4 RAM New insert option)
+            var mComments = await getComments( TheCount )           // .(40206.04.7 RAM Add TheCount)
+        //                  console.log( `Retreived ${mComments.length} comments from the Google YouTube API`)
+                            await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use new connect option)
+                            await doComments( 'delete'  )           // .(40204.07.14 RAM New delete option)
+                            await doComments( 'insert', mComments )
+                } // eif insert
 
         // 11.6 Get and store results of running OpenAI model on mComments to database
         //----------------------------------------------------------
-          if (aTests.match( /update/ )) { bRun = 1                  // .(40205.11.6 RAM Run update optione)
+            if (aTests.match( /update/ )) { bRun = 1                // .(40205.11.6 RAM Run update optione)
                             await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use new connect option)
-          //  var mComments = await getComments() 
-            var mComments = await doComments( 'select' ) 
+        //  var mComments = await getComments()
+            var mComments = await doComments( 'select' )
         //                  console.log( `Retreived ${mComments.length} comments from the Google YouTube API`)
         //                  await doComments( 'lengths', mComments) // .(40204.07.4 RAM New syntax)
         //                  process.exit()
@@ -815,48 +886,43 @@ Go to the OpenAI to ...  as follows:
                             await updComments( 'all', TheModel )    // .(40205.13.2 RAM Add TheModel).(40204.10.4 RAM New AI method)
             } // eif update
 
-        // 11.7 Show Comments with Respond = 1 
+        // 11.7 Show Comments with Respond = 1
         //----------------------------------------------------------
-          if (aTests.match( /select/ )) { bRun = 1
-        //await doComments( 'connect', aDB )                        //#.(40204.07.13 RAM Use new connect option)
-          await doComments( 'connect', TheDB )                      // .(40204.07.13 RAM Use TheDB)
+            if (aTests.match( /select/ )) { bRun = 1
+        //                  await doComments( 'connect', aDB )      //#.(40204.07.13 RAM Use new connect option)
+                            await doComments( 'connect', TheDB )    // .(40204.07.13 RAM Use TheDB)
             var mComments = await doComments( 'select', 'respond = 1' ) // .(40204.07.15 RAM New syntax)
-                console.log( "Commenter            Comment" )  
-                console.log( "-------------------- --------------------------------------------------" )  
+                            console.log( "Commenter            Comment" )
+                            console.log( "-------------------- --------------------------------------------------" )
             if (mComments.length > 0) {
-                mComments.map( ( pComment, i ) => { 
-                  console.log( i+1, pComment.commenter.padEnd(25), pComment.comment.substr( 1, 50 ) + "..." )  
+                mComments.map( ( pComment, i ) => {
+                            console.log( i+1, pComment.commenter.padEnd(25), pComment.comment.substr( 1, 50 ) + "..." )
                   } ) // eol mComments
-              } else {      
-                console.log( "no comments with response = 1" )  
+              } else {
+                          console.log( "no comments with response = 1" )
                 } // eif no mComments
               } // eif show
 
         // 11.8 Invalid aTests cmd
         //----------------------------------------------------------
-         if (bRun == 0) {
-             console.log( "  Syntax: index_u03.mjs {aCmd}")
-             console.log( "    aCmd    Command" )
-             console.log( "    ------  --------------------------------------" )
-             console.log( "    test    Test OpenAI model with simple prompt" )
-             console.log( "    insert  Insert comments into database from Google YouTube API" )
-             console.log( "    update  Update comments after running OpenAI model" )
-             console.log( "    select  Select comments with respond = 1" )
-             }
-<span id="h23"></span>
+            if (bRun == 0) { Help() }                               // .(40217.11.9 RAM )
+      ```             
+<span id="h25"></span>
  
-23. **Run improved script to test multiple processes**   
-    `# node index_u03.mjs`   
+25. **Run improved script to test multiple processes**   
+    `# node index.mjs`   
       ```
-          Syntax: index_u03.mjs {aCmd}
+          Syntax: index.mjs {aCmd}
             aCmd    Command
             ------  --------------------------------------
             test    Test OpenAI model with simple prompt
+            google  Get comments from Google YouTube API
             insert  Insert comments into database from Google YouTube API
-            update  Update comments after running OpenAI model
+            update  Add comments into database after running OpenAI model
             select  Select comments with respond = 1
+            doEmall Run all the above commands
       ```
-    `# node index_u03.mjs test`   
+    `# node index.mjs test`   
       ```
         Running 1 comments against OpenAI 'davinci-002' model.
         Submitting prompt every 20 secs (16:03:40).

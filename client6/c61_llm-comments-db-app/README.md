@@ -17,4 +17,5 @@ you will need to get your own API_KEYs from the Google and OpenAI links above an
 - `# node 02_db_u05-addComments.mjs`  ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
 - `# node 03_ai_u01-testOpenAI.js`    ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g17))
 - `# node 03_ai_u03-updComments.mjs`  ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
-- `# node index_u03.mjs`              ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g22))
+- `# node 04_ai_u01-doEmAll.mjs`      ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h22))
+- `# node index.mjs`                  ([view code ](../../docs/setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h24))

@@ -50,7 +50,8 @@ in order to edit or create the scripts for this application
 - `# node 02_cm_u03-getComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e13))
 - `# node 02_db_u05-addComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
 - `# node 03_ai_u03-updComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
-- `# node index_u03.mjs`              ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g22))
+- `# node 04_ai_u01-doEmAll.mjs`      ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h22))
+- `# node index.mjs`                  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h24))
 
 <span id="b1" name="b1"></span>
 

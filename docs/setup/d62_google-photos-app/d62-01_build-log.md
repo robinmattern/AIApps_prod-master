@@ -9,13 +9,13 @@
           "version": "0.1.1",
           "description": "First Node.js AI Client App to label YouTube comments using OpenAI model",
           "Author": "Robin Mattern",
-          "main": "index_u03.mjs",
+          "main": "index.mjs",
           "scripts": {
-            "start":        "node index_u03.mjs",   
+            "start":        "node index.mjs",   
             "vueDocs":      "bash ../../docs/run-docsify.sh",   
-            "getComments":  "node index_u03.mjs google",   
-            "savComments":  "node index_u03.mjs insert",   
-            "runModel":     "node index_u03.mjs update",   
+            "getComments":  "node index.mjs google",   
+            "savComments":  "node index.mjs insert",   
+            "runModel":     "node index.mjs update",   
             "test": "echo \"Error: no test specified\" && exit 1"
           },
           "keywords": [],

@@ -12,7 +12,7 @@
    return results.insertId;
         }
 //----------------------------------------------------
-    var TheDB = 'DB2'
+    var TheDB = 'DB1'
 
 //#01.1 Write main() function which is run at the end
 //#06.1 Change main() into into addComments()) to insert mComments array
