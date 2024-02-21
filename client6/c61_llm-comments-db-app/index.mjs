@@ -5,6 +5,7 @@
  import getComments        from './02_cm_u03-getComments.mjs'
  import updComments        from './03_ai_u03-updComments.mjs'             // .(40204.10.3 RAM New module)
 
+
 // 11.9 Insert Youtube comments into database
 //----------------------------------------------------------
 function Help() {                                                         // .(40217.11.9 RAM Beg Added)
@@ -24,7 +25,8 @@ function Help() {                                                         // .(4
 
     var TheDB    = 'DB1'
 
-    var TheCount =  20            // .(40206.04.6 RAM Add TheCount)
+//  var TheCount =  20            // .(40206.04.6 RAM Add TheCount)       //#.(40221.01.3)
+    var TheCount =  process.argv[3] ? process.argv[3] : 5                 // .(40221.01.3 RAM get nCount from command arg)
 
     var TheModel = 'davinci-002'  // .(40205.13.1 RAM Add most expensive model)
 //  var TheModel = 'curie-001'    // .(40205.13.1
@@ -114,7 +116,7 @@ function Help() {                                                         // .(4
 // 11.9 Run doEmAll script
 //----------------------------------------------------------
     if (aTests.match( /doemall/ )) { bRun = 1
-        console.log( `\n Run:\n # node '04_ai_u01-doEmAll.mjs'\n` )        
+        console.log( `\n Run:\n # node '04_ai_u01-doEmAll.mjs ${TheCount}'\n` )        
         } // eif doemall
 
 // 11.8 Invalid aTests cmd
