@@ -32,26 +32,30 @@ test stored in a database.
 You will need to have NodeJS v18+ installed to run the node scripts below. VSCode and MySQL are also needed
 to edit and debug the scripts, although the scripts will run using a remote MySQL database. 
 
+<span id="a1" name="a1"></span>
+
+### A.1 Demo of main script commands
+
 The commands below allow you to run the NodeJS scripts for this application located in the folder, 
 `/C/Repos/AIApps_/dev01-robin/client6/c61_llm-comments-db-app`,  There are four requirements for them to work
 described in the three `(view details)` links below and in Sections B, E and G.  Starting in Section C, you can 
 view the steps required to write the scripts.  Section I describes how you can make a copy of the repository
 in order to edit or create the scripts for this application 
 
-- Setup Project and MySQL Database    ([view details](setup/d61_llm-comments-db-app/d61-00_description.md#b1))
-- Get Google Project and API_KEY      ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e10))
-- Get OpenAI Model API_KEY            ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g10))
-- `# cd /C/Repos/AIApps/client6/c61*`
-- `# cp .env_u03 .env; nano .env`     ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c6))
-- `# node 02_cm_u01-testAPI.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e12))  
-- `# node 03_ai_u01-testOpenAI.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g17))
-- `# node 00_db_u01-connect.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c5))
-- `# node 01_db_u03-testInsert.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=d8))
-- `# node 02_cm_u03-getComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e13))
-- `# node 02_db_u05-addComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
-- `# node 03_ai_u03-updComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
-- `# node 04_ai_u01-doEmAll.mjs`      ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h22))
-- `# node index.mjs`                  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h24))
+- Setup Project and MySQL Database       ([view details](setup/d61_llm-comments-db-app/d61-00_description.md#b1))
+- Get Google Project and API_KEY         ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e10))
+- Get OpenAI Model API_KEY               ([view details](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g10))
+  1. `# cd /C/Repos/AIApps/client6/c61*`
+  2. `# cp .env_u03 .env; nano .env`     ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c6))
+  3. `# node 02_cm_u01-testAPI.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e12))  
+  4. `# node 03_ai_u01-testOpenAI.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g17))
+  5. `# node 00_db_u01-connect.js`       ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=c5))
+  6. `# node 01_db_u03-testInsert.js`    ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=d8))
+  7. `# node 02_cm_u03-getComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=e13))
+  8. `# node 02_db_u05-addComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=f15))
+  9. `# node 03_ai_u03-updComments.mjs`  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=g19))
+ 10. `# node 04_ai_u01-doEmAll.mjs`      ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h22))
+ 11. `# node index.mjs`                  ([view code](setup/d61_llm-comments-db-app/d61-01_build-log.md?id=h24))
 
 <span id="b1" name="b1"></span>
 

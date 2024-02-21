@@ -98,10 +98,10 @@
            GOOGLE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
            OPENAI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-           DB2_MYSQL_HOST     = '127.0.0.1'
-           DB2_MYSQL_USER     = 'root'
-           DB2_MYSQL_PASSWORD = 'FormR!1234'
-           DB2_MYSQL_DATABASE = 'comments'
+           DB1_MYSQL_HOST     = '127.0.0.1'
+           DB1_MYSQL_USER     = 'root'
+           DB1_MYSQL_PASSWORD = 'FormR!1234'
+           DB1_MYSQL_DATABASE = 'comments'
       ```
 <span id="c7"></span>
 

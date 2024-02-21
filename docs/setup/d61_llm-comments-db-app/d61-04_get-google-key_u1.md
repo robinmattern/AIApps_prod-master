@@ -1,5 +1,9 @@
 
+<span id="top"></span>
+
 ### E. Get Google YouTube API_KEY   <br><br> 
+
+ - First go here to [Create an Google Project](https://console.cloud.google.com/projectcreate)   
 
  + Steps 1, 2, 3 and 4 - Verify your Google Account +
 

@@ -249,7 +249,7 @@ Go to the Google Cloud Console to create a project, enable the YouTube API and g
 - Create a project at the [Create Google Project](https://console.cloud.google.com/projectcreate)
 - Then enable the "youtube data api v3" API at the [Get API_KEY](https://console.cloud.google.com/apis/library/browse?q=youtube%20data%20api%20v3)
 - And finally you'll get an API_KEY for it at the [apis/library page]( https://console.cloud.google.com/apis/credentials?project=)<br><br>
-For a long list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-04_get-google-key_u1.md). <br><br>
+For a long list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-04_get-google-key_u1.md?id=top). <br><br>
   ![](./assets/VIDs/d61-00-02_Google-Keys_u40214.13.gif "-gifcontrol-mode=click;")
 
 <span id="e11"></span>
@@ -416,7 +416,7 @@ For a long list of screenshots for each step, click [here](setup/d61_llm-comment
 Go to the OpenAI to get a secret API_KEY  as follows: 
 - Create a account at the [Create OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
 - Then create a secred key at the [Get API_KEY](https://platform.openai.com/api-keys)  <br>  
-For a list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-05_get-openai-key_u1.md). <br><br>
+For a list of screenshots for each step, click [here](setup/d61_llm-comments-db-app/d61-05_get-openai-key_u1.md?id=top). <br><br>
   ![](./assets/VIDs/d61-00-03_OpenAI-Keys_u40213.23.gif)
 
 <span id="g16"></span>

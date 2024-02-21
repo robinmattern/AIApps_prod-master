@@ -14,7 +14,9 @@
 - <a href="https://g.co/gemini/share/ad07f5d11e1f" target="_blank" rel="noopener noreferrer">24-02-18: **oAuth Discussion**</a>    
   &nbsp;<br>    
 
-24-02-18: 
+### Platforms
+- [24-02-21: **Kaggle's Gemma](https://www.kaggle.com/models/google/gemma?utm_medium=email&utm_source=gamma&utm_campaign=models-gemmalaunch)
+
 ### Courses   
 - [24-01-16: **AI Transformer Models (rm40116: AWS-Course**)](https://gist.github.com/robinmattern/4bf1dde4baccbedcf9a0234d5631c6da)   
   I extracted the main points from an AWS Course on AI Transformer Models.  

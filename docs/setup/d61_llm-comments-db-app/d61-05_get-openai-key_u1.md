@@ -1,14 +1,15 @@
 
+<span id="top"></span>
 
 ### E. Get Google YouTube API_KEY   <br><br> 
 
- + Steps 1 and 2 - Enter new account email address +
+- First go here to [Create an OpenAI Account](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBvN0hObktyZGJWV2NJaVdPVDFsYnpGTGFseUd0ZWpKV6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFNZElHanh4RV9OLWdLVkRDU184Y21QelA1anYxdVRMo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q)
+
+ + Steps 1, 2, 3 and 2 - Enter new account email address and password +
 
     ![](./assets/IMGs/04/OpenAI-Keys/d61-04-07_OpenAI-Key_u40216.2.png)
     1. Enter a new OpenAI Account `Email address`
     2. Click on button, `Continue`
-
- + Steps 3 and 4 - Enter password +
 
     ![](./assets/IMGs/04/OpenAI-Keys/d61-04-06_OpenAI-Key_u40216.2.png)
     3. Enter a new Open Account `Password`
