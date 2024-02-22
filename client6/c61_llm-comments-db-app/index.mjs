@@ -109,7 +109,7 @@ function Help() {                                                         // .(4
                     console.log( i+1, pComment.commenter.padEnd(25), pComment.comment.substr( 1, 50 ) + "..." )
           } ) // eol mComments
       } else {
-                   console.log( "no comments with response = 1" )
+                    console.log( "No comments with response = 1" )
         } // eif no mComments
       } // eif show
 
