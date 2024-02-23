@@ -66,8 +66,8 @@ proven method.
 
 ### C. Assets
 
-- [Slide Show](webpages/SlideShow/3d40221_IceWarp-Slideshow.md)
-
-- [Demo](https://www.icewarp.com/preview-epos/start) 
+- [SlideShow html](webpages/SlideShow/3d40221_IceWarp-Slideshow.md)  
+- [Slideshow mp4 ](webpages/Notes/3d40221_IceWarp-Slideshow.md)
+- [Icewarp Demo  ](https://www.icewarp.com/preview-epos/start) 
 
 
