@@ -4,6 +4,7 @@
 .sidebar { 
     padding-top: 0px;
     margin: 0px 0px 0px 10px;
+    width: 200px;
     } 
 .sidebar .sidebar-nav { 
     font-size: 18px; 
